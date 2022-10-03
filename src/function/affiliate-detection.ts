@@ -6,12 +6,21 @@ const target =
 async function main() {
   const browser = await chromium.launch({ headless: false })
   const page = await browser.newPage()
-  await page.goto(target)
-  page.on('request', async (el) => {
-    console.log(el.resourceType())
-  })
+  // await page.goto(target)
+  const response = await page.goto(target)
+  console.log(response?.request()?.redirectedFrom()?.url())
+  // page.on('request', async (el) => {
+  //   const tp = el.resourceType()
+  //   if (tp === 'document') {
+  //     const res = await el.response()
+  //     console.log(res?.url())
+  //     console.log('')
+  //   }
+  // })
   // await page.waitForNavigation({ timeout: 100000 })
-  await page.waitForNavigation({ waitUntil: 'commit' })
+  await page.waitForNavigation({ waitUntil: 'networkidle' })
+
+  await browser.close()
 }
 
 main()
