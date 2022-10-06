@@ -1,26 +1,45 @@
 import { chromium } from 'playwright'
+import { join } from 'path'
 
 const target =
   'https://lenard.jp/magazine/_click/11bdd7141e7da8a8178486d53975d111?ref=%2Fmagazine%2Fsalon-ranking%2F&'
+const pathToExtension =
+  '/Users/ron/Library/Application Support/Google/Chrome/Default/Extensions/nnpljppamoaalgkieeciijbcccohlpoh/1.0.0.0_0'
 
-async function main() {
-  const browser = await chromium.launch({ headless: false })
-  const page = await browser.newPage()
-  // await page.goto(target)
-  const response = await page.goto(target)
-  console.log(response?.request()?.redirectedFrom()?.url())
-  // page.on('request', async (el) => {
-  //   const tp = el.resourceType()
-  //   if (tp === 'document') {
-  //     const res = await el.response()
-  //     console.log(res?.url())
-  //     console.log('')
-  //   }
-  // })
-  // await page.waitForNavigation({ timeout: 100000 })
-  await page.waitForNavigation({ waitUntil: 'networkidle' })
+!(async () => {
+  const userDataDir = '/tmp/test-user-data-dir'
+  const browserContext = await chromium.launchPersistentContext(userDataDir, {
+    headless: false,
+    args: [
+      `--disable-extensions-except=${pathToExtension}`,
+      `--load-extension=${pathToExtension}`
+    ]
+  })
+  let [backgroundPage] = browserContext.backgroundPages()
+  if (!backgroundPage)
+    backgroundPage = await browserContext.waitForEvent('backgroundpage')
 
-  await browser.close()
-}
+  // Test the background page as you would any other page.
+  // await browserContext.close()
 
-main()
+  const page = await browserContext.newPage()
+  await page.goto(target, { waitUntil: 'networkidle' })
+
+  console.log('idled')
+
+  const a = await backgroundPage.evaluate((tabId) => {
+    // @ts-ignore
+    // chrome.runtime.sendMessage(
+    //   {
+    //     cmd: 'ui.getTabData',
+    //     data: { tabId }
+    //   }
+    // )
+
+    // @ts-ignore
+    return processPath
+  })
+  console.log({ a })
+
+  // console.log({ backgroundPage })
+})()
