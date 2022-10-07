@@ -19,27 +19,29 @@ const pathToExtension =
   if (!backgroundPage)
     backgroundPage = await browserContext.waitForEvent('backgroundpage')
 
+  backgroundPage.on('console', async (e) => {
+    console.log(e.text())
+  })
+
   // Test the background page as you would any other page.
   // await browserContext.close()
 
   const page = await browserContext.newPage()
   await page.goto(target, { waitUntil: 'networkidle' })
 
-  console.log('idled')
-
-  const a = await backgroundPage.evaluate((tabId) => {
-    // @ts-ignore
-    // chrome.runtime.sendMessage(
-    //   {
-    //     cmd: 'ui.getTabData',
-    //     data: { tabId }
-    //   }
-    // )
-
-    // @ts-ignore
-    return processPath
+  const a = backgroundPage.evaluate(() => {
+    try {
+      // @ts-ignore
+      return window
+    } catch (e) {
+      // @ts-ignore
+      return e.message
+    }
   })
+
+  // @ts-ignore
   console.log({ a })
 
+  console.log('idled')
   // console.log({ backgroundPage })
 })()
