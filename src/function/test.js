@@ -1,5 +1,4 @@
-import { chromium } from 'playwright'
-import { join } from 'path'
+const { chromium } = require('playwright')
 
 const target =
   'https://lenard.jp/magazine/_click/11bdd7141e7da8a8178486d53975d111?ref=%2Fmagazine%2Fsalon-ranking%2F&'
@@ -65,6 +64,7 @@ var getMetaRobots = function () {
   const userDataDir = '/tmp/test-user-data-dir'
   const browserContext = await chromium.launchPersistentContext(userDataDir, {
     headless: false,
+    devtools: true,
     args: [
       `--disable-extensions-except=${pathToExtension}`,
       `--load-extension=${pathToExtension}`
@@ -84,19 +84,43 @@ var getMetaRobots = function () {
   const page = await browserContext.newPage()
   await page.goto(target, { waitUntil: 'networkidle' })
 
-  page.on('domcontentloaded', (e) => {
-    console.log(`dom content loaded ${e.url()}`)
+  page.on('domcontentloaded', async (page) => {
+    console.log('dom loaded by playwright')
+    const ond = await page.evaluate(() => {
+      var meta = getMetaRedirects()
+      var relCan = getRelCan()
+      var robots = getMetaRobots()
+      return { meta, relCan, robots, event }
+    })
+    console.log({ ond })
   })
 
-  const a = backgroundPage.evaluate(() => {
-    try {
-      // @ts-ignore
-      return getMetaRedirects
-    } catch (e) {
-      // @ts-ignore
-      return e.message
-    }
+  const test = await page.evaluate(() => {
+    document.addEventListener('DOMContentLoaded', function (event) {
+      addClickEventListener()
+      var meta = getMetaRedirects()
+      var relCan = getRelCan()
+      var robots = getMetaRobots()
+      return { meta, relCan, robots, event }
+      chrome.runtime.sendMessage(
+        {
+          cmd: 'page.data',
+          data: {
+            timestamp: timestamp,
+            meta: meta,
+            relCan: relCan,
+            robots: robots
+          }
+        },
+        function (hop) {
+          return hop
+
+          processHop(hop)
+        }
+      )
+    })
   })
+  console.log({ test })
 
   console.log('idled')
   // console.log({ backgroundPage })
