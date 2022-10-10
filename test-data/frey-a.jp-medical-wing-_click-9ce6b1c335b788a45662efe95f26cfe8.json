@@ -1,0 +1,66 @@
+{
+  "docs": [
+    {
+      "url": "https://frey-a.jp/medical-wing/_click/9ce6b1c335b788a45662efe95f26cfe8?ref=%2Fmedical-wing%2Franking-clinic%2F&",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:27:21 GMT",
+        "location": "https://ac.admin-tag.net/0add41b4I66f7f6e/cl/?bId=45629148&param1=##sessionId##&param4=medical-wing&ref=https%3A%2F%2Ffrey-a.jp%2Fmedical-wing%2Franking-clinic%2F",
+        "server": "Apache/2.4.54 () OpenSSL/1.0.2k-fips",
+        "vary": "Accept-Encoding",
+        "via": "1.1 2f23a86dea73acab8a8c28b3d87160da.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "FgfK4_YYz_xQFCLgaBGeCkhtT9W_6pT856el1_UiN220eUMhXZ5yzg==",
+        "x-amz-cf-pop": "NRT57-P1",
+        "x-cache": "Miss from cloudfront",
+        "x-powered-by": "PHP/7.4.30"
+      },
+      "body": "",
+      "ip": "18.65.168.88",
+      "port": 443
+    },
+    {
+      "url": "https://ac.admin-tag.net/0add41b4I66f7f6e/cl/?bId=45629148&param1=",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:27:21 GMT",
+        "location": "https://reala-clinic.net/lp_epi/01a/?fpc=7.6.365.030efb039364853w.1696933641000",
+        "server": "nginx",
+        "transfer-encoding": "chunked"
+      },
+      "body": "",
+      "ip": "203.137.196.161",
+      "port": 443
+    },
+    {
+      "url": "https://reala-clinic.net/lp_epi/01a/?fpc=7.6.365.030efb039364853w.1696933641000",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:27:22 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding"
+      },
+      "body": "\n  <!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-T22ZGC6');</script>\n<!-- End Google Tag Manager -->\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=720px,user-scalable=no,maximum-scale=1\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n<title>リアラクリニック</title>\n<meta name=\"description\" content=\" \">\n<link rel=\"stylesheet\" href=\"./css/reset.css\">\n<link rel=\"stylesheet\" href=\"./css/animation.css\">\n<link rel=\"stylesheet\" href=\"./css/common.css\">\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js\"></script>\n<script src=\"./js/script.js\"></script>\n<!-- Google Tag Manager -->\n<script>/*(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-M5SLMSM');*/</script>\n<!-- End Google Tag Manager -->\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PF3WNC4');</script>\n<!-- End Google Tag Manager -->\n\n<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '343559810261505');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=343559810261505&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '359558091946597');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=359558091946597&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '1080326852392041');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=1080326852392041&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n<!-- Facebook Pixel Code -->\n<script>\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\n  n.queue=[];t=b.createElement(e);t.async=!0;\n  t.src=v;s=b.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,'script',\n  'https://connect.facebook.net/en_US/fbevents.js');\n  fbq('init', '408475000251894');\n  fbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\n  src=\"https://www.facebook.com/tr?id=408475000251894&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n\n\n",
+      "ip": "183.90.242.7",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://ac.admin-tag.net/0add41b4I66f7f6e/cl/?bId=45629148&param1=",
+      "redirectTo": "https://reala-clinic.net/lp_epi/01a/?fpc=7.6.365.030efb039364853w.1696933641000",
+      "redirectType": "temporary",
+      "ip": "203.137.196.161",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

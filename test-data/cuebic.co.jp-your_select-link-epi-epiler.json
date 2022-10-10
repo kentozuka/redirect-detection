@@ -1,0 +1,103 @@
+{
+  "docs": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/epi-epiler?cvpage=ep001&id=rank_button1&landing=ep001",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "cache-control": "max-age=0, no-cache, no-store",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:25:39 GMT",
+        "link": "<https://cuebic.co.jp/your_select/wp-json/>; rel=\"https://api.w.org/\"\n<https://cuebic.co.jp/your_select/?p=551>; rel=shortlink",
+        "pragma": "no-cache",
+        "server": "nginx",
+        "x-b-cache": "B=BYPASS:D=EXPIRE/CREATE",
+        "x-content-type-options": "nosniff\nnosniff",
+        "x-f-cache": "BYPASS",
+        "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
+        "x-page-speed": "1.13.35.2-0",
+        "x-pst-dynamic": "EXPIRE/CREATE; 43.034 ms; L4",
+        "x-signature": "KUSANAGI",
+        "x-xss-protection": "1; mode=block\n1; mode=block"
+      },
+      "body": "\n<!-- wexal_pst_init.js does not exist -->\n<!-- engagement_delay.js does not exist -->\n<!-- lazysizes.min.js does not exist -->\n<link rel=\"dns-prefetch\" href=\"//www.googletagmanager.com/\">\n<link rel=\"preconnect\" href=\"//www.googletagmanager.com/\">\n<link rel=\"dns-prefetch\" href=\"//ajax.googleapis.com/\">\n<link rel=\"preconnect\" href=\"//ajax.googleapis.com/\">\n<!-- wp shorten url enabled -->\n<meta charset=\"UTF-8\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n<meta http-equiv=\"Refresh\" content=\"1;URL=https://px.a8.net/svt/ejp?a8mat=3BOMVG+9CEQ4A+2GM0+64C3L&amp;id1=your_select_ep001_id_rank_button1_landing_epi-epiler\" rel=\"nofollow\">\n<title>your SELECT.</title>\n<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\">\n<link rel=\"shortcut icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/your_select/wp-content/themes/your_select/style.css\">\n<!-- Google Tag Manager -->\n<script>\n\t\t(function(w, d, s, l, i) {\n\t\t\tw[l] = w[l] || [];\n\t\t\tw[l].push({\n\t\t\t\t'gtm.start': new Date().getTime(),\n\t\t\t\tevent: 'gtm.js'\n\t\t\t});\n\t\t\tvar f = d.getElementsByTagName(s)[0],\n\t\t\t\tj = d.createElement(s),\n\t\t\t\tdl = l != 'dataLayer' ? '&l=' + l : '';\n\t\t\tj.async = true;\n\t\t\tj.src =\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\t\tf.parentNode.insertBefore(j, f);\n\t\t})(window, document, 'script', 'dataLayer', 'GTM-NR98W5Z');\n\t</script>\n<!-- End Google Tag Manager -->\n<style type=\"text/css\">\n\t\tbody {\n\t\t\ttext-align: center;\n\t\t}\n\n\t\t.a {\n\t\t\tcolor: #3553a2;\n\t\t\tfont-weight: bold;\n\t\t}\n\n\t\t.b {\n\t\t\tfont-size: 1.2em;\n\t\t\tpadding-top: 2em;\n\t\t}\n\n\t\t.c {\n\t\t\tfont-size: 0.8em;\n\t\t}\n\n\t\t.contentBar {\n\t\t\twidth: 90px;\n\t\t\tpadding-top: 20%;\n\t\t\tpadding-bottom: 10px;\n\t\t\tmargin: 0 auto;\n\t\t}\n\n\t\t/*  四角いブロックの中のアニメーション時の色と動き */\n\t\t.barlittle {\n\t\t\tbackground-color: #17cddd;\n\t\t\tbackground-image: -moz-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tbackground-image: -webkit-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tborder: 1px solid #bbbbb;\n\t\t\twidth: 10px;\n\t\t\theight: 10px;\n\t\t\tfloat: left;\n\t\t\tmargin-left: 5px;\n\t\t\topacity: 0.1;\n\t\t\t-moz-transform: scale(0.7);\n\t\t\t-webkit-transform: scale(0.7);\n\t\t\t-moz-animation: move 1s infinite linear;\n\t\t\t-webkit-animation: move 1s infinite linear;\n\t\t}\n\n\t\t/* ブロックの１つ１つのアニメーションをずらす */\n\t\t#block_1 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t#block_2 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_3 {\n\t\t\t-moz-animation-delay: .2s;\n\t\t\t-webkit-animation-delay: .2s;\n\t\t}\n\n\t\t#block_4 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_5 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t/* キーフレームを使ったローディングの始まりと終わりの指定 */\n\t\t@-moz-keyframes move {\n\t\t\t0% {\n\t\t\t\t-moz-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-moz-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\n\t\t@-webkit-keyframes move {\n\t\t\t0% {\n\t\t\t\t-webkit-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-webkit-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\t</style>\n<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"dns-prefetch\" href=\"//ajax.googleapis.com\">\n<link rel=\"dns-prefetch\" href=\"//s.w.org\">\n<link rel=\"stylesheet\" id=\"sbi_styles-css\" href=\"/your_select/wp-content/plugins/instagram-feed/css/sbi-styles.min.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" id=\"toc-screen-css\" href=\"/your_select/wp-content/plugins/table-of-contents-plus/screen.min.css\" type=\"text/css\" media=\"all\">\n<link rel=\"stylesheet\" id=\"common-style-css\" href=\"/your_select/wp-content/themes/your_select/style.css\" type=\"text/css\" media=\"all\">\n<style type=\"text/css\">div#toc_container {width: 100%;}</style><link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-32x32.png\" sizes=\"32x32\">\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-192x192.png\" sizes=\"192x192\">\n<link rel=\"apple-touch-icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-180x180.png\">\n<meta name=\"msapplication-TileImage\" content=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-270x270.png\">\n",
+      "ip": "18.177.174.245",
+      "port": 443
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3BOMVG+9CEQ4A+2GM0+64C3L&id1=your_select_ep001_id_rank_button1_landing_epi-epiler",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Mon, 10 Oct 2022 10:25:41 GMT",
+        "location": "http://lm.a8.net/?url=https%3A%2F%2Fwww.af-mark.jp%2Fepide-pc%2F%3Fid%3D18568%26nmitemlink%3Dhttps%253A%252F%252Fwww.epiler.jp%252Fplan%252Fcampaign%252Ffirstplan%252F%253Fwaad%253DiP7215qT%26uid%3D%26a8%3DdA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001&aid=201023692565&pid=s00000011484001",
+        "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "35.73.15.225",
+      "port": 443
+    },
+    {
+      "url": "http://lm.a8.net/?url=https%3A%2F%2Fwww.af-mark.jp%2Fepide-pc%2F%3Fid%3D18568%26nmitemlink%3Dhttps%253A%252F%252Fwww.epiler.jp%252Fplan%252Fcampaign%252Ffirstplan%252F%253Fwaad%253DiP7215qT%26uid%3D%26a8%3DdA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001&aid=201023692565&pid=s00000011484001",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "0",
+        "content-type": "text/plain; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:25:41 GMT",
+        "location": "https://www.af-mark.jp/epide-pc/?id=18568&nmitemlink=https%3A%2F%2Fwww.epiler.jp%2Fplan%2Fcampaign%2Ffirstplan%2F%3Fwaad%3DiP7215qT&uid=&a8=dA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001"
+      },
+      "body": "",
+      "ip": "52.68.104.193",
+      "port": 80
+    },
+    {
+      "url": "https://www.af-mark.jp/epide-pc/?id=18568&nmitemlink=https%3A%2F%2Fwww.epiler.jp%2Fplan%2Fcampaign%2Ffirstplan%2F%3Fwaad%3DiP7215qT&uid=&a8=dA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "629",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:25:41 GMT",
+        "p3p": "policyref'/w3c/p3p.xml', CP='UNI CUR OUR'",
+        "server": "Apache"
+      },
+      "body": "\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"refresh\" content=\"5;URL=https://www.epiler.jp/plan/campaign/firstplan/?waad=iP7215qT&amp;sid=f96d546090c6fdf9c9a81fc0a206d052ca250d75\">\n  \t<script type=\"text/javascript\">\n  \t    var code = 'epide-pc';\n        var sessionId = '9602249';\n        var redirectUrl = 'https://www.epiler.jp/plan/campaign/firstplan/?waad=iP7215qT&sid=f96d546090c6fdf9c9a81fc0a206d052ca250d75';\n    </script>\n  ",
+      "ip": "54.238.197.143",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/epi-epiler?cvpage=ep001&id=rank_button1&landing=ep001",
+      "redirectTo": "https://px.a8.net/svt/ejp?a8mat=3BOMVG+9CEQ4A+2GM0+64C3L&id1=your_select_ep001_id_rank_button1_landing_epi-epiler",
+      "redirectType": "unknown",
+      "ip": "18.177.174.245",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3BOMVG+9CEQ4A+2GM0+64C3L&id1=your_select_ep001_id_rank_button1_landing_epi-epiler",
+      "redirectTo": "http://lm.a8.net/?url=https%3A%2F%2Fwww.af-mark.jp%2Fepide-pc%2F%3Fid%3D18568%26nmitemlink%3Dhttps%253A%252F%252Fwww.epiler.jp%252Fplan%252Fcampaign%252Ffirstplan%252F%253Fwaad%253DiP7215qT%26uid%3D%26a8%3DdA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001&aid=201023692565&pid=s00000011484001",
+      "redirectType": "temporary",
+      "ip": "35.73.15.225",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "http://lm.a8.net/?url=https%3A%2F%2Fwww.af-mark.jp%2Fepide-pc%2F%3Fid%3D18568%26nmitemlink%3Dhttps%253A%252F%252Fwww.epiler.jp%252Fplan%252Fcampaign%252Ffirstplan%252F%253Fwaad%253DiP7215qT%26uid%3D%26a8%3DdA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001&aid=201023692565&pid=s00000011484001",
+      "redirectTo": "https://www.af-mark.jp/epide-pc/?id=18568&nmitemlink=https%3A%2F%2Fwww.epiler.jp%2Fplan%2Fcampaign%2Ffirstplan%2F%3Fwaad%3DiP7215qT&uid=&a8=dA9X5AzqGingj9oRZ6VSeLoHnqM4DLnn16VAnqVEig0SPi9cB.QoDzQES.fo3rKGSUed1ioGyRKGDApBbz7gcrZLO.3KW.fKwRfSwRcGSUfP5RzYy.foDguqGi9A7E9iBEVvniMR3RenJg0ESj9i1A9Xbs00000011484001",
+      "redirectType": "temporary",
+      "ip": "52.68.104.193",
+      "port": 80,
+      "status": 302
+    }
+  ]
+}

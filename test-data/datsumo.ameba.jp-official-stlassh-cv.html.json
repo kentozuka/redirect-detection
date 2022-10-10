@@ -1,0 +1,198 @@
+{
+  "docs": [
+    {
+      "url": "https://datsumo.ameba.jp/official/stlassh-cv.html",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "cache-control": "no-cache",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:24 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding",
+        "via": "1.1 bcfb7019cb107c82ee911cac73b0dfbc.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "fjJIuW9s6VHp9I_snf2HtC0hAfcPAIYu_QzEbCPoHK277Qo7chAftg==",
+        "x-amz-cf-pop": "NRT57-P4",
+        "x-cache": "Miss from cloudfront",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "PHP/7.1.33",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n<meta http-equiv=\"content-style-type\" content=\"text/css\">\n<meta http-equiv=\"content-script-type\" content=\"text/javascript\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"pragma\" content=\"no-cache\">\n<meta http-equiv=\"cache-control\" content=\"no-cache\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta http-equiv=\"Refresh\" content=\"1; URL=https://ad.mobadme.jp/cl/click.php?c_id=41061&amp;m_id=3767&amp;t_id=t1&amp;did=&amp;guid=ON&amp;kwd_id=SEO_PC\">\n<meta name=\"keywords\" content=\"ストラッシュ,公式,サイト,移動\">\n<meta name=\"description\" content=\"本サイト（LessMo(レスモ) by Ameba）からストラッシュの公式サイトへ移動中です。\">\n<title>ストラッシュの公式サイトへ移動中です</title>\n<style>\n\tbody{background: url(\"/images/pc/special/bg_special_common.png\") repeat 0% 0%;margin: 0;padding: 0;}\n\ta{color: #0077ca;}\n\t#body-wrap{background: #fff;width: 770px;margin: 100px auto 0;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;text-align: center;padding: 40px 0;font-size: 14px;}\n\t#body-wrap p{line-height: 1.8em;margin: 0;padding: 0;}\n\t#body-wrap .load{color: #f0619f;font-size: 12px;margin: 10px 0 30px;}\n\t#body-wrap .txt01{font-size: 18px;}\n\t#body-wrap .campaign{width: 640px;margin: 0 auto 30px;border: 1px solid #f4b744;background: #fffde8;font-size: 22px;}\n\t#body-wrap .ttl{height: 41px;line-height: 41px;color: #fff;background: url(\"/images/pc/bg_official_campaign.jpg\") repeat-x 0% 0%;text-align: left;font-size: 20px;}\n\t#body-wrap .ttl img{vertical-align: -5px;margin: 0 8px 0 10px;}\n\t#body-wrap .txt{padding: 20px 0;}\n\t#body-wrap .txt span{color: #f0619f;}\n</style>\n\n",
+      "ip": "18.65.216.60",
+      "port": 443
+    },
+    {
+      "url": "https://ad.mobadme.jp/cl/click.php?c_id=41061&m_id=3767&t_id=t1&did=&guid=ON&kwd_id=SEO_PC",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "content-length": "0",
+        "content-type": "text/html",
+        "date": "Mon, 10 Oct 2022 10:22:25 GMT",
+        "location": "http://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+        "p3p": "CP=\"NOI DSP LAW NID PSA OUR IND NAV STA COM\"",
+        "server": "nginx/1.17.10",
+        "strict-transport-security": "max-age=15724800; includeSubDomains"
+      },
+      "body": "",
+      "ip": "202.234.38.210",
+      "port": 443
+    },
+    {
+      "url": "http://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "Keep-Alive",
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:25 GMT",
+        "keep-alive": "timeout=5, max=98",
+        "location": "https://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+        "p3p": "CP='UNI CUR OUR'",
+        "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
+        "x-powered-by": "PHP/5.6.12"
+      },
+      "body": "",
+      "ip": "116.214.81.37",
+      "port": 80
+    },
+    {
+      "url": "https://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "Keep-Alive",
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:25 GMT",
+        "keep-alive": "timeout=5, max=94",
+        "location": "https://t.quoriza.net/cl?ak=11JSZ.1.16W0E&rtsp=221001458915.0.6664.25917.41440385.213324.9535&_rt_ck=6664.221001458915",
+        "p3p": "CP='UNI CUR OUR'",
+        "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
+        "x-powered-by": "PHP/5.6.12",
+        "x-robots-tag": "noindex, nofollow"
+      },
+      "body": "",
+      "ip": "116.214.81.37",
+      "port": 443
+    },
+    {
+      "url": "https://t.quoriza.net/cl?ak=11JSZ.1.16W0E&rtsp=221001458915.0.6664.25917.41440385.213324.9535&_rt_ck=6664.221001458915",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "50",
+        "content-location": "cl.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:26 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&click_time=2022-10-10+19%3A22%3A25&uuid=55ec480f8870881d026d672839554408&client_site_id=186&client_campaign_id=1815&client_lp_id=48664&asp_id=13&relation_id=1544&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling010%2F%3Futm_source%3Drt_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling10%26_rt_ck%3D6664.221001458915%26hc_uus%3D55ec480f8870881d026d672839554408%26type%3D%26link_code_ak%3D11JSZ.1.16W0E%26referer%3D&p=ak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-10+19%3A22%3A25&session_id=221001458915.0.6664.25917.41440385.213324.9535&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+        "pragma": "no-cache",
+        "server": "Apache/2.4.25 (Debian)",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "x-powered-by": "PHP/7.0.33"
+      },
+      "body": "",
+      "ip": "75.2.19.101",
+      "port": 443
+    },
+    {
+      "url": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&click_time=2022-10-10+19%3A22%3A25&uuid=55ec480f8870881d026d672839554408&client_site_id=186&client_campaign_id=1815&client_lp_id=48664&asp_id=13&relation_id=1544&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling010%2F%3Futm_source%3Drt_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling10%26_rt_ck%3D6664.221001458915%26hc_uus%3D55ec480f8870881d026d672839554408%26type%3D%26link_code_ak%3D11JSZ.1.16W0E%26referer%3D&p=ak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-10+19%3A22%3A25&session_id=221001458915.0.6664.25917.41440385.213324.9535&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "50",
+        "content-location": "redirect.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:26 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://stlassh.com/ac/lp/a/counseling010/?utm_source=rt_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling10&_rt_ck=6664.221001458915&hc_uus=55ec480f8870881d026d672839554408&type=&link_code_ak=11JSZ.1.16W0E&referer=",
+        "pragma": "no-cache",
+        "server": "Apache/2.4.25 (Debian)",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "x-powered-by": "PHP/7.0.33"
+      },
+      "body": "",
+      "ip": "54.178.113.122",
+      "port": 443
+    },
+    {
+      "url": "https://stlassh.com/ac/lp/a/counseling010/?utm_source=rt_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling10&_rt_ck=6664.221001458915&hc_uus=55ec480f8870881d026d672839554408&type=&link_code_ak=11JSZ.1.16W0E&referer=",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "cache-control": "max-age=31536000",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 10 Oct 2022 10:22:26 GMT",
+        "expires": "Tue, 10 Oct 2023 10:22:26 GMT",
+        "server": "nginx",
+        "x-nginx-location": "43s",
+        "x-powered-by": "PHP/7.2.34"
+      },
+      "body": "\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-KNWMM4P');</script>\n  <!-- End Google Tag Manager -->\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"shortcut icon\" href=\"img/common/favicon.ico\">\n  <title>STLASSH（ストラッシュ）</title>\n  <!-- Style -->\n  <link rel=\"stylesheet\" href=\"css/reset.css\">\n  <link rel=\"stylesheet\" href=\"css/common.min.css\">\n  <link rel=\"preload\" href=\"css/top.min.css\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\">\n  <link rel=\"preload\" href=\"css/form.min.css\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\">\n  <link rel=\"stylesheet\" href=\"css/fv.min.css\">\n",
+      "ip": "54.95.188.45",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://datsumo.ameba.jp/official/stlassh-cv.html",
+      "redirectTo": "https://ad.mobadme.jp/cl/click.php?c_id=41061&m_id=3767&t_id=t1&did=&guid=ON&kwd_id=SEO_PC",
+      "redirectType": "unknown",
+      "ip": "18.65.216.60",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://ad.mobadme.jp/cl/click.php?c_id=41061&m_id=3767&t_id=t1&did=&guid=ON&kwd_id=SEO_PC",
+      "redirectTo": "http://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "redirectType": "temporary",
+      "ip": "202.234.38.210",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "http://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "redirectTo": "https://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "redirectType": "temporary",
+      "ip": "116.214.81.37",
+      "port": 80,
+      "status": 302
+    },
+    {
+      "url": "https://www.rentracks.jp/adx/carwd_r.html?adid=9535119071213324&cid=41061&af=99a123U1e343f261",
+      "redirectTo": "https://t.quoriza.net/cl?ak=11JSZ.1.16W0E&rtsp=221001458915.0.6664.25917.41440385.213324.9535&_rt_ck=6664.221001458915",
+      "redirectType": "temporary",
+      "ip": "116.214.81.37",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://t.quoriza.net/cl?ak=11JSZ.1.16W0E&rtsp=221001458915.0.6664.25917.41440385.213324.9535&_rt_ck=6664.221001458915",
+      "redirectTo": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&click_time=2022-10-10+19%3A22%3A25&uuid=55ec480f8870881d026d672839554408&client_site_id=186&client_campaign_id=1815&client_lp_id=48664&asp_id=13&relation_id=1544&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling010%2F%3Futm_source%3Drt_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling10%26_rt_ck%3D6664.221001458915%26hc_uus%3D55ec480f8870881d026d672839554408%26type%3D%26link_code_ak%3D11JSZ.1.16W0E%26referer%3D&p=ak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-10+19%3A22%3A25&session_id=221001458915.0.6664.25917.41440385.213324.9535&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+      "redirectType": "temporary",
+      "ip": "75.2.19.101",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&click_time=2022-10-10+19%3A22%3A25&uuid=55ec480f8870881d026d672839554408&client_site_id=186&client_campaign_id=1815&client_lp_id=48664&asp_id=13&relation_id=1544&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling010%2F%3Futm_source%3Drt_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling10%26_rt_ck%3D6664.221001458915%26hc_uus%3D55ec480f8870881d026d672839554408%26type%3D%26link_code_ak%3D11JSZ.1.16W0E%26referer%3D&p=ak%3D11JSZ.1.16W0E%26rtsp%3D221001458915.0.6664.25917.41440385.213324.9535%26_rt_ck%3D6664.221001458915&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-10+19%3A22%3A25&session_id=221001458915.0.6664.25917.41440385.213324.9535&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F106.0.0.0+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+      "redirectTo": "https://stlassh.com/ac/lp/a/counseling010/?utm_source=rt_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling10&_rt_ck=6664.221001458915&hc_uus=55ec480f8870881d026d672839554408&type=&link_code_ak=11JSZ.1.16W0E&referer=",
+      "redirectType": "temporary",
+      "ip": "54.178.113.122",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}
