@@ -1,0 +1,55 @@
+{
+  "docs": [
+    {
+      "url": "https://rd.ane.yahoo.co.jp/rd?ep=A1LYRmMAAB3OfFJIKjKMbm4umaK3OHlK-Az0nlS2_arIrMhGgtw_lbpF4ls9kdduYxxWOl5M48W-ArZRdbQU5ejFyK9srBnNn-HqGeB5RlNh8DrIpI3PoUs6zKlSeb4m6EpaU3CBzIjujgrixwNdgKqY1c5BFS0sBdgWwpUpW8sNj6YTHQC30h0iajJSns7m8nwbIdxfT7sZXXJ9FQX6DdCX5KSv1lAg1myt4mLxbNqoe0qOBrlPQxDp7_figS1-9QeR5ZNQn2nJYsqafNhA31IIoJHjQNVMtqNAPGOUoiU3TM52uvNPAplwmnf5rEemlcCvKqT7Azga7TFEFvY0_Gu4ieBGJRE83U8PnTrHMdjyTHunLKC0ITJ3grGSyXYTkK6JbFs5ZxGS2Fq-Fj6MCkAaGwGmF-V7aSeOJPJ-Jh-2trrvq6vVhFxAuro7iDMUVkFkNmyfDGdfmgX70jzO5cCBWKitoDPq4UGloZtchgt7tEoPCFFW8YyowqWWGInaOQXphiudAamt8iqrV0P0cFsBKq1dojTgENhfFckf9u_VT-cKbJQBJd-CrfvHb--MM3R0jQoDXhRxnfAmLIxddsC29G6nj84NdifHEl9n7fYDNp72v1GJzQYFvDg5IWY3_ThyoMQnhBcRoPzaWbDoE6WcbFsKyLRRe4DoglPKfO7LfEc64Yz-rvnU_Vd17xV-lDH8fFmo9lsG9STY1XTiKeJCH5EZKCPOstDDw9l5JqJSF-Op0lqhv9q8BxceZ8M6Q139zf7jphBs9M-kg7l1kPhrJmSE9fskeZWfvUrkdFCb2iazKH8CVSbAY3gUM4oky2D8ORGruS9kKfUOn1zbxnehkEOmRSu-f8v_Ywz9O8UfctJUCAVkWhuuD49VsEXBeFody025dyVgaEHRmf51ML0Qa4wlagKlbasz76MdtH5qj6EBInEGlHH-RMwOFp_qnmJY5tvzDycEWrfTqlYr5zO_vf-lkBMQF1OcHwxOt63US1DS8ZJrFqb6AnvFDUVqs49h39ixDDlfyl6fMGMf0umAxi7i66G7RbujsR1Fjo1X0mH8Cj8JJniE7cvevYInHaNBcMC956UXj2LKO10gotp0jUAI7m1-iuNpJ0ZYbgWZStSBIuosPoMu_yNb1ssXMxI1ewzUJwc2wOTxzMEkqR0nHYqvRJS8DmLdD9BYe8WkbQ&v=5",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "age": "0",
+        "cache-control": "private, max-age=0, no-cache",
+        "content-length": "0",
+        "content-type": "text/html",
+        "date": "Wed, 12 Oct 2022 15:08:17 GMT",
+        "location": "https://gmobb.jp/wimax/home-router/?pid=ovt103&utm_source=yahoo&utm_medium=display&utm_campaign=wimax5g&utm_term=wimax5g_rtg&utm_content=wimax5g_rtg&yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&yj_r=2f",
+        "server": "ATS",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1;mode=block"
+      },
+      "body": "",
+      "ip": "182.22.16.123",
+      "port": 443
+    },
+    {
+      "url": "https://gmobb.jp/wimax/home-router/?pid=ovt103&utm_source=yahoo&utm_medium=display&utm_campaign=wimax5g&utm_term=wimax5g_rtg&utm_content=wimax5g_rtg&yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&yj_r=2f",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-length": "16503",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Wed, 12 Oct 2022 15:08:17 GMT",
+        "keep-alive": "timeout=5, max=100",
+        "server": "Apache",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n<meta name=\"viewport\" content=\"width=device-width\">\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MSSQKHD');</script>\n<!-- End Google Tag Manager -->\n\n<link rel=\"stylesheet\" href=\"/wimax/common/css/totalBenefits.css?1665565965\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/common/css/base.css?1665565956\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/this.css?1665565966\">\n<script src=\"/common/js/jquery.js?1665565956\" type=\"text/javascript\"></script>\n<link rel=\"icon\" type=\"image/png\" href=\"/favicon.png?1665565957\">\n<script src=\"/common/js/script.js?1665565956\" type=\"text/javascript\" defer=\"\"></script>\n<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;\nn.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,\ndocument,'script','//connect.facebook.net/en_US/fbevents.js');\n\nfbq('init', '922314394550407');\nfbq('track', \"PageView\");</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=922314394550407&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Facebook Pixel Code -->\n<meta name=\"keywords\" content=\"工事不要,Wi-Fi,ホームルーター,wimax,WiMAXホームルーター,5Gホームルーター,ワイマックス,GMOとくとくBB\">\n<meta name=\"description\" content=\"自宅で簡単に高速インターネットが使えるWiMAX +5Gホームルーター。工事不要なので簡単初期設定後はコンセントに挿すだけでご利用いただけます。\">\n<title>工事がいらないWi-Fi ホームルーター |【公式】GMOとくとくBB</title>\n<meta name=\"referrer\" content=\"no-referrer-when-downgrade\">\n<script>\nif (!window.afblpcvLpConf) {\n  window.afblpcvLpConf = [];\n}\nwindow.afblpcvLpConf.push({\n  siteId: \"372c69d3\"\n});\n</script>\n<script src=\"https://t.afi-b.com/jslib/lpcv.js?cid=372c69d3&amp;pid=q6260C\" async=\"async\"></script>\n<link rel=\"canonical\" href=\"https://gmobb.jp/wimax/home-router/?pid=ovt103&amp;utm_source=yahoo&amp;utm_medium=display&amp;utm_campaign=wimax5g&amp;utm_term=wimax5g_rtg&amp;utm_content=wimax5g_rtg&amp;yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&amp;yj_r=2f\">\n<meta property=\"og:url\" content=\"https://gmobb.jp/wimax/home-router/?pid=ovt103&amp;utm_source=yahoo&amp;utm_medium=display&amp;utm_campaign=wimax5g&amp;utm_term=wimax5g_rtg&amp;utm_content=wimax5g_rtg&amp;yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&amp;yj_r=2f\">\n<meta name=\"twitter:url\" content=\"https://gmobb.jp/wimax/home-router/?pid=ovt103&amp;utm_source=yahoo&amp;utm_medium=display&amp;utm_campaign=wimax5g&amp;utm_term=wimax5g_rtg&amp;utm_content=wimax5g_rtg&amp;yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&amp;yj_r=2f\">\n<meta property=\"twitter:account_id\" content=\"174589097\">\n<meta property=\"fb:admins\" content=\"100001684639259\">\n<meta property=\"og:locale\" content=\"ja_JP\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:site_name\" content=\"GMOとくとくBB\">\n<meta name=\"twitter:creator\" content=\"@GMOGroup\">\n<meta name=\"twitter:site\" content=\"@GMOBB_PR\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n\n\n\n\n\n\n<meta property=\"og:image\" content=\"https://gmobb.jp/wimax/common/images/og_39223.png\">\n",
+      "ip": "150.95.236.49",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://rd.ane.yahoo.co.jp/rd?ep=A1LYRmMAAB3OfFJIKjKMbm4umaK3OHlK-Az0nlS2_arIrMhGgtw_lbpF4ls9kdduYxxWOl5M48W-ArZRdbQU5ejFyK9srBnNn-HqGeB5RlNh8DrIpI3PoUs6zKlSeb4m6EpaU3CBzIjujgrixwNdgKqY1c5BFS0sBdgWwpUpW8sNj6YTHQC30h0iajJSns7m8nwbIdxfT7sZXXJ9FQX6DdCX5KSv1lAg1myt4mLxbNqoe0qOBrlPQxDp7_figS1-9QeR5ZNQn2nJYsqafNhA31IIoJHjQNVMtqNAPGOUoiU3TM52uvNPAplwmnf5rEemlcCvKqT7Azga7TFEFvY0_Gu4ieBGJRE83U8PnTrHMdjyTHunLKC0ITJ3grGSyXYTkK6JbFs5ZxGS2Fq-Fj6MCkAaGwGmF-V7aSeOJPJ-Jh-2trrvq6vVhFxAuro7iDMUVkFkNmyfDGdfmgX70jzO5cCBWKitoDPq4UGloZtchgt7tEoPCFFW8YyowqWWGInaOQXphiudAamt8iqrV0P0cFsBKq1dojTgENhfFckf9u_VT-cKbJQBJd-CrfvHb--MM3R0jQoDXhRxnfAmLIxddsC29G6nj84NdifHEl9n7fYDNp72v1GJzQYFvDg5IWY3_ThyoMQnhBcRoPzaWbDoE6WcbFsKyLRRe4DoglPKfO7LfEc64Yz-rvnU_Vd17xV-lDH8fFmo9lsG9STY1XTiKeJCH5EZKCPOstDDw9l5JqJSF-Op0lqhv9q8BxceZ8M6Q139zf7jphBs9M-kg7l1kPhrJmSE9fskeZWfvUrkdFCb2iazKH8CVSbAY3gUM4oky2D8ORGruS9kKfUOn1zbxnehkEOmRSu-f8v_Ywz9O8UfctJUCAVkWhuuD49VsEXBeFody025dyVgaEHRmf51ML0Qa4wlagKlbasz76MdtH5qj6EBInEGlHH-RMwOFp_qnmJY5tvzDycEWrfTqlYr5zO_vf-lkBMQF1OcHwxOt63US1DS8ZJrFqb6AnvFDUVqs49h39ixDDlfyl6fMGMf0umAxi7i66G7RbujsR1Fjo1X0mH8Cj8JJniE7cvevYInHaNBcMC956UXj2LKO10gotp0jUAI7m1-iuNpJ0ZYbgWZStSBIuosPoMu_yNb1ssXMxI1ewzUJwc2wOTxzMEkqR0nHYqvRJS8DmLdD9BYe8WkbQ&v=5",
+      "redirectTo": "https://gmobb.jp/wimax/home-router/?pid=ovt103&utm_source=yahoo&utm_medium=display&utm_campaign=wimax5g&utm_term=wimax5g_rtg&utm_content=wimax5g_rtg&yclid=YJAD.1665587297.A2HYRmMAAMaH0ZiX-6m2klC9nXxi0i7MIpHZxKMHW5LDfBmdEeZmjxHufMQPwTZe4xuSJnUayAUyYxxy4J4r84mxjiwklEAZ6dGn2OnPXRuUy4G7fpGjTuiYIYdvOIOAH-zDgD19A7JRGIvH7gy5hW6g-tfofnwDp_3QnWsl4EIHT9-8SjIICYDL0obLW-vQ7g&yj_r=2f",
+      "redirectType": "temporary",
+      "ip": "182.22.16.123",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

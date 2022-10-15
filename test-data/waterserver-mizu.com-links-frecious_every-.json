@@ -1,0 +1,103 @@
+{
+  "docs": [
+    {
+      "url": "https://waterserver-mizu.com/links/frecious_every/?cvpage=home&id=ankenbox-ranking&bp=&cid=",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 11 Oct 2022 02:24:15 GMT",
+        "link": "<https://waterserver-mizu.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://waterserver-mizu.com/?p=19235>; rel=shortlink",
+        "server": "nginx",
+        "x-b-cache": "BYPASS",
+        "x-content-type-options": "nosniff",
+        "x-f-cache": "BYPASS",
+        "x-frame-options": "SAMEORIGIN",
+        "x-signature": "KUSANAGI",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"robots\" content=\"noindex,nofollow\">\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n\t<meta http-equiv=\"Refresh\" content=\"1;URL=https://px.a8.net/svt/ejp?a8mat=3H9NZ3+4XFZLM+2B8Y+15SUDU&amp;id1=mizucom_home_ankenbox-ranking_\">\n\t<title>ウォーターサーバーおすすめ10社比較！人気ランキングと選び方</title>\n\n\t<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://pagead2.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n\t<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"shortcut icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/style.css\">\n\t<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NCM6C4B');</script>\n<!-- End Google Tag Manager -->\n<meta name=\"google-site-verification\" content=\"FRyHmlkIdz2CtTiSaSA-xoGCvfiMWfLJ0xE-rvzHuAo\">\n\n\t<style type=\"text/css\">\n\tbody{text-align: center;}\n\t.a{color:#3553a2;padding-top:20%;font-weight: bold;margin-bottom:1em;font-size:1.2em;}\n\t.b{font-size: 1.2em;margin:2em 0 1em 0;}\n\t.c{font-size:0.8em;}\n\t.d{font-size:2em;font-weight:bold;margin:1em;}\n\t.e{max-width: 300px;margin:0 auto;}\n\t</style>\n\t<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"dns-prefetch\" href=\"//s.w.org\">\n<link rel=\"https://api.w.org/\" href=\"https://waterserver-mizu.com/wp-json/\"><link rel=\"shortlink\" href=\"https://waterserver-mizu.com/?p=19235\">\n<link rel=\"alternate\" type=\"application/json+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Ffrecious_every\">\n<link rel=\"alternate\" type=\"text/xml+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Ffrecious_every&amp;format=xml\">\n<style type=\"text/css\">\n.no-js .native-lazyload-js-fallback {\n\tdisplay: none;\n}\n</style>\n\t\t\t\t<style type=\"text/css\" id=\"wp-custom-css\">\n\t\t\t.wp-caption-text{\n\t  font-size: 0.75em!important;\n    font-weight: 500;\n}\t\t</style>\n\t\t  ",
+      "ip": "13.113.33.159",
+      "port": 443
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3H9NZ3+4XFZLM+2B8Y+15SUDU&id1=mizucom_home_ankenbox-ranking_",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Tue, 11 Oct 2022 02:24:17 GMT",
+        "location": "https://a8cv.frecious.jp/click/?url=https%3A%2F%2Fevery.frecious.jp%2F%3Futm_source%3Dcuebic%26utm_medium%3Daffiliate%26a8%3DD6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+        "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "13.113.81.163",
+      "port": 443
+    },
+    {
+      "url": "https://a8cv.frecious.jp/click/?url=https%3A%2F%2Fevery.frecious.jp%2F%3Futm_source%3Dcuebic%26utm_medium%3Daffiliate%26a8%3DD6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 11 Oct 2022 02:24:18 GMT",
+        "location": "https://every.frecious.jp/?utm_source=cuebic&utm_medium=affiliate&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+        "server": "openresty/1.19.9.1",
+        "transfer-encoding": "chunked",
+        "x-powered-by": "PHP/7.1.13"
+      },
+      "body": "",
+      "ip": "35.76.167.131",
+      "port": 443
+    },
+    {
+      "url": "https://every.frecious.jp/?utm_source=cuebic&utm_medium=affiliate&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-length": "11271",
+        "content-type": "text/html",
+        "date": "Tue, 11 Oct 2022 02:24:18 GMT",
+        "keep-alive": "timeout=4, max=300",
+        "vary": "Accept-Encoding",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "body": "\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n  <meta name=\"viewport\" content=\"width=1280\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:url\" content=\"https://every.frecious.jp/\">\n  <meta property=\"og:title\" content=\"【浄水】ウォーターサーバーならエブリィフレシャス｜水道水をおいしく！ ＜公式＞\">\n  <meta property=\"og:site_name\" content=\"【浄水】ウォーターサーバーならエブリィフレシャス｜水道水をおいしく！ ＜公式＞\">\n  <meta property=\"og:description\" content=\"【浄水型ウォーターサーバーのエブリィフレシャス公式サイト】レンタル料は月々ずーっと3,000円！水道水を注ぐだけで安心・安全のおいしいお水を楽しめる浄水型ウォーターサーバー。機能面だけでなく、デザイン性も人気のエブリィフレシャスは日々の小さな手間を省き、理想の暮らしに近づけます。\">\n  <meta property=\"og:image\" content=\"\">\n  <meta property=\"og:image:secure_url\" content=\"\">\n  <meta property=\"og:image:type\" content=\"image/jpg\">\n  <meta property=\"og:image:width\" content=\"1200\">\n  <meta property=\"og:image:height\" content=\"630\">\n  <meta property=\"og:locale\" content=\"ja_JP\">\n  <!-- Twitter Card -->\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:site\" content=\"\">\n  <meta name=\"twitter:creator\" content=\"\">\n  <meta name=\"twitter:title\" content=\"\">\n  <meta name=\"twitter:description\" content=\"\">\n  <meta name=\"twitter:image\" content=\"\">\n  <!-- /Twitter Card -->\n\n  <title>【浄水】ウォーターサーバーならエブリィフレシャス｜水道水をおいしく！ ＜公式＞</title>\n  <meta name=\"description\" content=\"【浄水型ウォーターサーバーのエブリィフレシャス公式サイト】レンタル料は月々ずーっと3,000円！水道水を注ぐだけで安心・安全のおいしいお水を楽しめる浄水型ウォーターサーバー。機能面だけでなく、デザイン性も人気のエブリィフレシャスは日々の小さな手間を省き、理想の暮らしに近づけます。\">\n  <meta name=\"keywords\" content=\"浄水型ウォーターサーバー,水道水,レンタル,エブリィフレシャス,every frecious,富士山の銘水株式会社\">\n  <link rel=\"canonical\" href=\"https://every.frecious.jp/\">\n  <link rel=\"apple-touch-icon\" href=\"\">\n  <link rel=\"shortcut icon\" type=\"image/vnd.microsoft.icon\" href=\"/favicon.ico\">\n\n\n  <meta name=\"robots\" content=\"index,follow\">\n\n\n  <!-- tag ↓ -->\n  <!-- Google Tag Manager -->\n<noscript><iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MXHX3R\"\n                  height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MXHX3R');</script>\n<!-- End Google Tag Manager -->\n<script type=\"text/javascript\">\n  (function () {\n    var tagjs = document.createElement(\"script\");\n    var s = document.getElementsByTagName(\"script\")[0];\n    tagjs.async = true;\n    tagjs.src = \"//s.yjtag.jp/tag.js#site=mxhrIHn&referrer=\" + encodeURIComponent(document.location.href) + \"\";\n    s.parentNode.insertBefore(tagjs, s);\n  }());\n</script>\n<noscript>\n  <iframe src=\"//b.yjtag.jp/iframe?c=mxhrIHn\" width=\"1\" height=\"1\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\"></iframe>\n</noscript>\n\n<!-- EBiS tag version4.10 start -->\n<script type=\"text/javascript\">\n  (function(a,d,e,b,i,s){ window[i]=window[i]||[];var f=function(a,d,e,b,i,s){\n    var o=a.getElementsByTagName(d)[0],h=a.createElement(d),t='text/javascript';\n    h.type=t;h.async=e;h.onload=function(){ window[i].init(\n      { argument:s, auto:true }\n    );};h._p=o;return h;},h=f(a,d,e,b,i,s),l='//taj',j=b+s+'/cmt.js';h.src=l+'1.'+j;\n    h._p.parentNode.insertBefore(h,h._p);h.onerror=function(k){k=f(a,d,e,b,i,s);\n      k.src=l+'2.'+j;k._p.parentNode.insertBefore(k,k._p);};\n  })(document,'script',true,'ebis.ne.jp/','ebis','uF9zfw7H');\n</script>\n<!-- EBiS tag end -->\n\n<script src=\"/assets/javascripts/js.cookie.js\"></script>\n<script type=\"text/javascript\">\n  /**\n   *  GETパラメータを配列にして返す\n   *\n   *  @return     パラメータのObject\n   *\n   */\n  var getUrlVars = function(){\n    var vars = {};\n    var param = location.search.substring(1).split('&');\n    for(var i = 0; i < param.length; i++) {\n      var keySearch = param[i].search(/=/);\n      var key = '';\n      if(keySearch != -1) key = param[i].slice(0, keySearch);\n      var val = param[i].slice(param[i].indexOf('=', 0) + 1);\n      if(key != '') vars[key] = decodeURI(val);\n    }\n    return vars;\n  };\n\n  var getVal = getUrlVars();\n  // ページ限定するとき用\n  // var pathname = location.pathname;\n  // var allowedPath = ['/'];\n  // if (allowedPath.some(function(v){ return v === pathname })) {\n  //\n  // }\n  if (getVal['clickref'] !== undefined && getVal['clickref'] !== null) {\n    Cookies.set('clickref', getVal['clickref'], { expires: 90, path: '/' });\n  }\n</script>\n\n<script type=\"text/javascript\" src=\"https://ad.atown.jp/adserver/js/lib/clickaction/click.js\"></script>\n<script>(function (b, f, d, a, c) {var e = b.createElement(f);e.src = c + \"/\" + a + \"/atm.js\";e.id = d;e.async = true;b.getElementsByTagName(f)[0].parentElement.appendChild(e)})(document,\"script\",\"__cribnotesTagMgrCmd\",\"46e2a9f2-9033-46d4-bc88-033b3179ae78\",\"https://tag.cribnotes.jp/container_manager\");</script>\n  <!-- tag↑ -->\n\n\n  <!-- css↓ -->\n  <link rel=\"stylesheet\" href=\"/assets/common/stylesheets/reset.css\">\n  <link rel=\"stylesheet\" href=\"/assets/common/stylesheets/common.css\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/stylesheets/top/swiper-bundle.min.css\">\n  <link rel=\"stylesheet\" href=\"/assets/javascripts/top/shadowbox/shadowbox.css\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/stylesheets/top/pc.css?220708\">\n  <!-- css↑ -->\n\n",
+      "ip": "103.5.177.142",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://waterserver-mizu.com/links/frecious_every/?cvpage=home&id=ankenbox-ranking&bp=&cid=",
+      "redirectTo": "https://px.a8.net/svt/ejp?a8mat=3H9NZ3+4XFZLM+2B8Y+15SUDU&id1=mizucom_home_ankenbox-ranking_",
+      "redirectType": "unknown",
+      "ip": "13.113.33.159",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3H9NZ3+4XFZLM+2B8Y+15SUDU&id1=mizucom_home_ankenbox-ranking_",
+      "redirectTo": "https://a8cv.frecious.jp/click/?url=https%3A%2F%2Fevery.frecious.jp%2F%3Futm_source%3Dcuebic%26utm_medium%3Daffiliate%26a8%3DD6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+      "redirectType": "temporary",
+      "ip": "13.113.81.163",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://a8cv.frecious.jp/click/?url=https%3A%2F%2Fevery.frecious.jp%2F%3Futm_source%3Dcuebic%26utm_medium%3Daffiliate%26a8%3DD6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+      "redirectTo": "https://every.frecious.jp/?utm_source=cuebic&utm_medium=affiliate&a8=D6K9W6g2ON0MbKzCSlSe6ez.NKHsP2o9hlS7ufuZ7ZHh.hc7OETz4jTmXEZOCEauzgaQ-iaZ-6AOIGgk9EAW.EAjLkR2ONK6amK2umKDumPhohc0tkAmzYKpt6K9rs00000010789007",
+      "redirectType": "temporary",
+      "ip": "35.76.167.131",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

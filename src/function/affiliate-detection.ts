@@ -30,6 +30,8 @@ interface Node {
   status: number
 }
 
+let please = false
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 const isThreeHundres = (n: number) => /30\d/.test(String(n))
 
@@ -76,10 +78,9 @@ const extractDocFromResponse = async (res: Response): Promise<Doc | null> => {
 
   try {
     const body = (await res.body()).toString()
-    const isHtml = body.indexOf('<html') !== -1
     const $ = load(body)
-    const head = $('head').html() || ''
-    doc.body = isHtml ? head : body
+    const head = $('head').html() || body
+    doc.body = head
     doc.redirectType = 'client'
   } catch (e: any) {
     console.log(`[Parsing body failed] ${e.message}`)
@@ -87,7 +88,6 @@ const extractDocFromResponse = async (res: Response): Promise<Doc | null> => {
     console.log(`Faillback request status: ${res.status}`)
     if (res.status === 200) doc.body = res.data
   } // sometimes body() fails
-
   return doc
 }
 
@@ -99,7 +99,7 @@ const waitForDestination = async (page: Page): Promise<void> => {
           metas.map((x) => x.getAttribute('http-equiv'))
         )
         const hasMeta = metas.includes('Refresh')
-        if (!hasMeta) {
+        if (!please && !hasMeta) {
           clearInterval(interval)
           resolve()
         }
@@ -121,29 +121,37 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
   const userDataDir = '/tmp/test-user-data-dir'
   if (browser === null) {
     const browserContext = await chromium.launchPersistentContext(userDataDir, {
-      headless: false,
-      devtools: true,
-      args: [
-        `--disable-extensions-except=${pathToExtension}`,
-        `--load-extension=${pathToExtension}`
-      ]
+      headless: false
+      // devtools: true,
+      // args: [
+      //   `--disable-extensions-except=${pathToExtension}`,
+      //   `--load-extension=${pathToExtension}`
+      // ]
     })
     browser = browserContext
   }
 
   // const browser = await chromium.launch({ headless: false })
   const page = await browser!.newPage()
+  const tmp: Response[] = []
   try {
     // const page = await browser.newPage()
     page.on('response', async (response) => {
-      const candidate = await extractDocFromResponse(response)
-      if (candidate === null) return
+      tmp.push(response)
+      // const candidate = await extractDocFromResponse(response)
+      // if (candidate === null) return
+      // console.log(candidate)
 
-      docs.push(candidate)
+      // docs.push(candidate)
     })
 
     await page.goto(target, { waitUntil: 'networkidle' })
     await waitForDestination(page)
+
+    for (const it of tmp) {
+      const candidate = await extractDocFromResponse(it)
+      if (candidate) docs.push(candidate)
+    }
   } catch (e) {
     console.error(e)
   } finally {
@@ -211,7 +219,17 @@ function createChains(docs: Doc[]): Node[] {
     const target = res.target as string
     const docs = await filterDocumentRequests(target)
     const chains = createChains(docs)
-    console.log(chains.map((x) => `${x.url}\n${x.redirectTo}\n\n`))
+    // console.log(chains.map((x) => `${x.url}\→${x.redirectTo}\n`))
+
+    for (const node of chains) {
+      console.log(node.url)
+      console.log('↓')
+      console.log(node.redirectTo)
+      console.log('\n')
+
+      // chainの計算をちゃんとChainにする。
+      // ネットワーク環境が悪い時の対策も必要かも。
+    }
 
     const url = new URL(target)
     const fn = url.host + url.pathname

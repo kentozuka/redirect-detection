@@ -1,0 +1,118 @@
+{
+  "docs": [
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3B746M+DUXB9E+3GHY+62MDE&id1=2741_1142_rank",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Tue, 11 Oct 2022 02:25:11 GMT",
+        "location": "http://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+        "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "13.113.81.163",
+      "port": 443
+    },
+    {
+      "url": "http://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "383",
+        "content-type": "text/html; charset=iso-8859-1",
+        "date": "Tue, 11 Oct 2022 02:25:11 GMT",
+        "location": "https://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "54.238.197.143",
+      "port": 80
+    },
+    {
+      "url": "https://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "753",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 11 Oct 2022 02:25:11 GMT",
+        "p3p": "policyref'/w3c/p3p.xml', CP='UNI CUR OUR'",
+        "server": "Apache"
+      },
+      "body": "\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"refresh\" content=\"5;URL=https://www.fancl.co.jp/pub/erp/index_netm_sp.html?scid=afi-ntm&amp;utm_source=afi&amp;utm_medium=afi-ntm&amp;utm_campaign=afi-ntm&amp;affnmsid=b6a1ec05be454ab66e697170c2ef2d60ca84a18a\">\n  \t<script type=\"text/javascript\">\n  \t    var code = 'fancl';\n        var sessionId = '13081235';\n        var redirectUrl = 'https://www.fancl.co.jp/pub/erp/index_netm_sp.html?scid=afi-ntm&utm_source=afi&utm_medium=afi-ntm&utm_campaign=afi-ntm&affnmsid=b6a1ec05be454ab66e697170c2ef2d60ca84a18a';\n    </script>\n  ",
+      "ip": "54.238.197.143",
+      "port": 443
+    },
+    {
+      "url": "https://www.af-mark.jp/fancl/index_di.php?sid=13081235&url=https%3A%2F%2Fwww.fancl.co.jp%2Fpub%2Ferp%2Findex_netm_sp.html%3Fscid%3Dafi-ntm%26utm_source%3Dafi%26utm_medium%3Dafi-ntm%26utm_campaign%3Dafi-ntm%26affnmsid%3Db6a1ec05be454ab66e697170c2ef2d60ca84a18a&diparams=NOa44j1fgBNlY5Du4UXuKrnZ2CI9XkPrwXC_JEkNgvlE4yy2XElgebiYMpztNKsd_uLEwHXXTSHCSPmtd0wVYPIG_qvoPfybYb5EvYTrYesRL34irQxf7_OLgiPFMJhHFW_jftckkCow65me1zU0l5yjaY1WMsiZRPrwXC_JEkNgvlE4yy2XElgebiYMpztNKsd_uLEwHXXTSHCSPmtd0wVYPIG_qvoPfybYb5EvYTrYesRL34irQxf7_OLgiPFMtrs1OeyjaY1vSiwwdzVpOCpwRnp4xUC56MnGWpwoNSUC53ZXnN87gq1V.N8Y4A14ELzPs2dI_AIQjvEodUW2vqCReif3ecGYicn5.kLB0Vg4WD9JtJ9_Qj9KycnwgEl7pog4KpN_Jkl1BNrgy4TIvRSwQLHi6iAR5KMEUEgP_DfbU0sf4jK_.BNv_v25BNtQSbVNjCInStHyuK7EK1dMkeUeBz9fyaCBBQ1cL7GrifhlBCIgZNvrHgJ0Nc5f80kOPUXlByHJmFANSroLKQ_0lNc1lF4XVA4.L9.KNc0KSNKXVHeWL90ftctDL90ftctDL9.KML4Nc0KSKA4.AQWL90njk3nLvbUTjV.CAP",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Tue, 11 Oct 2022 02:25:12 GMT",
+        "location": "https://www.fancl.co.jp/pub/erp/index_netm_sp.html?scid=afi-ntm&utm_source=afi&utm_medium=afi-ntm&utm_campaign=afi-ntm&affnmsid=b6a1ec05be454ab66e697170c2ef2d60ca84a18a",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "54.238.197.143",
+      "port": 443
+    },
+    {
+      "url": "https://www.fancl.co.jp/pub/erp/index_netm_sp.html?scid=afi-ntm&utm_source=afi&utm_medium=afi-ntm&utm_campaign=afi-ntm&affnmsid=b6a1ec05be454ab66e697170c2ef2d60ca84a18a",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=0",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Tue, 11 Oct 2022 02:25:12 GMT",
+        "expires": "Tue, 11 Oct 2022 02:25:12 GMT",
+        "last-modified": "Wed, 05 Oct 2022 01:29:36 GMT",
+        "server": "Apache/2.4.28 (Unix) OpenSSL/1.0.2m",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-cdn": "Imperva",
+        "x-content-type-options": "nosniff",
+        "x-iinfo": "10-204024324-204024156 PNNN RT(1665455111586 53) q(0 0 0 0) r(0 0) U5"
+      },
+      "body": "\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\">\n<title>FANCL「無添加化粧品」</title>\n<!-- # タイトル（商品群ごとに設定）-->\n<!-- # \n<title>FANCL「サプリメント」</title>\n<title>FANCL「発芽米」</title>\n<title>FANCL「青汁」</title>\n-->\n<!-- # タイトル-->\n<link href=\"/common/css/print.css\" rel=\"stylesheet\" type=\"text/css\" media=\"print\">\n<link href=\"/pub/common/css/import_linkorder_sp.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n<!-- # コンテンツ用css-->\n<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\">\n<link href=\"css/erp_style_sp.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n<!-- # /コンテンツ用css-->\n\n<script language=\"JavaScript\" src=\"/css/ref_log.js\"></script>\n<script type=\"text/javascript\" src=\"/common/js/jquery.js\"></script>\n<script type=\"text/javascript\" src=\"/common_sp/js/cookie.js\"></script>\n<script type=\"text/javascript\" src=\"/common/js/submitorder_link2.js\"></script>\n\n<!--cms_tag id=parts0550-->\n<!--クッキーの取得-->\n<script type=\"text/javascript\">\n<!--\nfunction getCookie(name) {\n    if (!name || !document.cookie) return;\n   var cookies = document.cookie.split(\";\");\n    for (var i = 0; i < cookies.length; i++) {\n        var str = cookies[i].split(\"=\");\n        if (trim(str[0]) != name) continue;\n        return unescape(trim(str[1]));\n    }\n    return;\n}\nfunction trim(str) {\n    return str.replace(/^\\s+|\\s+$/g, \"\");\n}\n//-->\n</script>\n<!--/クッキーの取得-->\n\n\n\n<!--GTMにmemID送る用-->\n<script type=\"text/javascript\">\n<!--\ndataLayer = [{'MEM_ID':getCookie(\"MEM_ID\") }]\n//-->\n</script>\n<!--/GTMにmemID送る用-->\n\n\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-M5XLQL');</script>\n<!-- End Google Tag Manager -->\n\n\n\n<!--SC code-->\n<script language=\"JavaScript\">\n<!--\nvar _sc = _sc || {};\n//-->\n</script>\n<!--/SC code-->\n<!--/cms_tag-->\n\n",
+      "ip": "45.223.21.111",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3B746M+DUXB9E+3GHY+62MDE&id1=2741_1142_rank",
+      "redirectTo": "http://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+      "redirectType": "temporary",
+      "ip": "13.113.81.163",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "http://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+      "redirectTo": "https://www.af-mark.jp/fancl/?id=19731&uid=&a8=YRvtwRALNEcg_FHCFhcMpzKg8M95nMctChnRVvoMf6u0SEvcVFnLDAnKDFH6-rufO.VCcqvKQFPocFvoDEvKuRQLNEeCPCvcQEZKB.Jxxs00000016135001",
+      "redirectType": "permanent",
+      "ip": "54.238.197.143",
+      "port": 80,
+      "status": 301
+    },
+    {
+      "url": "https://www.af-mark.jp/fancl/index_di.php?sid=13081235&url=https%3A%2F%2Fwww.fancl.co.jp%2Fpub%2Ferp%2Findex_netm_sp.html%3Fscid%3Dafi-ntm%26utm_source%3Dafi%26utm_medium%3Dafi-ntm%26utm_campaign%3Dafi-ntm%26affnmsid%3Db6a1ec05be454ab66e697170c2ef2d60ca84a18a&diparams=NOa44j1fgBNlY5Du4UXuKrnZ2CI9XkPrwXC_JEkNgvlE4yy2XElgebiYMpztNKsd_uLEwHXXTSHCSPmtd0wVYPIG_qvoPfybYb5EvYTrYesRL34irQxf7_OLgiPFMJhHFW_jftckkCow65me1zU0l5yjaY1WMsiZRPrwXC_JEkNgvlE4yy2XElgebiYMpztNKsd_uLEwHXXTSHCSPmtd0wVYPIG_qvoPfybYb5EvYTrYesRL34irQxf7_OLgiPFMtrs1OeyjaY1vSiwwdzVpOCpwRnp4xUC56MnGWpwoNSUC53ZXnN87gq1V.N8Y4A14ELzPs2dI_AIQjvEodUW2vqCReif3ecGYicn5.kLB0Vg4WD9JtJ9_Qj9KycnwgEl7pog4KpN_Jkl1BNrgy4TIvRSwQLHi6iAR5KMEUEgP_DfbU0sf4jK_.BNv_v25BNtQSbVNjCInStHyuK7EK1dMkeUeBz9fyaCBBQ1cL7GrifhlBCIgZNvrHgJ0Nc5f80kOPUXlByHJmFANSroLKQ_0lNc1lF4XVA4.L9.KNc0KSNKXVHeWL90ftctDL90ftctDL9.KML4Nc0KSKA4.AQWL90njk3nLvbUTjV.CAP",
+      "redirectTo": "https://www.fancl.co.jp/pub/erp/index_netm_sp.html?scid=afi-ntm&utm_source=afi&utm_medium=afi-ntm&utm_campaign=afi-ntm&affnmsid=b6a1ec05be454ab66e697170c2ef2d60ca84a18a",
+      "redirectType": "temporary",
+      "ip": "54.238.197.143",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

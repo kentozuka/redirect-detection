@@ -1,0 +1,134 @@
+{
+  "docs": [
+    {
+      "url": "https://kakaku.com/jump/maker_link/direct.ashx?ProductID=K0001454174",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "private",
+        "connection": "keep-alive",
+        "content-length": "430",
+        "content-type": "text/html; charset=shift_jis",
+        "date": "Wed, 12 Oct 2022 15:09:18 GMT",
+        "location": "http://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "body": "",
+      "ip": "103.70.243.165",
+      "port": 443
+    },
+    {
+      "url": "http://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "0",
+        "location": "https://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc"
+      },
+      "body": "",
+      "ip": "35.213.113.72",
+      "port": 80
+    },
+    {
+      "url": "https://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "close",
+        "content-length": "0",
+        "date": "Wed, 12 Oct 2022 15:09:18 GMT",
+        "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+        "location": "https://h20547.www2.hp.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/LinkShareDLP-Start?lstid=_Vv6e0WKODg-PQAiC_l5QIlZ2c_HMMtc7Q&lsurl=https%3A%2F%2Fjp.ext.hp.com%2Fnotebooks%2Fpersonal%2Fhp%5F15s%5Feq1000%2Fkakaku%5Fb%2F%3Fjumpid%3Dst%5Fcn%5Fp%5Faf%5Fkkc",
+        "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR CURa ADMa DEVa OUR BUS STA\"",
+        "pragma": "no-cache"
+      },
+      "body": "",
+      "ip": "35.213.113.72",
+      "port": 443
+    },
+    {
+      "url": "https://h20547.www2.hp.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/LinkShareDLP-Start?lstid=_Vv6e0WKODg-PQAiC_l5QIlZ2c_HMMtc7Q&lsurl=https%3A%2F%2Fjp.ext.hp.com%2Fnotebooks%2Fpersonal%2Fhp%5F15s%5Feq1000%2Fkakaku%5Fb%2F%3Fjumpid%3Dst%5Fcn%5Fp%5Faf%5Fkkc",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=0, no-cache, no-store",
+        "content-length": "512",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Wed, 12 Oct 2022 15:09:19 GMT",
+        "expires": "Wed, 12 Oct 2022 15:09:19 GMT",
+        "location": "https://jp.ext.hp.com/notebooks/personal/hp_15s_eq1000/kakaku_b/?jumpid=st_cn_p_af_kkc",
+        "p3p": "CP=\"ALL DSP COR CURa OUR BUS\"",
+        "pragma": "no-cache",
+        "server-timing": "cdn-cache; desc=MISS\nedge; dur=135\norigin; dur=26",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "body": "",
+      "ip": "184.25.226.81",
+      "port": 443
+    },
+    {
+      "url": "https://jp.ext.hp.com/notebooks/personal/hp_15s_eq1000/kakaku_b/?jumpid=st_cn_p_af_kkc",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ranges": "bytes",
+        "content-encoding": "gzip",
+        "content-length": "37354",
+        "content-security-policy": "frame-ancestors 'self' *.adobe.com;",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Wed, 12 Oct 2022 15:09:19 GMT",
+        "etag": "\"4d4a2-5ead274b36028-gzip\"",
+        "last-modified": "Wed, 12 Oct 2022 08:48:25 GMT",
+        "link": "<https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/font/FormaDJRMicro-Regular.woff2>;rel=\"preload\";as=\"font\";type=\"font/woff2\";crossorigin,<https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/font/hpi-hf-icons-woff.woff>;rel=\"preload\";as=\"font\";type=\"font/woff\";crossorigin,<https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/font/FormaDJRJapaneseMicro-Regular.woff2>;rel=\"preload\";as=\"font\";type=\"font/woff2\";crossorigin,<https://jp.ext.hp.com/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/font/hps-euro-regular-woff.woff>;rel=\"preload\";as=\"font\";type=\"font/woff\";crossorigin\n<https://assets.adobedtm.com>;rel=\"preconnect\"",
+        "server": "Apache",
+        "server-timing": "cdn-cache; desc=HIT\nedge; dur=1",
+        "vary": "Accept-Encoding",
+        "x-akamai-transformed": "9 - 0 pmb=mRUM,2",
+        "x-content-type-options": "nosniff",
+        "x-dispatcher": "dispatcher1apnortheast1",
+        "x-frame-options": "SAMEORIGIN",
+        "x-vhost": "publish"
+      },
+      "body": "\n    <meta charset=\"UTF-8\">\n    <title>HP 15s-eq 価格.com 限定モデル 製品詳細・スペック - ノートパソコン | 日本HP</title>\n    \n        \n        \n        \n        \n            <meta name=\"keywords\">\n        \n    \n    \n    <meta name=\"template\" content=\"general-personal\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \n\n    \n\n        <meta name=\"company_code\" content=\"hpi\">\n        <meta name=\"hp_design_version\" content=\"hpexpnontridion\">\n        <meta name=\"target_country\" content=\"jp\">\n        <meta name=\"web_section_id\" content=\"R11972\">\n        <meta property=\"og:site_name\" content=\"日本HP公式オンラインストアHP Directplus\">\n        <meta property=\"fb:app_id\" content=\"163371267039313\">\n        <meta property=\"fb:admins\" content=\"163371267039313\">\n        <!-- OGP Tags -->\n        \n            <meta property=\"og:title\" content=\"HP 15s-eq 価格.com 限定モデル 製品詳細・スペック - ノートパソコン | 日本HP\">\n        \n        \n            <meta property=\"og:type\" content=\"website\">\n        \n        \n        \n        \n        <!-- SEO Setting -->\n        \n            <meta name=\"robots\" content=\"noindex\">\n        \n        \n        <!-- Original Tags -->\n        <meta name=\"page_content\" content=\"Products\">\n        <meta name=\"pu\" content=\"PSG\">\n        <meta name=\"lifecycle\" content=\"buy.cart\">\n        <meta name=\"segment\" content=\"Consumer.Home\">\n        <meta name=\"date\" content=\"2020/07/02\">\n\n        <!-- Twitter用設定 -->\n        <meta name=\"twitter:site\" content=\"@HP_PC_JP\">\n        <meta name=\"twitter:card\" content=\"summary\">\t         \n\t\n\n<link rel=\"shortcut icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n<link rel=\"icon\" type=\"image/png\" href=\"/android-chrome-256x256.png\">\n\n\n    \n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-product-main-price/clientlibs/site.min.8dc77ce5908a54b69951af3d84008d32.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-pim-tag/clientlibs/site.min.a4e559d68c9f7aa9d8255d31a24cd3e3.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-pim-2/clientlibs/site.min.88ffa9119d855197e31d43743f3a2360.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-pim/clientlibs/site.min.7e8849380375163d1d1e40393b01dd0a.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-name-of-parts/clientlibs/site.min.919c91e5bc853ca0faa0893ad7aa4478.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-mda/clientlibs/site.min.b7d8706b13cf62041cd950f56eef000e.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-inquiry-order-details/clientlibs/site.min.117ce317062acad59ed868a541e89a74.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-freehtml/clientlibs/site.min.58ffd1bbabb46c8c17d3833f331d1e71.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-carousel/clientlibs/site.min.65e8124642f69f81fd0d2e3ae8154d42.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/container/hpj-layout-container/clientlibs/site.min.1d9432776f60b89ad87d41a59c1055aa.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/components/content/hpj-info/clientlibs/site.min.9484885ec86688f5d445b264f5117833.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/clientlibs/clientlib-base.min.9c13ec7cf05989b3f76c6414dff5bada.css\" type=\"text/css\">\n\n\n\n\n     <!-- Head Tags Template -->\n\t <!--adobe tag-->\n<script src=\"//assets.adobedtm.com/f74d69706122cfe92e00ce6f73afb4d643504043/satelliteLib-49b5e1f40440dd6712c1542f95865fa1e3d7d953.js\"></script>\n<!--adobe tag-->\n\n<script type=\"text/javascript\" language=\"javascript\">\nvar s_hp_apj_jp_pagename = document.title;\n\n/* h50146_search_tky */\nvar hpmmd=window.hpmmd||{type: 'Cleansheet Wash', page:{events:[]}, product:{},user:{},legacy:{},promo:{}};\n\n/* Specify Pagename */\nif((typeof s_hp_apj_jp_pagename) != 'undefined' && s_hp_apj_jp_pagename.length > 0){\n  hpmmd.page.name=s_hp_apj_jp_pagename;\n}\n\n/* Section tracking by 2nd layer */\nvar s_hp_apj_jp_dir= location.href.split(\"/\");\nif(s_hp_apj_jp_dir.length <=4 || s_hp_apj_jp_dir[4].length == 0 || s_hp_apj_jp_dir[4].indexOf(\".\") >= 1){\n   hpmmd.page.section=\"jp-\"+s_hp_apj_jp_dir[3];\n} else {\n   hpmmd.page.section=\"jp-\"+s_hp_apj_jp_dir[3]+\":\"+s_hp_apj_jp_dir[4];\n}\n\n/* Local selector tracking */\nif((typeof s_hp_apj_jp_filter) != 'undefined' && s_hp_apj_jp_filter.length > 0){\n  hpmmd.page.search_term='apj_local_selector:'+ s_hp_apj_jp_filter;\n}\n\n\nvar fullURL = \"https://www8.hp.com/h10000/cma/ng/lib/bootstrap/metrics.js\";\ndocument.write(\"<sc\" + \"ript language=\\\"JavaScript\\\" src=\\\"\"+fullURL+\"\\\"></sc\" + \"ript>\");\n</script>\n\n\n\n<!--/* Include Context Hub */\n<sly data-sly-resource=\"contexthub\"/>\n-->\n    \n    \n    \n\n    \n\n    \n    \n    \n<link rel=\"stylesheet\" href=\"/etc.clientlibs/hpj-ec/clientlibs/clientlib-product.min.d41d8cd98f00b204e9800998ecf8427e.css\" type=\"text/css\">\n\n\n\n    \n\n\n     <!-- CSS files from dam Start -->\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/slick/slick.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/slick/slick-theme.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/photoswipe/photoswipe.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/reset.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/base.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/font.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/button.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/common_style.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/header.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/footer.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/carousel.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/product_common.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/product_usually.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/accessories.css\" type=\"text/css\">\n      \n     <!-- CSS files from dam End -->\n\n     <!-- CSS -->\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/store/personal/style/common_adjustment_vr2022.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/css/recommend.css\" type=\"text/css\">\n     \n         <link rel=\"stylesheet\" href=\"/content/dam/jp-ext-hp-com/jp/ja/ec/notebooks/personal/hp_15s_eq1000/style/index_vr2022.css\" type=\"text/css\">\n     \n\n     <!-- Head JavaScript files from dam Start -->\n\t \t\n\t\t <script src=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/jquery.js\" type=\"text/javascript\"></script>\n\t \t\n\t\t <script src=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/slick/slick.min.js\" type=\"text/javascript\"></script>\n\t \t\n\t\t <script src=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/photoswipe/jquery.photoswipe.min.js\" type=\"text/javascript\"></script>\n\t \t\n\t\t <script src=\"/content/dam/jp-ext-hp-com/jp/ja/ec/common/js/plugin/jquery.tile.js\" type=\"text/javascript\"></script>\n\t             \n\t <!-- Head JavaScript files from dam End -->\n\n     <!-- Head Tags -->\n     <meta name=\"seri_code\" content=\"5782\">\n<meta name=\"page_category\" content=\"ノートパソコン＆タブレット(個人)\">\n\n<meta name=\"page_level\" content=\"MDP\">\n<meta name=\"product_type\" content=\"laptops\">\n<meta name=\"family\" content=\"essential\">\n<meta name=\"simple_title\" content=\"hp_15s_eq1000\">\n     \n    \n    \n    \n\n\n<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push([\"addVar\",{\"rua.upush\":\"false\",\"rua.cpush\":\"true\",\"rua.upre\":\"false\",\"rua.cpre\":\"true\",\"rua.uprl\":\"false\",\"rua.cprl\":\"false\",\"rua.cprf\":\"false\",\"rua.trans\":\"SJ-889b0960-9f84-4149-b812-fba12526df79\",\"rua.cook\":\"false\",\"rua.ims\":\"false\",\"rua.ufprl\":\"false\",\"rua.cfprl\":\"true\",\"rua.isuxp\":\"false\",\"rua.texp\":\"norulematch\"}]);</script>\n                              <script>!function(a){var e=\"https://s.go-mpulse.net/boomerang/\",t=\"addEventListener\";if(\"False\"==\"True\")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e=\"https://s2.go-mpulse.net/boomerang/\";if(window.BOOMR_API_key=\"M2UDB-AC3F4-PSSXW-XDU5J-RHT7X\",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement(\"iframe\");if(a[t])a[t](\"load\",n,!1);else if(a.attachEvent)a.attachEvent(\"onload\",n);r.src=\"javascript:void(0)\",r.title=\"\",r.role=\"presentation\",(r.frameElement||r).style.cssText=\"width:0;height:0;border:0;display:none;\",o=document.getElementsByTagName(\"script\")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src=\"javascript:var d=document.open();d.domain='\"+i+\"';void(0);\",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement(\"script\");if(i)this.domain=i;a.id=\"boomr-if-as\",a.src=e+\"M2UDB-AC3F4-PSSXW-XDU5J-RHT7X\",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write(\"<bo\"+'dy onload=\"document._l();\">'),_.close()}}(),\"\".length>0)if(a&&\"performance\"in a&&a.performance&&\"function\"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=\"true\"==\"true\"?1:0,t=\"\",n=\"py2qovtijqgywy2g3cpq-f-6ec515a7f-clientnsv4-s.akamaihd.net\",i=\"false\"==\"true\"?2:1,_={\"ak.v\":\"32\",\"ak.cp\":\"949979\",\"ak.ai\":parseInt(\"578166\",10),\"ak.ol\":\"0\",\"ak.cr\":32,\"ak.ipv\":4,\"ak.proto\":\"h2\",\"ak.rid\":\"e6b6c30\",\"ak.r\":23635,\"ak.a2\":e,\"ak.m\":\"a\",\"ak.n\":\"essl\",\"ak.bpcip\":\"126.53.7.0\",\"ak.cport\":55402,\"ak.gh\":\"23.44.172.100\",\"ak.quicv\":\"\",\"ak.tlsv\":\"tls1.3\",\"ak.0rtt\":\"\",\"ak.csrc\":\"-\",\"ak.acc\":\"\",\"ak.t\":\"1665587359\",\"ak.ak\":\"hOBiQwZUYzCg5VSAfCLimQ==AS+8qyxCBKPfGxZkFSlQVciuD846Aq/W8xGXp6aWiBKYqVCHoHCcsthVW6AH7UqW6fLMCim2ZC8vrBYgCmjUu0J1joiB+jR9pHM1la8JUB0DjLTs7LrgI9hpN7oPEsWN36R4Cl9upQrcenfNaEwyD+StI19yhwpOczju0uzGUhJOZ6NO7n/ABQGJOD7/Q1D4vtymTeDVlIu+EzeDZ2xApzc7VVE4OwDhRGpK9DZ/tEG/63L1HMWJjv8igWCjbplQz2sOrWOVJQw3WgruWGn/HNdToDLUR/rsrGlznxatwY2Yr5vZJ/2cCNMq2oIXbXcJXrIaBv8NIntFc+Npb7EL3Cwo99TH3WY34Nr1aKDZ/3p7DqTHzPNqwMB7nxNKB3FnVjWcRMfgJk85NprF3KxJhc0XhjGcZJL4fNEffL5Gp0s=\",\"ak.pv\":\"46\",\"ak.dpoabenc\":\"\",\"ak.tf\":i};if(\"\"!==t)_[\"ak.ruds\"]=t;var o={i:!1,av:function(e){var t=\"http.initiator\";if(e&&(!e[t]||\"spa_hard\"===e[t]))_[\"ak.feo\"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=[\"ak.bpcip\",\"ak.cport\",\"ak.cr\",\"ak.csrc\",\"ak.gh\",\"ak.ipv\",\"ak.m\",\"ak.n\",\"ak.ol\",\"ak.proto\",\"ak.quicv\",\"ak.tlsv\",\"ak.0rtt\",\"ak.r\",\"ak.acc\",\"ak.t\",\"ak.tf\"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a(\"before_beacon\",o.av,null,null),a(\"onbeacon\",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script>",
+      "ip": "104.76.13.139",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://kakaku.com/jump/maker_link/direct.ashx?ProductID=K0001454174",
+      "redirectTo": "http://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "redirectType": "temporary",
+      "ip": "103.70.243.165",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "http://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "redirectTo": "https://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "redirectType": "permanent",
+      "ip": "35.213.113.72",
+      "port": 80,
+      "status": 301
+    },
+    {
+      "url": "https://click.linksynergy.com/fs-bin/click?id=/Vv6e0WKODg&subid=&offerid=254324.1&type=10&tmpid=9776&RD_PARM1=https%253A%252F%252Fjp%252Eext%252Ehp%252Ecom%252Fnotebooks%252Fpersonal%252Fhp%255F15s%255Feq1%253%30%253%30%253%30%252Fkakaku%255Fb%252F%253Fjumpid%253Dst%255Fcn%255Fp%255Faf%255Fkkc",
+      "redirectTo": "https://h20547.www2.hp.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/LinkShareDLP-Start?lstid=_Vv6e0WKODg-PQAiC_l5QIlZ2c_HMMtc7Q&lsurl=https%3A%2F%2Fjp.ext.hp.com%2Fnotebooks%2Fpersonal%2Fhp%5F15s%5Feq1000%2Fkakaku%5Fb%2F%3Fjumpid%3Dst%5Fcn%5Fp%5Faf%5Fkkc",
+      "redirectType": "temporary",
+      "ip": "35.213.113.72",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://h20547.www2.hp.com/is-bin/INTERSHOP.enfinity/WFS/Directplus-Customer-Site/ja_JP/-/JPY/LinkShareDLP-Start?lstid=_Vv6e0WKODg-PQAiC_l5QIlZ2c_HMMtc7Q&lsurl=https%3A%2F%2Fjp.ext.hp.com%2Fnotebooks%2Fpersonal%2Fhp%5F15s%5Feq1000%2Fkakaku%5Fb%2F%3Fjumpid%3Dst%5Fcn%5Fp%5Faf%5Fkkc",
+      "redirectTo": "https://jp.ext.hp.com/notebooks/personal/hp_15s_eq1000/kakaku_b/?jumpid=st_cn_p_af_kkc",
+      "redirectType": "temporary",
+      "ip": "184.25.226.81",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

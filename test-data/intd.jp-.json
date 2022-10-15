@@ -1,0 +1,56 @@
+{
+  "docs": [
+    {
+      "url": "https://intd.jp/",
+      "status": 308,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/html",
+        "date": "Wed, 12 Oct 2022 15:10:12 GMT",
+        "location": "https://www.intd.jp/",
+        "refresh": "0;url=https://www.intd.jp/",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-vercel-cache": "MISS",
+        "x-vercel-id": "kix1::k5zjd-1665587412131-a59b5ff2d39e"
+      },
+      "body": "",
+      "ip": "76.76.21.61",
+      "port": 443
+    },
+    {
+      "url": "https://www.intd.jp/",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "age": "3211764",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Mon, 05 Sep 2022 11:00:48 GMT",
+        "etag": "W/\"6e18-1hApZPd6Eg0vunFNqgsfQ4fMbIg\"",
+        "server": "Vercel",
+        "strict-transport-security": "max-age=63072000",
+        "x-matched-path": "/",
+        "x-nextjs-matched-path": "/",
+        "x-powered-by": "Next.js",
+        "x-vercel-cache": "STALE",
+        "x-vercel-id": "kix1::iad1::qr87n-1665587412565-5d398c1636ad"
+      },
+      "body": "<meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width\"><title>イントロダクション株式会社</title><meta name=\"robots\" content=\"index,follow\"><meta name=\"googlebot\" content=\"index,follow\"><meta name=\"description\" content=\"私たちは、WEB支援により、成果を提供し続けることを目的とし、ご利用いただいた全てのお客様にご満足いただけるよう取り組んで参ります。\"><meta property=\"og:title\" content=\"イントロダクション株式会社\"><meta property=\"og:description\" content=\"私たちは、WEB支援により、成果を提供し続けることを目的とし、ご利用いただいた全てのお客様にご満足いただけるよう取り組んで参ります。\"><meta property=\"og:url\" content=\"https://www.intd.jp/\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:locale\" content=\"ja_JP\"><meta property=\"og:site_name\" content=\"イントロダクション株式会社\"><meta name=\"msapplication-TileColor\" content=\"#da532c\"><meta name=\"theme-color\" content=\"#ffffff\"><link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/favicon-16x16.png\"><link rel=\"manifest\" href=\"/site.webmanifest\"><link rel=\"mask-icon\" href=\"/safari-pinned-tab.svg\" color=\"#5bbad5\"><meta name=\"next-head-count\" content=\"19\"><link rel=\"preload\" href=\"/_next/static/css/68bfceffb9cc628e.css\" as=\"style\"><link rel=\"stylesheet\" href=\"/_next/static/css/68bfceffb9cc628e.css\" data-n-g=\"\"><noscript data-n-css=\"\"></noscript><script defer=\"\" nomodule=\"\" src=\"/_next/static/chunks/polyfills-0d1b80a048d4787e.js\"></script><script src=\"/_next/static/chunks/webpack-24780b5468e42e63.js\" defer=\"\"></script><script src=\"/_next/static/chunks/framework-5f4595e5518b5600.js\" defer=\"\"></script><script src=\"/_next/static/chunks/main-3fff476dfb1fd164.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/_app-0d4c1ea3603b8fb3.js\" defer=\"\"></script><script src=\"/_next/static/chunks/pages/index-aeef36ce3e7dda89.js\" defer=\"\"></script><script src=\"/_next/static/k19ObnnbpBibelOSn0EqY/_buildManifest.js\" defer=\"\"></script><script src=\"/_next/static/k19ObnnbpBibelOSn0EqY/_ssgManifest.js\" defer=\"\"></script>",
+      "ip": "76.76.21.61",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://intd.jp/",
+      "redirectTo": "https://www.intd.jp/",
+      "redirectType": "permanent",
+      "ip": "76.76.21.61",
+      "port": 443,
+      "status": 308
+    }
+  ]
+}

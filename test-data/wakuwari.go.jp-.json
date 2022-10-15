@@ -1,0 +1,24 @@
+{
+  "docs": [
+    {
+      "url": "https://wakuwari.go.jp/",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "no-cache",
+        "content-length": "33023",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Wed, 12 Oct 2022 15:13:36 GMT",
+        "server": "Apache",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n  })(window,document,'script','dataLayer','GTM-586H3VJ');</script>\n  <!-- End Google Tag Manager -->\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"Cache-Control\" content=\"no-cache\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1,minimum-scale=1\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <title>イベント割</title>\n  <meta name=\"description\" content=\"次は、なに観る？どこへ行く？イベント割に関する情報ページです。\">\n  <meta name=\"keywords\" content=\"イベント割,イベント,オンライン,キャンペーン,チケット,割引,経済産業省\">\n  <meta property=\"og:url\" content=\"https://wakuwari.go.jp/\">\n  <meta property=\"og:title\" content=\"イベント割\">\n  <meta property=\"og:description\" content=\"次は、なに観る？どこへ行く？イベント割に関する情報ページです。\">\n  <meta property=\"og:image\" content=\"https://wakuwari.go.jp/assets/img/og.png\">\n  <meta property=\"og:type\" content=\"website\">\n  <meta property=\"og:locale\" content=\"ja_JP\">\n  <meta property=\"og:site_name\" content=\"イベント割\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\">\n  <link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\">\n  <link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&amp;display=swap\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"/assets/css/index.css\">\n",
+      "ip": "52.69.143.91",
+      "port": 443
+    }
+  ],
+  "chains": []
+}
