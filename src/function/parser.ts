@@ -114,12 +114,3 @@ function parseDocs(doc: Doc): Parsed {
   // for (let i = 0; i < parsed.length; i++) {}
   console.log(parsed)
 })()
-
-/**
- * if the redirect is javascript
- * criteria needs to be little vague
- *
- *
- *
- * create todos
- */

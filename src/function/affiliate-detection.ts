@@ -33,8 +33,6 @@ interface Node {
   status: number
 }
 
-let please = false
-
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 const isThreeHundres = (n: number) => /30\d/.test(String(n))
 
@@ -89,8 +87,8 @@ const extractDocFromResponse = async (res: Response): Promise<Doc | null> => {
     const head = $('head').html() || body
     doc.body = head
     doc.redirectType = 'client'
-  } catch (e: any) {
-    console.log(`[Parsing body failed] ${e.message}`)
+  } catch {
+    console.log(`[Parsing body failed] ${url}`)
     const res = await axios.get(url)
     console.log(`Faillback request status: ${res.status}`)
     if (res.status === 200) doc.body = res.data
@@ -105,8 +103,8 @@ const waitForDestination = async (page: Page): Promise<void> => {
         const metas = await page.$$eval('meta', (metas) =>
           metas.map((x) => x.getAttribute('http-equiv'))
         )
-        const hasMeta = metas.includes('Refresh')
-        if (!please && !hasMeta) {
+        const hasMeta = metas.includes('Refresh') || metas.includes('refresh') // TODO: create regex
+        if (!hasMeta) {
           clearInterval(interval)
           resolve()
         }
@@ -143,17 +141,16 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
   const tmp: Response[] = []
   try {
     // const page = await browser.newPage()
-    page.on('response', async (response) => {
-      tmp.push(response)
-      // const candidate = await extractDocFromResponse(response)
-      // if (candidate === null) return
-      // console.log(candidate)
-
-      // docs.push(candidate)
-    })
-
+    page.on('response', async (response) => tmp.push(response))
     await page.goto(target, { waitUntil: 'networkidle' })
-    await waitForDestination(page)
+    await page.waitForFunction(() => {
+      const metas = document.querySelectorAll('meta')
+      const equivs = Array.from(metas).map(
+        (meta) => meta.getAttribute('http-equiv') || '' // avoiding undefined for [.some] query
+      )
+      const hasRefresh = equivs.some((str) => str.toLowerCase() === 'refresh')
+      return hasRefresh
+    })
 
     for (const it of tmp) {
       const candidate = await extractDocFromResponse(it)
@@ -172,6 +169,15 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
 }
 
 function createChains(docs: Doc[]): Node[] {
+  const chain: Node[] = []
+  for (let i = 0; i < docs.length; i++) {
+    const cur = docs[i]
+  }
+
+  return chain
+}
+
+function createChainsPAST(docs: Doc[]): Node[] {
   let chain: Node[] = []
 
   for (let i = docs.length - 1; i > 0; i--) {
