@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext" /*Specify ECMAScript target version*/,
+    "rootDir": "src" /*ts source direcotry*/,
+    "outDir": "dist" /*where to compile javascript files*/,
+    "lib": ["DOM"],
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  }
+}

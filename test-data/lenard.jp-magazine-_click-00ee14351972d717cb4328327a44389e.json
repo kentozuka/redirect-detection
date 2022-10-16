@@ -9,8 +9,8 @@
         "content-encoding": "gzip",
         "content-length": "1012",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:19:35 GMT",
-        "expires": "Sat, 15 Oct 2022 15:19:35 GMT",
+        "date": "Sun, 16 Oct 2022 16:40:50 GMT",
+        "expires": "Sun, 16 Oct 2022 16:40:50 GMT",
         "server": "Apache",
         "vary": "Accept-Encoding",
         "x-powered-by": "PHP/7.4.21"
@@ -27,9 +27,9 @@
         "connection": "Keep-Alive",
         "content-length": "0",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:19:36 GMT",
-        "keep-alive": "timeout=5, max=69",
-        "location": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002099339.0.1501.26431.57952662.301382.2378%26_rt_ck%3D1501.221002099339&_ckt=5184000",
+        "date": "Sun, 16 Oct 2022 16:40:51 GMT",
+        "keep-alive": "timeout=5, max=76",
+        "location": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002231267.0.1501.26431.39945681.301382.2378%26_rt_ck%3D1501.221002231267&_ckt=5184000",
         "p3p": "CP='UNI CUR OUR'",
         "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
         "x-powered-by": "PHP/5.6.12",
@@ -40,26 +40,26 @@
       "port": 443
     },
     {
-      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002099339.0.1501.26431.57952662.301382.2378%26_rt_ck%3D1501.221002099339&_ckt=5184000",
+      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002231267.0.1501.26431.39945681.301382.2378%26_rt_ck%3D1501.221002231267&_ckt=5184000",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "connection": "Keep-Alive",
         "content-length": "2",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:19:37 GMT",
+        "date": "Sun, 16 Oct 2022 16:40:51 GMT",
         "keep-alive": "timeout=5, max=100",
         "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
         "x-powered-by": "PHP/5.6.12",
         "x-robots-tag": "noindex, nofollow",
-        "location": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002099339.0.1501.26431.57952662.301382.2378&_rt_ck=1501.221002099339"
+        "location": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002231267.0.1501.26431.39945681.301382.2378&_rt_ck=1501.221002231267"
       },
       "body": "",
       "ip": "116.214.81.41",
       "port": 443
     },
     {
-      "url": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002099339.0.1501.26431.57952662.301382.2378&_rt_ck=1501.221002099339",
+      "url": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002231267.0.1501.26431.39945681.301382.2378&_rt_ck=1501.221002231267",
       "status": 302,
       "redirectType": "server",
       "headers": {
@@ -67,24 +67,24 @@
         "content-length": "0",
         "content-location": "cl.php",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:19:37 GMT",
+        "date": "Sun, 16 Oct 2022 16:40:52 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "location": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002099339&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
+        "location": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002231267&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
         "pragma": "no-cache",
         "server": "Apache",
         "tcn": "choice",
         "vary": "negotiate",
-        "via": "1.1 4d1d94485bad1bf3835c40164ae90b1e.cloudfront.net (CloudFront)",
-        "x-amz-cf-id": "Uhjo0fCIkyEEMeAM-3-p41n-nN7y8ZigJPfC2jQ6_7t4VZ3lcvDZFw==",
-        "x-amz-cf-pop": "NRT20-C3",
+        "via": "1.1 af1dba21626a829695c3fa888cc0952c.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "4iFU66TIP4Jb7C2ahM_vg8RGVco9vsvsCeX0kOp9eQhCgaHCYGnovg==",
+        "x-amz-cf-pop": "NRT57-P4",
         "x-cache": "Miss from cloudfront"
       },
       "body": "",
-      "ip": "99.84.50.23",
+      "ip": "18.65.216.13",
       "port": 443
     },
     {
-      "url": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002099339&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
+      "url": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002231267&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
       "status": 200,
       "redirectType": "client",
       "headers": {
@@ -92,7 +92,7 @@
         "content-encoding": "gzip",
         "content-length": "15770",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:19:38 GMT",
+        "date": "Sun, 16 Oct 2022 16:40:53 GMT",
         "keep-alive": "timeout=5, max=100",
         "server": "Apache",
         "upgrade": "h2,h2c",
@@ -106,38 +106,55 @@
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
       "url": "https://lenard.jp/magazine/_click/00ee14351972d717cb4328327a44389e?ref=%2Fmagazine%2Fsalon-ranking%2F&",
-      "redirectTo": "https://www.rentracks.jp/adx/r.html?idx=0.26431.301382.1501.2378&dna=39018",
-      "redirectType": "meta",
+      "candidates": [
+        "https://www.rentracks.jp/adx/r.html?idx=0.26431.301382.1501.2378&dna=39018",
+        "https://www.rentracks.jp/adx/r.html?idx=0.26431.301382.1501.2378&dna=39018"
+      ],
       "ip": "150.60.247.160",
       "port": 443,
       "status": 200
     },
     {
       "url": "https://www.rentracks.jp/adx/r.html?idx=0.26431.301382.1501.2378&dna=39018",
-      "redirectTo": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002099339.0.1501.26431.57952662.301382.2378%26_rt_ck%3D1501.221002099339&_ckt=5184000",
-      "redirectType": "temporary",
+      "candidates": [
+        "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002231267.0.1501.26431.39945681.301382.2378%26_rt_ck%3D1501.221002231267&_ckt=5184000"
+      ],
       "ip": "116.214.81.37",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002099339.0.1501.26431.57952662.301382.2378%26_rt_ck%3D1501.221002099339&_ckt=5184000",
-      "redirectTo": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002099339.0.1501.26431.57952662.301382.2378&_rt_ck=1501.221002099339",
-      "redirectType": "temporary",
+      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Ft.82comb.net%2Fcl%3Fak%3DU0P28.1.E0ALV%26rtsp%3D221002231267.0.1501.26431.39945681.301382.2378%26_rt_ck%3D1501.221002231267&_ckt=5184000",
+      "candidates": [
+        "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002231267.0.1501.26431.39945681.301382.2378&_rt_ck=1501.221002231267"
+      ],
       "ip": "116.214.81.41",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002099339.0.1501.26431.57952662.301382.2378&_rt_ck=1501.221002099339",
-      "redirectTo": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002099339&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
-      "redirectType": "temporary",
-      "ip": "99.84.50.23",
+      "url": "https://t.82comb.net/cl?ak=U0P28.1.E0ALV&rtsp=221002231267.0.1501.26431.39945681.301382.2378&_rt_ck=1501.221002231267",
+      "candidates": [
+        "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002231267&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775"
+      ],
+      "ip": "18.65.216.13",
       "port": 443,
       "status": 302
+    },
+    {
+      "url": "https://la-coco.com/lp/sin_m3300_220206_t/?argument=ZSbMdhQH&dmai=SC_LC_AF_MC_0622&_rt_ck=1501.221002231267&hc_uus=70add0e12d6e276887e10bf791297775&ebisOther1=70add0e12d6e276887e10bf791297775",
+      "candidates": [
+        "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+        "https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      ],
+      "ip": "54.249.33.57",
+      "port": 443,
+      "status": 200
     }
   ]
 }

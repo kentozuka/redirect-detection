@@ -1,93 +1,58 @@
 {
   "docs": [
     {
-      "url": "https://t.afi-b.com/visit.php?guid=ON&a=s83222-y278767d&p=R666075g&id1=22716",
+      "url": "https://t.afi-b.com/visit.php?guid=ON&a=A10285K-E344087j&p=U809919F",
       "status": 200,
       "redirectType": "unknown",
       "headers": {
         "cache-control": "no-cache",
-        "content-length": "213",
+        "content-length": "327",
         "content-type": "text/html; charset=euc-jp",
-        "date": "Thu, 13 Oct 2022 16:33:59 GMT",
+        "date": "Sun, 16 Oct 2022 17:06:25 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "p3p": "CP=\"NOI DSP COR NID ADMa IVAa OUR NOR UNI\"",
         "pragma": "no-cache",
         "server": "Apache"
       },
-      "body": "        <script>\r\n            location.href=\"https://ac-nj.catsys.jp/51h12he51bcb0p81/cl/?bId=41001f04&afad_param_2=s83222&afad_param_1=08ad4ae71e2dd7bcb19b66db0122fd68202210&guid=ON&id1=22716\";\r\n        </script>",
-      "ip": "13.113.11.6",
+      "body": "        <script>\r\n            location.href=\"https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%221da2734f44a2f5e98cdc3a530f044927%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON\";\r\n        </script>",
+      "ip": "54.92.22.108",
       "port": 443
     },
     {
-      "url": "https://ac-nj.catsys.jp/51h12he51bcb0p81/cl/?bId=41001f04&afad_param_2=s83222&afad_param_1=c0472f8652b639bb43297999207f76bc202210&guid=ON&id1=22716",
-      "status": 302,
-      "redirectType": "server",
-      "headers": {
-        "connection": "keep-alive",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Thu, 13 Oct 2022 16:34:00 GMT",
-        "location": "https://ac.ebis.ne.jp/tr_set.php?argument=SurMT4V9&ai=a621f0ed502246&fpc=301.1.30.386d089835042f0K.1668270840000",
-        "server": "nginx",
-        "transfer-encoding": "chunked"
-      },
-      "body": "",
-      "ip": "210.152.82.21",
-      "port": 443
-    },
-    {
-      "url": "https://ac.ebis.ne.jp/tr_set.php?argument=SurMT4V9&ai=a621f0ed502246&fpc=301.1.30.386d089835042f0K.1668270840000",
-      "status": 302,
-      "redirectType": "server",
-      "headers": {
-        "connection": "close",
-        "content-length": "0",
-        "content-type": "text/html; charset=UTF-8",
-        "cross-origin-resource-policy": "cross-origin",
-        "date": "Thu, 13 Oct 2022 16:34:00 GMT",
-        "location": "https://landing.haru-shop.jp/haru_202202_hks01?ch=affib&fpc=301.1.30.386d089835042f0K.1668270840000&trflg=1",
-        "p3p": "policyref=\"/w3c/p3p.xml\", CP=\"NOI OUR PSA IND DSP COR ADM DEV UNI COM NAV INT STA\"",
-        "server": "Apache"
-      },
-      "body": "",
-      "ip": "210.188.196.193",
-      "port": 443
-    },
-    {
-      "url": "https://landing.haru-shop.jp/haru_202202_hks01?ch=affib&fpc=301.1.30.386d089835042f0K.1668270840000&trflg=1",
+      "url": "https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%2297e20127957a86b4a90571846cb1f9ad%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
       "status": 200,
       "redirectType": "client",
       "headers": {
-        "cache-control": "no-store, no-cache, must-revalidate",
-        "connection": "keep-alive",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Thu, 13 Oct 2022 16:34:01 GMT",
+        "date": "Sun, 16 Oct 2022 17:06:25 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "keep-alive": "timeout=5, max=100",
         "pragma": "no-cache",
-        "server": "Apache",
+        "server": "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips",
         "transfer-encoding": "chunked",
-        "x-content-type-options": "nosniff"
+        "x-cdn": "Imperva",
+        "x-iinfo": "13-411591158-411591160 NNYN CT(1 5 0) RT(1665939984681 17) q(0 1 1 1) r(1 2) U12"
       },
-      "body": "\n\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0\">\n\t<meta name=\"Description\" content=\"haru kurokami スカルプは1本で髪のボリューム、黒髪ケアが出来るシャンプー。お得に買える3本セットのお申込みも可能です。\">\n\t<meta name=\"Keywords\" content=\"シャンプー,ボリューム,頭皮,黒髪,ヘアケア\">\n\t<meta name=\"format-detection\" content=\"telephone=no\">\n\n\t<title>ボリューム・髪色で見ため年齢は変わる!?100%天然由来シャンプー haru kurokami スカルプ｜haru </title>\n\n\t<link rel=\"shortcut icon\" href=\"https://cdn.urr.jp/Advanceds/1730/haru_202202_hks01/image/favicon.ico\">\n\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.urr.jp/Advanceds/1730/haru_202202_hks01/css/sp170600.css\">\n\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css\">\n\t<link rel=\"stylesheet\" href=\"https://cdn.urr.jp/Advanceds/1730/haru_202202_hks01/css/form_sp.css\">\n\n\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>\n\n\t<!-- efo_css -->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sp_efo_required_box.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sp_efo_input.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sp_tipsy.css\">\n\t<!-- /efo_css -->\n\n\t<!-- ap_css -->\n\t    <link rel=\"stylesheet\" href=\"/css/ap.css?20220929\">\t<!-- /ap_css -->\n\n\t<!-- Google Tag Manager nijito-->\n\t<script>\n\t\t(function (w, d, s, l, i) {\n\t\t\tw[l] = w[l] || [];\n\t\t\tw[l].push({ \"gtm.start\": new Date().getTime(), event: \"gtm.js\" });\n\t\t\tvar f = d.getElementsByTagName(s)[0],\n\t\t\t\tj = d.createElement(s),\n\t\t\t\tdl = l != \"dataLayer\" ? \"&l=\" + l : \"\";\n\t\t\tj.async = true;\n\t\t\tj.src = \"https://www.googletagmanager.com/gtm.js?id=\" + i + dl;\n\t\t\tf.parentNode.insertBefore(j, f);\n\t\t})(window, document, \"script\", \"dataLayer\", \"GTM-NFX4NHB\");\n\t</script>\n\t<!-- End Google Tag Manager nijito-->\n\n<!-- ■共通タグ --> \n<!-- EBiS tag version4.10 start -->\n<script type=\"text/javascript\">\n    (function(a,d,e,b,i,s){ window[i]=window[i]||[];var f=function(a,d,e,b,i,s){\n        var o=a.getElementsByTagName(d)[0],h=a.createElement(d),t='text/javascript';\n        h.type=t;h.async=e;h.onload=function(){ window[i].init(\n            { argument:s, auto:true }\n        );};h._p=o;return h;},h=f(a,d,e,b,i,s),l='//taj',j=b+s+'/cmt.js';h.src=l+'1.'+j;\n        h._p.parentNode.insertBefore(h,h._p);h.onerror=function(k){k=f(a,d,e,b,i,s);\n        k.src=l+'2.'+j;k._p.parentNode.insertBefore(k,k._p);};\n    })(document,'script',true,'ebis.ne.jp/','ebis','SurMT4V9');\n</script>\n<!-- EBiS tag end -->\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-W5F3JM4');</script>\n<!-- End Google Tag Manager -->\n\n<!-- オプティマイザークリックタグ_20220314設置 -->\n<script type=\"text/javascript\" src=\"//www.medipartner.jp/js/medipartner_click.js\"></script>",
-      "ip": "54.64.154.1",
+      "body": "\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<title>英会話教室ならマンツーマン専門の英会話スクール Gaba</title>\n<meta name=\"description\" content=\"マンツーマン専門の英会話スクール・教室のGaba（ガバ）。全国で展開しており、レッスン日時や講師を自由に選べます。あなたの英会話レベルやニーズに合わせて、レッスンをカスタマイズします。マンツーマンレッスンのプロの講師が、会話を引き出しながら楽しくレッスンを進めていくので、英会話に自信がなくても安心して始められます。実際に、受講者の約6割は初級レベルから始めています。まずは無料体験レッスンをお試しください。\">\n<meta name=\"keywords\" content=\"英会話,教室,スクール,レッスン,マンツーマン,gaba,GABA,ガバ,がば,ギャバ,初心者,ビジネス\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n<link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/common/img/favicon.ico\">\n<link href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"js/slick/slick-theme.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"js/slick/slick.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css?20221005\">\n\n\n\n<!-- *** javascript *** -->\n\n\n<script src=\"https://www.googleoptimize.com/optimize.js?id=GTM-KLKGZ9P\"></script>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KKZNVGJ');</script>\n<!-- End Google Tag Manager -->\n",
+      "ip": "103.28.248.65",
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
-      "url": "https://ac-nj.catsys.jp/51h12he51bcb0p81/cl/?bId=41001f04&afad_param_2=s83222&afad_param_1=c0472f8652b639bb43297999207f76bc202210&guid=ON&id1=22716",
-      "redirectTo": "https://ac.ebis.ne.jp/tr_set.php?argument=SurMT4V9&ai=a621f0ed502246&fpc=301.1.30.386d089835042f0K.1668270840000",
-      "redirectType": "temporary",
-      "ip": "210.152.82.21",
+      "url": "https://t.afi-b.com/visit.php?guid=ON&a=A10285K-E344087j&p=U809919F",
+      "ip": "54.92.22.108",
       "port": 443,
-      "status": 302
+      "status": 200
     },
     {
-      "url": "https://ac.ebis.ne.jp/tr_set.php?argument=SurMT4V9&ai=a621f0ed502246&fpc=301.1.30.386d089835042f0K.1668270840000",
-      "redirectTo": "https://landing.haru-shop.jp/haru_202202_hks01?ch=affib&fpc=301.1.30.386d089835042f0K.1668270840000&trflg=1",
-      "redirectType": "temporary",
-      "ip": "210.188.196.193",
+      "url": "https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%2297e20127957a86b4a90571846cb1f9ad%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
+      "ip": "103.28.248.65",
       "port": 443,
-      "status": 302
+      "status": 200
     }
   ]
 }

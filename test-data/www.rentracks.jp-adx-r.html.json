@@ -8,9 +8,9 @@
         "connection": "Keep-Alive",
         "content-length": "0",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:20:03 GMT",
-        "keep-alive": "timeout=5, max=94",
-        "location": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002099392&_ckt=5184000",
+        "date": "Sun, 16 Oct 2022 17:02:53 GMT",
+        "keep-alive": "timeout=5, max=71",
+        "location": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002232239&_ckt=5184000",
         "p3p": "CP='UNI CUR OUR'",
         "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
         "x-powered-by": "PHP/5.6.12",
@@ -21,73 +21,103 @@
       "port": 443
     },
     {
-      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002099392&_ckt=5184000",
+      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002232239&_ckt=5184000",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "connection": "Keep-Alive",
         "content-length": "2",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:20:03 GMT",
-        "keep-alive": "timeout=5, max=96",
+        "date": "Sun, 16 Oct 2022 17:02:54 GMT",
+        "keep-alive": "timeout=5, max=99",
         "server": "Apache/2.4.16 (Unix) PHP/5.6.12",
         "x-powered-by": "PHP/5.6.12",
         "x-robots-tag": "noindex, nofollow",
-        "location": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002099392"
+        "location": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002232239"
       },
       "body": "",
       "ip": "116.214.81.41",
       "port": 443
     },
     {
-      "url": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002099392",
+      "url": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002232239",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "content-length": "0",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:20:03 GMT",
-        "location": "https://nativecamp.net?_rt_ck=2055.221002099392",
+        "date": "Sun, 16 Oct 2022 17:02:54 GMT",
+        "location": "https://nativecamp.net/user/maintenance/regular",
         "server": "Apache",
         "vary": "User-Agent"
       },
       "body": "",
-      "ip": "54.168.69.183",
+      "ip": "35.74.216.231",
       "port": 443
     },
     {
-      "url": "https://nativecamp.net/?_rt_ck=2055.221002099392",
+      "url": "https://nativecamp.net/user/maintenance/regular",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sun, 16 Oct 2022 17:02:54 GMT",
+        "location": "https://nativecamp.net/maintenance/regular",
+        "server": "Apache",
+        "vary": "User-Agent"
+      },
+      "body": "",
+      "ip": "35.74.216.231",
+      "port": 443
+    },
+    {
+      "url": "https://nativecamp.net/maintenance/regular",
       "status": 200,
       "redirectType": "client",
       "headers": {
         "content-encoding": "gzip",
-        "content-length": "19424",
+        "content-length": "1851",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:20:04 GMT",
+        "date": "Sun, 16 Oct 2022 17:02:54 GMT",
         "server": "Apache",
         "vary": "Accept-Encoding,User-Agent"
       },
-      "body": "\n<meta charset=\"utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=960\">\n\n<!-- meta: page info -->\n<title>オンライン英会話のネイティブキャンプ | 英会話レッスン回数無制限、無料体験実施中</title>\n<meta name=\"description\" content=\"オンライン英会話ネイティブキャンプでは、スマホアプリ、PCから24時間365日レッスン回数無制限で英会話レッスンが受講可能。初心者や子供向け、TOEIC®L&amp;R TEST対策、ビジネス教材やカランメソッド、AIスピーキングテストなど、英語学習に効果的なコンテンツが充実。今なら7日間無料体験実施中！\">\n<meta name=\"keywords\" content=\"オンライン英会話,ネイティブキャンプ,レッスン回数無制限,英語学習\">\n<meta name=\"application-name\" content=\"オンライン英会話ならskype（スカイプ）不要のネイティブキャンプ\">\n<meta name=\"google-site-verification\" content=\"qb5tRT3OJXBCbV5i4J8L7KMQxtPQL0IqwW93sbgPUEw\">\n<meta http-equiv=\"Expires\" content=\"86400\">\n\n<!-- meta: SNS info -->\n<meta property=\"og:site_name\" content=\"オンライン英会話のネイティブキャンプ\">\n<meta property=\"og:title\" content=\"オンライン英会話のネイティブキャンプ | 英会話レッスン回数無制限、無料体験実施中\">\n<meta property=\"og:description\" content=\"オンライン英会話ネイティブキャンプでは、スマホアプリ、PCから24時間365日レッスン回数無制限で英会話レッスンが受講可能。初心者や子供向け、TOEIC®L&amp;R TEST対策、ビジネス教材やカランメソッド、AIスピーキングテストなど、英語学習に効果的なコンテンツが充実。今なら7日間無料体験実施中！\">\n<meta property=\"og:image\" content=\"https://nativecamp.net/images/logo_ogp.png\">\n<meta property=\"og:url\" content=\"https://nativecamp.net\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"fb:admins\" content=\"419071474906535\">\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:site\" content=\"@NativeCamp\">\n\n<!-- meta: robots -->\n\n<!-- meta: facebook domain verification -->\n<meta name=\"facebook-domain-verification\" content=\"trrpe550r1dvparjj149x95dx2heys\">\n\n<link href=\"/user/favicon.ico?v=1\" type=\"image/x-icon\" rel=\"icon\"><link href=\"/user/favicon.ico?v=1\" type=\"image/x-icon\" rel=\"shortcut icon\"><link rel=\"canonical\" href=\"https://nativecamp.net\">\n<link rel=\"alternate\" href=\"https://nativecamp.net/\" hreflang=\"x-default\">\n<link rel=\"alternate\" href=\"https://nativecamp.net/\" hreflang=\"ja\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/am\" hreflang=\"am\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ar\" hreflang=\"ar\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/az\" hreflang=\"az\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/bg\" hreflang=\"bg\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/bn\" hreflang=\"bn\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/cz\" hreflang=\"cs\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/da\" hreflang=\"da\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/de\" hreflang=\"de\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/el\" hreflang=\"el\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/en\" hreflang=\"en\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/es\" hreflang=\"es\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/fa\" hreflang=\"fa\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/fi\" hreflang=\"fi\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/fr\" hreflang=\"fr\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/hi\" hreflang=\"hi\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/hr\" hreflang=\"hr\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/hu\" hreflang=\"hu\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/it\" hreflang=\"it\">\n\t\t\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ka\" hreflang=\"ka\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/kk\" hreflang=\"kk\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/km\" hreflang=\"km\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ko\" hreflang=\"ko\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/lt\" hreflang=\"lt\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ms\" hreflang=\"ms\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/my\" hreflang=\"my\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/nl\" hreflang=\"nl\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/no\" hreflang=\"no\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/pl\" hreflang=\"pl\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ps\" hreflang=\"ps\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/pt\" hreflang=\"pt\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ro\" hreflang=\"ro\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ru\" hreflang=\"ru\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/si\" hreflang=\"si\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/sk\" hreflang=\"sk\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/sl\" hreflang=\"sl\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/sq\" hreflang=\"sq\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/sr\" hreflang=\"sr\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/sv\" hreflang=\"sv\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/th\" hreflang=\"th\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/tl\" hreflang=\"tl\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/tr\" hreflang=\"tr\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/uk\" hreflang=\"uk\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/ur\" hreflang=\"ur\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/uz\" hreflang=\"uz\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/vi\" hreflang=\"vi\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/zh-cn\" hreflang=\"zh-cn\">\n\t\t\t\t\t<link rel=\"alternate\" href=\"https://nativecamp.net/zh-tw\" hreflang=\"zh-tw\">\n\t<link rel=\"manifest\" href=\"/manifest.json\">\n\n\t<script type=\"text/javascript\" src=\"/user/js/jquery.min.js?v=9.10.62\"></script>\n\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/html5reset.css?v=9.10.62\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/common.css?v=9.10.62\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/font-awesome.min.css?v=9.10.62\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/jquery-ui-1.12.1.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/details_index_ver_3.css?v=9.10.62\">\n\t\n<script type=\"text/javascript\">\n\t// forcely refresh page if back btn is clicked.\n\tvar login=0;\n\tvar controllerName = \"Home\";\n\tvar protocolDomain = window.location.protocol + \"//\" + window.location.host;\n\tvar currentHref = window.location.href;\n\tvar activeFullUrlPath = (currentHref == protocolDomain + '/appointment') ? protocolDomain + '/appointment' : ( currentHref == protocolDomain + '/waiting') ? protocolDomain + '/waiting' : (currentHref == protocolDomain + '/waiting') ? protocolDomain + '/waiting' : protocolDomain + '/mypage';\n\t\n\tif(currentHref == activeFullUrlPath) {\n\t\tif(window.performance && window.performance.navigation.type === 2) {\n\t\t\twindow.location.reload();\n\t\t}\n\t}\n</script> \n<!-- Begin Mieruca Embed Code --> \n<script type=\"text/javascript\" id=\"mierucajs\">\nwindow.__fid = window.__fid || [];__fid.push([741960509]);\n(function() {\nfunction mieruca(){if(typeof window.__fjsld != \"undefined\") return; window.__fjsld = 1; var fjs = document.createElement('script'); fjs.type = 'text/javascript'; fjs.async = true; fjs.id = \"fjssync\"; var timestamp = new Date;fjs.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://hm.mieru-ca.com/service/js/mieruca-hm.js?v='+ timestamp.getTime(); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(fjs, x); };\nsetTimeout(mieruca, 500); document.readyState != \"complete\" ? (window.attachEvent ? window.attachEvent(\"onload\", mieruca) : window.addEventListener(\"load\", mieruca, false)) : mieruca();\n})();\n</script> \n<!-- End Mieruca Embed Code -->\n<!-- LINE Tag Base Code --> \n<!-- Do Not Modify --> \n<script>\n(function(g,d,o){\n  g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};\n  var h=location.protocol==='https:'?'https://d.line-scdn.net':'http://d.line-cdn.net';\n  var s=d.createElement('script');s.async=1;\n  s.src=o||h+'/n/line_tag/public/release/v1/lt.js';\n  var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);\n\t})(window, document);\n_lt('init', {\n  customerType: 'lap',\n  tagId: '1e11feb8-0b70-4f0b-b0b2-826a83b5721d'\n});\n_lt('send', 'pv', ['1e11feb8-0b70-4f0b-b0b2-826a83b5721d']);\n</script>\n<noscript>\n<img height=\"1\" width=\"1\" style=\"display:none\"\n\t   src=\"https://tr.line.me/tag.gif?c_t=lap&t_id=1e11feb8-0b70-4f0b-b0b2-826a83b5721d&e=pv&noscript=1\" />\n</noscript>\n<!-- End LINE Tag Base Code -->\n\n<!--[if lt IE 9]>\n<script src=\"/user/js/html5shiv.js\"></script>\n<![endif]-->\n<!-- START Rakuten Marketing Tracking -->\n<!-- 「注意／削除する場合はリンクシェアジャパンへ連絡下さい」「ATTENTION／Please contact LINKSHARE Japan when you delete」 -->\n<script type=\"text/javascript\">\n\t(function (url) {\n\t\t\t/*Tracking Bootstrap\n\t\t\tSet Up DataLayer objects/properties here*/\n\t\t\tif(!window.DataLayer){\n\t\t\t\twindow.DataLayer = {};\n\t\t\t}\n\t\t\tif(!DataLayer.events){\n\t\t\t\tDataLayer.events = {};\n\t\t\t}\n\t\t\tDataLayer.events.SiteSection = \"1\";\n\t\tvar loc, ct = document.createElement(\"script\"); \n\t\tct.type = \"text/javascript\"; \n\t\tct.async = true;\n\t\tct.src = url;\n\t\tloc = document.getElementsByTagName('script')[0];\n\t\tloc.parentNode.insertBefore(ct, loc);\n\t}(document.location.protocol + \"//intljs.rmtag.com/116386.ct.js\"));\n</script>\n<!-- END Rakuten Marketing Tracking -->\n",
-      "ip": "54.168.69.183",
+      "body": "\n\t\t<meta charset=\"utf-8\">\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<meta name=\"robots\" content=\"noindex\">\n\t\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n\t\t<meta name=\"application-name\" content=\"オンライン英会話ならskype（スカイプ）不要のネイティブキャンプ\">\n\t\t<meta name=\"google-site-verification\" content=\"qb5tRT3OJXBCbV5i4J8L7KMQxtPQL0IqwW93sbgPUEw\">\n\t\t<meta http-equiv=\"Expires\" content=\"86400\">\n\n\t\t<title>Maintenance | NativeCamp.</title>\n\n\t\t<!-- meta: SNS info -->\n\t\t<meta property=\"og:site_name\" content=\"\">\n\t\t<meta property=\"og:title\" content=\"\">\n\t\t<meta property=\"og:description\" content=\"\">\n\t\t<meta property=\"og:image\" content=\"https://nativecamp.net/images/logo_ogp.png\">\n\t\t<meta property=\"og:url\" content=\"https://nativecamp.net\">\n\t\t<meta property=\"og:type\" content=\"website\">\n\t\t<meta property=\"fb:admins\" content=\"419071474906535\">\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\">\n\t\t<meta name=\"twitter:site\" content=\"@NativeCamp\">\n\n\t\t<!-- meta: facebook domain verification -->\n\t\t<meta name=\"facebook-domain-verification\" content=\"trrpe550r1dvparjj149x95dx2heys\">\n\n\t\t<link href=\"/user/favicon.ico?v=1\" type=\"image/x-icon\" rel=\"icon\"><link href=\"/user/favicon.ico?v=1\" type=\"image/x-icon\" rel=\"shortcut icon\">\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/reset.css\">\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/user/css/maintenance-2.css?v=9.10.62\">\n\t\t<script type=\"text/javascript\" src=\"/user/js/jquery.min.js?v=9.10.62\"></script>\n\t",
+      "ip": "35.74.216.231",
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
       "url": "https://www.rentracks.jp/adx/r.html?idx=0.48692.314429.2055.3140&dna=49019",
-      "redirectTo": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002099392&_ckt=5184000",
-      "redirectType": "temporary",
       "ip": "116.214.81.37",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002099392&_ckt=5184000",
-      "redirectTo": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002099392",
-      "redirectType": "temporary",
+      "url": "https://www.rentracks.me/ssc.php?__rttargeturl=https%3A%2F%2Fnativecamp.net%2F%3Fcc%3Drtrcs001%26_rt_ck%3D2055.221002232239&_ckt=5184000",
       "ip": "116.214.81.41",
       "port": 443,
       "status": 302
+    },
+    {
+      "url": "https://nativecamp.net/?cc=rtrcs001&_rt_ck=2055.221002232239",
+      "ip": "35.74.216.231",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://nativecamp.net/user/maintenance/regular",
+      "ip": "35.74.216.231",
+      "port": 443,
+      "status": 301
+    },
+    {
+      "url": "https://nativecamp.net/maintenance/regular",
+      "ip": "35.74.216.231",
+      "port": 443,
+      "status": 200
     }
   ]
 }

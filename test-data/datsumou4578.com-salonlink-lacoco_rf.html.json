@@ -9,7 +9,7 @@
         "content-encoding": "br",
         "content-length": "1022",
         "content-type": "text/html",
-        "date": "Sat, 15 Oct 2022 15:52:55 GMT",
+        "date": "Sun, 16 Oct 2022 16:43:29 GMT",
         "etag": "\"9fd-62a6f124-abae68b47770354e;br\"",
         "last-modified": "Mon, 13 Jun 2022 08:11:16 GMT",
         "server": "LiteSpeed",
@@ -29,7 +29,7 @@
         "content-encoding": "gzip",
         "content-length": "15907",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:52:56 GMT",
+        "date": "Sun, 16 Oct 2022 16:43:29 GMT",
         "keep-alive": "timeout=5, max=100",
         "server": "Apache",
         "upgrade": "h2,h2c",
@@ -43,12 +43,16 @@
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
       "url": "https://datsumou4578.com/salonlink/lacoco_rf.html?cont=01txtlink",
-      "redirectTo": "https://la-coco.com/lp/sin_m3300_220203/?argument=ZSbMdhQH&dmai=LC_41-5A_SM_3",
-      "redirectType": "meta",
       "ip": "163.44.185.236",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://la-coco.com/lp/sin_m3300_220203/?argument=ZSbMdhQH&dmai=LC_41-5A_SM_3",
+      "ip": "54.249.33.57",
       "port": 443,
       "status": 200
     }

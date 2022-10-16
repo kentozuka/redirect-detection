@@ -7,28 +7,28 @@
       "headers": {
         "connection": "keep-alive",
         "content-length": "0",
-        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
-        "location": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "date": "Sun, 16 Oct 2022 10:22:04 GMT",
+        "location": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
         "p3p": "CP=\"NOI DSP MON NID ADMa OUR NOR UNI\"",
         "server": "Apache",
         "strict-transport-security": "max-age=31536000",
         "x-robots-tag": "noindex, nofollow"
       },
       "body": "",
-      "ip": "104.102.172.244",
+      "ip": "23.41.81.28",
       "port": 443
     },
     {
-      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "connection": "Keep-Alive",
         "content-length": "352",
         "content-type": "text/html; charset=iso-8859-1",
-        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "date": "Sun, 16 Oct 2022 10:22:04 GMT",
         "keep-alive": "timeout=3, max=100",
-        "location": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "location": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
         "p3p": "CP=\"NOI DSP LAW CURa SAMa BUS STA\"",
         "server": "Apache",
         "x-robots-tag": "noindex, nofollow"
@@ -38,15 +38,15 @@
       "port": 443
     },
     {
-      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
       "status": 301,
       "redirectType": "server",
       "headers": {
         "connection": "close",
         "content-length": "378",
         "content-type": "text/html; charset=iso-8859-1",
-        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
-        "location": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "date": "Sun, 16 Oct 2022 10:22:04 GMT",
+        "location": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
         "server": "Apache",
         "strict-transport-security": "max-age=15768000",
         "x-content-type-options": "nosniff",
@@ -58,15 +58,15 @@
       "port": 443
     },
     {
-      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
       "status": 301,
       "redirectType": "server",
       "headers": {
         "connection": "keep-alive",
         "content-length": "379",
         "content-type": "text/html; charset=iso-8859-1",
-        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
-        "location": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "date": "Sun, 16 Oct 2022 10:22:04 GMT",
+        "location": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
         "server": "nginx",
         "strict-transport-security": "max-age=15768000",
         "x-content-type-options": "nosniff",
@@ -78,7 +78,7 @@
       "port": 443
     },
     {
-      "url": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
       "status": 200,
       "redirectType": "client",
       "headers": {
@@ -87,7 +87,7 @@
         "content-encoding": "gzip",
         "content-length": "20120",
         "content-type": "text/html",
-        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "date": "Sun, 16 Oct 2022 10:22:04 GMT",
         "server": "nginx",
         "strict-transport-security": "max-age=15768000",
         "vary": "Accept-Encoding,User-Agent",
@@ -100,38 +100,61 @@
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
       "url": "https://h.accesstrade.net/sp/cc?rk=0100oqh200kuup",
-      "redirectTo": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "candidates": [
+        "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae"
+      ],
       "redirectType": "temporary",
-      "ip": "104.102.172.244",
+      "ip": "23.41.81.28",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
-      "redirectTo": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
+      "candidates": [
+        "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae"
+      ],
       "redirectType": "temporary",
       "ip": "211.120.46.201",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
-      "redirectTo": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
+      "candidates": [
+        "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae"
+      ],
       "redirectType": "permanent",
       "ip": "27.133.155.155",
       "port": 443,
       "status": 301
     },
     {
-      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
-      "redirectTo": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
+      "candidates": [
+        "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae"
+      ],
       "redirectType": "permanent",
       "ip": "211.14.7.235",
       "port": 443,
       "status": 301
+    },
+    {
+      "url": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-edd5c09bef960d0bfd9b1a77c7ca52ae",
+      "candidates": [
+        "https://kimini.online/lp/tryenglish/",
+        "https://kimini.online/static/img/common/favicon.ico",
+        "https://kimini.online/static/img/common/webclip.png",
+        "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+        "//statics.a8.net/a8sales/a8sales.js",
+        "//statics.a8.net/a8sales/a8crossDomain.js"
+      ],
+      "redirectType": "unknown",
+      "ip": "211.14.7.235",
+      "port": 443,
+      "status": 200
     }
   ]
 }

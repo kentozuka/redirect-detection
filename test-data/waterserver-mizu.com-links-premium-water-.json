@@ -3,11 +3,11 @@
     {
       "url": "https://waterserver-mizu.com/links/premium-water/?cvpage=home&id=ankenbox-ranking&bp=&cid=",
       "status": 200,
-      "redirectType": "client",
+      "redirectType": "unknown",
       "headers": {
         "content-encoding": "br",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Tue, 11 Oct 2022 02:23:51 GMT",
+        "date": "Sun, 16 Oct 2022 09:35:58 GMT",
         "link": "<https://waterserver-mizu.com/wp-json/>; rel=\"https://api.w.org/\"\n<https://waterserver-mizu.com/?p=576>; rel=shortlink",
         "server": "nginx",
         "x-b-cache": "BYPASS",
@@ -17,8 +17,8 @@
         "x-signature": "KUSANAGI",
         "x-xss-protection": "1; mode=block"
       },
-      "body": "\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"robots\" content=\"noindex,nofollow\">\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n\t<meta http-equiv=\"Refresh\" content=\"1;URL=https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&amp;afad_param_1=mizucom_home_ankenbox-ranking_\">\n\t<title>ウォーターサーバーおすすめ10社比較！人気ランキングと選び方</title>\n\n\t<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://pagead2.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n\t<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"shortcut icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/style.css\">\n\t<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NCM6C4B');</script>\n<!-- End Google Tag Manager -->\n<meta name=\"google-site-verification\" content=\"FRyHmlkIdz2CtTiSaSA-xoGCvfiMWfLJ0xE-rvzHuAo\">\n\n\t<style type=\"text/css\">\n\tbody{text-align: center;}\n\t.a{color:#3553a2;padding-top:20%;font-weight: bold;margin-bottom:1em;font-size:1.2em;}\n\t.b{font-size: 1.2em;margin:2em 0 1em 0;}\n\t.c{font-size:0.8em;}\n\t.d{font-size:2em;font-weight:bold;margin:1em;}\n\t.e{max-width: 300px;margin:0 auto;}\n\t</style>\n\t<meta name=\"robots\" content=\"max-image-preview:large\">\n<link rel=\"dns-prefetch\" href=\"//s.w.org\">\n<link rel=\"https://api.w.org/\" href=\"https://waterserver-mizu.com/wp-json/\"><link rel=\"shortlink\" href=\"https://waterserver-mizu.com/?p=576\">\n<link rel=\"alternate\" type=\"application/json+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water\">\n<link rel=\"alternate\" type=\"text/xml+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water&amp;format=xml\">\n<style type=\"text/css\">\n.no-js .native-lazyload-js-fallback {\n\tdisplay: none;\n}\n</style>\n\t\t\t\t<style type=\"text/css\" id=\"wp-custom-css\">\n\t\t\t.wp-caption-text{\n\t  font-size: 0.75em!important;\n    font-weight: 500;\n}\t\t</style>\n\t\t  ",
-      "ip": "13.113.33.159",
+      "body": "  <!doctype html>\n  <html lang=\"ja\">\n  <head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"robots\" content=\"noindex,nofollow\" >\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n\t<meta http-equiv=\"Refresh\" content=\"1;URL=https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&amp;afad_param_1=mizucom_home_ankenbox-ranking_\">\n\t<title>ウォーターサーバーおすすめ10社比較！人気ランキングと選び方</title>\n\n\t<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://pagead2.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n\t<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n\t<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n\t<link rel=\"icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"shortcut icon\" type=\"image/png\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/style.css\" />\n\t<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,'script','dataLayer','GTM-NCM6C4B');</script>\r\n<!-- End Google Tag Manager -->\r\n<meta name=\"google-site-verification\" content=\"FRyHmlkIdz2CtTiSaSA-xoGCvfiMWfLJ0xE-rvzHuAo\" />\n\r\t<style type=\"text/css\">\n\tbody{text-align: center;}\n\t.a{color:#3553a2;padding-top:20%;font-weight: bold;margin-bottom:1em;font-size:1.2em;}\n\t.b{font-size: 1.2em;margin:2em 0 1em 0;}\n\t.c{font-size:0.8em;}\n\t.d{font-size:2em;font-weight:bold;margin:1em;}\n\t.e{max-width: 300px;margin:0 auto;}\n\t</style>\n\t<meta name='robots' content='max-image-preview:large' />\n<link rel='dns-prefetch' href='//s.w.org' />\n<link rel=\"https://api.w.org/\" href=\"https://waterserver-mizu.com/wp-json/\" /><link rel='shortlink' href='https://waterserver-mizu.com/?p=576' />\n<link rel=\"alternate\" type=\"application/json+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water\" />\n<link rel=\"alternate\" type=\"text/xml+oembed\" href=\"https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water&#038;format=xml\" />\n<style type=\"text/css\">\n.no-js .native-lazyload-js-fallback {\n\tdisplay: none;\n}\n</style>\n\t\t\t\t<style type=\"text/css\" id=\"wp-custom-css\">\n\t\t\t.wp-caption-text{\n\t  font-size: 0.75em!important;\n    font-weight: 500;\n}\t\t</style>\n\t\t  </head>\n  <body>\n\t<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NCM6C4B\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\r\n<!-- End Google Tag Manager (noscript) -->\n\r\n\t<p class=\"a\">しばらくお待ちください</p>\n\t<p class=\"e\"><img src=\"https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/images/reflesh-logo.png\" alt=\"ロゴ\"></p>\n\t<p class=\"b\">公式サイトへ移動中です</p>\n\t<p class=\"c\">ページ移動しない場合は、<a href=\"https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&amp;afad_param_1=mizucom_home_ankenbox-ranking_\">こちらから</a></p>\n\t<p class=\"d\"><font color=\"ff0000\"></font></p>\n\t\t<script type=\"text/javascript\">\n( function() {\n\tvar nativeLazyloadInitialize = function() {\n\t\tvar lazyElements, script;\n\t\tif ( 'loading' in HTMLImageElement.prototype ) {\n\t\t\tlazyElements = [].slice.call( document.querySelectorAll( '.native-lazyload-js-fallback' ) );\n\t\t\tlazyElements.forEach( function( element ) {\n\t\t\t\tif ( ! element.dataset.src ) {\n\t\t\t\t\treturn;\n\t\t\t\t}\n\t\t\t\telement.src = element.dataset.src;\n\t\t\t\tdelete element.dataset.src;\n\t\t\t\tif ( element.dataset.srcset ) {\n\t\t\t\t\telement.srcset = element.dataset.srcset;\n\t\t\t\t\tdelete element.dataset.srcset;\n\t\t\t\t}\n\t\t\t\tif ( element.dataset.sizes ) {\n\t\t\t\t\telement.sizes = element.dataset.sizes;\n\t\t\t\t\tdelete element.dataset.sizes;\n\t\t\t\t}\n\t\t\t\telement.classList.remove( 'native-lazyload-js-fallback' );\n\t\t\t} );\n\t\t} else if ( ! document.querySelector( 'script#native-lazyload-fallback' ) ) {\n\t\t\tscript = document.createElement( 'script' );\n\t\t\tscript.id = 'native-lazyload-fallback';\n\t\t\tscript.type = 'text/javascript';\n\t\t\tscript.src = 'https://waterserver-mizu.com/wp-content/plugins/native-lazyload/assets/js/lazyload.js';\n\t\t\tscript.defer = true;\n\t\t\tdocument.body.appendChild( script );\n\t\t}\n\t};\n\tif ( document.readyState === 'complete' || document.readyState === 'interactive' ) {\n\t\tnativeLazyloadInitialize();\n\t} else {\n\t\twindow.addEventListener( 'DOMContentLoaded', nativeLazyloadInitialize );\n\t}\n}() );\n</script>\n\t\t<script type='text/javascript' src='https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/js/jquery-3.5.1.min.js' id='jquery-js'></script>\n<script type='text/javascript' id='toc-front-js-extra'>\n/* <![CDATA[ */\nvar tocplus = {\"visibility_show\":\"show\",\"visibility_hide\":\"hide\",\"width\":\"Auto\"};\n/* ]]> */\n</script>\n<script type='text/javascript' src='https://waterserver-mizu.com/wp-content/plugins/table-of-contents-plus/front.min.js' id='toc-front-js'></script>\n  </body>\n  </html>\n",
+      "ip": "54.199.241.11",
       "port": 443
     },
     {
@@ -28,8 +28,8 @@
       "headers": {
         "connection": "keep-alive",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Tue, 11 Oct 2022 02:23:54 GMT",
-        "location": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.3bab6400635d5d4P.1696991034000",
+        "date": "Sun, 16 Oct 2022 09:35:59 GMT",
+        "location": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.f4060143dd0670bA.1697448959000",
         "server": "nginx",
         "transfer-encoding": "chunked"
       },
@@ -38,13 +38,13 @@
       "port": 443
     },
     {
-      "url": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.3bab6400635d5d4P.1696991034000",
+      "url": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.f4060143dd0670bA.1697448959000",
       "status": 200,
       "redirectType": "client",
       "headers": {
         "cache-control": "no-cache",
         "content-type": "text/html; charset=utf-8",
-        "date": "Tue, 11 Oct 2022 02:23:55 GMT",
+        "date": "Sun, 16 Oct 2022 09:35:59 GMT",
         "server": "Apache",
         "strict-transport-security": "max-age=0;"
       },
@@ -53,22 +53,66 @@
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
       "url": "https://waterserver-mizu.com/links/premium-water/?cvpage=home&id=ankenbox-ranking&bp=&cid=",
-      "redirectTo": "https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&afad_param_1=mizucom_home_ankenbox-ranking_",
-      "redirectType": "unknown",
-      "ip": "13.113.33.159",
+      "candidates": [
+        "https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&amp;afad_param_1=mizucom_home_ankenbox-ranking_",
+        "https://code.jquery.com",
+        "https://pagead2.googlesyndication.com",
+        "https://googleads.g.doubleclick.net",
+        "https://tpc.googlesyndication.com",
+        "https://www.gstatic.com",
+        "https://netdna.bootstrapcdn.com",
+        "https://s.yjtag.jp",
+        "https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png",
+        "https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/favicon.png",
+        "https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/style.css",
+        "https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);",
+        "//s.w.org",
+        "https://api.w.org/",
+        "https://waterserver-mizu.com/wp-json/",
+        "https://waterserver-mizu.com/?p=576'",
+        "https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water",
+        "https://waterserver-mizu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwaterserver-mizu.com%2Flinks%2Fpremium-water&#038;format=xml",
+        "https://www.googletagmanager.com/ns.html?id=GTM-NCM6C4B",
+        "https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/images/reflesh-logo.png",
+        "https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&amp;afad_param_1=mizucom_home_ankenbox-ranking_",
+        "https://waterserver-mizu.com/wp-content/plugins/native-lazyload/assets/js/lazyload.js';",
+        "https://waterserver-mizu.com/wp-content/themes/cucy_for_mb/js/jquery-3.5.1.min.js'",
+        "https://waterserver-mizu.com/wp-content/plugins/table-of-contents-plus/front.min.js'"
+      ],
+      "redirectType": "meta",
+      "ip": "54.199.241.11",
       "port": 443,
       "status": 200
     },
     {
       "url": "https://ac.ks-affiliate.net/c1b5e6e2e11f0cr5/cl/?bId=5671531t&afad_param_1=mizucom_home_ankenbox-ranking_",
-      "redirectTo": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.3bab6400635d5d4P.1696991034000",
+      "candidates": [
+        "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.f4060143dd0670bA.1697448959000"
+      ],
       "redirectType": "temporary",
       "ip": "210.152.82.21",
       "port": 443,
       "status": 302
+    },
+    {
+      "url": "https://premium-water.net/prm/lp304_normal?utm_source=cuebic&utm_medium=affiliate&utm_campaign=gift_2000&argument=LyhT183x&dmai=a62cea24f9ebc6&uqid=bb76c2e4b6e5a203&bid=dce69T4268vav8ae&fpc=82.3.365.f4060143dd0670bA.1697448959000",
+      "candidates": [
+        "https://fonts.googleapis.com",
+        "https://fonts.gstatic.com",
+        "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;family=Zen+Maru+Gothic:wght@700&amp;display=swap",
+        "https://premium-water.net/prm/lp304_water",
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
+        "https://premium-water.net/prm/lp304_water",
+        "https://premium-water.net/_prm/common/img/og.jpg",
+        "https://premium-water.net/_prm/common/img/og.jpg"
+      ],
+      "redirectType": "js-href",
+      "ip": "54.238.18.44",
+      "port": 443,
+      "status": 200
     }
   ]
 }

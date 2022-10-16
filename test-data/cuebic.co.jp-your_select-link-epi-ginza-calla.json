@@ -1,0 +1,130 @@
+{
+  "docs": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/epi-ginza-calla?cvpage=ep001&id=fv_btn&landing=ep001",
+      "status": 200,
+      "redirectType": "unknown",
+      "headers": {
+        "cache-control": "max-age=0, no-cache, no-store",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sun, 16 Oct 2022 16:44:16 GMT",
+        "link": "<https://cuebic.co.jp/your_select/wp-json/>; rel=\"https://api.w.org/\"\n<https://cuebic.co.jp/your_select/?p=537>; rel=shortlink",
+        "pragma": "no-cache",
+        "server": "nginx",
+        "x-b-cache": "B=BYPASS:D=EXPIRE/CREATE",
+        "x-content-type-options": "nosniff\nnosniff",
+        "x-f-cache": "BYPASS",
+        "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
+        "x-page-speed": "1.13.35.2-0",
+        "x-pst-dynamic": "EXPIRE/CREATE; 1.880 ms; L4",
+        "x-signature": "KUSANAGI",
+        "x-xss-protection": "1; mode=block\n1; mode=block"
+      },
+      "body": "<!doctype html>\n<html lang=\"ja\">\n<head>\n<!-- wexal_pst_init.js does not exist -->\n<!-- engagement_delay.js does not exist -->\n<!-- lazysizes.min.js does not exist -->\n<link rel=\"dns-prefetch\" href=\"//www.googletagmanager.com/\">\n<link rel=\"preconnect\" href=\"//www.googletagmanager.com/\">\n<link rel=\"dns-prefetch\" href=\"//ajax.googleapis.com/\">\n<link rel=\"preconnect\" href=\"//ajax.googleapis.com/\">\n<!-- wp shorten url enabled -->\n<meta charset=\"UTF-8\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n<meta http-equiv=\"Refresh\" content=\"1;URL=https://px.a8.net/svt/ejp?a8mat=1NLX0G+CBKR0A+20LM+6ARKY&id1=your_select_ep001_id_fv_btn_landing_epi-ginza-calla\" rel=\"nofollow\">\n<title>your SELECT.</title>\n<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\"/>\n<link rel=\"shortcut icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/your_select/wp-content/themes/your_select/style.css\"/>\n<!-- Google Tag Manager -->\n<script>\n\t\t(function(w, d, s, l, i) {\n\t\t\tw[l] = w[l] || [];\n\t\t\tw[l].push({\n\t\t\t\t'gtm.start': new Date().getTime(),\n\t\t\t\tevent: 'gtm.js'\n\t\t\t});\n\t\t\tvar f = d.getElementsByTagName(s)[0],\n\t\t\t\tj = d.createElement(s),\n\t\t\t\tdl = l != 'dataLayer' ? '&l=' + l : '';\n\t\t\tj.async = true;\n\t\t\tj.src =\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\t\tf.parentNode.insertBefore(j, f);\n\t\t})(window, document, 'script', 'dataLayer', 'GTM-NR98W5Z');\n\t</script>\n<!-- End Google Tag Manager -->\n<style type=\"text/css\">\n\t\tbody {\n\t\t\ttext-align: center;\n\t\t}\n\n\t\t.a {\n\t\t\tcolor: #3553a2;\n\t\t\tfont-weight: bold;\n\t\t}\n\n\t\t.b {\n\t\t\tfont-size: 1.2em;\n\t\t\tpadding-top: 2em;\n\t\t}\n\n\t\t.c {\n\t\t\tfont-size: 0.8em;\n\t\t}\n\n\t\t.contentBar {\n\t\t\twidth: 90px;\n\t\t\tpadding-top: 20%;\n\t\t\tpadding-bottom: 10px;\n\t\t\tmargin: 0 auto;\n\t\t}\n\n\t\t/*  四角いブロックの中のアニメーション時の色と動き */\n\t\t.barlittle {\n\t\t\tbackground-color: #17cddd;\n\t\t\tbackground-image: -moz-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tbackground-image: -webkit-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tborder: 1px solid #bbbbb;\n\t\t\twidth: 10px;\n\t\t\theight: 10px;\n\t\t\tfloat: left;\n\t\t\tmargin-left: 5px;\n\t\t\topacity: 0.1;\n\t\t\t-moz-transform: scale(0.7);\n\t\t\t-webkit-transform: scale(0.7);\n\t\t\t-moz-animation: move 1s infinite linear;\n\t\t\t-webkit-animation: move 1s infinite linear;\n\t\t}\n\n\t\t/* ブロックの１つ１つのアニメーションをずらす */\n\t\t#block_1 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t#block_2 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_3 {\n\t\t\t-moz-animation-delay: .2s;\n\t\t\t-webkit-animation-delay: .2s;\n\t\t}\n\n\t\t#block_4 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_5 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t/* キーフレームを使ったローディングの始まりと終わりの指定 */\n\t\t@-moz-keyframes move {\n\t\t\t0% {\n\t\t\t\t-moz-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-moz-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\n\t\t@-webkit-keyframes move {\n\t\t\t0% {\n\t\t\t\t-webkit-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-webkit-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\t</style>\n<meta name='robots' content='max-image-preview:large'/>\n<link rel='dns-prefetch' href='//ajax.googleapis.com'/>\n<link rel='dns-prefetch' href='//s.w.org'/>\n<link rel='stylesheet' id='sbi_styles-css' href='/your_select/wp-content/plugins/instagram-feed/css/sbi-styles.min.css' type='text/css' media='all'/>\n<link rel='stylesheet' id='common-style-css' href='/your_select/wp-content/themes/your_select/style.css' type='text/css' media='all'/>\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-32x32.png\" sizes=\"32x32\"/>\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-192x192.png\" sizes=\"192x192\"/>\n<link rel=\"apple-touch-icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-180x180.png\"/>\n<meta name=\"msapplication-TileImage\" content=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-270x270.png\"/>\n</head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NR98W5Z\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<div class=\"contentBar\">\n<div id=\"block_1\" class=\"barlittle\"></div>\n<div id=\"block_2\" class=\"barlittle\"></div>\n<div id=\"block_3\" class=\"barlittle\"></div>\n<div id=\"block_4\" class=\"barlittle\"></div>\n<div id=\"block_5\" class=\"barlittle\"></div>\n</div>\n<p class=\"a\">しばらくお待ちください</p>\n<p class=\"b\">銀座カラーの公式サイトへ移動中です</p>\n<p class=\"c\">ページ移動しない場合は、<a href=\"https://px.a8.net/svt/ejp?a8mat=1NLX0G+CBKR0A+20LM+6ARKY&id1=your_select_ep001_id_fv_btn_landing_epi-ginza-calla\" rel=\"nofollow\">こちらから</a></p>\n<!-- Instagram Feed JS -->\n<script type=\"text/javascript\">\nvar sbiajaxurl = \"https://cuebic.co.jp/your_select/wp-admin/admin-ajax.php\";\n</script>\n<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' id='jquery-js'></script>\n<script type='text/javascript' id='toc-front-js-extra'>\n/* <![CDATA[ */\nvar tocplus = {\"smooth_scroll\":\"1\",\"visibility_show\":\"\\u2228\",\"visibility_hide\":\"\\u2227\",\"visibility_hide_by_default\":\"1\",\"width\":\"100%\",\"smooth_scroll_offset\":\"120\"};\n/* ]]> */\n</script>\n<script type='text/javascript' src='/your_select/wp-content/plugins/table-of-contents-plus/front.min.js' id='toc-front-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/base.js' id='base_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/header-scroll.js' id='header_scroll_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/contents.js' id='contents_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/table-cover.js' id='table_cover_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/table-order.js' id='table_order_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/floatbtn.js' id='floatbtn_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/tab-graph.js' id='tab_graph_js-js'></script>\n</body>\n</html>",
+      "ip": "18.177.174.245",
+      "port": 443
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=1NLX0G+CBKR0A+20LM+6ARKY&id1=your_select_ep001_id_fv_btn_landing_epi-ginza-calla",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Sun, 16 Oct 2022 16:44:17 GMT",
+        "location": "https://www.af-mark.jp/ginza-calla/?id=27139&uid=&a8=9b0ndbI3qWuiWypvCrZ-oST.e3SmKWzH-rf4vuQd4UB_QW0Tiw6aKI6-_wRa71Aq_Op9eWaql4AqB1_qc1RiDwRAY4R_Y4Tq_ORQd4g_YJBzdbgAmwRzB1pZH-7bTX0Wh-7u6UB-Qt0zBbguqX0vnXRmxs00000009409001",
+        "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "18.179.87.121",
+      "port": 443
+    },
+    {
+      "url": "https://www.af-mark.jp/ginza-calla/?id=27139&uid=&a8=9b0ndbI3qWuiWypvCrZ-oST.e3SmKWzH-rf4vuQd4UB_QW0Tiw6aKI6-_wRa71Aq_Op9eWaql4AqB1_qc1RiDwRAY4R_Y4Tq_ORQd4g_YJBzdbgAmwRzB1pZH-7bTX0Wh-7u6UB-Qt0zBbguqX0vnXRmxs00000009409001",
+      "status": 200,
+      "redirectType": "unknown",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "951",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sun, 16 Oct 2022 16:44:17 GMT",
+        "p3p": "policyref'/w3c/p3p.xml', CP='UNI CUR OUR'",
+        "server": "Apache"
+      },
+      "body": "<html>\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"refresh\" content=\"5;URL=https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=190cdc129805dda6a7ad506c174a069f90bafe9d\">\n  \t<script type=\"text/javascript\">\n  \t    var code = 'ginza-calla';\n        var sessionId = '32818215';\n        var redirectUrl = 'https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=190cdc129805dda6a7ad506c174a069f90bafe9d';\n    </script>\n  </head>\n  <body id='common_track_script'>\n  </body>\n  <script type=\"text/javascript\" src=\"./index_track.js?c=30661310\"></script>\n</html>",
+      "ip": "35.79.2.153",
+      "port": 443
+    },
+    {
+      "url": "https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e",
+      "status": 200,
+      "redirectType": "unknown",
+      "headers": {
+        "cache-control": "max-age=0",
+        "content-encoding": "gzip",
+        "content-length": "301",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sun, 16 Oct 2022 16:44:22 GMT",
+        "expires": "Sun, 16 Oct 2022 16:44:22 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "body": "<html><head\"></head><body></body><script>var redirectUrl = \"https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e\";</script><script type=\"text/javascript\" src=\"https://www.af-mark.jp/ginza-calla/merk.js\"></script><script>if(\"function\"!=typeof nmht){window.location.replace(\"https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e\")}</script></html>",
+      "ip": "139.162.70.164",
+      "port": 443
+    },
+    {
+      "url": "https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Sun, 16 Oct 2022 16:44:23 GMT",
+        "last-modified": "Fri, 14 Oct 2022 08:29:47 GMT",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding\nUser-Agent",
+        "x-proxy-cache": "MISS"
+      },
+      "body": "\n<meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"robots\" content=\"noindex,noarchive\">\n<title>銀座カラー｜新プラン！</title>\n<meta name=\"keywords\" content=\"脱毛,脱毛サロン,全身脱毛,脱毛し放題,銀座カラー\">\n<meta name=\"description\" content=\"美容脱毛サロン「銀座カラー」は、お客様とまっすぐに向き合う脱毛サロンでありたい。銀座カラーはお客様ファーストを目指しお客様の一番近くでキレイづくりをサポートします！\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width, maximum-scale=2.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no, target-densitydpi=device-dpi\">\n<link rel=\"stylesheet\" href=\"css/reset.css\">\n<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"css/animate.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../parts/ca/salon_list/salon_list_2209.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/swiper.css\" media=\"screen\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/colorbox.css\">\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n<script src=\"js/pagetop.js\"></script>\n<script src=\"js/scroll.js\"></script>\n<script src=\"js/wow.js\"></script>\n<script src=\"js/swiper.min.js\"></script>\n<script src=\"js/jquery.rwdImageMaps.min.js\"></script>\n<script src=\"js/jquery.colorbox-min.js\"></script>\n<script src=\"js/lp_ui.js\"></script>\n<script type=\"text/javascript\">\n\t new WOW().init();\n</script>\n\n\n<!-- Google Tag Manager 1-->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N9H8R5');</script>\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-K87GNKM');</script>\n<!-- End Google Tag Manager 1-->\n\n<!-- 190528_AFF用（ネトマさんタグ）-Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N6TJ2FT');</script>\n<!-- //190528_AFF用（ネトマさんタグ）-Google Tag Manager -->\n\n\n\n",
+      "ip": "52.68.250.208",
+      "port": 443
+    }
+  ],
+  "rings": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/epi-ginza-calla?cvpage=ep001&id=fv_btn&landing=ep001",
+      "ip": "18.177.174.245",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=1NLX0G+CBKR0A+20LM+6ARKY&id1=your_select_ep001_id_fv_btn_landing_epi-ginza-calla",
+      "ip": "18.179.87.121",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://www.af-mark.jp/ginza-calla/?id=27139&uid=&a8=9b0ndbI3qWuiWypvCrZ-oST.e3SmKWzH-rf4vuQd4UB_QW0Tiw6aKI6-_wRa71Aq_Op9eWaql4AqB1_qc1RiDwRAY4R_Y4Tq_ORQd4g_YJBzdbgAmwRzB1pZH-7bTX0Wh-7u6UB-Qt0zBbguqX0vnXRmxs00000009409001",
+      "ip": "35.79.2.153",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e",
+      "ip": "139.162.70.164",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=20063f8c843b5dd1ad7ea28de1c96336a35d272e",
+      "ip": "52.68.250.208",
+      "port": 443,
+      "status": 200
+    }
+  ]
+}

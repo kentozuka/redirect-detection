@@ -1,80 +1,50 @@
 {
   "docs": [
     {
-      "url": "https://px.a8.net/svt/ejp?a8mat=3N1S8L+B5A6IA+2NA+1ZGG0Y",
+      "url": "https://px.a8.net/svt/ejp?a8mat=3H3GSU+8IM9BM+320A+5YJRM",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "cache-control": "no-cache",
         "connection": "keep-alive",
         "content-length": "0",
-        "date": "Sat, 15 Oct 2022 15:52:04 GMT",
-        "location": "https://www.alc.co.jp/affiliate/?cnom=a8net&code=s00000000343012&afurl=https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
+        "date": "Sun, 16 Oct 2022 17:06:08 GMT",
+        "location": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
         "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
         "server": "Apache"
       },
       "body": "",
-      "ip": "13.113.81.163",
+      "ip": "18.179.87.121",
       "port": 443
     },
     {
-      "url": "https://www.alc.co.jp/affiliate/?cnom=a8net&code=s00000000343012&afurl=https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
-      "status": 302,
-      "redirectType": "server",
-      "headers": {
-        "content-length": "0",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:52:04 GMT",
-        "location": "https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
-        "server": "Apache",
-        "via": "1.1 e863b36e031bf6bac4affa9bea0f3f30.cloudfront.net (CloudFront)",
-        "x-amz-cf-id": "4ByHD3wCNds5svnBEpCITCoBXkzXMRjJjVgsgV5Wwz-Wah-lhI2izw==",
-        "x-amz-cf-pop": "NRT57-P3",
-        "x-cache": "Miss from cloudfront",
-        "x-powered-by": "PHP/5.3.3"
-      },
-      "body": "",
-      "ip": "18.65.202.24",
-      "port": 443
-    },
-    {
-      "url": "https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
+      "url": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
       "status": 200,
       "redirectType": "client",
       "headers": {
-        "cache-control": "no-store, no-cache, must-revalidate",
+        "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sat, 15 Oct 2022 15:52:05 GMT",
-        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "pragma": "no-cache",
-        "server": "Apache/2.4.48 ()",
-        "via": "1.1 80814d3806accb83cfb901833749383e.cloudfront.net (CloudFront)",
-        "x-amz-cf-id": "qtX_jhopx-QKTsXosddHpwLSRBMMIGWfxrYSEwyjTuL9s2aXPueF3w==",
-        "x-amz-cf-pop": "NRT57-P4",
-        "x-cache": "Miss from cloudfront",
-        "x-powered-by": "PHP/7.4.11"
+        "date": "Sun, 16 Oct 2022 17:06:09 GMT",
+        "server": "nginx",
+        "vary": "Accept-Encoding"
       },
-      "body": "\n\n    <!-- Google Tag Manager -->\n    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n        })(window,document,'script','dataLayer','GTM-MHXSHBN');</script>\n    <!-- End Google Tag Manager -->\n\n\n<meta charset=\"utf-8\">\n<title>TALKING Marathon ®︎（トーキングマラソン） 瞬間英語発話トレーニング</title>\n<meta name=\"description\" content=\"「聞いてるだけで、英語は話せない。」TALKING Marathon ®︎（トーキングマラソン）は専用スマートフォンアプリの音声認識機能を使った新しい英会話トレーニングサービスです。アルクのキクタン英会話をベースに実践的な英会話力を身につけることができます。\">\n<meta name=\"keywords\" content=\"TALKING Marathon ®︎,トーキングマラソン,英会話,スピーキング,通信講座,通信教育,キクタン英会話,アルク,瞬間英作文,オンライン英会話\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n<meta name=\"format-detection\" content=\"telephone=no\">\n\n<link rel=\"icon\" href=\"/favicon.ico\">\n<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/apple-touch-icon-180x180.png\">\n\n<meta property=\"og:title\" content=\"「聞いてるだけで、英語は話せない。」トーキングマラソン®︎ 瞬間英語発話トレーニング\">\n<meta property=\"og:type\" content=\"website\">\n<meta property=\"og:url\" content=\"https://alc.talkingmarathon.com\">\n<meta property=\"og:image\" content=\"https://alc.talkingmarathon.com/ogp.png\">\n<meta property=\"og:site_name\" content=\"トーキングマラソン\">\n<meta property=\"og:description\" content=\"アルクのキクタン英会話をベースに専用スマートフォンアプリの音声認識機能を使った新しい英会話トレーニングサービスです。第二言語習得理論や脳科学の理論に基づいたメソッドで実践的な英会話力を身につけることができます。\">\n\n<meta name=\"twitter:card\" content=\"summary_large_image\">\n<meta name=\"twitter:title\" content=\"「聞いてるだけで、英語は話せない。」トーキングマラソン®︎ 瞬間英語発話トレーニング\">\n<meta name=\"twitter:url\" content=\"https://alc.talkingmarathon.com\">\n<meta name=\"twitter:description\" content=\"アルクのキクタン英会話をベースに専用スマートフォンアプリの音声認識機能を使った新しい英会話トレーニングサービスです。第二言語習得理論や脳科学の理論に基づいたメソッドで実践的な英会話力を身につけることができます。\">\n<meta name=\"twitter:image\" content=\"https://alc.talkingmarathon.com/ogp.png\">\n\n<meta name=\"google-site-verification\" content=\"ruSkPskyxt1jDoXGAvTNKhAo7tCBIgzN1BcnU0kJxtA\">\n\n<meta name=\"viewport\" content=\"width=1204, maximum-scale=1\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/pc/css/init.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/pc/css/content.css?v=8\">\n<link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.6.3/css/all.css\">\n<!--[if lt IE 9]>\n<script  type=\"text/javascript\" src=\"js/html5shiv.min.js\"></script>\n<script type=\"text/javascript\" src=\"js/selectivizr-min.js\"></script>\n<![endif]-->\n<!--[if lt IE 9]>\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js\"></script>\n<![endif]-->\n<!--[if gte IE 9]><!-->\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js\"></script>\n<!--<![endif]-->\n<script type=\"text/javascript\" src=\"/js/functions.js\"></script>\n",
-      "ip": "18.65.216.18",
+      "body": "\n    <meta charset=\"utf-8\">\n    <title>駅前留学NOVA【公式】英会話スクール・英会話教室</title>\n    <meta name=\"description\" content=\"英会話スクール・英会話教室の駅前留学NOVA公式WEBサイト。入会金無料で安心の月謝制。駅前で気軽に英会話を身につけたい方は、駅前留学NOVAへ。低料金、無料体験レッスン、大好評の１万円ポッキリ留学、２万円マンツーマン留学、実施中！！\">\n    <meta name=\"keywords\" content=\"英会話,英会話教室,英会話スクール,マンツーマン,無料体験\">\n    <meta name=\"robots\" content=\"INDEX,FOLLOW\">\n\n    <!-- ogタグ関係ttle ディスクリプションと共通-->\n    <meta property=\"og:title\" content=\"駅前留学NOVA【公式】英会話スクール・英会話教室\">\n    <meta property=\"og:site_name\" content=\"英会話教室・スクール｜駅前留学NOVA【公式】\">\n    <meta property=\"og:description\" content=\"英会話スクール・英会話教室の駅前留学NOVA公式WEBサイト。入会金無料で安心の月謝制。駅前で気軽に英会話を身につけたい方は、駅前留学NOVAへ。低料金、無料体験レッスン、大好評の１万円ポッキリ留学、２万円マンツーマン留学、実施中！！\">\n    <!-- 絶対パス httpsも確認-->\n    <meta property=\"og:url\" content=\"https://www.nova.co.jp/\">\n    <!-- 共通-->\n    <meta property=\"og:type\" content=\"website\"> \n    <meta property=\"og:image\" content=\"https://www.nova.co.jp/icon_i.png\">\n    <link rel=\"apple-touch-icon\" href=\"https://www.nova.co.jp/icon_i.png\">\n\n    <!-- 絶対パス httpsも確認-->\n    <link rel=\"canonical\" href=\"https://www.nova.co.jp/\">\n\n    <!-- サイトルートへの相対パス-->\n    <link rel=\"INDEX\" href=\"./\">\n    <link rel=\"shortcut icon\" href=\"favicon.ico\">\n\n\t<!--画像の先読み込み-->\n\t<!--PC-->\n    <link rel=\"preload\" href=\"/images/top_220816/img_usagi20th_pc.jpg\" as=\"image\" media=\"(min-width: 768px)\">\n    <link rel=\"preload\" href=\"/images/top_220816/img_ocha_pc20220816_cpn.jpg\" as=\"image\" media=\"(min-width: 768px)\">\n    <link rel=\"preload\" href=\"/images/top_210719/img_toeic_e_pc.jpg\" as=\"image\" media=\"(min-width: 768px)\">\n    <link rel=\"preload\" href=\"/images/top_210625/img_eikaiwa_style_off.png\" as=\"image\" media=\"(min-width: 768px)\">\n\t<!--SP-->\n    <link rel=\"preload\" href=\"/images/top_220816/img_usagi20th_sp.jpg\" as=\"image\" media=\"(max-width: 767px)\">\n    <link rel=\"preload\" href=\"/images/top_220816/img_ocha_sp20220816_cpn.jpg\" as=\"image\" media=\"(max-width: 767px)\">\n    <link rel=\"preload\" href=\"/images/top_210719/img_toeic_e_sp.jpg\" as=\"image\" media=\"(max-width: 767px)\">\n    <link rel=\"preload\" href=\"/images/top_210719/img_eikaiwa_style_sp.jpg\" as=\"image\" media=\"(max-width: 767px)\">\n\t\n    <!-- jquery CDN -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n    <script>window.jQuery || document.write('<script src=\"/js/jquery-3.3.1.min.js\"><\\/script>');</script>\n    <!-- jquery end  -->\n    <script src=\"/js_v2018/getParameters.js?v20190220_01\"></script>\n\n\n    <!-- スプリット -->\n<!-- PC用CSS START -->\n<link href=\"css/reset.css\" rel=\"stylesheet\" media=\"all\">\n<link href=\"css/footerlink.css\" rel=\"stylesheet\" media=\"all\">\n<link href=\"css/screen2022.css?v220203\" rel=\"stylesheet\" media=\"all\">\n<link href=\"css/2021/common.css\" rel=\"stylesheet\" media=\"all\">\n<link href=\"css/2021/top220824.css?v2205\" rel=\"stylesheet\" media=\"all\">\n<!-- PC用CSS END -->\n\n<!-- PC用SCRIPT START -->\n<!-- スライダー -->\n<script src=\"/js/smartRollover2.js\"></script>\n<!-- PC用SCRIPT END -->\n<!-- 遷移 -->\n<script type=\"text/javascript\" src=\"/js/cookies/jquery.cookie.js\"></script>\n<script type=\"text/javascript\" src=\"/js/cookies/SuccessionMediaCD.js\"></script>\n\n    <script><!--\n        var getPara = getParametersFunc();\n        var DTYPE = \"pc\";\n        //textOpenも展開\n        var aMsg,plSp3,inType;\n        var inGet = \"\";\n        //LP化の変数\n        var sc_display=\"\";\n        var sc_name=\"\";\n        var sc_id=\"\";\n\n        aMsg=new Array();\n        var i=0;\n        var plURL = location.search;\n        var plSp1 = plURL.split(\"?\");\n        //引数を保存用\n        var inType=\"\";\n        //メール件名用\n        var p_type=\"\";\n        //初期ページ番号\n        var initPage=0;\n\n        //引数がある場合\n        if(getPara){\n            //引数にochanomaがあればリダイレクト処理\n            var urlOcha = Object.keys(getPara).some(function(key){\n                return getPara[key].indexOf('ochanoma') !== -1;\n            });\n            if(urlOcha){\n                document.location = \"ochanoma/\";\n            }\n        }\n        -->\n    </script>\n    \n    <!-- Resource Hints -->\n<meta http-equiv=\"x-dns-prefetch-control\" content=\"on\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://www.google.com/maps\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://marketingplatform.google.com/about/tag-manager/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://www.google.com/analytics/analytics/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://developers.google.com/speed/libraries/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://developers.google.com/apis-explorer/#p/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://fonts.google.com/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://www.doubleclickbygoogle.com/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://www.yahoo.com/\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://www.facebook.com\">\n<link rel=\"preconnect dns-prefetch\" href=\"https://connect.facebook.net\">\n\n<!-- 遷移 -->\n<script defer=\"\" type=\"text/javascript\" src=\"/js/cookies/jquery.cookie.js\"></script>\n<script defer=\"\" type=\"text/javascript\" src=\"/js/cookies/SuccessionMediaCD.js\"></script>\n\n<!-- Google Tag Manager nova2 -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PJSBMGM');</script>\n<!-- End Google Tag Manager -->\n\n\n",
+      "ip": "202.254.238.2",
       "port": 443
     }
   ],
-  "chains": [
+  "rings": [
     {
-      "url": "https://px.a8.net/svt/ejp?a8mat=3N1S8L+B5A6IA+2NA+1ZGG0Y",
-      "redirectTo": "https://www.alc.co.jp/affiliate/?cnom=a8net&code=s00000000343012&afurl=https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
-      "redirectType": "temporary",
-      "ip": "13.113.81.163",
+      "url": "https://px.a8.net/svt/ejp?a8mat=3H3GSU+8IM9BM+320A+5YJRM",
+      "ip": "18.179.87.121",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://www.alc.co.jp/affiliate/?cnom=a8net&code=s00000000343012&afurl=https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
-      "redirectTo": "https://alc.talkingmarathon.com/?utm_source=a8&utm_medium=affiliate&utm_campaign=a8_012_text_TM&a8=Vhfv-h6e1mubPZ0vmGukaefileKWSfzQsmTU8H0nilCe1mfhydf9uYfQSdcipi7u3lRdA2fz3hfvss00000000343012",
-      "redirectType": "temporary",
-      "ip": "18.65.202.24",
+      "url": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
+      "ip": "202.254.238.2",
       "port": 443,
-      "status": 302
+      "status": 200
     }
   ]
 }

@@ -33,6 +33,33 @@ interface Node {
   status: number
 }
 
+interface Ring {
+  url: string
+  candidates: string[]
+  redirectType: PossibleTypes
+  ip: string
+  port: number
+  status: number
+}
+
+interface Route {
+  // id: string
+  start: string
+  documents: number
+  destination: string
+}
+
+interface Redirect {
+  // routeId: string
+  url: string
+  index: number
+  status: number
+  type: PossibleTypes
+  positive: boolean
+  ip: string
+  port: number
+}
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 const isThreeHundres = (n: number) => /30\d/.test(String(n))
 
@@ -88,16 +115,33 @@ const extractDocFromResponse = async (res: Response): Promise<Doc | null> => {
     doc.body = head
     doc.redirectType = 'client'
   } catch {
-    console.log(`[Parsing body failed] ${url}`)
+    // console.log(`[Parsing body failed] ${url}`)
     const res = await axios.get(url)
-    console.log(`Faillback request status: ${res.status}`)
+    // console.log(`Faillback request status: ${res.status}`)
     if (res.status === 200) doc.body = res.data
   } // sometimes body() fails
   return doc
 }
 
-const waitForDestination = async (page: Page): Promise<void> => {
+const loadingAnimation = (
+  text = '',
+  chars = ['⠙', '⠘', '⠰', '⠴', '⠤', '⠦', '⠆', '⠃', '⠋', '⠉'],
+  delay = 100
+) => {
+  let x = 0
+
+  return setInterval(function () {
+    const opt = `\r${chars[x++]} ${text}`
+    process.stdout.write(opt)
+    x = x % chars.length
+  }, delay)
+}
+
+const waitForNoMeta = async (page: Page): Promise<void> => {
   return new Promise((resolve) => {
+    const animInt = loadingAnimation(
+      'Waiting for page navigation to resolve...'
+    )
     const interval = setInterval(async () => {
       try {
         const metas = await page.$$eval('meta', (metas) =>
@@ -106,19 +150,22 @@ const waitForDestination = async (page: Page): Promise<void> => {
         const hasMeta = metas.includes('Refresh') || metas.includes('refresh') // TODO: create regex
         if (!hasMeta) {
           clearInterval(interval)
+          clearInterval(animInt)
           resolve()
         }
-      } catch (e: any) {
+      } catch {
         // page navigation destroys the page
-        console.error(e.message)
+        // console.error(e.message)
       }
-    }, 100)
+    }, 300)
   })
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 let browser: BrowserContext | null = null
-async function filterDocumentRequests(target: string): Promise<Doc[]> {
+async function filterDocumentRequests(
+  target: string
+): Promise<{ start: string; docs: Doc[]; destination: string }> {
   const docs: Doc[] = []
 
   const pathToExtension =
@@ -133,24 +180,37 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
       //   `--load-extension=${pathToExtension}`
       // ]
     })
+    browserContext.route('**/*', (route, request) => {
+      const ignores = [
+        'stylesheet',
+        'image',
+        'media',
+        'font',
+        'script',
+        'texttrack',
+        'fetch',
+        'eventsource',
+        'websocket',
+        'manifest',
+        'other'
+      ]
+      if (ignores.includes(request.resourceType())) return route.abort()
+      route.continue()
+    })
+    browserContext.setDefaultTimeout(1000 * 5)
     browser = browserContext
   }
 
   // const browser = await chromium.launch({ headless: false })
   const page = await browser!.newPage()
   const tmp: Response[] = []
+  let url = page.url()
   try {
     // const page = await browser.newPage()
     page.on('response', async (response) => tmp.push(response))
-    await page.goto(target, { waitUntil: 'networkidle' })
-    await page.waitForFunction(() => {
-      const metas = document.querySelectorAll('meta')
-      const equivs = Array.from(metas).map(
-        (meta) => meta.getAttribute('http-equiv') || '' // avoiding undefined for [.some] query
-      )
-      const hasRefresh = equivs.some((str) => str.toLowerCase() === 'refresh')
-      return hasRefresh
-    })
+    await page.goto(target)
+    await waitForNoMeta(page)
+    url = page.url()
 
     for (const it of tmp) {
       const candidate = await extractDocFromResponse(it)
@@ -164,17 +224,88 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
     // await page.close()
   }
 
-  console.log({ docs: docs.length })
-  return docs
+  return {
+    start: target,
+    docs,
+    destination: url
+  }
 }
 
-function createChains(docs: Doc[]): Node[] {
-  const chain: Node[] = []
+function parseDocsToRings(docs: Doc[]): Ring[] {
+  const rings: Ring[] = []
   for (let i = 0; i < docs.length; i++) {
-    const cur = docs[i]
+    const { url, status, headers, body, ip, port } = docs[i]
+    const isSSRidirect = isThreeHundres(status)
+
+    if (isSSRidirect) {
+      rings.push({
+        url,
+        candidates: headers.hasOwnProperty('location')
+          ? [headers.location]
+          : [],
+        redirectType: serverSideRedirect(status),
+        ip,
+        port,
+        status
+      })
+      continue
+    }
+
+    rings.push({
+      url,
+      candidates: body.match(urlRegex()),
+      redirectType: clientSideRedirect(body),
+      ip,
+      port,
+      status
+    })
   }
 
-  return chain
+  return rings
+}
+
+function createChain(
+  start: string,
+  rings: Ring[],
+  destination: string
+): { route: Route; redirects: Redirect[] } {
+  const hasNoRedirects = start === destination
+  if (hasNoRedirects)
+    return {
+      route: {
+        start,
+        destination,
+        documents: 1
+      },
+      redirects: []
+    }
+
+  const redirects: Redirect[] = []
+
+  for (let i = 0; i < rings.length; i++) {
+    const hasNext = i + 1 < rings.length
+    const cur = rings[i]
+    const type = cur.redirectType
+    const positive = hasNext ? cur.candidates.includes(rings[i + 1].url) : false
+
+    delete cur.redirectType
+    delete cur.candidates
+    redirects.push({
+      ...cur,
+      index: i,
+      type,
+      positive
+    })
+  }
+
+  return {
+    route: {
+      start,
+      destination,
+      documents: redirects.length
+    },
+    redirects
+  }
 }
 
 function createChainsPAST(docs: Doc[]): Node[] {
@@ -231,25 +362,19 @@ function createChainsPAST(docs: Doc[]): Node[] {
       name: 'target'
     })
     const target = res.target as string
-    const docs = await filterDocumentRequests(target)
-    const chains = createChains(docs)
-    // console.log(chains.map((x) => `${x.url}\→${x.redirectTo}\n`))
-
-    for (const node of chains) {
-      console.log(node.url)
-      console.log('↓' + node.redirectType)
-      console.log(node.redirectTo)
-      console.log('\n')
-
-      // chainの計算をちゃんとChainにする。
-      // ネットワーク環境が悪い時の対策も必要かも。
-    }
+    console.time('Background Check')
+    const { start, docs, destination } = await filterDocumentRequests(target)
+    const rings = parseDocsToRings(docs)
+    const { route, redirects } = createChain(start, rings, destination)
+    // console.log('\n', start, rings, destination)
+    console.log('\n', route, redirects)
+    console.timeEnd('Background Check')
 
     const url = new URL(target)
     const fn = url.host + url.pathname
     writeFileSync(
       `./test-data/${fn.replace(/\//g, '-')}.json`,
-      JSON.stringify({ docs, chains }, null, 2)
+      JSON.stringify({ docs, rings }, null, 2)
     )
   }
 })()
