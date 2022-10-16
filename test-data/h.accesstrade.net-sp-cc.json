@@ -1,0 +1,137 @@
+{
+  "docs": [
+    {
+      "url": "https://h.accesstrade.net/sp/cc?rk=0100oqh200kuup",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "location": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "p3p": "CP=\"NOI DSP MON NID ADMa OUR NOR UNI\"",
+        "server": "Apache",
+        "strict-transport-security": "max-age=31536000",
+        "x-robots-tag": "noindex, nofollow"
+      },
+      "body": "",
+      "ip": "104.102.172.244",
+      "port": 443
+    },
+    {
+      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "Keep-Alive",
+        "content-length": "352",
+        "content-type": "text/html; charset=iso-8859-1",
+        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "keep-alive": "timeout=3, max=100",
+        "location": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "p3p": "CP=\"NOI DSP LAW CURa SAMa BUS STA\"",
+        "server": "Apache",
+        "x-robots-tag": "noindex, nofollow"
+      },
+      "body": "",
+      "ip": "211.120.46.201",
+      "port": 443
+    },
+    {
+      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "378",
+        "content-type": "text/html; charset=iso-8859-1",
+        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "location": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "server": "Apache",
+        "strict-transport-security": "max-age=15768000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "27.133.155.155",
+      "port": 443
+    },
+    {
+      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "379",
+        "content-type": "text/html; charset=iso-8859-1",
+        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "location": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+        "server": "nginx",
+        "strict-transport-security": "max-age=15768000",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "211.14.7.235",
+      "port": 443
+    },
+    {
+      "url": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ranges": "bytes",
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-length": "20120",
+        "content-type": "text/html",
+        "date": "Sat, 15 Oct 2022 14:38:24 GMT",
+        "server": "nginx",
+        "strict-transport-security": "max-age=15768000",
+        "vary": "Accept-Encoding,User-Agent",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n<meta charset=\"utf-8\">\n<title>学研のオンライン英会話 Kimini 月額980円（税込1,078円）から</title>\n<link rel=\"canonical\" href=\"https://kimini.online/lp/tryenglish/\">\n<meta name=\"description\" content=\"学研のKiminiオンライン英会話は、教育に70年の歴史を持つ「学研」が提供するオンライン英会話です。初心者でも簡単に英語学習を始められるサービスです。まずは10日間の無料体験をお試しください。\">\n\n<!--[if IE]>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<![endif]-->\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<meta name=\"format-detection\" content=\"telephone=no\">\n\n<link rel=\"shortcut icon\" href=\"https://kimini.online/static/img/common/favicon.ico\" type=\"image/x-icon\">\n<link rel=\"apple-touch-icon\" href=\"https://kimini.online/static/img/common/webclip.png\">\n\n<!-- font -->\n<link href=\"./static/font/Jost/Jost.css\" rel=\"stylesheet\">\n\n<!-- library js -->\n<script src=\"./static/js/lib/css_browser_selector.js\"></script><!-- ブラウザやOS判別-->\n\n<!-- lazysizes 遅延読み込み -->\n<script src=\"./static/js/lib/lazysizes.min.js\" defer=\"\"></script>\n<script src=\"./static/js/lib/ls.aspectratio.min.js\" defer=\"\"></script>\n<script src=\"./static/js/lib/ls.unveilhooks.min.js\" defer=\"\"></script>\n\n<!-- library css -->\n<link rel=\"stylesheet\" href=\"./static/css/lib/swiper.min.css\"><!-- スライダー ver3.4.1 -->\n\n<!-- css -->\n<link href=\"./static/css/style.css\" rel=\"stylesheet\">\n\n<!-- ページ固有のjs -->\n<script>\nwindow.addEventListener('DOMContentLoaded', function() {\n\n}, false);\n</script>\n\n\n<!-- カウントダウンタイマー -->\n<script>\nfunction CountdownTimer( elemID, timeLimit, limitMessage, msgClass ) {\nthis.initialize.apply( this, arguments );\n}\n\nCountdownTimer.prototype = \t{\n\n/**\n* Constructor\n*/\ninitialize: function( elemID, timeLimit, limitMessage, msgClass ) {\nthis.elem = document.getElementById( elemID );\nthis.timeLimit = timeLimit;\nthis.limitMessage = limitMessage;\nthis.msgClass = msgClass;\n},\n\n/**\n* カウントダウン\n*/\ncountDown : function()\t{\nvar\ttimer;\nvar\ttoday = new Date()\nvar\tdays = Math.floor( ( this.timeLimit - today ) / ( 24 * 60 * 60 * 1000 ) );\nvar\thours = Math.floor( ( ( this.timeLimit - today ) % ( 24 * 60 * 60 * 1000 ) ) / ( 60 * 60 * 1000 ) );\nvar\tmins = Math.floor( ( ( this.timeLimit - today ) % ( 24 * 60 * 60 * 1000 ) ) / ( 60 * 1000 ) ) % 60;\nvar\tsecs = Math.floor( ( ( this.timeLimit - today ) % ( 24 * 60 * 60 * 1000 ) ) / 1000 ) % 60 % 60;\nvar\tmilis = Math.floor( ( ( this.timeLimit - today ) % ( 24 * 60 * 60 * 1000 ) ) / 10 ) % 100;\nvar\tme = this;\n\nif( ( this.timeLimit - today ) > 0 ){\n\n\ntimer = '<div class=\"cdt\"><span class=\"cdt_txt\"><span>終了</span><span>まで</span></span><span class=\"cdt_date\"><span class=\"cdt_num\">' + days + '</span>日<span class=\"cdt_num\">' + this.addZero( hours ) + '</span>時間<span class=\"cdt_num\">' + this.addZero( mins ) + '</span>分<span class=\"cdt_num\">'+ this.addZero( secs ) + '</span>秒<span class=\"cdt_num -milis\">'  + this.addZero( milis ) + '</span></span></div>'\n// timer = '<div class=\"cdt\"><span class=\"cdt_txt\"><span>終了</span><span>まで</span></span><span class=\"cdt_date\"><span class=\"cdt_num\">' + days + '</span>日<span class=\"cdt_num\">' + this.addZero( hours ) + '</span>時間<span class=\"cdt_num\">' + this.addZero( mins ) + '</span>分<span class=\"cdt_num\">'+ this.addZero( secs ) + '</span>秒</span></div>'\n\n\n\nthis.elem.innerHTML = timer;\ntid = setTimeout( function() { me.countDown(); }, 10 );\n\n}else{\nthis.elem.innerHTML = this.limitMessage;\nif( this.msgClass )\t{\nthis.elem.setAttribute( 'class', this.msgClass );\n}\nreturn;\n}\n},\n\n/**\n* ゼロを付与\n*/\naddZero : function( num )\t{\nnum = '00' + num;\nstr = num.substring( num.length - 2, num.length );\n\nreturn str ;\n}\n}\n</script>\n<!-- /カウントダウンタイマー -->\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-W8TSNZP');</script>\n<!-- End Google Tag Manager -->\n\n\n\n<!-- A8 タグ -->\n<script src=\"//statics.a8.net/a8sales/a8sales.js\"></script>\n<script src=\"//statics.a8.net/a8sales/a8crossDomain.js \"></script>\n<!-- A8 タグ END-->\n",
+      "ip": "211.14.7.235",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://h.accesstrade.net/sp/cc?rk=0100oqh200kuup",
+      "redirectTo": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectType": "temporary",
+      "ip": "104.102.172.244",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://is.accesstrade.net/cgi-bin/isatV2/kimini/entryV2.cgi?rk=0100oqh200kuup&nid=m2763973513&rurl=https%3A%2F%2Fglats.co.jp%2Flp%2Ftryenglish%3Futm_source%3Dtryenglish%26utm_medium%3Daffiliate%26utm_campaign%3Dtrial&media=&atss=0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectTo": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectType": "temporary",
+      "ip": "211.120.46.201",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://glats.co.jp/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectTo": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectType": "permanent",
+      "ip": "27.133.155.155",
+      "port": 443,
+      "status": 301
+    },
+    {
+      "url": "https://kimini.online/lp/tryenglish?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectTo": "https://kimini.online/lp/tryenglish/?utm_source=tryenglish&utm_medium=affiliate&utm_campaign=trial&atnct=kimini_0100oqh200kuup-bea773e1916c12060015ff8357316e06",
+      "redirectType": "permanent",
+      "ip": "211.14.7.235",
+      "port": 443,
+      "status": 301
+    }
+  ]
+}

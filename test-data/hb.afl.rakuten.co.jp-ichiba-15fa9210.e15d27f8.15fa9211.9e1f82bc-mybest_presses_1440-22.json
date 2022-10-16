@@ -1,0 +1,80 @@
+{
+  "docs": [
+    {
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/15fa9210.e15d27f8.15fa9211.9e1f82bc/mybest_presses_1440-22?m=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "395",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 14:47:54 GMT",
+        "location": "https://pt.afl.rakuten.co.jp/c/15fa9210.e15d27f8/mybest_presses_1440-22?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&ref=&ut=&link_type=&afct=i_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 80
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/15fa9210.e15d27f8/mybest_presses_1440-22?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&ref=&ut=&link_type=&afct=i_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 14:47:54 GMT",
+        "location": "https://item.rakuten.co.jp/office-com/ok-c682xw/?icm_agid=64454059188&iasid=wem_icbs_nonconvsync2111&gclid=CjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE&icm_cid=1425271335&icm_acid=227-088-5686&rafct=i_1&scid=af_pc_etc&sc2id=af_117_0_10002089",
+        "p3p": "CP=\"BUS OUR PHY STP ADM CUR DEV PSA PSD\"",
+        "server": "Mojolicious (Perl)",
+        "x-content-type-options": "nosniff",
+        "x-rt-hid": "1829388021300992294",
+        "x-rt-ref": "",
+        "x-rt-request-time": "t=1665845274695646",
+        "x-rt-tracking-status": "2",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.60.125",
+      "port": 443
+    },
+    {
+      "url": "https://item.rakuten.co.jp/office-com/ok-c682xw/?icm_agid=64454059188&iasid=wem_icbs_nonconvsync2111&gclid=CjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE&icm_cid=1425271335&icm_acid=227-088-5686&rafct=i_1&scid=af_pc_etc&sc2id=af_117_0_10002089",
+      "status": 503,
+      "redirectType": "client",
+      "headers": {
+        "content-length": "1806",
+        "content-type": "text/html",
+        "date": "Sat, 15 Oct 2022 14:48:04 GMT",
+        "etag": "\"634a65a2-70e\"",
+        "x-sorrylb": "asorrylb103z-jpe2"
+      },
+      "body": "\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"content-language\" content=\"ja\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>アクセスが集中しております</title>\n<style>\n*{font-family: \"Lucida Grande\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif;}\nh1,h2,h3,hr,ul,li,p {margin: 0; padding: 0;}\nh1 {line-height: 1.1; margin: 0 5px; padding-top: 1.1em;font-size: 82%;}\nh2 {color: #BF0000; font-size: 125%; border-top: 1px #BF0000 solid; padding: 10px 10px; line-height: 1.3em;}\nhr {display: none;}\n#errorTxt {margin: 10px 0 0;}\n.code{color: #686868;margin: 0; padding: 0 10px 10px; line-height: 1.3;}\n.description{margin: 0px; padding: 10px; border-top: 1px #BF0000 solid; line-height: 1.3;}\n.advice {margin: 0 30px 10px; list-style: disc; line-height: 1.3;}\n#footer {border-top: 1px #999999 solid; padding: 10px 0 0; line-height: 1.4; font-size: 82%; text-align: center;font-family: Arial, sans-serif;}\n</style>\n",
+      "ip": "23.60.109.207",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/15fa9210.e15d27f8.15fa9211.9e1f82bc/mybest_presses_1440-22?m=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335",
+      "redirectTo": "https://pt.afl.rakuten.co.jp/c/15fa9210.e15d27f8/mybest_presses_1440-22?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&ref=&ut=&link_type=&afct=i_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 80,
+      "status": 302
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/15fa9210.e15d27f8/mybest_presses_1440-22?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fok-c682xw%2F%3Fscid%3Daf_pc_etc%26sc2id%3Daf_113_0_10001868%26rafct%3Di_1%26gclid%3DCjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE%26iasid%3Dwem_icbs_nonconvsync2111%26icm_agid%3D64454059188%26icm_acid%3D227-088-5686%26icm_cid%3D1425271335&ref=&ut=&link_type=&afct=i_1",
+      "redirectTo": "https://item.rakuten.co.jp/office-com/ok-c682xw/?icm_agid=64454059188&iasid=wem_icbs_nonconvsync2111&gclid=CjwKCAiAksyNBhAPEiwAlDBeLAuyCpUVDWfO4sdRgY3-fre_I9iiD3JIgMJHQJBc6siEo_PhqwnCExoC0rgQAvD_BwE&icm_cid=1425271335&icm_acid=227-088-5686&rafct=i_1&scid=af_pc_etc&sc2id=af_117_0_10002089",
+      "redirectType": "temporary",
+      "ip": "133.237.60.125",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

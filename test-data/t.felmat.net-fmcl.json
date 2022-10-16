@@ -1,0 +1,90 @@
+{
+  "docs": [
+    {
+      "url": "https://t.felmat.net/fmcl?ak=F14451.1.929415Z.D57224V",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "content-length": "0",
+        "content-location": "fmcl.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 15 Oct 2022 14:34:08 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://t.82comb.net/cl?ak=12DQO.1.GV0EF&fmcs=fm.4066ec37b256cfec86d5843aa6013598",
+        "p3p": "CP=\"NOI DSP COR NID ADMa IVAa OUR NOR UNI\"",
+        "pragma": "no-cache",
+        "server": "Apache",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "x-robots-tag": "noindex, nofollow"
+      },
+      "body": "",
+      "ip": "3.114.139.83",
+      "port": 443
+    },
+    {
+      "url": "https://t.82comb.net/cl?ak=12DQO.1.GV0EF&fmcs=fm.4066ec37b256cfec86d5843aa6013598",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "content-length": "0",
+        "content-location": "cl.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 15 Oct 2022 14:34:08 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://www.rizap-english.jp/lp/e-05/?utm_source=felmat&utm_medium=affiliate&utm_campaign=macbee-asp&utm_content=null&utm_term=null&hc_uus=70add0e12d6e276887e10bf791297775",
+        "pragma": "no-cache",
+        "server": "Apache",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "via": "1.1 823ea75be36f9495c1eb23cb55639cd2.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "0a5htQjQ2QkVaxLNCUQjSzhtv9Vr_ZJv78XY9o_qhTIZ1z_K6r_Vww==",
+        "x-amz-cf-pop": "NRT12-C5",
+        "x-cache": "Miss from cloudfront"
+      },
+      "body": "",
+      "ip": "65.9.42.72",
+      "port": 443
+    },
+    {
+      "url": "https://www.rizap-english.jp/lp/e-05/?utm_source=felmat&utm_medium=affiliate&utm_campaign=macbee-asp&utm_content=null&utm_term=null&hc_uus=70add0e12d6e276887e10bf791297775",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 15 Oct 2022 14:34:09 GMT",
+        "server": "Apache/2.4.23 (Amazon) PHP/5.6.22",
+        "transfer-encoding": "chunked",
+        "via": "1.1 78e7c941b66b151772a87004ddbb03d2.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "Z5R3eLald6Qr-6Q3g8WZgS0yZ7iCe1-0PdfYAqrYR4ekhL3i-b4Ywg==",
+        "x-amz-cf-pop": "NRT12-C5",
+        "x-cache": "Miss from cloudfront",
+        "x-powered-by": "PHP/5.6.22"
+      },
+      "body": "\n\t<meta charset=\"utf-8\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<meta name=\"format-detection\" content=\"telephone=no\">\n\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,user-scalable=yes,shrink-to-fit=no\">\n\t<script type=\"text/javascript\" src=\"js/viewport.js\"></script>\n\t<meta name=\"robots\" content=\"noindex, nofollow\">\n\t<title>結果にコミットするパーソナル英会話ジム。RIZAP ENGLISH。</title>\n\t<meta name=\"description\" content=\"結果にコミットするパーソナル英会話ジム　RIZAP ENGLISH\">\n\t<meta name=\"keywords\" content=\"RIZAP ENGLISH,ライザップイングリッシュ,ライザップイングリッシュ公式,RIZAP,ライザップ,英語,英語脳,個室,マンツーマン,TOEIC,コミット\">\n\t<!--[if lt IE 9]><script src=\"./js/html5shiv.js\"></script><![endif]-->\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/reset.css\" media=\"all\">\n\t<link rel=\"stylesheet\" href=\"css/slick.css\" type=\"text/css\">\n\t<link rel=\"stylesheet\" href=\"css/slick-theme.css\" type=\"text/css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style_pc.css?ver=0425\" media=\"all\" class=\"js_css_switch\">\n\n\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin=\"\">\n\t<link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;display=swap\" rel=\"stylesheet\">\n\n\t<link rel=\"shortcut icon\" href=\"/assets/img/favicon.ico\">\n\t<link rel=\"apple-touch-icon-precomposed apple-touch-icon\" href=\"/assets/img/webClipIcon.png\">\n\n\t<script type=\"text/javascript\" src=\"js/jquery.js\"></script>\n\t<script async=\"\" src=\"//secure1.adcent.jp/ac2lploader.js\"></script>\n\n\t<!-- Google Tag Manager 20161219 -->\n\t<script>(function (w, d, s, l, i) {\n\t\t\tw[l] = w[l] || []; w[l].push({\n\t\t\t\t'gtm.start':\n\t\t\t\t\tnew Date().getTime(), event: 'gtm.js'\n\t\t\t}); var f = d.getElementsByTagName(s)[0],\n\t\t\t\tj = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =\n\t\t\t\t\t'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);\n\t\t})(window, document, 'script', 'dataLayer', 'GTM-MKXBTHR');</script>\n\t<!-- End Google Tag Manager 20161219 -->\n\n\t<!-- SiTest Web Experiment Code -->\n\t<script src=\"//sitest.jp/tracking/experiment_js?u=WPm5mBNGBYvOn9bz\"></script>\n\t<!-- End SiTest Web Experiment Code -->\n\n\t<!-- 20200108 Ptengine Tag English -->\n\t<script src=\"https://js.ptengine.jp/377a2b0f.js\"></script>\n\t<!-- End Ptengine Tag -->\n\n",
+      "ip": "65.9.42.109",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://t.felmat.net/fmcl?ak=F14451.1.929415Z.D57224V",
+      "redirectTo": "https://t.82comb.net/cl?ak=12DQO.1.GV0EF&fmcs=fm.4066ec37b256cfec86d5843aa6013598",
+      "redirectType": "temporary",
+      "ip": "3.114.139.83",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://t.82comb.net/cl?ak=12DQO.1.GV0EF&fmcs=fm.4066ec37b256cfec86d5843aa6013598",
+      "redirectTo": "https://www.rizap-english.jp/lp/e-05/?utm_source=felmat&utm_medium=affiliate&utm_campaign=macbee-asp&utm_content=null&utm_term=null&hc_uus=70add0e12d6e276887e10bf791297775",
+      "redirectType": "temporary",
+      "ip": "65.9.42.72",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

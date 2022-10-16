@@ -1,4 +1,84 @@
 {
-  "docs": [],
-  "chains": []
+  "docs": [
+    {
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "197",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:33:39 GMT",
+        "location": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F&ref=&ut=&link_type=&afct=i_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 80
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F&ref=&ut=&link_type=&afct=i_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 13:33:39 GMT",
+        "location": "https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+        "p3p": "CP=\"BUS OUR PHY STP ADM CUR DEV PSA PSD\"",
+        "server": "Mojolicious (Perl)",
+        "x-content-type-options": "nosniff",
+        "x-rt-hid": "1829388021300992294",
+        "x-rt-ref": "",
+        "x-rt-request-time": "t=1665840819387773",
+        "x-rt-tracking-status": "2",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.60.125",
+      "port": 443
+    },
+    {
+      "url": "https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "32308",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 15 Oct 2022 13:33:49 GMT",
+        "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
+        "server": "openresty",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"Pragma\" content=\"no-cache\">\n    <title>【楽天市場】スパイス CORKCICLE ステンレスストロー ブラシ付き Silver(2本入) | 価格比較 - 商品価格ナビ</title>\n    <meta name=\"description\" content=\"CORKCICLE ステンレスストロー ブラシ付き Silver(2本入)の価格比較、最安値比較。【最安値 1,152円（税込）】【評価：4.40】【口コミ：15件】【注目ランキング：14位】（10/15時点 - 商品価格ナビ）【製品詳細：ブランド名：コークシクル】\">\n<meta name=\"keywords\" content=\"CORKCICLE ステンレスストロー ブラシ付き Silver(2本入),スパイス ,4548815094877,箸・カトラリー,食器・カトラリー・グラス,キッチン用品・食器・調理器具,価格,比較,ポイント,送料,商品価格ナビ,通販,インターネット,ショッピング,楽天市場\">\n<link rel=\"canonical\" href=\"https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/\">\n<link rel=\"alternate\" href=\"android-app://jp.co.rakuten.android/rakuten-ichiba-app/www.rakuten.co.jp/web/?deep_link_url=https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/?scid=wi_ich_androidapp_appindexing_product&amp;l2-id=wi_ich_androidapp_appindexing_product\">    <meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n    <meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n    <meta name=\"robots\" content=\"noydir,noodp\">\n    <meta name=\"robots\" content=\"max-snippet:160, max-image-preview:large\">\n    <!-- OGP対応 -->\n        <meta property=\"fb:app_id\" content=\"157315820947832\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:site_name\" content=\"楽天市場\">\n    <meta property=\"og:url\" content=\"https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/summary/5/?sc=1\">    <meta property=\"og:title\" content=\"【楽天市場】スパイス CORKCICLE ステンレスストロー ブラシ付き Silver(2本入) | 価格比較 - 商品価格ナビ\">\n    <meta property=\"og:image\" content=\"https://r.r10s.jp/ran/img/1001/0004/548/815/094/877/10010004548815094877_1.jpg?fitin=200:200&amp;composite-to=*,*|200:200\">\n    <meta property=\"og:description\" content=\"CORKCICLE ステンレスストロー ブラシ付き Silver(2本入)の価格比較、最安値比較。【最安値 1,152円（税込）】【評価：4.40】【口コミ：15件】【注目ランキング：14位】（10/15時点 - 商品価格ナビ）【製品詳細：ブランド名：コークシクル】\">\n\n    <meta property=\"twitter:card\" content=\"summary\">\n    <meta property=\"twitter:site\" content=\"@RakutenJP\">\n    <meta property=\"twitter:title\" content=\"【楽天市場】スパイス CORKCICLE ステンレスストロー ブラシ付き Silver(2本入) | 価格比較 - 商品価格ナビ\">\n    <meta property=\"twitter:description\" content=\"CORKCICLE ステンレスストロー ブラシ付き Silver(2本入)の価格比較、最安値比較。【最安値 1,152円（税込）】【評価：4.40】【口コミ：15件】【注目ランキング：14位】（10/15時点 - 商品価格ナビ）【製品詳細：ブランド名：コークシクル】\">\n        <!-- /OGP対応 -->\n\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/default.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/layout-1.3.0.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/min_product-22.03.15.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/rpsTabSectRev-1.0.1.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/center.css?v=202204190000\" type=\"text/css\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/inc/navi/horizontal/header/common/css/ri_pc_cmn_header-2.1.0.min.css\" type=\"text/css\" media=\"all\">\n    <!-- Multiple Image CSS -->\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/imagechange-21.10.26.css?v=202204190000\" type=\"text/css\">\n    <!-- Shisa: Client Side Error Logger. It should be the first JavaScript in Header! -->\n          <script src=\"https://r.r10s.jp/com/js/d/shisa/1.1.0/shisa.min.js\" id=\"script-shisa\" data-group=\"ichiba-product\"></script>\n      <!-- Shisa: Client Side Error Logger. It should be the first JavaScript in Header! -->\n    <script src=\"https://r.r10s.jp/com/js/d/common/jquery-1.4.2.min.js?v=202204190000\" type=\"text/javascript\" language=\"JavaScript\"></script>\n    <script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/Rmodules/Rmodules.min.js\"></script>\n    <!-- QuickView-->\n        <link type=\"text/css\" href=\"https://r.r10s.jp/com/js/d/common/plugin/jquery-ui/jquery-ui-1.8.16.css?v=202204190000\" rel=\"stylesheet\">\n    <link type=\"text/css\" href=\"https://r.r10s.jp/com/css/d/pdt/quickview-21.04.22.css?v=202204190000\" rel=\"stylesheet\">\n        <!-- /QuickView-->\n    <!-- Direct Cart-->\n        <script src=\"https://r.r10s.jp/com/js/d/direct_cart/2.3/dbasket-pc-2.3.0.min.js\" type=\"text/javascript\" language=\"JavaScript\" charset=\"utf-8\"></script>\n    <link type=\"text/css\" href=\"https://r.r10s.jp/com/js/d/direct_cart/2.3/dbasket-pc-2.3.0.css?v=202204190000\" rel=\"stylesheet\" charset=\"utf-8\">\n        <!-- /Direct Cart-->\n\n    <link media=\"all\" type=\"text/css\" href=\"https://r.r10s.jp/com/css/d/pdt/liquid_api-1.0.0.css?v=202204190000\" rel=\"stylesheet\">\n    <!--[if gte IE 6]><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/center_forie6-7.css?v=202204190000\" type=\"text/css\" /><![endif]-->\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/socialfunction-1.0.0.css?v=202204190000\" type=\"text/css\" media=\"all\"><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/socialhistory-1.0.1.css?v=202204190000\" type=\"text/css\" media=\"all\">    <script language=\"JavaScript\" type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/rjs/rjs_helpers-1.1.0.min.js?v=202204190000\"></script>\n    <script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/common/plugin/jquery-ui/jquery-ui-1.8.16.min.js?v=202204190000\"></script><script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/common/plugin/jquery.tmpl-1.0.0.min.js?v=202204190000\"></script><script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/pdt/pc/quickview/quickview-1.0.4.min.js?v=202204190000\"></script><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/js/d/bdg/1.5.0/bdg.css\">  ",
+      "ip": "23.60.109.207",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F",
+      "redirectTo": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F&ref=&ut=&link_type=&afct=i_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 80,
+      "status": 302
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F2c261185336b667f6cbd01fd292aa815%2F&ref=&ut=&link_type=&afct=i_1",
+      "redirectTo": "https://product.rakuten.co.jp/product/-/2c261185336b667f6cbd01fd292aa815/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+      "redirectType": "temporary",
+      "ip": "133.237.60.125",
+      "port": 443,
+      "status": 302
+    }
+  ]
 }

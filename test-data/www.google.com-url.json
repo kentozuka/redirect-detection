@@ -1,0 +1,28 @@
+{
+  "docs": [
+    {
+      "url": "https://www.google.com/url?q=https://www.yahoo.co.jp/",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ch": "Sec-CH-UA-Platform\nSec-CH-UA-Platform-Version\nSec-CH-UA-Full-Version\nSec-CH-UA-Arch\nSec-CH-UA-Model\nSec-CH-UA-Bitness\nSec-CH-UA-Full-Version-List\nSec-CH-UA-WoW64",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+        "bfcache-opt-in": "unload",
+        "cache-control": "no-cache, must-revalidate",
+        "content-encoding": "br",
+        "content-length": "718",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Sat, 15 Oct 2022 14:32:57 GMT",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "pragma": "no-cache",
+        "server": "gws",
+        "strict-transport-security": "max-age=31536000",
+        "x-xss-protection": "0"
+      },
+      "body": "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><title>リダイレクトの警告</title><style>body,div,a{font-family:arial,sans-serif}body{background-color:#fff;margin-top:3px}div{color:#000}a:link{color:#681da8}a:visited{color:#681da8}a:active{color:#ea4335}div.mymGo{border-top:1px solid #dadce0;border-bottom:1px solid #dadce0;background:#f8f9fa;margin-top:1em;width:100%}div.aXgaGb{padding:0.5em 0;margin-left:10px}div.fTk7vd{margin-left:35px;margin-top:35px}span.fZSzqb{color:#ea4335}</style>",
+      "ip": "172.217.175.36",
+      "port": 443
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,168 @@
+{
+  "docs": [
+    {
+      "url": "https://room.rakuten.co.jp/rat-redirect?dest=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F2c3a06e7.cc7f301f.2c3a06e8.16249e26%2F_RTroom01792036_180947502%3Fpc%3Dhttp%253A%252F%252Fitem.rakuten.co.jp%252Fgoodproducts-plaza%252F10000013%252F%253Fscid%253Droom_pc_id_reg&event=%7B%22cks%22%3A%22be2f22448c5717cad64405643f634ab680b98e9%22%2C%22pgid%22%3A%22616d34902cb15852%22%2C%22url%22%3A%22https%3A%2F%2Froom.rakuten.co.jp%2Froom_84b3eb15d8%2F1700180947502319%22%2C%22acc%22%3A140%2C%22aid%22%3A1%2C%22ssc%22%3A%22myroom%22%2C%22pgt%22%3A%22shop_item%22%2C%22pgn%22%3A%22itemdetail%22%2C%22itemid%22%3A%5B%22405497%2F10000013%22%5D%2C%22igenre%22%3A%5B%22300823%22%5D%2C%22shopurl%22%3A%22goodproducts-plaza%22%2C%22shopid%22%3A%222700000203296243%22%2C%22pgl%22%3A%22pc%22%2C%22compid%22%3A%5B%22go_to_ichiba_clicked%22%5D%2C%22etype%22%3A%22click%22%2C%22cp%22%3A%7B%22login_status%22%3Afalse%2C%22account_type%22%3A%22member%22%2C%22account_id%22%3A%221000001792036518%22%2C%22colle_id%22%3A%221700180947502319%22%2C%22colle_category_id%22%3A%222800000100804388%22%2C%22item_status%22%3A%22%22%2C%22item_coupon%22%3A0%2C%22dest%22%3A%22https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F2c3a06e7.cc7f301f.2c3a06e8.16249e26%2F_RTroom01792036_180947502%3Fpc%3Dhttp%253A%252F%252Fitem.rakuten.co.jp%252Fgoodproducts-plaza%252F10000013%252F%253Fscid%253Droom_pc_id_reg%22%7D%7D&redirectproxy=1",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "max-age=0, no-cache, no-store",
+        "content-encoding": "gzip",
+        "content-length": "217",
+        "content-security-policy": "frame-ancestors 'Self' rakuten.co.jp *.rakuten.co.jp",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:39:56 GMT",
+        "expires": "Sat, 15 Oct 2022 13:39:56 GMT",
+        "location": "https://hb.afl.rakuten.co.jp/hgc/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg",
+        "pragma": "no-cache",
+        "server": "openresty",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "23.60.109.207",
+      "port": 443
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/hgc/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "218",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:39:56 GMT",
+        "location": "https://hb.afl.rakuten.co.jp/ichiba/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&afct=g_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 443
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&afct=g_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "223",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:39:56 GMT",
+        "location": "https://pt.afl.rakuten.co.jp/c/2c3a06e7.cc7f301f/_RTroom01792036_180947502?url=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&ref=&ut=&link_type=&afct=g_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 443
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/2c3a06e7.cc7f301f/_RTroom01792036_180947502?url=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&ref=&ut=&link_type=&afct=g_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 13:39:56 GMT",
+        "location": "http://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+        "p3p": "CP=\"BUS OUR PHY STP ADM CUR DEV PSA PSD\"",
+        "server": "Mojolicious (Perl)",
+        "x-content-type-options": "nosniff",
+        "x-rt-hid": "1829388021300992294",
+        "x-rt-ref": "",
+        "x-rt-request-time": "t=1665841196733969",
+        "x-rt-tracking-status": "2",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.60.125",
+      "port": 443
+    },
+    {
+      "url": "http://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+      "status": 301,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "max-age=0, no-cache, no-store",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 13:40:06 GMT",
+        "expires": "Sat, 15 Oct 2022 13:40:06 GMT",
+        "location": "https://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+        "pragma": "no-cache",
+        "server": "AkamaiGHost"
+      },
+      "body": "",
+      "ip": "23.60.109.207",
+      "port": 80
+    },
+    {
+      "url": "https://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+      "status": 503,
+      "redirectType": "client",
+      "headers": {
+        "content-length": "1806",
+        "content-type": "text/html",
+        "date": "Sat, 15 Oct 2022 13:40:16 GMT",
+        "etag": "\"634a65a2-70e\"",
+        "x-sorrylb": "asorrylb101z-jpe2"
+      },
+      "body": "\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"content-language\" content=\"ja\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>アクセスが集中しております</title>\n<style>\n*{font-family: \"Lucida Grande\", \"Hiragino Kaku Gothic ProN\", Meiryo, sans-serif;}\nh1,h2,h3,hr,ul,li,p {margin: 0; padding: 0;}\nh1 {line-height: 1.1; margin: 0 5px; padding-top: 1.1em;font-size: 82%;}\nh2 {color: #BF0000; font-size: 125%; border-top: 1px #BF0000 solid; padding: 10px 10px; line-height: 1.3em;}\nhr {display: none;}\n#errorTxt {margin: 10px 0 0;}\n.code{color: #686868;margin: 0; padding: 0 10px 10px; line-height: 1.3;}\n.description{margin: 0px; padding: 10px; border-top: 1px #BF0000 solid; line-height: 1.3;}\n.advice {margin: 0 30px 10px; list-style: disc; line-height: 1.3;}\n#footer {border-top: 1px #999999 solid; padding: 10px 0 0; line-height: 1.4; font-size: 82%; text-align: center;font-family: Arial, sans-serif;}\n</style>\n",
+      "ip": "23.60.109.207",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://room.rakuten.co.jp/rat-redirect?dest=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F2c3a06e7.cc7f301f.2c3a06e8.16249e26%2F_RTroom01792036_180947502%3Fpc%3Dhttp%253A%252F%252Fitem.rakuten.co.jp%252Fgoodproducts-plaza%252F10000013%252F%253Fscid%253Droom_pc_id_reg&event=%7B%22cks%22%3A%22be2f22448c5717cad64405643f634ab680b98e9%22%2C%22pgid%22%3A%22616d34902cb15852%22%2C%22url%22%3A%22https%3A%2F%2Froom.rakuten.co.jp%2Froom_84b3eb15d8%2F1700180947502319%22%2C%22acc%22%3A140%2C%22aid%22%3A1%2C%22ssc%22%3A%22myroom%22%2C%22pgt%22%3A%22shop_item%22%2C%22pgn%22%3A%22itemdetail%22%2C%22itemid%22%3A%5B%22405497%2F10000013%22%5D%2C%22igenre%22%3A%5B%22300823%22%5D%2C%22shopurl%22%3A%22goodproducts-plaza%22%2C%22shopid%22%3A%222700000203296243%22%2C%22pgl%22%3A%22pc%22%2C%22compid%22%3A%5B%22go_to_ichiba_clicked%22%5D%2C%22etype%22%3A%22click%22%2C%22cp%22%3A%7B%22login_status%22%3Afalse%2C%22account_type%22%3A%22member%22%2C%22account_id%22%3A%221000001792036518%22%2C%22colle_id%22%3A%221700180947502319%22%2C%22colle_category_id%22%3A%222800000100804388%22%2C%22item_status%22%3A%22%22%2C%22item_coupon%22%3A0%2C%22dest%22%3A%22https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2F2c3a06e7.cc7f301f.2c3a06e8.16249e26%2F_RTroom01792036_180947502%3Fpc%3Dhttp%253A%252F%252Fitem.rakuten.co.jp%252Fgoodproducts-plaza%252F10000013%252F%253Fscid%253Droom_pc_id_reg%22%7D%7D&redirectproxy=1",
+      "redirectTo": "https://hb.afl.rakuten.co.jp/hgc/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg",
+      "redirectType": "permanent",
+      "ip": "23.60.109.207",
+      "port": 443,
+      "status": 301
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/hgc/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg",
+      "redirectTo": "https://hb.afl.rakuten.co.jp/ichiba/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&afct=g_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/2c3a06e7.cc7f301f.2c3a06e8.16249e26/_RTroom01792036_180947502?pc=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&afct=g_1",
+      "redirectTo": "https://pt.afl.rakuten.co.jp/c/2c3a06e7.cc7f301f/_RTroom01792036_180947502?url=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&ref=&ut=&link_type=&afct=g_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/2c3a06e7.cc7f301f/_RTroom01792036_180947502?url=http%3A%2F%2Fitem.rakuten.co.jp%2Fgoodproducts-plaza%2F10000013%2F%3Fscid%3Droom_pc_id_reg&ref=&ut=&link_type=&afct=g_1",
+      "redirectTo": "http://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+      "redirectType": "temporary",
+      "ip": "133.237.60.125",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "http://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+      "redirectTo": "https://item.rakuten.co.jp/goodproducts-plaza/10000013/?scid=af_pc_room_pc_id_reg&sc2id=af_101_0_0",
+      "redirectType": "permanent",
+      "ip": "23.60.109.207",
+      "port": 80,
+      "status": 301
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "docs": [
+    {
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "194",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:34:35 GMT",
+        "location": "https://hb.afl.rakuten.co.jp/ichiba/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F&afct=g_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 443
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F&afct=g_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-length": "179",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sat, 15 Oct 2022 13:34:35 GMT",
+        "location": "https://pt.afl.rakuten.co.jp/c/g00qfkk3.u0meu4d8/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&ref=&ut=&link_type=&afct=g_1",
+        "server": "Apache",
+        "vary": "Accept,Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-powered-by": "Express",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.48.6",
+      "port": 443
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/g00qfkk3.u0meu4d8/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&ref=&ut=&link_type=&afct=g_1",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "close",
+        "content-length": "0",
+        "date": "Sat, 15 Oct 2022 13:34:35 GMT",
+        "location": "https://item.rakuten.co.jp/porty66/sutenai-straw/?scid=af_pc_etc&sc2id=af_115_1_10000866",
+        "p3p": "CP=\"BUS OUR PHY STP ADM CUR DEV PSA PSD\"",
+        "server": "Mojolicious (Perl)",
+        "x-content-type-options": "nosniff",
+        "x-rt-hid": "1829388021300992294",
+        "x-rt-ref": "",
+        "x-rt-request-time": "t=1665840875465889",
+        "x-rt-tracking-status": "2",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "",
+      "ip": "133.237.60.125",
+      "port": 443
+    },
+    {
+      "url": "https://item.rakuten.co.jp/porty66/sutenai-straw/?scid=af_pc_etc&sc2id=af_115_1_10000866",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "content-encoding": "gzip",
+        "content-length": "48077",
+        "content-type": "text/html;charset=EUC-JP",
+        "date": "Sat, 15 Oct 2022 13:34:45 GMT",
+        "server": "openresty",
+        "vary": "Accept-Encoding,User-Agent,Cookie",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "1; mode=block"
+      },
+      "body": "\n<meta http-equiv=\"expires\" content=\"\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=EUC-JP\">\n<meta http-equiv=\"Content-Language\" content=\"ja\">\n<meta name=\"description\" content=\"マイストローに最適22cm・ブラシ不要で、中まで広げて洗えて、閉じてまた使える。日本初の技術を加えた全く新しいストロー!!エコなマイストローライフに！。ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える\">\n<meta name=\"keywords\" content=\"楽天市場,通信販売,通販,ショッピング,オンラインショッピング,買い物,プレゼント,ギフト,贈り物,贈答品,お中元,お歳暮,お買い得,ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える\">\n<base href=\"https://image.rakuten.co.jp/\">\n<title>【楽天市場】ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える：PORTY66-着ぐるみ-雑貨-コスメ-</title>\n<style type=\"text/css\">\n<!--\n td.sdtext { color:#000000; font-size:80%;}\n td.topT_sdtext { color:#000000; font-size:80%;}\n td.exT_sdtext { color:#000000; font-size:80%;}\n td.inT_sdtext { color:#000000; font-size:80%;}\n\nbody { background-color: #FFFFFF;}\nspan.item_name { color: #333333; font-size: 100%;}\nspan.item_desc { color: #666666; font-size: 80%;}\nspan.item_number_title { color: #666666; font-size: 100%;}\nspan.item_number { color: #666666; font-size: 100%;}\nspan.unit { color: #000000; font-size: 120%;}\nspan.price1 { color: #CC0000; font-size: 150%;}\nspan.price2 { color: #CC0000; font-size: 150%;}\nspan.tax_postage { color: #666666; font-size: 100%;}\na.etc_link:link { color: #666666; font-size: 80%;}\na.etc_link:visited { color: #666666; font-size: 80%;}\na.etc_link:active { color: #666666; font-size: 80%;}\na.etc_link:hover { color: #666666; font-size: 80%;}\nspan.time_sale { color: #CC0000; font-size: 100%;}\nspan.catch_copy { color: #CC0000; font-size: 100%;}\nspan.sale_desc { color: #666666; font-size: 80%;}\nspan.double_price_title { color: #666666; font-size: 120%;}\nspan.double_price { color: #666666; font-size: 120%;}\nspan.open_price_title { color: #FFFFFF; font-size: 80%;}\nspan.open_price { color: #FFFFFF; font-size: 80%;}\nspan.choice { color: #CC0000; font-size: 100%;}\nspan.rest { color: #CC0000; font-size: 100%;}\nspan.soldout_msg { color: #CC0000; font-size: 100%;}\nspan.inventory_title { color: #666666; font-size: 100%;}\ntd.inventory { background-color: #FFFFFF;}\nspan.inventory_choice_name { color: #666666; font-size: 100%;}\ntd.inventory_choice_name { background-color: #eeeeee;}\nspan.inventory_desc { color: #666666; font-size: 100%;}\nspan.inventory_soldout { color: #000000; font-size: 100%;}\nspan.inventory_rest { color: #666666; font-size: 100%;}\ntd.lossleader_item_name { color: #666666; font-size: 100%; font-weight:bold;}\na.lossleader_item_name:link { color: #666666;}\na.lossleader_item_name:visited { color: #666666;}\na.lossleader_item_name:active { color: #666666;}\nspan.lossleader_price1 { color: #666666; font-size: 100%; font-weight:bold;}\nspan.lossleader_price2 { color: #CC0000; font-size: 100%; font-weight:bold;}\nspan.lossleader_double_price_title { color: #666666; font-size: 100%; font-weight:bold;}\nspan.lossleader_double_price { color: #666666; font-size: 100%; font-weight:bold;}\nspan.lossleader_open_price_title { color: #666666; font-size: 100%; font-weight:bold;}\nspan.lossleader_open_price { color: #666666; font-size: 100%; font-weight:bold;}\nspan.sa_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.sa_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.sa_item_desc { color: #000000; font-size: 100%;}\nspan.sa_sale_desc { color: #000000; font-size: 100%;}\nspan.present_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.present_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.present_entry_term { color: #000000; font-size: 100%;}\nspan.present_item_desc { color: #000000; font-size: 100%;}\nspan.win_cnt_title { color: #000000; font-size: 100%;}\nspan.win_cnt { color: #000000; font-size: 100%;}\nspan.present_end_msg { color: #FF0000; font-size: 100%;}\nspan.gbuy_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.gbuy_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.gbuy_time_sale { color: #000000; font-size: 100%;}\nspan.gbuy_item_desc { color: #000000; font-size: 100%;}\nspan.gbuy_sale_desc { color: #000000; font-size: 100%;}\nspan.gbuy_price1 { color: #FF0000; font-size: 100%;}\nspan.gbuy_price2 { color: #FF0000; font-size: 100%;}\nspan.gbuy_double_price_title { color: #000000; font-size: 100%;}\nspan.gbuy_double_price { color: #000000; font-size: 100%;}\nspan.gbuy_final_price { font-size: 120%; font-weight:bold;}\nspan.gbuy_open_price_title { color: #000000; font-size: 100%;}\nspan.gbuy_open_price { color: #000000; font-size: 100%;}\nspan.gbuy_table_detail_title { font-size: 100%;}\n  -->\n</style>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/aroundcart-1.7.8.css\">\n<link rel=\"SHORTCUT ICON\" href=\"https://www.rakuten.co.jp/favicon.ico\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_header_w-2.6.0.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://r.r10s.jp/com/inc/navi/spu/css/spux-pc-1.1.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/com/css/rms/storefront/pc/page/page_suggest-1.0.5.css\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_header_reco-1.2.1.css\">\n<link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/assets/app/pages/recommendation-standalone/css/main-29e2d74520eb86a38910.bundle.css\" charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/assets/app/pages/recommendation-standalone/css/pc-29e2d74520eb86a38910.bundle.css\" charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_recommend-1.0.0.css\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_images-1.1.0.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"//a.ichiba.jp.rakuten-static.com/com/inc/home/20080930/opt/css/normal/ris-notification-1.3.4.css\">\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/com/css/rms/storefront/pc/page/rms_item_table_pc-1.0.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/ranking-inshop-pcc-1.1.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/rchat_widget-1.0.0.css\">\n<link rel=\"alternate\" href=\"android-app://jp.co.rakuten.android/rakuten-ichiba-app/www.rakuten.co.jp/item_detail?item_code=porty66:10000636&amp;source=appindexing_item\">\n<meta property=\"og:type\" content=\"product\">\n<meta property=\"og:title\" content=\"【楽天市場】ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える：PORTY66-着ぐるみ-雑貨-コスメ-\">\n<meta property=\"og:description\" content=\"マイストローに最適22cm・ブラシ不要で、中まで広げて洗えて、閉じてまた使える。日本初の技術を加えた全く新しいストロー!!エコなマイストローライフに！。ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える\">\n<meta property=\"og:url\" content=\"https://item.rakuten.co.jp/porty66/sutenai-straw/\">\n<meta property=\"og:image\" content=\"https://shop.r10s.jp/porty66/cabinet/sutenai/09064122/09064239/sutenai3_1.jpg\">\n<meta property=\"og:site_name\" content=\"楽天市場\">\n<meta property=\"fb:app_id\" content=\"157315820947832\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@RakutenJP\">\n<meta name=\"twitter:title\" content=\"【楽天市場】ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える：PORTY66-着ぐるみ-雑貨-コスメ-\">\n<meta name=\"twitter:description\" content=\"マイストローに最適22cm・ブラシ不要で、中まで広げて洗えて、閉じてまた使える。日本初の技術を加えた全く新しいストロー!!エコなマイストローライフに！。ブラシ不要!SUTENAI（ステナイ）シリコンストロー(3本セットコネクターなし）  脱プラスティック BPAフリー  ジッパーストロー SDGs サステナブル マイストロー 食洗機OK エコストロー 開いて洗える\">\n<meta name=\"twitter:image:src\" content=\"https://shop.r10s.jp/porty66/cabinet/sutenai/09064122/09064239/sutenai3_1.jpg\">\n<link rel=\"canonical\" href=\"https://item.rakuten.co.jp/porty66/sutenai-straw/\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://r.r10s.jp/com/js/d/irp/ichiba-item/1.0.5/pc/ichiba-item.min.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/floating_coupon-1.0.1.css\">\n",
+      "ip": "23.60.109.207",
+      "port": 443
+    }
+  ],
+  "chains": [
+    {
+      "url": "https://hb.afl.rakuten.co.jp/hgc/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F",
+      "redirectTo": "https://hb.afl.rakuten.co.jp/ichiba/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F&afct=g_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/g00qfkk3.u0meu4d8.g00qfkk3.u0mev702/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fporty66%2Fi%2F10000636%2F&afct=g_1",
+      "redirectTo": "https://pt.afl.rakuten.co.jp/c/g00qfkk3.u0meu4d8/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&ref=&ut=&link_type=&afct=g_1",
+      "redirectType": "temporary",
+      "ip": "133.237.48.6",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://pt.afl.rakuten.co.jp/c/g00qfkk3.u0meu4d8/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Fporty66%2Fsutenai-straw%2F&ref=&ut=&link_type=&afct=g_1",
+      "redirectTo": "https://item.rakuten.co.jp/porty66/sutenai-straw/?scid=af_pc_etc&sc2id=af_115_1_10000866",
+      "redirectType": "temporary",
+      "ip": "133.237.60.125",
+      "port": 443,
+      "status": 302
+    }
+  ]
+}

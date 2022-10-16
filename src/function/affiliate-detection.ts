@@ -6,9 +6,12 @@ import prompts from 'prompts'
 import { writeFileSync } from 'fs'
 import axios from 'axios'
 
+type JavaScriptRedirectKeywords = 'href' | 'replace' | 'assign'
+type JavaScriptRedirectTypes = `js-${JavaScriptRedirectKeywords}`
+
 type UnknownTypes = 'unknown'
 type ServerSideTypes = 'permanent' | 'temporary' | UnknownTypes
-type ClientSideTypes = 'meta' | 'javascript' | UnknownTypes
+type ClientSideTypes = 'meta' | JavaScriptRedirectTypes | UnknownTypes
 type PossibleTypes = ServerSideTypes | ClientSideTypes
 
 interface Doc {
@@ -42,10 +45,14 @@ const serverSideRedirect = (status: number): PossibleTypes => {
 }
 
 const clientSideRedirect = (body: string): PossibleTypes => {
-  const metaRefreshRex = new RegExp('http-equiv="refresh"')
+  const metaRefreshRex = new RegExp('http-equiv="refresh"', 'i')
   if (metaRefreshRex.test(body)) return 'meta'
   const jsRefresh = 'location'
-  if (body.includes(jsRefresh)) return 'javascript' // could be wrong
+  if (!body.includes(jsRefresh)) return 'unknown'
+
+  if (body.includes('href')) return 'js-href'
+  if (body.includes('assign')) return 'js-assign'
+  if (body.includes('replace')) return 'js-replace'
 
   return 'unknown'
 }
@@ -160,6 +167,7 @@ async function filterDocumentRequests(target: string): Promise<Doc[]> {
     // await page.close()
   }
 
+  console.log({ docs: docs.length })
   return docs
 }
 
@@ -223,7 +231,7 @@ function createChains(docs: Doc[]): Node[] {
 
     for (const node of chains) {
       console.log(node.url)
-      console.log('↓')
+      console.log('↓' + node.redirectType)
       console.log(node.redirectTo)
       console.log('\n')
 

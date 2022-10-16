@@ -3,6 +3,7 @@ import urlRegex from 'url-regex'
 const Diff = require('diff')
 
 import prompts from 'prompts'
+import { join, parse } from 'path'
 
 type UnknownTypes = 'unknown'
 type ServerSideTypes = 'permanent' | 'temporary' | UnknownTypes
@@ -95,30 +96,30 @@ function parseDocs(doc: Doc): Parsed {
 
 !(async () => {
   const dir = './test-data'
-  const files = readdirSync(dir)
 
-  for (const file of files) {
-    await prompts({
-      message: 'yay',
-      type: 'confirm',
-      name: 'yay'
-    })
-    const str = readFileSync(`${dir}/${file}`, 'utf-8')
-    const json = JSON.parse(str)
-    const done = json.docs.map(parseDocs) as Parsed[]
+  // const files = readdirSync(dir)
+  // for (const file of files) {
+  //   const str = readFileSync(`${dir}/${file}`, 'utf-8')
+  //   const json = JSON.parse(str)
+  //   const done = json.docs.map(parseDocs) as Parsed[]
+  //   console.log(done)
+  //   console.log('\n\n')
+  //   break
+  // }
+  const fn = 'px.a8.net-svt-ejp'
+  const str = readFileSync(join(process.cwd(), dir, fn + '.json'), 'utf-8')
+  const json = JSON.parse(str)
+  const parsed = json.docs.map(parseDocs) as Parsed[]
 
-    for (let i = 0; i < done.length; i++) {
-      if (i === 0) continue
-
-      const pre = done[i - 1]
-      const cur = done[i]
-
-      const s = Diff.diffChars(pre.redirectCandidates[0], cur.url)
-      console.log({ s, cur: cur.url, cand: pre.redirectCandidates[0] })
-      console.log('\n')
-    }
-
-    // console.log(done)
-    console.log('\n\n')
-  }
+  // for (let i = 0; i < parsed.length; i++) {}
+  console.log(parsed)
 })()
+
+/**
+ * if the redirect is javascript
+ * criteria needs to be little vague
+ *
+ *
+ *
+ * create todos
+ */
