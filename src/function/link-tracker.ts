@@ -14,6 +14,7 @@ let browser: BrowserContext = null
 
 const launchBrowser = async (options?: PlayWrightContextOption) => {
   browser = await launchLightWeightPersistentContext(options)
+  console.log('Launched a new browser context')
 }
 
 export const closeBrowser = async () => await browser.close()
