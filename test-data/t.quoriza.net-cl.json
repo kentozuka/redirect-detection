@@ -1,0 +1,88 @@
+{
+  "docs": [
+    {
+      "url": "https://t.quoriza.net/cl?ak=VSEYP.1.HHAX3&abm=466d94f8c702c11cd142555eb34f4176202210&guid=ON&id1=datsumouosusume",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "50",
+        "content-location": "cl.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 12:45:35 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&click_time=2022-10-17+21%3A45%3A35&uuid=fca4ccf76ea6089130316f3a5a0184cc&client_site_id=186&client_campaign_id=1484&client_lp_id=41198&asp_id=5&relation_id=22654&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F%3Futm_source%3D43_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling07%26guid%3DON%26id1%3Ddatsumouosusume%26hc_uus%3Dfca4ccf76ea6089130316f3a5a0184cc%26type%3D%26link_code_ak%3DVSEYP.1.HHAX3%26referer%3D&p=ak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-17+21%3A45%3A35&session_id=466d94f8c702c11cd142555eb34f4176202210&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F106.0.5249.30+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+        "pragma": "no-cache",
+        "server": "Apache/2.4.25 (Debian)",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "x-powered-by": "PHP/7.0.33"
+      },
+      "body": "",
+      "ip": "99.83.136.16",
+      "port": 443
+    },
+    {
+      "url": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&click_time=2022-10-17+21%3A45%3A35&uuid=fca4ccf76ea6089130316f3a5a0184cc&client_site_id=186&client_campaign_id=1484&client_lp_id=41198&asp_id=5&relation_id=22654&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F%3Futm_source%3D43_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling07%26guid%3DON%26id1%3Ddatsumouosusume%26hc_uus%3Dfca4ccf76ea6089130316f3a5a0184cc%26type%3D%26link_code_ak%3DVSEYP.1.HHAX3%26referer%3D&p=ak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-17+21%3A45%3A35&session_id=466d94f8c702c11cd142555eb34f4176202210&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F106.0.5249.30+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "50",
+        "content-location": "redirect.php",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 12:45:35 GMT",
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "location": "https://stlassh.com/ac/lp/a/counseling07/?utm_source=43_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling07&guid=ON&id1=datsumouosusume&hc_uus=fca4ccf76ea6089130316f3a5a0184cc&type=&link_code_ak=VSEYP.1.HHAX3&referer=",
+        "pragma": "no-cache",
+        "server": "Apache/2.4.25 (Debian)",
+        "tcn": "choice",
+        "vary": "negotiate",
+        "x-powered-by": "PHP/7.0.33"
+      },
+      "body": "",
+      "ip": "54.178.113.122",
+      "port": 443
+    },
+    {
+      "url": "https://stlassh.com/ac/lp/a/counseling07/?utm_source=43_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling07&guid=ON&id1=datsumouosusume&hc_uus=fca4ccf76ea6089130316f3a5a0184cc&type=&link_code_ak=VSEYP.1.HHAX3&referer=",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "cache-control": "max-age=31536000",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 12:45:35 GMT",
+        "expires": "Tue, 17 Oct 2023 12:45:35 GMT",
+        "server": "nginx",
+        "x-nginx-location": "43s",
+        "x-powered-by": "PHP/7.2.34"
+      },
+      "body": "\n    <!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n\t})(window,document,'script','dataLayer','GTM-KNWMM4P');</script>\n    <!-- End Google Tag Manager -->\n    <meta name=\"robots\" content=\"noindex\">\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>脱毛サロンの新常識!!!STLASSH「ストラッシュ」月額制全身脱毛が初月０円で体験可能♪</title>\n    <meta name=\"description\" content=\"新宿/池袋/渋谷/横浜/船橋/梅田/天王寺/福岡の全身脱毛サロンSTLASSH（ストラッシュ）なら、全身脱毛が最短6ヶ月！日焼け肌や敏感肌、産毛や金髪部分にも。従来のサロンでは満足できなかった方へ。\">\n    <meta name=\"keywords\" content=\"全身脱毛,脱毛,新宿,池袋,横浜,梅田,天王寺\">\n    <link rel=\"canonical\" href=\"https://stlassh.com/\">\n    <link rel=\"icon\" href=\"./../../common03/img/ico/16.png\" type=\"image/png\">\n    <link rel=\"icon\" href=\"./../../common03/img/ico/32.png\" type=\"image/png\">\n    <link rel=\"icon\" href=\"./../../common03/img/ico/48.png\" type=\"image/png\">\n    <link rel=\"icon\" href=\"./../../common03/img/ico/62.png\" type=\"image/png\">\n    <link rel=\"apple-touch-icon-precomposed\" href=\"./../../common03/img/ico/150.png\" type=\"image/png\">\n    <link rel=\"shortcut icon\" href=\"/favicon.ico\">\n\n    <link rel=\"stylesheet\" href=\"./../../common03/css/colorbox.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/slick.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/swiper.min.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/jquery-ui.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/common.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/custom.css\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"./../../common03/css/salonlist.css\" type=\"text/css\">\n    <link href=\"https://use.fontawesome.com/releases/v5.0.8/css/all.css\" rel=\"stylesheet\">\n\n\n",
+      "ip": "52.196.152.231",
+      "port": 443
+    }
+  ],
+  "rings": [
+    {
+      "url": "https://t.quoriza.net/cl?ak=VSEYP.1.HHAX3&abm=466d94f8c702c11cd142555eb34f4176202210&guid=ON&id1=datsumouosusume",
+      "ip": "99.83.136.16",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://quotrack.stlassh.com/redirect?uri=%2Fcl%3Fak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&click_time=2022-10-17+21%3A45%3A35&uuid=fca4ccf76ea6089130316f3a5a0184cc&client_site_id=186&client_campaign_id=1484&client_lp_id=41198&asp_id=5&relation_id=22654&linkcode_type=1&client_ab_test_id=0&ab_test_status=0&redirect_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F%3Futm_source%3D43_seo%26utm_medium%3Daffiliate%26utm_campaign%3Dnoince%26utm_term%3Dall%26utm_content%3Dcounseling07%26guid%3DON%26id1%3Ddatsumouosusume%26hc_uus%3Dfca4ccf76ea6089130316f3a5a0184cc%26type%3D%26link_code_ak%3DVSEYP.1.HHAX3%26referer%3D&p=ak%3DVSEYP.1.HHAX3%26abm%3D466d94f8c702c11cd142555eb34f4176202210%26guid%3DON%26id1%3Ddatsumouosusume&listing_key=&cookie_expire_period=365%E6%97%A5&cookie_expire_time=2023-10-17+21%3A45%3A35&session_id=466d94f8c702c11cd142555eb34f4176202210&tracking_id_1=&tracking_id_2=&tag_repetition_flg=1&click_referer_flg=2&account_id=166&device=pc&ip=126.218.88.189&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+HeadlessChrome%2F106.0.5249.30+Safari%2F537.36&site_url=https%3A%2F%2Fstlassh.com%2Fac%2Flp%2Fa%2Fcounseling07%2F",
+      "ip": "54.178.113.122",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://stlassh.com/ac/lp/a/counseling07/?utm_source=43_seo&utm_medium=affiliate&utm_campaign=noince&utm_term=all&utm_content=counseling07&guid=ON&id1=datsumouosusume&hc_uus=fca4ccf76ea6089130316f3a5a0184cc&type=&link_code_ak=VSEYP.1.HHAX3&referer=",
+      "ip": "52.196.152.231",
+      "port": 443,
+      "status": 200
+    }
+  ]
+}

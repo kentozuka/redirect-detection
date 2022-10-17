@@ -168,17 +168,10 @@ async function filterDocumentRequests(
 ): Promise<{ start: string; docs: Doc[]; destination: string }> {
   const docs: Doc[] = []
 
-  const pathToExtension =
-    '/Users/ron/Library/Application Support/Google/Chrome/Default/Extensions/nnpljppamoaalgkieeciijbcccohlpoh/1.0.0.0_0'
   const userDataDir = '/tmp/test-user-data-dir'
   if (browser === null) {
     const browserContext = await chromium.launchPersistentContext(userDataDir, {
-      headless: false
-      // devtools: true,
-      // args: [
-      //   `--disable-extensions-except=${pathToExtension}`,
-      //   `--load-extension=${pathToExtension}`
-      // ]
+      // headless: false
     })
     browserContext.route('**/*', (route, request) => {
       const ignores = [
