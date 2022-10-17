@@ -1,0 +1,109 @@
+{
+  "docs": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/kanihonpo?cvpage=fd001&landing=fd001",
+      "status": 200,
+      "redirectType": "unknown",
+      "headers": {
+        "cache-control": "max-age=0, no-cache, no-store",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 01:22:36 GMT",
+        "link": "<https://cuebic.co.jp/your_select/wp-json/>; rel=\"https://api.w.org/\"\n<https://cuebic.co.jp/your_select/?p=2562>; rel=shortlink",
+        "pragma": "no-cache",
+        "server": "nginx",
+        "x-b-cache": "B=BYPASS:D=HIT",
+        "x-content-type-options": "nosniff\nnosniff",
+        "x-f-cache": "BYPASS",
+        "x-frame-options": "SAMEORIGIN\nSAMEORIGIN",
+        "x-page-speed": "1.13.35.2-0",
+        "x-pst-dynamic": "HIT; 2.441 ms; L4",
+        "x-signature": "KUSANAGI",
+        "x-xss-protection": "1; mode=block\n1; mode=block"
+      },
+      "body": "<!doctype html>\n<html lang=\"ja\">\n<head>\n<!-- wexal_pst_init.js does not exist -->\n<!-- engagement_delay.js does not exist -->\n<!-- lazysizes.min.js does not exist -->\n<link rel=\"dns-prefetch\" href=\"//www.googletagmanager.com/\">\n<link rel=\"preconnect\" href=\"//www.googletagmanager.com/\">\n<link rel=\"dns-prefetch\" href=\"//ajax.googleapis.com/\">\n<link rel=\"preconnect\" href=\"//ajax.googleapis.com/\">\n<!-- wp shorten url enabled -->\n<meta charset=\"UTF-8\">\n<meta name=\"robots\" content=\"noindex, nofollow\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,user-scalable=no\">\n<meta http-equiv=\"Refresh\" content=\"1;URL=https://px.a8.net/svt/ejp?a8mat=3BSKJI+9XTJCI+1ZWM+661TU&id1=your_select_fd001_landing_kanihonpo\" rel=\"nofollow\">\n<title>your SELECT.</title>\n<link rel=\"dns-prefetch\" href=\"https://code.jquery.com\">\n<link rel=\"dns-prefetch\" href=\"https://googleads.g.doubleclick.net\">\n<link rel=\"dns-prefetch\" href=\"https://tpc.googlesyndication.com\">\n<link rel=\"dns-prefetch\" href=\"https://www.gstatic.com\">\n<link rel=\"dns-prefetch\" href=\"https://netdna.bootstrapcdn.com\">\n<link rel=\"dns-prefetch\" href=\"https://s.yjtag.jp\">\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\"/>\n<link rel=\"shortcut icon\" href=\"https://cuebic.co.jp/your_select/wp-content/themes/your_select/favicon.png\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/your_select/wp-content/themes/your_select/style.css\"/>\n<!-- Google Tag Manager -->\n<script>\n\t\t(function(w, d, s, l, i) {\n\t\t\tw[l] = w[l] || [];\n\t\t\tw[l].push({\n\t\t\t\t'gtm.start': new Date().getTime(),\n\t\t\t\tevent: 'gtm.js'\n\t\t\t});\n\t\t\tvar f = d.getElementsByTagName(s)[0],\n\t\t\t\tj = d.createElement(s),\n\t\t\t\tdl = l != 'dataLayer' ? '&l=' + l : '';\n\t\t\tj.async = true;\n\t\t\tj.src =\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n\t\t\tf.parentNode.insertBefore(j, f);\n\t\t})(window, document, 'script', 'dataLayer', 'GTM-NR98W5Z');\n\t</script>\n<!-- End Google Tag Manager -->\n<style type=\"text/css\">\n\t\tbody {\n\t\t\ttext-align: center;\n\t\t}\n\n\t\t.a {\n\t\t\tcolor: #3553a2;\n\t\t\tfont-weight: bold;\n\t\t}\n\n\t\t.b {\n\t\t\tfont-size: 1.2em;\n\t\t\tpadding-top: 2em;\n\t\t}\n\n\t\t.c {\n\t\t\tfont-size: 0.8em;\n\t\t}\n\n\t\t.contentBar {\n\t\t\twidth: 90px;\n\t\t\tpadding-top: 20%;\n\t\t\tpadding-bottom: 10px;\n\t\t\tmargin: 0 auto;\n\t\t}\n\n\t\t/*  四角いブロックの中のアニメーション時の色と動き */\n\t\t.barlittle {\n\t\t\tbackground-color: #17cddd;\n\t\t\tbackground-image: -moz-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tbackground-image: -webkit-linear-gradient(90deg, #2187e7 25%, #a0eaff);\n\t\t\tborder: 1px solid #bbbbb;\n\t\t\twidth: 10px;\n\t\t\theight: 10px;\n\t\t\tfloat: left;\n\t\t\tmargin-left: 5px;\n\t\t\topacity: 0.1;\n\t\t\t-moz-transform: scale(0.7);\n\t\t\t-webkit-transform: scale(0.7);\n\t\t\t-moz-animation: move 1s infinite linear;\n\t\t\t-webkit-animation: move 1s infinite linear;\n\t\t}\n\n\t\t/* ブロックの１つ１つのアニメーションをずらす */\n\t\t#block_1 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t#block_2 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_3 {\n\t\t\t-moz-animation-delay: .2s;\n\t\t\t-webkit-animation-delay: .2s;\n\t\t}\n\n\t\t#block_4 {\n\t\t\t-moz-animation-delay: .3s;\n\t\t\t-webkit-animation-delay: .3s;\n\t\t}\n\n\t\t#block_5 {\n\t\t\t-moz-animation-delay: .4s;\n\t\t\t-webkit-animation-delay: .4s;\n\t\t}\n\n\t\t/* キーフレームを使ったローディングの始まりと終わりの指定 */\n\t\t@-moz-keyframes move {\n\t\t\t0% {\n\t\t\t\t-moz-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-moz-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\n\t\t@-webkit-keyframes move {\n\t\t\t0% {\n\t\t\t\t-webkit-transform: scale(1.2);\n\t\t\t\topacity: 1;\n\t\t\t}\n\n\t\t\t100% {\n\t\t\t\t-webkit-transform: scale(0.7);\n\t\t\t\topacity: 0.1;\n\t\t\t}\n\t\t}\n\t</style>\n<meta name='robots' content='max-image-preview:large'/>\n<link rel='dns-prefetch' href='//ajax.googleapis.com'/>\n<link rel='dns-prefetch' href='//s.w.org'/>\n<link rel='stylesheet' id='sbi_styles-css' href='/your_select/wp-content/plugins/instagram-feed/css/sbi-styles.min.css' type='text/css' media='all'/>\n<link rel='stylesheet' id='common-style-css' href='/your_select/wp-content/themes/your_select/style.css' type='text/css' media='all'/>\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-32x32.png\" sizes=\"32x32\"/>\n<link rel=\"icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-192x192.png\" sizes=\"192x192\"/>\n<link rel=\"apple-touch-icon\" href=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-180x180.png\"/>\n<meta name=\"msapplication-TileImage\" content=\"https://cuebic.co.jp/your_select/wp-content/uploads/2020/08/cropped-YS_favicon-270x270.png\"/>\n</head>\n<body>\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-NR98W5Z\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n<div class=\"contentBar\">\n<div id=\"block_1\" class=\"barlittle\"></div>\n<div id=\"block_2\" class=\"barlittle\"></div>\n<div id=\"block_3\" class=\"barlittle\"></div>\n<div id=\"block_4\" class=\"barlittle\"></div>\n<div id=\"block_5\" class=\"barlittle\"></div>\n</div>\n<p class=\"a\">しばらくお待ちください</p>\n<p class=\"b\">かに本舗の公式サイトへ移動中です</p>\n<p class=\"c\">ページ移動しない場合は、<a href=\"https://px.a8.net/svt/ejp?a8mat=3BSKJI+9XTJCI+1ZWM+661TU&id1=your_select_fd001_landing_kanihonpo\" rel=\"nofollow\">こちらから</a></p>\n<!-- Instagram Feed JS -->\n<script type=\"text/javascript\">\nvar sbiajaxurl = \"https://cuebic.co.jp/your_select/wp-admin/admin-ajax.php\";\n</script>\n<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' id='jquery-js'></script>\n<script type='text/javascript' id='toc-front-js-extra'>\n/* <![CDATA[ */\nvar tocplus = {\"smooth_scroll\":\"1\",\"visibility_show\":\"\\u2228\",\"visibility_hide\":\"\\u2227\",\"visibility_hide_by_default\":\"1\",\"width\":\"100%\",\"smooth_scroll_offset\":\"120\"};\n/* ]]> */\n</script>\n<script type='text/javascript' src='/your_select/wp-content/plugins/table-of-contents-plus/front.min.js' id='toc-front-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/base.js' id='base_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/header-scroll.js' id='header_scroll_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/contents.js' id='contents_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/table-cover.js' id='table_cover_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/table-order.js' id='table_order_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/floatbtn.js' id='floatbtn_js-js'></script>\n<script type='text/javascript' src='/your_select/wp-content/themes/your_select/js/tab-graph.js' id='tab_graph_js-js'></script>\n</body>\n</html>",
+      "ip": "18.177.174.245",
+      "port": 443
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3BSKJI+9XTJCI+1ZWM+661TU&id1=your_select_fd001_landing_epi-epiler",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "cache-control": "no-cache",
+        "connection": "keep-alive",
+        "content-length": "0",
+        "date": "Mon, 17 Oct 2022 01:22:37 GMT",
+        "location": "https://a8clk.skynet-c.jp/click/?url=https%3A%2F%2Fskynet-c.jp%2Fad%2Flp_kani_001.html%3Futm_source%3Daffiliate%26utm_medium%3DA8%26utm_campaign%3Dfancs%26a8%3D7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+        "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
+        "server": "Apache"
+      },
+      "body": "",
+      "ip": "13.113.81.163",
+      "port": 443
+    },
+    {
+      "url": "https://a8clk.skynet-c.jp/click/?url=https%3A%2F%2Fskynet-c.jp%2Fad%2Flp_kani_001.html%3Futm_source%3Daffiliate%26utm_medium%3DA8%26utm_campaign%3Dfancs%26a8%3D7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+      "status": 302,
+      "redirectType": "server",
+      "headers": {
+        "connection": "keep-alive",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 01:22:37 GMT",
+        "location": "https://skynet-c.jp/ad/lp_kani_001.html?utm_source=affiliate&utm_medium=A8&utm_campaign=fancs&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+        "server": "openresty/1.19.9.1",
+        "transfer-encoding": "chunked",
+        "x-powered-by": "PHP/7.1.33"
+      },
+      "body": "",
+      "ip": "35.76.167.131",
+      "port": 443
+    },
+    {
+      "url": "https://skynet-c.jp/ad/lp_kani_001.html?utm_source=affiliate&utm_medium=A8&utm_campaign=fancs&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "private",
+        "connection": "Keep-Alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Mon, 17 Oct 2022 01:22:37 GMT",
+        "keep-alive": "timeout=4, max=200",
+        "server": "Apache",
+        "transfer-encoding": "chunked",
+        "ntcoent-length": "87324"
+      },
+      "body": "\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n<meta http-equiv=\"Content-Script-Type\" content=\"JavaScript\">\n<meta name=\"description\" content=\"社長自らがアラスカで現地買い付けした大型のずわい・たらば・毛ガニを、かに本舗だからできる品質と価格で通販にてご提供！安くておいしいボリューム満点のかにしゃぶ、雑炊を家族みんなでお楽しみください♪かにの新たな魅力に気付く調理レシピも公開中！\">\n<meta name=\"keywords\" content=\"かに,通販,カニ,蟹,かに本舗,匠本舗,鍋,かにしゃぶ,送料無料\">\n\n<title>北海道カニ通販・超お買い得価格の蟹専門店【かに本舗】</title>\n\n<link rel=\"stylesheet\" href=\"mv/lp_kani2021/common/css/import.css\" media=\"all\">\n<link rel=\"stylesheet\" href=\"mv/lp_kani2021/common/css/print.css\" media=\"print\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/lp_kani2021/import.css\" media=\"screen,print\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/lp_kani2021/index.css\" media=\"screen,print\">\n\n<script type=\"text/javascript\">\n// iPhoneまたは、Androidの場合は振り分けを判断\nif (document.referrer.indexOf('fulp/index.html') == -1 && ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0)) {\n\tlocation.href = 'https://skynet-c.jp/sph/sp_01.html';\n}\n</script>\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n<!--<script src=\"js/lp_kani2021/jquery.min.js\" type=\"text/javascript\"></script>-->\n<script src=\"mv/lp_kani2021/common/js/jquery.belatedPNG.min.js\"></script>\n<script src=\"js/lp_kani2021/library.js\" type=\"text/javascript\"></script>\n<script src=\"js/lp_kani2021/scroll.js\" type=\"text/javascript\"></script>\n\n\n<!-- ■A8 -->\n<script src=\"//statics.a8.net/a8sales/a8sales.js\"></script>\n<script src=\"//statics.a8.net/a8sales/a8crossDomain.js \"></script>\n<!-- ■A8 END -->\n\n<!-- ■ Google Tag Manager CVGET -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WP7QKC5');</script>\n<!-- ■ Google Tag Manager CVGET END -->\n\n<!-- ■ Google Analytics -->\n<script type=\"text/javascript\">\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-17183397-1']);\n  _gaq.push(['_trackPageview']);\n  \n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>\n<!-- ■ //Google Analytics -->\n\n<!-- ■SmartNews -->\n<script type=\"text/javascript\">\n!function(){if(window.SmartnewsAds=window.SmartnewsAds||{},!window.SmartnewsAds.p){var e=window.SmartnewsAds.p=function(){e.callMethod?e.callMethod.apply(e,arguments):e.queue.push(arguments)};window.SmartnewsAds._p||(window.SmartnewsAds._p=e),e.push=e,e.version=\"1.0.0\",e.queue=[];var n=document.createElement(\"script\");n.async=!0,n.src=\"//cdn.smartnews-ads.com/i/pixel.js\";var s=document.getElementsByTagName(\"script\")[0];s.parentNode.insertBefore(n,s)}}();\nSmartnewsAds.p(\"8019c5fa8aca63769ecae0b6\", \"PageView\");\n</script>\n<noscript>\n<img height=\"1\" width=\"1\" style=\"display:none;\" alt=\"\" src=\"https://i.smartnews-ads.com/p?id=8019c5fa8aca63769ecae0b6&e=PageView\" />\n</noscript>\n<!-- ■SmartNews END -->\n\n\n<style>\n.stickybannerindex{\n\tposition:fixed;\n\tbottom:0;\n\tleft:0;\n\twidth:100%;\n\tbackground-color:#bf0000;\n\tz-index:99;\n}\n.stickybannerindex p{\n\twidth:960px;\n\tmargin:0 auto;\n}\n.stickybannerindex img{\n\t/*margin-left:-25px;*/\n\tmargin-top:5px;\n\tmargin-bottom:5px;\n}\n\t\n\t#show-ev{\n\t\twidth: 120px;\n\t\theight: 50px;\n\t\tbackground-color: red;\n\t\tcolor: #fffff0;\n\t\tborder: 1px solid #fff;\n\t\tposition: fixed;\n\t\tbottom: 2%;\n\t\tright:  10%;\n\t\tz-index: 999999;\n\t\tdisplay: none;\n\t\tcursor: pointer;\n\t}\n\t\t#hide-ev{\n\t\twidth: 120px;\n\t\theight: 50px;\n\t\tbackground-color: #D0CECE;\n\t\tcolor: #000;\n\t\tborder: 1px solid #fff;\n\t\tposition: fixed;\n\t\tbottom: 2%;\n\t\tright:  10%;\n\t\tz-index: 999999;\n\t\tcursor: pointer;\n\t    \t\t\n\t}\n\t\n\t\t#show-ev1{\n\t\twidth: 70px;\n\t\theight: 20px;\n\t\tfont-size: 10px;\n\t\tbackground-color: red;\n\t\tcolor: #fffff0;\n\t\tborder: 1px solid #fff;\n\t\tposition: fixed;\n\t\tbottom: 7%;\n\t\tleft:  5%;\n\t\tz-index: 99999;\n\t\tdisplay: none;\n\t\tcursor: pointer;\n\t}\n\t\t#hide-ev1{\n\t\twidth: 50px;\n\t\theight: 20px;\n\t\tfont-size: 10px;\n\t\tbackground-color: #D0CECE;\n\t\tcolor: #000;\n\t\tborder: 1px solid #fff;\n\t\tposition: fixed;\n\t\tbottom: 7%;\n\t\tleft:  5%;\n\t\tz-index: 99999;\n\t\tcursor: pointer;\n\t    \t\t\n\t}\n\t\n\t\n\t.stickybannerindex{\n\t\tdisplay: block;\n\t}\n\t\n\t@media screen and (max-width:1024px) { \n    /*　for iPhone Landscape　(iPhone 横)　*/\n\t\t.stickybannerindex img{\n\t\t\twidth:100%;\n\t\t}\n\t\t#show-ev{\n\t\t\tdisplay: none;\n\t\t}\n\t\t#hide-ev{\n\t\t\tdisplay: none;\n\t\t}\n\t\t#show-ev1{\n\t\t\tdisplay: none;\n\t\t}\n\t\t#hide-ev1{\n\t\t\tdisplay: block;\n\t\t}\n}\n@media screen and (min-width:768px) and ( max-width:1024px) {\n    /*　for iPad 　*/\n \n}\n@media screen and (min-width:1024px) {\n    /*　for PC　*/\n\t    #show-ev{\n\t\t\tdisplay: none;\n\t\t}\n\t\t#hide-ev{\n\t\t\tdisplay: block;\n\t\t}\n        #show-ev1{\n\t\t\tdisplay: none;\n\t\t}\n\t\t#hide-ev1{\n\t\t\tdisplay: none;\n\t\t}\n}\n  \n.square_sticky{\n  position:fixed;\n  right:0;\n  top:0;\n  z-index:999999;\n  margin-bottom:5%;\n}\n .square_sticky p a img{\n    width:160px;\n    height:160px;\n  }   \n  \n  .stickyLeft{\n  position:fixed;\n  top:0;\n  left:0;\n  width:80px;\n  height:1839px;\n  background-repeat:repeat-y;\n  overflow:visible;\n  z-index:999999;\n}\n.stickyRight{\n  position:fixed;\n  top:0;\n  right:0;\n  width:80px;\n  height:1839px;\n  background-repeat:repeat-y;\n  overflow:visible;\n  z-index:999999;\n}\n.stickyLeft p,.stickyRight p{\n  width:100px;\n  height:1839px;\n  margin:0 auto;\n}\n.stickyLeft p a,.stickyRight p a{\n  display:block;\n  width:100px;\n  height:1839px;\n}\n  \n</style>\n\n\n",
+      "ip": "210.160.220.105",
+      "port": 443
+    }
+  ],
+  "rings": [
+    {
+      "url": "https://cuebic.co.jp/your_select/link/kanihonpo?cvpage=fd001&landing=fd001",
+      "ip": "18.177.174.245",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://px.a8.net/svt/ejp?a8mat=3BSKJI+9XTJCI+1ZWM+661TU&id1=your_select_fd001_landing_epi-epiler",
+      "ip": "13.113.81.163",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://a8clk.skynet-c.jp/click/?url=https%3A%2F%2Fskynet-c.jp%2Fad%2Flp_kani_001.html%3Futm_source%3Daffiliate%26utm_medium%3DA8%26utm_campaign%3Dfancs%26a8%3D7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+      "ip": "35.76.167.131",
+      "port": 443,
+      "status": 302
+    },
+    {
+      "url": "https://skynet-c.jp/ad/lp_kani_001.html?utm_source=affiliate&utm_medium=A8&utm_campaign=fancs&a8=7Fgz3FEfV2ImgTIWmdy.Fh8WBTTtui.9edyF42hZhmU.C2gbOL5haE5e.LlhR9kVUjB702hVtFiOCqiOrE4h0qTb.Ml.tjENU9BIueRFbHgFOey65mUeCKg7UF46VHgQzHltxs00000009319001",
+      "ip": "210.160.220.105",
+      "port": 443,
+      "status": 200
+    }
+  ]
+}

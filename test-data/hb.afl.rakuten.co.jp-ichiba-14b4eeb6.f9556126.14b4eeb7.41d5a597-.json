@@ -1,16 +1,16 @@
 {
   "docs": [
     {
-      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fksc-ser-ba3d-f%2F",
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F5712a8a4ecc468c0be1f7802d5d5d9ed%2F",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "connection": "close",
         "content-encoding": "gzip",
-        "content-length": "184",
+        "content-length": "195",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 16 Oct 2022 16:59:30 GMT",
-        "location": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fksc-ser-ba3d-f%2F&ref=&ut=&link_type=&afct=i_1",
+        "date": "Mon, 17 Oct 2022 01:00:24 GMT",
+        "location": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F5712a8a4ecc468c0be1f7802d5d5d9ed%2F&ref=&ut=&link_type=&afct=i_1",
         "server": "Apache",
         "vary": "Accept,Accept-Encoding",
         "x-content-type-options": "nosniff",
@@ -22,20 +22,20 @@
       "port": 80
     },
     {
-      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fksc-ser-ba3d-f%2F&ref=&ut=&link_type=&afct=i_1",
+      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F5712a8a4ecc468c0be1f7802d5d5d9ed%2F&ref=&ut=&link_type=&afct=i_1",
       "status": 302,
       "redirectType": "server",
       "headers": {
         "connection": "close",
         "content-length": "0",
-        "date": "Sun, 16 Oct 2022 16:59:30 GMT",
-        "location": "https://item.rakuten.co.jp/office-com/ksc-ser-ba3d-f/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+        "date": "Mon, 17 Oct 2022 01:00:24 GMT",
+        "location": "https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/?scid=af_pc_etc&sc2id=af_117_1_10001720",
         "p3p": "CP=\"BUS OUR PHY STP ADM CUR DEV PSA PSD\"",
         "server": "Mojolicious (Perl)",
         "x-content-type-options": "nosniff",
         "x-rt-hid": "1829388021300992294",
         "x-rt-ref": "",
-        "x-rt-request-time": "t=1665939570253708",
+        "x-rt-request-time": "t=1665968424507248",
         "x-rt-tracking-status": "2",
         "x-xss-protection": "1; mode=block"
       },
@@ -44,43 +44,44 @@
       "port": 443
     },
     {
-      "url": "https://item.rakuten.co.jp/office-com/ksc-ser-ba3d-f/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+      "url": "https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/?scid=af_pc_etc&sc2id=af_117_1_10001720",
       "status": 200,
       "redirectType": "client",
       "headers": {
         "cache-control": "max-age=0, no-cache, no-store",
         "content-encoding": "gzip",
-        "content-length": "35111",
-        "content-type": "text/html;charset=EUC-JP",
-        "date": "Sun, 16 Oct 2022 16:59:30 GMT",
-        "expires": "Sun, 16 Oct 2022 16:59:30 GMT",
+        "content-length": "30495",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 01:00:24 GMT",
+        "expires": "Mon, 17 Oct 2022 01:00:24 GMT",
+        "p3p": "CP=\"NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM\"",
         "pragma": "no-cache",
         "server": "openresty",
-        "vary": "Accept-Encoding,User-Agent,Cookie",
-        "x-akamai-transformed": "9 - 0 pmb=mTOE,2",
+        "vary": "Accept-Encoding",
+        "x-akamai-transformed": "9 30274 0 pmb=mTOE,2",
         "x-content-type-options": "nosniff",
         "x-xss-protection": "1; mode=block"
       },
-      "body": "\n<meta http-equiv=\"expires\" content=\"\">\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=EUC-JP\">\n<meta http-equiv=\"Content-Language\" content=\"ja\">\n<meta name=\"description\" content=\"スチールケース steelcase 高機能チェア 事務椅子 パソコンチェア PCチェア チェア オフィス 椅子 ワークチェア。【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務\">\n<meta name=\"keywords\" content=\"楽天市場,通信販売,通販,ショッピング,オンラインショッピング,買い物,プレゼント,ギフト,贈り物,贈答品,お中元,お歳暮,お買い得,【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務\">\n<base href=\"https://image.rakuten.co.jp/\">\n<title>【楽天市場】【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務：オフィス家具通販のオフィスコム</title>\n<style type=\"text/css\">\n<!--\n td.sdtext { color:#000000; font-size:80%;}\n td.topT_sdtext { color:#000000; font-size:80%;}\n td.exT_sdtext { color:#000000; font-size:80%;}\n td.inT_sdtext { color:#000000; font-size:80%;}\n\nbody { background-color: #FFFFFF;}\nspan.item_name { color: #000000; font-size: 80%;}\nspan.item_desc { color: #000000; font-size: 100%;}\nspan.item_number_title { color: #666666; font-size: 80%;}\nspan.item_number { color: #666666; font-size: 80%;}\nspan.unit { color: #000000; font-size: 100%;}\nspan.price1 { color: #FF0000; font-size: 80%;}\nspan.price2 { color: #FF0000; font-size: 200%;}\nspan.tax_postage { color: #000000; font-size: 80%;}\na.etc_link:link { color: #606060; font-size: 80%;}\na.etc_link:visited { color: #606060; font-size: 80%;}\na.etc_link:active { color: #606060; font-size: 80%;}\na.etc_link:hover { color: #606060; font-size: 80%;}\nspan.time_sale { color: #000000; font-size: 100%;}\nspan.catch_copy { color: #666666; font-size: 80%;}\nspan.sale_desc { color: #000000; font-size: 80%;}\nspan.double_price_title { color: #000000; font-size: 80%;}\nspan.double_price { color: #000000; font-size: 100%;}\nspan.open_price_title { color: #000000; font-size: 100%;}\nspan.open_price { color: #000000; font-size: 100%;}\nspan.choice { color: #cc0000; font-size: 80%;}\nspan.rest { color: #FF0000; font-size: 100%;}\nspan.soldout_msg { color: #FF0000; font-size: 100%;}\nspan.inventory_title { color: #000000; font-size: 80%;}\ntd.inventory { background-color: #FFFFFF;}\nspan.inventory_choice_name { color: #000000; font-size: 80%;}\ntd.inventory_choice_name { background-color: #e0e0e0;}\nspan.inventory_desc { color: #000000; font-size: 80%;}\nspan.inventory_soldout { color: #000000; font-size: 80%;}\nspan.inventory_rest { color: #000000; font-size: 80%;}\ntd.lossleader_item_name { color: #000000; font-size: 80%; font-weight:bold;}\na.lossleader_item_name:link { color: #000000;}\na.lossleader_item_name:visited { color: #000000;}\na.lossleader_item_name:active { color: #000000;}\nspan.lossleader_price1 { color: #000000; font-size: 80%; font-weight:bold;}\nspan.lossleader_price2 { color: #cc0000; font-size: 80%; font-weight:bold;}\nspan.lossleader_double_price_title { color: #606060; font-size: 60%; font-weight:bold;}\nspan.lossleader_double_price { color: #606060; font-size: 80%; font-weight:bold;}\nspan.lossleader_open_price_title { color: #000000; font-size: 80%; font-weight:bold;}\nspan.lossleader_open_price { color: #000000; font-size: 80%; font-weight:bold;}\nspan.sa_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.sa_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.sa_item_desc { color: #000000; font-size: 100%;}\nspan.sa_sale_desc { color: #000000; font-size: 100%;}\nspan.present_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.present_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.present_entry_term { color: #000000; font-size: 100%;}\nspan.present_item_desc { color: #000000; font-size: 100%;}\nspan.win_cnt_title { color: #000000; font-size: 100%;}\nspan.win_cnt { color: #000000; font-size: 100%;}\nspan.present_end_msg { color: #FF0000; font-size: 100%;}\nspan.gbuy_catch_copy { color: #000000; font-size: 150%; font-weight:bold;}\nspan.gbuy_item_name { color: #000000; font-size: 150%; font-weight:bold;}\nspan.gbuy_time_sale { color: #000000; font-size: 100%;}\nspan.gbuy_item_desc { color: #000000; font-size: 100%;}\nspan.gbuy_sale_desc { color: #000000; font-size: 100%;}\nspan.gbuy_price1 { color: #FF0000; font-size: 100%;}\nspan.gbuy_price2 { color: #FF0000; font-size: 100%;}\nspan.gbuy_double_price_title { color: #000000; font-size: 100%;}\nspan.gbuy_double_price { color: #000000; font-size: 100%;}\nspan.gbuy_final_price { font-size: 120%; font-weight:bold;}\nspan.gbuy_open_price_title { color: #000000; font-size: 100%;}\nspan.gbuy_open_price { color: #000000; font-size: 100%;}\nspan.gbuy_table_detail_title { font-size: 100%;}\n  -->\n</style>\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/aroundcart-1.7.8.css\">\n<link rel=\"SHORTCUT ICON\" href=\"https://www.rakuten.co.jp/favicon.ico\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_header_w-2.6.0.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://r.r10s.jp/com/inc/navi/spu/css/spux-pc-1.1.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/com/css/rms/storefront/pc/page/page_suggest-1.0.5.css\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_header_reco-1.2.1.css\">\n<link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/assets/app/pages/recommendation-standalone/css/main-29e2d74520eb86a38910.bundle.css\" charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/assets/app/pages/recommendation-standalone/css/pc-29e2d74520eb86a38910.bundle.css\" charset=\"UTF-8\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_recommend-1.0.0.css\">\n<link rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/page_images-1.1.0.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"//a.ichiba.jp.rakuten-static.com/com/inc/home/20080930/opt/css/normal/ris-notification-1.3.4.css\">\n<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"/com/css/rms/storefront/pc/page/rms_item_table_pc-1.0.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/ranking-inshop-pcc-1.1.1.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/rchat_widget-1.0.0.css\">\n<link rel=\"alternate\" href=\"android-app://jp.co.rakuten.android/rakuten-ichiba-app/www.rakuten.co.jp/item_detail?item_code=office-com:10116778&amp;source=appindexing_item\">\n<meta property=\"og:type\" content=\"product\">\n<meta property=\"og:title\" content=\"【楽天市場】【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務：オフィス家具通販のオフィスコム\">\n<meta property=\"og:description\" content=\"スチールケース steelcase 高機能チェア 事務椅子 パソコンチェア PCチェア チェア オフィス 椅子 ワークチェア。【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務\">\n<meta property=\"og:url\" content=\"https://item.rakuten.co.jp/office-com/ksc-ser-ba3d-f/\">\n<meta property=\"og:image\" content=\"https://shop.r10s.jp/office-com/cabinet/steelcase/sc1/ksc-ser-ba3d-f_050.jpg\">\n<meta property=\"og:site_name\" content=\"楽天市場\">\n<meta property=\"fb:app_id\" content=\"157315820947832\">\n<meta name=\"twitter:card\" content=\"summary\">\n<meta name=\"twitter:site\" content=\"@RakutenJP\">\n<meta name=\"twitter:title\" content=\"【楽天市場】【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務：オフィス家具通販のオフィスコム\">\n<meta name=\"twitter:description\" content=\"スチールケース steelcase 高機能チェア 事務椅子 パソコンチェア PCチェア チェア オフィス 椅子 ワークチェア。【ブラック:次回入荷未定】スチールケース シリーズワン Series1 ブラックフレーム Black frame アジャスタブルアーム 可動ランバーサポート 背3Dニット 座クロス張り 435A00BAオフィスチェア オフィス 椅子 デスクチェア テレワーク リモートワーク チェア 在宅勤務\">\n<meta name=\"twitter:image:src\" content=\"https://shop.r10s.jp/office-com/cabinet/steelcase/sc1/ksc-ser-ba3d-f_050.jpg\">\n<link rel=\"canonical\" href=\"https://item.rakuten.co.jp/office-com/ksc-ser-ba3d-f/\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"https://r.r10s.jp/com/js/d/irp/ichiba-item/1.0.5/pc/ichiba-item.min.css\">\n<link type=\"text/css\" rel=\"stylesheet\" href=\"/com/css/rms/storefront/pc/page/floating_coupon-1.0.1.css\">\n<script>bazadebezolkohpepadr=\"830090223\"</script><script type=\"text/javascript\" src=\"https://item.rakuten.co.jp/akam/13/317a2ad8\" defer=\"\"></script>",
+      "body": "\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n    <meta http-equiv=\"Pragma\" content=\"no-cache\">\n    <title>【楽天市場】和平フレイズ 燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット) | 価格比較 - 商品価格ナビ</title>\n    <meta name=\"description\" content=\"燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット)の価格比較、最安値比較。【最安値 1,499円（税込）】【評価：5.00】【口コミ：1件】【注目ランキング：17位】（10/17時点 - 商品価格ナビ）【製品詳細：ブランド名：燕研磨ファクトリー】\">\n<meta name=\"keywords\" content=\"燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット),和平フレイズ ,4903779471605,箸・カトラリー,食器・カトラリー・グラス,キッチン用品・食器・調理器具,価格,比較,ポイント,送料,商品価格ナビ,通販,インターネット,ショッピング,楽天市場\">\n<link rel=\"canonical\" href=\"https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/\">\n<link rel=\"alternate\" href=\"android-app://jp.co.rakuten.android/rakuten-ichiba-app/www.rakuten.co.jp/web/?deep_link_url=https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/?scid=wi_ich_androidapp_appindexing_product&amp;l2-id=wi_ich_androidapp_appindexing_product\">    <meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n    <meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n    <meta name=\"robots\" content=\"noydir,noodp\">\n    <meta name=\"robots\" content=\"max-snippet:160, max-image-preview:large\">\n    <!-- OGP対応 -->\n        <meta property=\"fb:app_id\" content=\"157315820947832\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:site_name\" content=\"楽天市場\">\n    <meta property=\"og:url\" content=\"https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/summary/5/?sc=1\">    <meta property=\"og:title\" content=\"【楽天市場】和平フレイズ 燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット) | 価格比較 - 商品価格ナビ\">\n    <meta property=\"og:image\" content=\"https://r.r10s.jp/ran/img/1001/0004/903/779/471/605/10010004903779471605_1.jpg?fitin=200:200&amp;composite-to=*,*|200:200\">\n    <meta property=\"og:description\" content=\"燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット)の価格比較、最安値比較。【最安値 1,499円（税込）】【評価：5.00】【口コミ：1件】【注目ランキング：17位】（10/17時点 - 商品価格ナビ）【製品詳細：ブランド名：燕研磨ファクトリー】\">\n\n    <meta property=\"twitter:card\" content=\"summary\">\n    <meta property=\"twitter:site\" content=\"@RakutenJP\">\n    <meta property=\"twitter:title\" content=\"【楽天市場】和平フレイズ 燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット) | 価格比較 - 商品価格ナビ\">\n    <meta property=\"twitter:description\" content=\"燕研磨ファクトリー ステンレス ストロー 2本セット ME-7160(1セット)の価格比較、最安値比較。【最安値 1,499円（税込）】【評価：5.00】【口コミ：1件】【注目ランキング：17位】（10/17時点 - 商品価格ナビ）【製品詳細：ブランド名：燕研磨ファクトリー】\">\n        <!-- /OGP対応 -->\n\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/default.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/layout-1.3.0.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/min_product-22.03.15.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/rpsTabSectRev-1.0.1.css?v=202204190000\" type=\"text/css\" media=\"all\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/center.css?v=202204190000\" type=\"text/css\">\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/inc/navi/horizontal/header/common/css/ri_pc_cmn_header-2.1.0.min.css\" type=\"text/css\" media=\"all\">\n    <!-- Multiple Image CSS -->\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/imagechange-21.10.26.css?v=202204190000\" type=\"text/css\">\n    <!-- Shisa: Client Side Error Logger. It should be the first JavaScript in Header! -->\n          <script src=\"https://r.r10s.jp/com/js/d/shisa/1.1.0/shisa.min.js\" id=\"script-shisa\" data-group=\"ichiba-product\"></script>\n      <!-- Shisa: Client Side Error Logger. It should be the first JavaScript in Header! -->\n    <script src=\"https://r.r10s.jp/com/js/d/common/jquery-1.4.2.min.js?v=202204190000\" type=\"text/javascript\" language=\"JavaScript\"></script>\n    <script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/Rmodules/Rmodules.min.js\"></script>\n    <!-- QuickView-->\n        <link type=\"text/css\" href=\"https://r.r10s.jp/com/js/d/common/plugin/jquery-ui/jquery-ui-1.8.16.css?v=202204190000\" rel=\"stylesheet\">\n    <link type=\"text/css\" href=\"https://r.r10s.jp/com/css/d/pdt/quickview-21.04.22.css?v=202204190000\" rel=\"stylesheet\">\n        <!-- /QuickView-->\n    <!-- Direct Cart-->\n        <script src=\"https://r.r10s.jp/com/js/d/direct_cart/2.3/dbasket-pc-2.3.0.min.js\" type=\"text/javascript\" language=\"JavaScript\" charset=\"utf-8\"></script>\n    <link type=\"text/css\" href=\"https://r.r10s.jp/com/js/d/direct_cart/2.3/dbasket-pc-2.3.0.css?v=202204190000\" rel=\"stylesheet\" charset=\"utf-8\">\n        <!-- /Direct Cart-->\n\n    <link media=\"all\" type=\"text/css\" href=\"https://r.r10s.jp/com/css/d/pdt/liquid_api-1.0.0.css?v=202204190000\" rel=\"stylesheet\">\n    <!--[if gte IE 6]><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/center_forie6-7.css?v=202204190000\" type=\"text/css\" /><![endif]-->\n    <link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/socialfunction-1.0.0.css?v=202204190000\" type=\"text/css\" media=\"all\"><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/css/d/pdt/socialhistory-1.0.1.css?v=202204190000\" type=\"text/css\" media=\"all\">    <script language=\"JavaScript\" type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/rjs/rjs_helpers-1.1.0.min.js?v=202204190000\"></script>\n    <script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/common/plugin/jquery-ui/jquery-ui-1.8.16.min.js?v=202204190000\"></script><script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/common/plugin/jquery.tmpl-1.0.0.min.js?v=202204190000\"></script><script type=\"text/javascript\" src=\"https://r.r10s.jp/com/js/d/pdt/pc/quickview/quickview-1.0.4.min.js?v=202204190000\"></script><link rel=\"stylesheet\" href=\"https://r.r10s.jp/com/js/d/bdg/1.5.0/bdg.css\">  <script>bazadebezolkohpepadr=\"830090223\"</script><script type=\"text/javascript\" src=\"https://product.rakuten.co.jp/akam/13/317a2a45\" defer=\"\"></script>",
       "ip": "23.60.109.207",
       "port": 443
     }
   ],
   "rings": [
     {
-      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fksc-ser-ba3d-f%2F",
+      "url": "http://hb.afl.rakuten.co.jp/ichiba/14b4eeb6.f9556126.14b4eeb7.41d5a597/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F5712a8a4ecc468c0be1f7802d5d5d9ed%2F",
       "ip": "133.237.48.6",
       "port": 80,
       "status": 302
     },
     {
-      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fitem.rakuten.co.jp%2Foffice-com%2Fksc-ser-ba3d-f%2F&ref=&ut=&link_type=&afct=i_1",
+      "url": "https://pt.afl.rakuten.co.jp/c/14b4eeb6.f9556126/?url=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F5712a8a4ecc468c0be1f7802d5d5d9ed%2F&ref=&ut=&link_type=&afct=i_1",
       "ip": "133.237.60.125",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://item.rakuten.co.jp/office-com/ksc-ser-ba3d-f/?scid=af_pc_etc&sc2id=af_117_1_10001720",
+      "url": "https://product.rakuten.co.jp/product/-/5712a8a4ecc468c0be1f7802d5d5d9ed/?scid=af_pc_etc&sc2id=af_117_1_10001720",
       "ip": "23.60.109.207",
       "port": 443,
       "status": 200

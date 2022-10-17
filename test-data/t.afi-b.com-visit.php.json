@@ -1,56 +1,56 @@
 {
   "docs": [
     {
-      "url": "https://t.afi-b.com/visit.php?guid=ON&a=A10285K-E344087j&p=U809919F",
+      "url": "https://t.afi-b.com/visit.php?guid=ON&a=7114129-8389924N&p=U809919F",
       "status": 200,
       "redirectType": "unknown",
       "headers": {
         "cache-control": "no-cache",
-        "content-length": "327",
+        "content-length": "318",
         "content-type": "text/html; charset=euc-jp",
-        "date": "Sun, 16 Oct 2022 17:06:25 GMT",
+        "date": "Mon, 17 Oct 2022 01:09:27 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "p3p": "CP=\"NOI DSP COR NID ADMa IVAa OUR NOR UNI\"",
         "pragma": "no-cache",
         "server": "Apache"
       },
-      "body": "        <script>\r\n            location.href=\"https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%221da2734f44a2f5e98cdc3a530f044927%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON\";\r\n        </script>",
-      "ip": "54.92.22.108",
+      "body": "        <script>\r\n            location.href=\"https://jp.berlitz.com/lp/online-english/index.html?utm_source=afb&utm_medium=affiliate&utm_campaign=JP|OT|AD|WC|afb_A&fil=%7B%22pr%22%3A%7B%227114129%22%3A%7B%22clk%22%3A%221eed7a03de09a603f97af429a3e85fe0%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON\";\r\n        </script>",
+      "ip": "54.238.147.247",
       "port": 443
     },
     {
-      "url": "https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%2297e20127957a86b4a90571846cb1f9ad%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
+      "url": "https://jp.berlitz.com/lp/online-english/index.html?utm_source=afb&utm_medium=affiliate&utm_campaign=JP|OT|AD|WC|afb_A&fil=%7B%22pr%22%3A%7B%227114129%22%3A%7B%22clk%22%3A%228770b7d393c9dab97afcbd3eb5e41bc4%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
       "status": 200,
       "redirectType": "client",
       "headers": {
-        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-        "connection": "Keep-Alive",
-        "content-encoding": "gzip",
-        "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 16 Oct 2022 17:06:25 GMT",
-        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "keep-alive": "timeout=5, max=100",
-        "pragma": "no-cache",
-        "server": "Apache/2.4.6 (Red Hat Enterprise Linux) OpenSSL/1.0.2k-fips",
-        "transfer-encoding": "chunked",
-        "x-cdn": "Imperva",
-        "x-iinfo": "13-411591158-411591160 NNYN CT(1 5 0) RT(1665939984681 17) q(0 1 1 1) r(1 2) U12"
+        "age": "55299",
+        "content-encoding": "br",
+        "content-type": "text/html",
+        "date": "Sun, 16 Oct 2022 09:47:49 GMT",
+        "etag": "W/\"0c2487b732ffb5eb2a49e74a69f5f884\"",
+        "last-modified": "Fri, 30 Sep 2022 05:49:30 GMT",
+        "server": "AmazonS3",
+        "vary": "Accept-Encoding",
+        "via": "1.1 d1fa9409a9380374423ca786990631ba.cloudfront.net (CloudFront)",
+        "x-amz-cf-id": "oNEXh5_rrnZWNIwlFZl-6xxFiCzh6MkM8YCTwI8kSU6DsYg9kmeGCA==",
+        "x-amz-cf-pop": "NRT57-P2",
+        "x-cache": "Hit from cloudfront"
       },
-      "body": "\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n<title>英会話教室ならマンツーマン専門の英会話スクール Gaba</title>\n<meta name=\"description\" content=\"マンツーマン専門の英会話スクール・教室のGaba（ガバ）。全国で展開しており、レッスン日時や講師を自由に選べます。あなたの英会話レベルやニーズに合わせて、レッスンをカスタマイズします。マンツーマンレッスンのプロの講師が、会話を引き出しながら楽しくレッスンを進めていくので、英会話に自信がなくても安心して始められます。実際に、受講者の約6割は初級レベルから始めています。まずは無料体験レッスンをお試しください。\">\n<meta name=\"keywords\" content=\"英会話,教室,スクール,レッスン,マンツーマン,gaba,GABA,ガバ,がば,ギャバ,初心者,ビジネス\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width\">\n<meta http-equiv=\"Content-Script-Type\" content=\"text/javascript\">\n<meta http-equiv=\"Content-Style-Type\" content=\"text/css\">\n<link rel=\"icon\" type=\"image/vnd.microsoft.icon\" href=\"/common/img/favicon.ico\">\n<link href=\"https://use.fontawesome.com/releases/v5.6.1/css/all.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"js/slick/slick-theme.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"js/slick/slick.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css?20221005\">\n\n\n\n<!-- *** javascript *** -->\n\n\n<script src=\"https://www.googleoptimize.com/optimize.js?id=GTM-KLKGZ9P\"></script>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KKZNVGJ');</script>\n<!-- End Google Tag Manager -->\n",
-      "ip": "103.28.248.65",
+      "body": "\n  <title>圧倒的成果のオンライン英会話 | ベルリッツ</title>\n  <meta charset=\"utf-8\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"robots\" content=\"noindex\">\n  <meta name=\"viewport\" content=\"width=device-width\">\n  <!-- Optimizely -->\n  <script src=\"https://cdn.optimizely.com/js/11085834048.js\"></script>\n  <!-- setting ogp -->\n  <meta data-react-helmet=\"true\" property=\"og:title\" content=\"英会話と語学学校のベルリッツ（Berlitz）\">\n  <meta data-react-helmet=\"true\" property=\"og:site_name\" content=\"Berlitz\">\n  <meta data-react-helmet=\"true\" property=\"og:description\" content=\"\">\n  <meta data-react-helmet=\"true\" property=\"og:image\" content=\"https://images.contentstack.io/v3/assets/bltcf02af6f9602d54f/blt58ccd10b9c892d70/5fe17e30b80b0a1a68f9fd79/img_cpn_ny21_kv.png?auto=webp&amp;format=pjpg&amp;quality=80&amp;width=1200&amp;height=1200&amp;fit=crop&amp;crop=1200:630,smart\">\n  <meta data-react-helmet=\"true\" property=\"og:url\" content=\"https://jp.berlitz.com/lp/business/\">\n  <meta data-react-helmet=\"true\" property=\"og:type\" content=\"website\">\n\n  <!-- css -->\n  <link rel=\"stylesheet\" href=\"css/normalize.css\">\n  <link rel=\"stylesheet\" href=\"css/slick.css\">\n  <link rel=\"stylesheet\" href=\"css/lp.css?210525\">\n\n\n",
+      "ip": "18.65.185.104",
       "port": 443
     }
   ],
   "rings": [
     {
-      "url": "https://t.afi-b.com/visit.php?guid=ON&a=A10285K-E344087j&p=U809919F",
-      "ip": "54.92.22.108",
+      "url": "https://t.afi-b.com/visit.php?guid=ON&a=7114129-8389924N&p=U809919F",
+      "ip": "54.238.147.247",
       "port": 443,
       "status": 200
     },
     {
-      "url": "https://secure2.gaba.co.jp/pclp_fm2/lp_af.html?s=98&lpt=5&crt=198&cs=10665&utm_source=sep&utm_medium=affiliate&utm_campaign=afb&fil=%7B%22pr%22%3A%7B%22A10285K%22%3A%7B%22clk%22%3A%2297e20127957a86b4a90571846cb1f9ad%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
-      "ip": "103.28.248.65",
+      "url": "https://jp.berlitz.com/lp/online-english/index.html?utm_source=afb&utm_medium=affiliate&utm_campaign=JP|OT|AD|WC|afb_A&fil=%7B%22pr%22%3A%7B%227114129%22%3A%7B%22clk%22%3A%228770b7d393c9dab97afcbd3eb5e41bc4%22%2C%22ym%22%3A%22202210%22%7D%7D%7D&guid=ON",
+      "ip": "18.65.185.104",
       "port": 443,
       "status": 200
     }

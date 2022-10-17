@@ -8,23 +8,23 @@
         "cache-control": "no-cache",
         "connection": "keep-alive",
         "content-length": "0",
-        "date": "Sun, 16 Oct 2022 17:06:08 GMT",
-        "location": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
+        "date": "Mon, 17 Oct 2022 01:23:04 GMT",
+        "location": "https://www.nova.co.jp/?a8=gXUI7X-RfoGylCNps9lIMUUwhU.clo4669lst.wMpM1RfoUXmpU5mzUSYpht4tiGBMOpwAU5BXUIns00000014257001",
         "p3p": "CP=\"NOI DSP COR CONa HISa OUR NOR STA\"",
         "server": "Apache"
       },
       "body": "",
-      "ip": "18.179.87.121",
+      "ip": "13.113.81.163",
       "port": 443
     },
     {
-      "url": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
+      "url": "https://www.nova.co.jp/?a8=gXUI7X-RfoGylCNps9lIMUUwhU.clo4669lst.wMpM1RfoUXmpU5mzUSYpht4tiGBMOpwAU5BXUIns00000014257001",
       "status": 200,
       "redirectType": "client",
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 16 Oct 2022 17:06:09 GMT",
+        "date": "Mon, 17 Oct 2022 01:23:05 GMT",
         "server": "nginx",
         "vary": "Accept-Encoding"
       },
@@ -36,12 +36,12 @@
   "rings": [
     {
       "url": "https://px.a8.net/svt/ejp?a8mat=3H3GSU+8IM9BM+320A+5YJRM",
-      "ip": "18.179.87.121",
+      "ip": "13.113.81.163",
       "port": 443,
       "status": 302
     },
     {
-      "url": "https://www.nova.co.jp/?a8=v4ucY4bPL-TnZSgXysZcruuBpu0dZ-QoosZy50BrXrkPL-u46Xu_Ztu_6tp5Q5zTHr8XB3u_H4ucms00000014257001",
+      "url": "https://www.nova.co.jp/?a8=gXUI7X-RfoGylCNps9lIMUUwhU.clo4669lst.wMpM1RfoUXmpU5mzUSYpht4tiGBMOpwAU5BXUIns00000014257001",
       "ip": "202.254.238.2",
       "port": 443,
       "status": 200

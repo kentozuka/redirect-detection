@@ -1,0 +1,54 @@
+{
+  "docs": [
+    {
+      "url": "https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177",
+      "status": 200,
+      "redirectType": "unknown",
+      "headers": {
+        "cache-control": "max-age=0",
+        "content-encoding": "gzip",
+        "content-length": "301",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Mon, 17 Oct 2022 02:34:13 GMT",
+        "expires": "Mon, 17 Oct 2022 02:34:13 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "body": "<html><head\"></head><body></body><script>var redirectUrl = \"https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177\";</script><script type=\"text/javascript\" src=\"https://www.af-mark.jp/ginza-calla/merk.js\"></script><script>if(\"function\"!=typeof nmht){window.location.replace(\"https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177\")}</script></html>",
+      "ip": "139.162.70.164",
+      "port": 443
+    },
+    {
+      "url": "https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177",
+      "status": 200,
+      "redirectType": "client",
+      "headers": {
+        "connection": "keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html",
+        "date": "Mon, 17 Oct 2022 02:34:14 GMT",
+        "last-modified": "Fri, 14 Oct 2022 08:29:47 GMT",
+        "server": "nginx",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding\nUser-Agent",
+        "x-proxy-cache": "MISS"
+      },
+      "body": "\n<meta charset=\"UTF-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"robots\" content=\"noindex,noarchive\">\n<title>銀座カラー｜新プラン！</title>\n<meta name=\"keywords\" content=\"脱毛,脱毛サロン,全身脱毛,脱毛し放題,銀座カラー\">\n<meta name=\"description\" content=\"美容脱毛サロン「銀座カラー」は、お客様とまっすぐに向き合う脱毛サロンでありたい。銀座カラーはお客様ファーストを目指しお客様の一番近くでキレイづくりをサポートします！\">\n<meta name=\"robots\" content=\"noindex,nofollow\">\n<meta name=\"viewport\" content=\"width=device-width, maximum-scale=2.0, minimum-scale=1.0, initial-scale=1.0, user-scalable=no, target-densitydpi=device-dpi\">\n<link rel=\"stylesheet\" href=\"css/reset.css\">\n<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\">\n<link rel=\"stylesheet\" href=\"css/animate.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../parts/ca/salon_list/salon_list_2209.css\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/swiper.css\" media=\"screen\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/colorbox.css\">\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js\"></script>\n<script src=\"js/pagetop.js\"></script>\n<script src=\"js/scroll.js\"></script>\n<script src=\"js/wow.js\"></script>\n<script src=\"js/swiper.min.js\"></script>\n<script src=\"js/jquery.rwdImageMaps.min.js\"></script>\n<script src=\"js/jquery.colorbox-min.js\"></script>\n<script src=\"js/lp_ui.js\"></script>\n<script type=\"text/javascript\">\n\t new WOW().init();\n</script>\n\n\n<!-- Google Tag Manager 1-->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N9H8R5');</script>\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-K87GNKM');</script>\n<!-- End Google Tag Manager 1-->\n\n<!-- 190528_AFF用（ネトマさんタグ）-Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-N6TJ2FT');</script>\n<!-- //190528_AFF用（ネトマさんタグ）-Google Tag Manager -->\n\n\n\n",
+      "ip": "52.68.250.208",
+      "port": 443
+    }
+  ],
+  "rings": [
+    {
+      "url": "https://ginza-calla.jp/merk-reserve-coming-before.php?merkrlink=https%3A%2F%2Flp.ginza-calla.jp%2F52nb-ex%2F%3Futm_source%3Dnm%26utm_medium%3Daff%26utm_campaign%3Daff-general%26utm_content%3D6time3000yen%26affnmgift%3D1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177",
+      "ip": "139.162.70.164",
+      "port": 443,
+      "status": 200
+    },
+    {
+      "url": "https://lp.ginza-calla.jp/52nb-ex/?utm_source=nm&utm_medium=aff&utm_campaign=aff-general&utm_content=6time3000yen&affnmgift=1&sid=9e3a66c899c848d6da1ed40c86cda75a7a366177",
+      "ip": "52.68.250.208",
+      "port": 443,
+      "status": 200
+    }
+  ]
+}

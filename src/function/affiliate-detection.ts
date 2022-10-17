@@ -1,6 +1,6 @@
 import { BrowserContext, chromium, Page, Response } from 'playwright'
 import urlRegex from 'url-regex'
-import { load } from 'cheerio'
+import { load, xml } from 'cheerio'
 
 import prompts from 'prompts'
 import { writeFileSync } from 'fs'
@@ -308,51 +308,6 @@ function createChain(
   }
 }
 
-function createChainsPAST(docs: Doc[]): Node[] {
-  let chain: Node[] = []
-
-  for (let i = docs.length - 1; i > 0; i--) {
-    const { url: preUrl, status, body, ip, port, headers } = docs[i - 1]
-    const { url: curUrl } = docs[i]
-
-    const isClientSideRedirected = status === 200
-    const isServerSideRedirected = isThreeHundres(status)
-    const redirectType = isServerSideRedirected
-      ? serverSideRedirect(status)
-      : clientSideRedirect(body)
-
-    if (isClientSideRedirected) {
-      const urlMatches = body.match(urlRegex())
-      const replaceds = urlMatches?.map((ur) => ur.replace(/&amp;/g, '&'))
-      const redirected = replaceds?.includes(curUrl)
-      if (redirected)
-        chain.push({
-          url: preUrl,
-          redirectTo: curUrl,
-          redirectType,
-          ip,
-          port,
-          status
-        })
-    }
-
-    if (isServerSideRedirected) {
-      const redirected = headers.location === curUrl
-      if (redirected)
-        chain.push({
-          url: preUrl,
-          redirectTo: curUrl,
-          redirectType,
-          ip,
-          port,
-          status
-        })
-    }
-  }
-
-  return chain.reverse()
-}
-
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
 !(async () => {
   while (true) {
@@ -366,9 +321,18 @@ function createChainsPAST(docs: Doc[]): Node[] {
     const { start, docs, destination } = await filterDocumentRequests(target)
     const rings = parseDocsToRings(docs)
     const { route, redirects } = createChain(start, rings, destination)
-    // console.log('\n', start, rings, destination)
-    console.log('\n', route, redirects)
+    const sp = (x: string) => (x.length < 60 ? x : x.slice(0, 60) + '...')
+    const tb = {
+      start: sp(route.start),
+      destination: sp(route.destination),
+      'document num': route.documents
+    }
+
+    console.log('\n')
+    console.table(tb)
+    console.table(redirects.map((x) => ({ ...x, url: sp(x.url) })))
     console.timeEnd('Background Check')
+    console.log('\n\n')
 
     const url = new URL(target)
     const fn = url.host + url.pathname
