@@ -18,7 +18,10 @@ const launchBrowser = async (options?: PlayWrightContextOption) => {
 
 export const closeBrowser = async () => await browser.close()
 
-export async function checkRedirects(target: string): Promise<{
+export async function checkRedirects(
+  target: string,
+  options?: PlayWrightContextOption
+): Promise<{
   start: string
   redirects: Redirect[]
   destination: string
@@ -26,7 +29,7 @@ export async function checkRedirects(target: string): Promise<{
   if (!isValidUrl(target)) return null
 
   try {
-    if (browser === null) await launchBrowser({ headless: false })
+    if (browser === null) await launchBrowser(options)
 
     const responseHolder: Response[] = []
     const page = await browser.newPage()

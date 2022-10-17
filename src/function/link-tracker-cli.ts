@@ -13,7 +13,9 @@ import { checkRedirects } from './link-tracker'
     console.time('Background Check')
 
     const target = res.target as string
-    const { redirects, destination } = await checkRedirects(target)
+    const { redirects, destination } = await checkRedirects(target, {
+      headless: true
+    })
 
     const sp = (x: string) => (x.length < 60 ? x : x.slice(0, 60) + '...')
     const tb = {
