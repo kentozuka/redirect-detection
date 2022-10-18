@@ -7,19 +7,6 @@ const defaultUserDataDir = `/tmp/playwright-users/${
   useEnvironmentVariable('PLAYWRIGHT_CONTEXT_USERNAME') ||
   'playwright-default-user'
 }`
-const ignores = [
-  'stylesheet',
-  'image',
-  'media',
-  'font',
-  'script',
-  'texttrack',
-  'fetch',
-  'eventsource',
-  'websocket',
-  'manifest',
-  'other'
-]
 
 export const launchPersistentContext = async (
   options?: PlayWrightContextOption
@@ -38,11 +25,8 @@ export const launchLightWeightPersistentContext = async (
     defaultUserDataDir,
     options
   )
-  browserContext.route('**/*', (route, request) => {
-    // if (request.resourceType() !== 'document') return route.abort()
-    if (ignores.includes(request.resourceType())) return route.abort()
-    route.continue()
-  })
-  browserContext.setDefaultTimeout(1000 * 5)
+  const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
+  const timeout = sec ? +sec * 1000 : 5 * 1000
+  browserContext.setDefaultTimeout(timeout)
   return browserContext
 }
