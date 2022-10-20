@@ -1,7 +1,7 @@
 import prompts from 'prompts'
 import { useEnvironmentVariable } from '../lib/dotenv'
 
-import { checkRedirects } from './link-tracker'
+import { checkRedirects, closeBrowser } from './link-tracker'
 import { breakdownURL } from './parameter'
 
 !(async () => {
@@ -40,4 +40,6 @@ import { breakdownURL } from './parameter'
     console.timeEnd('Background Check')
     console.log('\n\n')
   }
+
+  await closeBrowser()
 })()

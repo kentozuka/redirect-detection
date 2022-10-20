@@ -1,1 +1,1 @@
-console.log('finds <a> tags in the given url')
+export async function queryAnchors() {}
