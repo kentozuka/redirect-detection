@@ -70,7 +70,7 @@ export async function checkRedirects(
     const rings = parseDocsToRings(docs)
     const redirects = calculateChain(target, rings, destination)
 
-    page.close()
+    await page.close()
 
     return {
       start: target,
