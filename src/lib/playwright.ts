@@ -17,16 +17,3 @@ export const launchPersistentContext = async (
   )
   return browserContext
 }
-
-export const launchLightWeightPersistentContext = async (
-  options?: PlayWrightContextOption
-) => {
-  const browserContext = await chromium.launchPersistentContext(
-    defaultUserDataDir,
-    options
-  )
-  const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
-  const timeout = sec ? +sec * 1000 : 5 * 1000
-  browserContext.setDefaultTimeout(timeout)
-  return browserContext
-}
