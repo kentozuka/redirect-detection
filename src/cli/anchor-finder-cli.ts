@@ -14,7 +14,10 @@ import { queryAnchors } from '../function/anchor-finder'
       name: 'target'
     })
 
-    if (res.target === '') return (loop = false)
+    if (res.target === '') {
+      loop = false
+      continue
+    }
 
     console.time('Anchor Finder')
 

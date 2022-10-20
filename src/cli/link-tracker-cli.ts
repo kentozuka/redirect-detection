@@ -13,14 +13,23 @@ import { breakdownURL } from '../function/parameter'
       name: 'target'
     })
 
-    if (res.target === '') return (loop = false)
+    if (res.target === '') {
+      loop = false
+      continue
+    }
 
     console.time('Background Check')
 
     const target = res.target as string
-    const { redirects, destination } = await checkRedirects(target, {
+    const redirectResponse = await checkRedirects(target, {
       headless: useEnvironmentVariable('PLAYWRIGHT_HEADLESS') === 'true'
     })
+
+    if (redirectResponse === null) {
+      console.log('Failed to evaluate the link')
+      continue
+    }
+    const { redirects, destination } = redirectResponse
 
     const sp = (x: string) => (x.length < 60 ? x : x.slice(0, 60) + '...')
     const tb = {
