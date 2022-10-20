@@ -5,12 +5,15 @@ import { checkRedirects, closeBrowser } from '../function/link-tracker'
 import { breakdownURL } from '../function/parameter'
 
 !(async () => {
-  while (true) {
+  let loop = false
+  while (loop) {
     const res = await prompts({
       type: 'text',
       message: 'Type in first link address: ',
       name: 'target'
     })
+
+    if (res.target === '') return (loop = false)
 
     console.time('Background Check')
 
