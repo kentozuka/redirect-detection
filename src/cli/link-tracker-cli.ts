@@ -5,7 +5,7 @@ import { checkRedirects, closeBrowser } from '../function/link-tracker'
 import { breakdownURL } from '../function/parameter'
 
 !(async () => {
-  let loop = false
+  let loop = true
   while (loop) {
     const res = await prompts({
       type: 'text',
