@@ -5,7 +5,6 @@ type PlaywrightConfigDotenv =
   | 'PLAYWRIGHT_CONTEXT_USERNAME'
   | 'PLAYWRIGHT_HEADLESS'
   | 'PLAYWRIGHT_TIMEOUT_SEC'
-  | 'PLAYWRIGHT_LIGHT_WEIGHT'
 
 export const useEnvironmentVariable = (name: PlaywrightConfigDotenv) => {
   const cand = process.env[name]

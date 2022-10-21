@@ -1,9 +1,5 @@
 import prompts from 'prompts'
-import { useEnvironmentVariable } from '../lib/dotenv'
-
-import { checkRedirects, closeBrowser } from '../function/link-tracker'
-import { breakdownURL } from '../function/parameter'
-import { queryAnchors } from '../function/anchor-finder'
+import { closeBrowser, queryAnchors } from '../function/anchor-finder'
 
 !(async () => {
   let loop = true

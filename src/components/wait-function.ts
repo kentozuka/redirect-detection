@@ -19,8 +19,8 @@ let ignored = [] // allows first request
 
 export const emptyIgnored = () => (ignored = [])
 
-export const abortAnyRequest = (browserContext: BrowserContext) => {
-  browserContext.route('**/*', (route, request) => {
+export const abortAnyRequest = async (page: Page) => {
+  await page.route('**/*', (route, request) => {
     const type = request.resourceType()
     const shouldIgnore = ignores.includes(type)
     if (shouldIgnore) return route.abort()
@@ -28,8 +28,8 @@ export const abortAnyRequest = (browserContext: BrowserContext) => {
   })
 }
 
-export const onlyAllowsFirstRequest = (browserContext: BrowserContext) => {
-  browserContext.route('**/*', (route, request) => {
+export const onlyAllowsFirstRequest = async (page: Page) => {
+  await page.route('**/*', (route, request) => {
     const type = request.resourceType()
     if (type === 'document') emptyIgnored()
 
