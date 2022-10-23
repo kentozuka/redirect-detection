@@ -1,5 +1,6 @@
 import prompts from 'prompts'
-import { closeBrowser, queryAnchors } from '../function/anchor-finder'
+import { queryAnchors } from '../function/anchor-finder'
+import { closePersistentContext } from '../lib/playwright'
 
 !(async () => {
   let loop = true
@@ -23,5 +24,5 @@ import { closeBrowser, queryAnchors } from '../function/anchor-finder'
     console.log('\n\n')
   }
 
-  await closeBrowser()
+  await closePersistentContext()
 })()

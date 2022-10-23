@@ -1,9 +1,10 @@
+const web = ['http:', 'https:']
+
 export const isValidUrl = (target: string): boolean => {
   try {
-    new URL(target)
+    const { protocol } = new URL(target)
+    return web.includes(protocol)
   } catch {
     return false
   }
-
-  return true
 }

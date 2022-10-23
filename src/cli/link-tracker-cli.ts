@@ -1,8 +1,9 @@
 import prompts from 'prompts'
 import { useEnvironmentVariable } from '../lib/dotenv'
 
-import { checkRedirects, closeBrowser } from '../function/link-tracker'
+import { checkRedirects } from '../function/link-tracker'
 import { breakdownURL } from '../function/parameter'
+import { closePersistentContext } from '../lib/playwright'
 
 !(async () => {
   let loop = true
@@ -53,5 +54,5 @@ import { breakdownURL } from '../function/parameter'
     console.log('\n\n')
   }
 
-  await closeBrowser()
+  await closePersistentContext()
 })()

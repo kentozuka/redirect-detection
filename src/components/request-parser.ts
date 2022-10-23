@@ -75,7 +75,7 @@ export const parseDocsToRings = (docs: Doc[]): Ring[] => {
 
     rings.push({
       url,
-      candidates: body.match(urlRegex()),
+      candidates: body.match(urlRegex()) || [],
       redirectType: clientSideRedirect(body),
       ip,
       port,

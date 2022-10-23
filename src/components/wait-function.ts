@@ -19,8 +19,8 @@ let ignored = [] // allows first request
 
 export const emptyIgnored = () => (ignored = [])
 
-export const abortAnyRequest = async (page: Page) => {
-  await page.route('**/*', (route, request) => {
+export const abortAnyRequest = async (entity: Page | BrowserContext) => {
+  await entity.route('**/*', (route, request) => {
     const type = request.resourceType()
     const shouldIgnore = ignores.includes(type)
     if (shouldIgnore) return route.abort()
@@ -28,8 +28,8 @@ export const abortAnyRequest = async (page: Page) => {
   })
 }
 
-export const onlyAllowsFirstRequest = async (page: Page) => {
-  await page.route('**/*', (route, request) => {
+export const onlyAllowsFirstRequest = async (entity: Page | BrowserContext) => {
+  await entity.route('**/*', (route, request) => {
     const type = request.resourceType()
     if (type === 'document') emptyIgnored()
 
@@ -45,8 +45,23 @@ export const onlyAllowsFirstRequest = async (page: Page) => {
 
 export const waitForNoMeta = async (page: Page): Promise<void> => {
   const animInt = loadingAnimation('Waiting for page navigation to resolve...')
+  const getOut = (
+    timeout: NodeJS.Timeout,
+    interval: NodeJS.Timer,
+    resolve: (value: void | PromiseLike<void>) => void
+  ) => {
+    clearInterval(interval)
+    clearInterval(animInt)
+    clearTimeout(timeout)
+    resolve()
+  }
 
   return new Promise((resolve) => {
+    const timeout = setTimeout(() => {
+      console.log('Escaped due to timeout')
+      getOut(timeout, interval, resolve)
+    }, 10 * 1000)
+
     const interval = setInterval(async () => {
       try {
         const metas = await page.$$eval('meta', (metas) =>
@@ -58,9 +73,7 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
           const htmlHasMeta = htmlString.indexOf('http-equiv="refresh"') !== -1
           if (htmlHasMeta) return
 
-          clearInterval(interval)
-          clearInterval(animInt)
-          resolve()
+          getOut(timeout, interval, resolve)
         }
       } catch {
         // page navigation destroys the page

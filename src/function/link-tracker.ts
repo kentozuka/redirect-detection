@@ -14,7 +14,6 @@ import {
   parseDocsToRings
 } from '../components/request-parser'
 
-/* = = = = = = = = = = = = = = = = = = = = = MAIN = = = = = = = = = = = = = = = = = = = = =*/
 export async function checkRedirects(
   target: string,
   options?: PlayWrightContextOption
@@ -25,12 +24,15 @@ export async function checkRedirects(
 } | null> {
   if (!isValidUrl(target)) return null
 
+  const browser = await getPersistentContext(options)
+  const page = await browser.newPage()
+
   try {
-    const browser = await getPersistentContext(options)
     const responseHolder: Response[] = []
 
-    const page = await browser.newPage()
+    page.setDefaultTimeout(3000)
     page.on('response', (res) => responseHolder.push(res))
+    page.on('dialog', (dialog) => dialog.dismiss())
     await onlyAllowsFirstRequest(page)
 
     await page.goto(target)
@@ -44,8 +46,6 @@ export async function checkRedirects(
     const rings = parseDocsToRings(docs)
     const redirects = calculateChain(target, rings, destination)
 
-    await page.close()
-
     return {
       start: target,
       destination,
@@ -54,5 +54,7 @@ export async function checkRedirects(
   } catch (e) {
     console.log(e)
     return null
+  } finally {
+    await page.close()
   }
 }
