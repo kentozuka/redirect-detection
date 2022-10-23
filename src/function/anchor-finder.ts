@@ -4,6 +4,32 @@ import { isValidUrl } from '../lib/url'
 import { checkRedirects } from './link-tracker'
 import { breakdownURL } from './parameter'
 
+// strt https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors
+const luminance = (r: number, g: number, b: number) => {
+  var a = [r, g, b].map((v) => {
+    v /= 255
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4)
+  })
+  return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722
+}
+
+const contrast = (rgb1: number[], rgb2: number[]) => {
+  var lum1 = luminance(rgb1[0], rgb1[1], rgb1[2])
+  var lum2 = luminance(rgb2[0], rgb2[1], rgb2[2])
+  var brightest = Math.max(lum1, lum2)
+  var darkest = Math.min(lum1, lum2)
+  return (brightest + 0.05) / (darkest + 0.05)
+}
+// end
+
+const calculateContrast = (color: string, backgroundColor: string) => {
+  const exp = new RegExp(/\d+/, 'g')
+  const col = color.match(exp).map((x) => +x)
+  const bac = backgroundColor.match(exp).map((x) => +x)
+  const float = contrast(col, bac)
+  return float.toFixed(2)
+}
+
 export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
@@ -59,7 +85,7 @@ export async function queryAnchors(
           lineHeight: +lineHeight.replace('px', ''),
           fontFamily,
           animation
-          // ...a.getBoundingClientRect() does not work on DOMRect
+          // ...a.getBoundingClientRect() => spread syntax does not work on DOMRect
         }
       })
 
@@ -71,8 +97,8 @@ export async function queryAnchors(
         pathname: ancPathname,
         same_page: samePage,
         has_animation:
-          evaled.animation === 'none 0s ease 0s 1 normal none running',
-        contrast_score: 0,
+          evaled.animation !== 'none 0s ease 0s 1 normal none running',
+        contrast_score: calculateContrast(evaled.color, evaled.backgroundColor),
         ...(await anchor.boundingBox())
       }
 
