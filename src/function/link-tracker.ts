@@ -1,7 +1,7 @@
 import { Response } from 'playwright'
 
 import { PlayWrightContextOption, Redirect } from '../types'
-import { getPersistentContext } from '../lib/playwright'
+import { getBackgroundBrowserContext } from '../lib/playwright'
 import { isValidUrl } from '../lib/url'
 
 import {
@@ -24,13 +24,13 @@ export async function checkRedirects(
 } | null> {
   if (!isValidUrl(target)) return null
 
-  const browser = await getPersistentContext(options)
+  const browser = await getBackgroundBrowserContext(options)
   const page = await browser.newPage()
 
   try {
     const responseHolder: Response[] = []
 
-    page.setDefaultTimeout(3000)
+    page.setDefaultTimeout(12 * 1000)
     page.on('response', (res) => responseHolder.push(res))
     page.on('dialog', (dialog) => dialog.dismiss())
     await onlyAllowsFirstRequest(page)

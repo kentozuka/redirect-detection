@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^4.5.0",
     "axios": "^1.1.2",
     "cheerio": "^1.0.0-rc.12",
     "diff": "^4.0.2",
@@ -18,12 +19,14 @@
     "playwright": "^1.26.1",
     "prompts": "^2.4.2",
     "string-similarity": "^4.0.4",
+    "tippy.js": "^6.3.7",
     "ts-node": "^10.9.1",
     "url-regex": "^5.0.0"
   },
   "devDependencies": {
     "@types/diff": "^5.0.2",
     "@types/prompts": "^2.4.1",
-    "@types/string-similarity": "^4.0.0"
+    "@types/string-similarity": "^4.0.0",
+    "prisma": "^4.5.0"
   }
 }

@@ -3,6 +3,10 @@ import { PlayWrightContextOption } from '../types'
 import { isValidUrl } from '../lib/url'
 import { checkRedirects } from './link-tracker'
 import { breakdownURL } from './parameter'
+import { prisma } from '../lib/prisma'
+import { endTimer, startTimer } from '../lib/util'
+import { compareTwoStrings } from 'string-similarity'
+import { injectTippy } from '../lib/tippy'
 
 // strt https://stackoverflow.com/questions/9733288/how-to-programmatically-calculate-the-contrast-ratio-between-two-colors
 const luminance = (r: number, g: number, b: number) => {
@@ -27,7 +31,7 @@ const calculateContrast = (color: string, backgroundColor: string) => {
   const col = color.match(exp).map((x) => +x)
   const bac = backgroundColor.match(exp).map((x) => +x)
   const float = contrast(col, bac)
-  return float.toFixed(2)
+  return +float.toFixed(2)
 }
 
 export async function queryAnchors(
@@ -42,8 +46,14 @@ export async function queryAnchors(
     const page = await browser.newPage()
 
     await page.goto(target)
+    await injectTippy(page)
+    await page.waitForTimeout(2000)
 
     const anchors = await page.$$('a')
+    for (const an of anchors) {
+      await an.evaluate((a) => (a.style.outline = '4px solid gray'))
+    }
+
     for (const anchor of anchors) {
       const href = await anchor.evaluate((a) => a.href) // returns full length href
       if (!isValidUrl(href)) continue
@@ -52,6 +62,15 @@ export async function queryAnchors(
       const samePage = host === ancHost && pathname === ancPathname
       const isIdLink = samePage && hash
       if (isIdLink) continue
+
+      await anchor.evaluate((a) => (a.style.outlineColor = 'blue'))
+      const rect = await anchor.boundingBox()
+      if (rect === null || (rect.width === 0 && rect.height === 0)) {
+        await anchor.evaluate((a) => (a.style.outlineColor = 'red'))
+        continue
+      }
+
+      const timer = startTimer()
 
       const evaled = await anchor.evaluate((a) => {
         const {
@@ -62,27 +81,31 @@ export async function queryAnchors(
           fontFamily,
           padding,
           margin,
-          lineHeight
+          lineHeight,
+          fontSize
         } = getComputedStyle(a)
         return {
           href: a.href,
           target: a.target,
           referrer_policy: a.referrerPolicy,
-          text_content: a.textContent.trim(),
-          outer_html: a.outerHTML.trim(),
+          textContent: a.textContent.trim(),
+          outerHtml: a.outerHTML.trim(),
           dataset: Object.entries(a.dataset),
-          html_id: a.id,
-          rel_list: Array.from(a.relList),
-          class_list: Array.from(a.classList),
-          child_element_count: a.childElementCount,
-          child_name: a.firstElementChild ? a.firstElementChild.localName : '',
-          on_click: a.onclick ? a.onclick.toString().trim() : '',
+          htmlId: a.id,
+          relList: Array.from(a.relList),
+          classList: Array.from(a.classList),
+          firstChildElementCount: a.childElementCount,
+          firstChildElementName: a.firstElementChild
+            ? a.firstElementChild.localName
+            : '',
+          onClick: a.onclick ? a.onclick.toString().trim() : '',
           color,
           backgroundColor,
           fontWeight: +fontWeight,
           padding,
           margin,
           lineHeight: +lineHeight.replace('px', ''),
+          fontSize: +fontSize.replace('px', ''),
           fontFamily,
           animation
           // ...a.getBoundingClientRect() => spread syntax does not work on DOMRect
@@ -91,49 +114,76 @@ export async function queryAnchors(
 
       const detail = {
         ...evaled,
-        sponsored: evaled.rel_list.includes('sponsored'),
+        sponsored: evaled.relList.includes('sponsored'),
         screenshot: '',
         host: ancHost,
         pathname: ancPathname,
-        same_page: samePage,
-        has_animation:
+        hasAnimation:
           evaled.animation !== 'none 0s ease 0s 1 normal none running',
-        contrast_score: calculateContrast(evaled.color, evaled.backgroundColor),
-        ...(await anchor.boundingBox())
+        contrastScore: calculateContrast(evaled.color, evaled.backgroundColor),
+        ...rect
       }
 
-      console.log(detail)
+      console.time('Background Check')
+      const redirectResponse = await checkRedirects(href)
+      if (redirectResponse === null) {
+        await anchor.evaluate((a) => (a.style.outlineColor = 'red'))
+        continue
+      }
+      const { redirects, destination, start } = redirectResponse
 
-      // console.time('Background Check')
-      // const redirectResponse = await checkRedirects(href)
-      // if (redirectResponse === null) {
-      //   console.log('Failed to evaluate the link')
-      //   continue
-      // }
-      // const { redirects, destination, start } = redirectResponse
+      const sp = (x: string) => (x.length < 60 ? x : x.slice(0, 60) + '...')
+      const tb = {
+        start: sp(start),
+        destination: sp(destination),
+        documentNum: redirects.length || 1
+      }
+      const rtb = redirects.map((x) => ({ ...x, url: sp(x.url) }))
 
-      // const sp = (x: string) => (x.length < 60 ? x : x.slice(0, 60) + '...')
-      // const tb = {
-      //   start: sp(start),
-      //   destination: sp(destination),
-      //   'document num': redirects.length || 1
-      // }
-      // const rtb = redirects.map((x) => ({ ...x, url: sp(x.url) }))
+      const startUrl = breakdownURL(start)
+      const destiUrl = breakdownURL(destination)
 
-      // const startUrl = breakdownURL(start)
-      // const destiUrl = breakdownURL(destination)
+      const result = {
+        detail,
+        ...tb,
+        redirects: rtb,
+        time: endTimer(timer),
+        similarity: compareTwoStrings(start, destination)
+      }
 
-      // console.log('\n')
+      await anchor.evaluate((a, data) => {
+        const el = document.createElement('div')
+        el.innerHTML = `
+        <p>${data.start}</p>
+        <p>${data.destination}</p>
+        <p>${data.time.toLocaleString()}ms | ${
+          data.redirects.length
+        } redirects | ${(data.similarity * 100).toFixed(1)}% similar</p>
+        <p>${data.detail.contrastScore} contrast score</p>
+        <p>${data.detail.color} / ${
+          data.detail.backgroundColor
+        } <span style="color: ${data.detail.color}; background-color: ${
+          data.detail.backgroundColor
+        };">(c/b)</span></p>
+        `
+        // @ts-ignore
+        tippy(a, {
+          content: el
+        })
+      }, result)
 
-      // console.log('start search params', startUrl.searchParams)
-      // console.log('destination search params', destiUrl.searchParams)
+      if (result.redirects.length > 0)
+        await anchor.evaluate((a) => (a.style.outlineColor = 'yellow'))
+      else await anchor.evaluate((a) => (a.style.outlineColor = 'green'))
 
-      // console.table(tb)
-      // console.table(rtb)
-      // console.timeEnd('Background Check')
-      // console.log('\n\n')
+      console.log('start search params', startUrl.searchParams)
+      console.log('destination search params', destiUrl.searchParams)
+
+      console.table(tb)
+      console.table(rtb)
+      console.timeEnd('Background Check')
+      console.log('\n')
     }
-    // protocol === http || https
 
     /**
      *
@@ -142,15 +192,8 @@ export async function queryAnchors(
      *
      *
      * TODO
-     * - create anchor extraction code
-     * - - calculate conotrast score
-     * - implement prisma in the code base
-     * - setup database
      * - implement prisma to the code
-     * - create palasite code
      * - integrate everythin
-     * - - show link status (loading/scraping/searched)
-     * - - show card on hover
      *
      *
      *

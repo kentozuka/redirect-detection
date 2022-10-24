@@ -1,0 +1,106 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Article {
+  id Int @id @default(autoincrement())
+  url String @unique
+  title String?
+  keywords String?
+  description String?
+  image String?
+  anchors Anchor[]
+}
+
+model Anchor {
+  id Int @id @default(autoincrement())
+  articleId Int
+  article Article @relation(fields: [articleId], references: [id])
+  // possible attributes
+  href String
+  outerHtml String
+  relList Json?
+  target String?
+  htmlId String?
+  datasets Json?
+  onClick String?
+  classList Json?
+  textContext String?
+  referrerPolicy String?
+  // first child
+  firstChildElementCount Int
+  firstChildElementName String?
+  // style
+  color String
+  backgroundColor String
+  fontSize Int
+  fontWeight Int
+  fontFamily String
+  lineHeight Int
+  padding String
+  margin String
+  // calculated values
+  animation String
+  sponsored Boolean
+  screenshot String
+  // samePage Boolean  what was this for? hash link?
+  hasAnimation Boolean
+  contrastScore Int
+  // url
+  host String
+  pathname String
+  // client bounding rect
+  x Int
+  y Int
+  width Int
+  height Int
+  top Int
+  right Int
+  bottom Int
+  left Int
+  // relations
+  route Route?
+}
+
+model Route {
+  id Int @id @default(autoincrement())
+  anchorId Int @unique
+  anchor Anchor @relation(fields: [anchorId], references: [id])
+  start String
+  documentNum Int
+  destination String
+  similarity Int
+  time Int
+  docs Doc[]
+}
+
+model Doc {
+  id Int @id @default(autoincrement())
+  routeId Int
+  route Route @relation(fields: [routeId], references: [id])
+  url String
+  index Int
+  status Int
+  type String
+  positive Boolean
+  ip String
+  port Int
+  blacklisted Boolean
+  parameters Parameter[]
+}
+
+model Parameter {
+  id Int @id @default(autoincrement())
+  docId Int
+  doc Doc @relation(fields: [docId], references: [id])
+  key String
+  value String
+}
