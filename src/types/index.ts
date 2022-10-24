@@ -1,4 +1,4 @@
-import { Logger } from 'playwright'
+import { ElementHandle, Logger } from 'playwright'
 
 type JavaScriptRedirectKeywords = 'href' | 'replace' | 'assign'
 type JavaScriptRedirectTypes = `js-${JavaScriptRedirectKeywords}`
@@ -44,6 +44,10 @@ export interface Redirect {
   ip: string
   port: number
 }
+
+// playwright does not export handler type
+export type ElementHandleForTag<K extends keyof HTMLElementTagNameMap> =
+  ElementHandle<HTMLElementTagNameMap[K]>
 
 // no type was exposed so just copy and pasting this. might not work in the future versions
 export type PlayWrightContextOption = {

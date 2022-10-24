@@ -6,7 +6,7 @@ import { useEnvironmentVariable } from './dotenv'
 let browser: BrowserContext = null
 let backgroundBrowser: BrowserContext = null
 
-const mes = (timeout: number, isBackground: boolean) =>
+const mes = (timeout: string, isBackground: boolean) =>
   `= = =\nLaunched a new ${
     isBackground ? 'background' : ''
   } browser context with ${timeout}ms timeout\n= = =\n`
@@ -26,10 +26,11 @@ export const getPersistentContext = async (
     { ...options, headless }
   )
   const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
-  const timeout = sec ? +sec * 1000 : 7 * 1000
-  browserContext.setDefaultTimeout(timeout)
+  if (sec) {
+    browserContext.setDefaultTimeout(+sec)
+  }
   browser = browserContext
-  console.log(mes(timeout, false))
+  console.log(mes(sec, false))
   return browser
 }
 
@@ -46,11 +47,12 @@ export const getBackgroundBrowserContext = async (
   const br = await chromium.launch({ ...options, headless: true })
   const conx = await br.newContext()
   const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
-  const timeout = sec ? +sec * 1000 : 7 * 1000
-  conx.setDefaultTimeout(timeout)
+  if (sec) {
+    conx.setDefaultTimeout(+sec)
+  }
   backgroundBrowser = conx
 
-  console.log(mes(timeout, true))
+  console.log(mes(sec, true))
   return backgroundBrowser
 }
 

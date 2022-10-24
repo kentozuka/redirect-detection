@@ -1,4 +1,4 @@
-import { isValidUrl } from '../lib/url'
+import { isValidUrl } from '../lib/util'
 
 export function breakdownURL(link: string): URL | null {
   if (!isValidUrl(link)) return null

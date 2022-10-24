@@ -1,8 +1,9 @@
 import { Response } from 'playwright'
 
-import { PlayWrightContextOption, Redirect } from '../types'
 import { getBackgroundBrowserContext } from '../lib/playwright'
-import { isValidUrl } from '../lib/url'
+import { PlayWrightContextOption, Redirect } from '../types'
+import { useEnvironmentVariable } from '../lib/dotenv'
+import { isValidUrl } from '../lib/util'
 
 import {
   onlyAllowsFirstRequest,
@@ -30,7 +31,8 @@ export async function checkRedirects(
   try {
     const responseHolder: Response[] = []
 
-    page.setDefaultTimeout(12 * 1000)
+    const timeout = useEnvironmentVariable('PLAYWRIGHT_LINK_TRACK_TIMEOUT_SEC')
+    if (timeout) page.setDefaultTimeout(+timeout)
     page.on('response', (res) => responseHolder.push(res))
     page.on('dialog', (dialog) => dialog.dismiss())
     await onlyAllowsFirstRequest(page)
