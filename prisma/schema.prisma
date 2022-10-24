@@ -30,10 +30,10 @@ model Anchor {
   relList Json?
   target String?
   htmlId String?
-  datasets Json?
+  dataset Json?
   onClick String?
   classList Json?
-  textContext String?
+  textContent String?
   referrerPolicy String?
   // first child
   firstChildElementCount Int
@@ -62,10 +62,6 @@ model Anchor {
   y Int
   width Int
   height Int
-  top Int
-  right Int
-  bottom Int
-  left Int
   // relations
   route Route?
 }
