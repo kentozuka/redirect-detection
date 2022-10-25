@@ -50,13 +50,14 @@ model Anchor {
   // calculated values
   animation String
   sponsored Boolean
-  screenshot String
+  screenshot String? // screenshot takes time (1000ms~)
   // samePage Boolean  what was this for? hash link?
   hasAnimation Boolean
   contrastScore Int
   // url
   host String
   pathname String
+  sameOrigin Boolean
   // client bounding rect
   x Int
   y Int

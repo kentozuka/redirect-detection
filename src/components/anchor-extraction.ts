@@ -16,7 +16,8 @@ const calculateContrast = (color: string, backgroundColor: string) => {
 }
 
 export const extractData = async (
-  anchor: ElementHandleForTag<'a'>
+  anchor: ElementHandleForTag<'a'>,
+  targetOrigin: string
 ): Promise<AnchorRawData> => {
   const evaled = await anchor.evaluate((a) => {
     const {
@@ -60,16 +61,17 @@ export const extractData = async (
   })
 
   const rect = await anchor.boundingBox() // calculating twice for cleaner code
-  const { host, pathname } = new URL(evaled.href)
+  const { host, pathname, origin } = new URL(evaled.href)
 
   return {
     ...evaled,
     sponsored: evaled.relList.includes('sponsored'),
-    screenshot: (await anchor.screenshot()).toString(),
+    screenshot: '', //(await anchor.screenshot()).toString('base64'),
     hasAnimation: evaled.animation !== noAnimation,
     contrastScore: calculateContrast(evaled.color, evaled.backgroundColor),
     host,
     pathname,
+    sameOrigin: origin === targetOrigin,
     ...rect
   }
 }

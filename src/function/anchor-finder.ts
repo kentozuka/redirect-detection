@@ -33,6 +33,9 @@ const validateAnchor = async (
   const rect = await anchor.boundingBox()
   if (rect === null || (rect.width === 0 && rect.height === 0)) return false
 
+  const visible = await anchor.isVisible()
+  if (!visible) return false
+
   // success
   return true
 }
@@ -43,7 +46,7 @@ export async function queryAnchors(
 ): Promise<null> {
   if (!isValidUrl(target)) return null
 
-  const { host, pathname } = new URL(target)
+  const { host, pathname, origin } = new URL(target)
   const browser = await getPersistentContext(options)
   const page = await browser.newPage()
 
@@ -58,8 +61,8 @@ export async function queryAnchors(
     const anchors = await page.$$('a')
 
     for (const anchor of anchors) {
-      const failedValidation = await validateAnchor(anchor, { host, pathname })
-      if (failedValidation) {
+      const validated = await validateAnchor(anchor, { host, pathname })
+      if (!validated) {
         await colorAnchorOutline(anchor, 'black')
         continue
       }
@@ -68,7 +71,7 @@ export async function queryAnchors(
 
       await colorAnchorOutline(anchor, 'blue')
       const timer = startTimer()
-      const detail = await extractData(anchor)
+      const detail = await extractData(anchor, origin)
 
       console.time('Background Check')
       const redirectResponse = await checkRedirects(detail.href)

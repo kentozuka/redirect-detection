@@ -6,10 +6,10 @@ import { useEnvironmentVariable } from './dotenv'
 let browser: BrowserContext = null
 let backgroundBrowser: BrowserContext = null
 
-const mes = (timeout: string, isBackground: boolean) =>
+const mes = (timeoutSec: string, isBackground: boolean) =>
   `= = =\nLaunched a new ${
-    isBackground ? 'background' : ''
-  } browser context with ${timeout}ms timeout\n= = =\n`
+    isBackground ? 'background ' : ''
+  }browser context with ${+timeoutSec * 1000}ms timeout\n= = =\n`
 const headless = useEnvironmentVariable('PLAYWRIGHT_HEADLESS') === 'true'
 
 const defaultUserDataDir = `/tmp/playwright-users/${
@@ -27,7 +27,7 @@ export const getPersistentContext = async (
   )
   const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
   if (sec) {
-    browserContext.setDefaultTimeout(+sec)
+    browserContext.setDefaultTimeout(+sec * 1000)
   }
   browser = browserContext
   console.log(mes(sec, false))
@@ -48,10 +48,9 @@ export const getBackgroundBrowserContext = async (
   const conx = await br.newContext()
   const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
   if (sec) {
-    conx.setDefaultTimeout(+sec)
+    conx.setDefaultTimeout(+sec * 1000)
   }
   backgroundBrowser = conx
-
   console.log(mes(sec, true))
   return backgroundBrowser
 }

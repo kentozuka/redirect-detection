@@ -32,7 +32,7 @@ export async function checkRedirects(
     const responseHolder: Response[] = []
 
     const timeout = useEnvironmentVariable('PLAYWRIGHT_LINK_TRACK_TIMEOUT_SEC')
-    if (timeout) page.setDefaultTimeout(+timeout)
+    if (timeout) page.setDefaultTimeout(+timeout * 1000 || 15 * 1000)
     page.on('response', (res) => responseHolder.push(res))
     page.on('dialog', (dialog) => dialog.dismiss())
     await onlyAllowsFirstRequest(page)
