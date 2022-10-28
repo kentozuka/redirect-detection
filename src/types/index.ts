@@ -1,4 +1,5 @@
 import { ElementHandle, Logger } from 'playwright'
+export * from './prisma'
 
 type JavaScriptRedirectKeywords = 'href' | 'replace' | 'assign'
 type JavaScriptRedirectTypes = `js-${JavaScriptRedirectKeywords}`
@@ -8,7 +9,7 @@ type ServerSideTypes = 'permanent' | 'temporary' | UnknownTypes
 type ClientSideTypes = 'meta' | JavaScriptRedirectTypes | UnknownTypes
 export type PossibleTypes = ServerSideTypes | ClientSideTypes
 
-export interface Doc {
+export interface LocalDoc {
   url: string
   status: number
   redirectType: 'client' | 'server' | 'unknown'
@@ -18,7 +19,7 @@ export interface Doc {
   port: number
 }
 
-export interface Ring {
+export interface LocalRing {
   url: string
   candidates: string[]
   redirectType: PossibleTypes
@@ -27,23 +28,23 @@ export interface Ring {
   status: number
 }
 
-export interface Route {
-  // id: string
-  start: string
-  documents: number
-  destination: string
-}
+// export interface Route {
+//   // id: string
+//   start: string
+//   documents: number
+//   destination: string
+// }
 
-export interface Redirect {
-  // routeId: string
-  url: string
-  index: number
-  status: number
-  type: PossibleTypes
-  positive: boolean
-  ip: string
-  port: number
-}
+// export interface Redirect {
+//   // routeId: string
+//   url: string
+//   index: number
+//   status: number
+//   type: PossibleTypes
+//   positive: boolean
+//   ip: string
+//   port: number
+// }
 
 // playwright does not export handler type
 export type ElementHandleForTag<K extends keyof HTMLElementTagNameMap> =

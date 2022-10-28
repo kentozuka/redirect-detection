@@ -25,7 +25,7 @@ model Anchor {
   articleId Int
   article Article @relation(fields: [articleId], references: [id])
   // possible attributes
-  href String
+  href String @unique
   outerHtml String
   relList Json?
   target String?

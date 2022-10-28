@@ -1,7 +1,7 @@
 import { Response } from 'playwright'
 
 import { getBackgroundBrowserContext } from '../lib/playwright'
-import { PlayWrightContextOption, Redirect } from '../types'
+import { PlayWrightContextOption, DocEssentials } from '../types'
 import { useEnvironmentVariable } from '../lib/dotenv'
 import { isValidUrl } from '../lib/util'
 
@@ -20,7 +20,7 @@ export async function checkRedirects(
   options?: PlayWrightContextOption
 ): Promise<{
   start: string
-  redirects: Redirect[]
+  redirects: DocEssentials[]
   destination: string
 } | null> {
   if (!isValidUrl(target)) return null

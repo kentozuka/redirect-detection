@@ -3,10 +3,15 @@ import { endTimer, isValidUrl, startTimer, truncate } from '../lib/util'
 import { addTippy, extractData } from '../components/anchor-extraction'
 import { getPersistentContext } from '../lib/playwright'
 import { compareTwoStrings } from 'string-similarity'
+import {
+  createAnchor,
+  createRouteWithDocs,
+  findAnchorByHref,
+  findRouteAndDocs
+} from '../lib/prisma'
 import { checkRedirects } from './link-tracker'
 import { injectTippy } from '../lib/tippy'
 import { breakdownURL } from './parameter'
-import { prisma } from '../lib/prisma'
 
 const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,
@@ -44,6 +49,7 @@ export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
 ): Promise<null> {
+  const articleId = 0
   if (!isValidUrl(target)) return null
 
   const { host, pathname, origin } = new URL(target)
@@ -67,53 +73,59 @@ export async function queryAnchors(
         continue
       }
 
-      // TODO: check if link exist in the db or update everything?
-
       await colorAnchorOutline(anchor, 'blue')
-      const timer = startTimer()
-      const detail = await extractData(anchor, origin)
+      // TODO: check if link exist in the db or update everything?
+      const href = await anchor.evaluate((x) => x.href)
+      const dbData = await findAnchorByHref(href)
 
-      console.time('Background Check')
-      const redirectResponse = await checkRedirects(detail.href)
-      if (redirectResponse === null) {
-        await colorAnchorOutline(anchor, 'red')
-        continue
+      if (dbData === null) {
+        const timer = startTimer()
+        const detail = await extractData(anchor, origin)
+        const createdAnchor = await createAnchor(detail, articleId)
+
+        console.time('Background Check')
+        const redirectResponse = await checkRedirects(href)
+        if (redirectResponse === null) {
+          await colorAnchorOutline(anchor, 'red')
+          continue
+        }
+        const { redirects, destination, start } = redirectResponse
+
+        const route = await createRouteWithDocs(
+          {
+            start: truncate(start),
+            documentNum: redirects.length || 1,
+            destination: truncate(destination),
+            similarity: compareTwoStrings(start, destination),
+            time: endTimer(timer)
+          },
+          redirects,
+          createdAnchor.id
+        )
+
+        await addTippy(anchor, route, createdAnchor)
+
+        if (route.documentNum > 0) await colorAnchorOutline(anchor, 'yellow')
+        else await colorAnchorOutline(anchor, 'green')
+
+        // consoling
+        const startUrl = breakdownURL(start)
+        const destiUrl = breakdownURL(destination)
+        console.log('start search params', startUrl.searchParams)
+        console.log('destination search params', destiUrl.searchParams)
+
+        console.table(route)
+        console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
+        console.timeEnd('Background Check')
+        console.log('\n')
+      } else {
+        // write tippy
+        const route = await findRouteAndDocs(dbData.id)
+        await addTippy(anchor, route, dbData)
+
+        if (route.documentNum > 0) await colorAnchorOutline(anchor, 'yellow')
+        else await colorAnchorOutline(anchor, 'green')
       }
-      const { redirects, destination, start } = redirectResponse
-      const journey = {
-        start: truncate(start),
-        destination: truncate(destination),
-        documentNum: redirects.length || 1
-      }
-      const truncatedRedirects = redirects.map((x) => ({
-        ...x,
-        url: truncate(x.url)
-      }))
-
-      const result = {
-        detail,
-        ...journey,
-        redirects: truncatedRedirects,
-        time: endTimer(timer),
-        similarity: compareTwoStrings(start, destination)
-      }
-
-      await addTippy(anchor, result)
-
-      if (result.redirects.length > 0)
-        await colorAnchorOutline(anchor, 'yellow')
-      else await colorAnchorOutline(anchor, 'green')
-
-      // consoling
-      const startUrl = breakdownURL(start)
-      const destiUrl = breakdownURL(destination)
-      console.log('start search params', startUrl.searchParams)
-      console.log('destination search params', destiUrl.searchParams)
-
-      console.table(journey)
-      console.table(truncatedRedirects)
-      console.timeEnd('Background Check')
-      console.log('\n')
 
       // TODO: remove logging and add to db
     }

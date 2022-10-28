@@ -3,16 +3,16 @@ import urlRegex from 'url-regex'
 import { load } from 'cheerio'
 import axios from 'axios'
 
+import { LocalDoc, LocalRing, DocEssentials } from '../types'
 import {
   clientSideRedirect,
   isThreeHundres,
   serverSideRedirect
 } from './request-classifier'
-import { Doc, Ring, Redirect } from '../types'
 
 export const extractDocFromResponse = async (
   res: Response
-): Promise<Doc | null> => {
+): Promise<LocalDoc | null> => {
   const type = res.request().resourceType()
   if (type !== 'document') return null // non-document resource type: [stylesheet, image, media, font, script, texttrack, xhr, fetch, eventsource, websocket, manifest, other]
   if (res.frame().parentFrame() !== null) return null // "Parent frame, if any. Detached frames and main frames return null." thus prevent requests made from iframes
@@ -22,7 +22,7 @@ export const extractDocFromResponse = async (
   const headers = res.headers()
   const serverAddr = await res.serverAddr()
 
-  const doc: Doc = {
+  const doc: LocalDoc = {
     url,
     status,
     redirectType: 'unknown',
@@ -53,8 +53,8 @@ export const extractDocFromResponse = async (
   return doc
 }
 
-export const parseDocsToRings = (docs: Doc[]): Ring[] => {
-  const rings: Ring[] = []
+export const parseDocsToRings = (docs: LocalDoc[]): LocalRing[] => {
+  const rings: LocalRing[] = []
   for (let i = 0; i < docs.length; i++) {
     const { url, status, headers, body, ip, port } = docs[i]
     const isSSRidirect = isThreeHundres(status)
@@ -88,13 +88,13 @@ export const parseDocsToRings = (docs: Doc[]): Ring[] => {
 
 export const calculateChain = (
   start: string,
-  rings: Ring[],
+  rings: LocalRing[],
   destination: string
-): Redirect[] => {
+): DocEssentials[] => {
   const hasNoRedirects = start === destination
   if (hasNoRedirects) return []
 
-  const redirects: Redirect[] = []
+  const redirects: DocEssentials[] = []
 
   for (let i = 0; i < rings.length; i++) {
     const hasNext = i + 1 < rings.length
@@ -108,7 +108,8 @@ export const calculateChain = (
       ...cur,
       index: i,
       type,
-      positive
+      positive,
+      blacklisted: false
     })
   }
 

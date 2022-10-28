@@ -1,9 +1,7 @@
-import { Anchor } from '@prisma/client'
+import { Anchor, Route } from '@prisma/client'
 
-import { ElementHandleForTag } from '../types'
+import { ElementHandleForTag, AnchorEssentials } from '../types'
 import { contrast } from '../lib/util'
-
-type AnchorRawData = Omit<Anchor, 'id' | 'articleId' | 'route'>
 
 const noAnimation = 'none 0s ease 0s 1 normal none running'
 
@@ -18,7 +16,7 @@ const calculateContrast = (color: string, backgroundColor: string) => {
 export const extractData = async (
   anchor: ElementHandleForTag<'a'>,
   targetOrigin: string
-): Promise<AnchorRawData> => {
+): Promise<AnchorEssentials> => {
   const evaled = await anchor.evaluate((a) => {
     const {
       color,
@@ -78,33 +76,28 @@ export const extractData = async (
 
 export const addTippy = async (
   anchor: ElementHandleForTag<'a'>,
-  data: {
-    start: string
-    destination: string
-    redirects: any[]
-    time: number
-    similarity: number
-    detail: AnchorRawData
-  }
+  route: Route,
+  detail: Anchor
 ) => {
-  await anchor.evaluate((a, data) => {
-    const el = document.createElement('div')
-    el.innerHTML = `
-    <p>${data.start}</p>
-    <p>${data.destination}</p>
-    <p>${data.time.toLocaleString()}ms | ${
-      data.redirects.length
-    } redirects | ${(data.similarity * 100).toFixed(1)}% similar</p>
-    <p>${data.detail.contrastScore} contrast score</p>
-    <p>${data.detail.color} / ${
-      data.detail.backgroundColor
-    } <span style="color: ${data.detail.color}; background-color: ${
-      data.detail.backgroundColor
-    };">(c/b)</span></p>
+  await anchor.evaluate(
+    (a, { route, detail }) => {
+      const el = document.createElement('div')
+      el.innerHTML = `
+    <p>${route.start}</p>
+    <p>${route.destination}</p>
+    <p>${route.time.toLocaleString()}ms | ${route.documentNum} redirects | ${(
+        route.similarity * 100
+      ).toFixed(1)}% similar</p>
+    <p>${detail.contrastScore} contrast score</p>
+    <p>${detail.color} / ${detail.backgroundColor} <span style="color: ${
+        detail.color
+      }; background-color: ${detail.backgroundColor};">(c/b)</span></p>
     `
-    // @ts-ignore
-    tippy(a, {
-      content: el
-    })
-  }, data)
+      // @ts-ignore
+      tippy(a, {
+        content: el
+      })
+    },
+    { route, detail }
+  )
 }
