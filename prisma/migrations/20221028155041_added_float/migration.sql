@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Route" ALTER COLUMN "similarity" SET DATA TYPE DOUBLE PRECISION;
