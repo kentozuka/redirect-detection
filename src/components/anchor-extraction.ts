@@ -89,6 +89,7 @@ export const addTippy = async (
         route.similarity * 100
       ).toFixed(1)}% similar</p>
     <p>${detail.contrastScore} contrast score</p>
+    <p>same origin?: ${detail.sameOrigin}</p>
     <p>${detail.color} / ${detail.backgroundColor} <span style="color: ${
         detail.color
       }; background-color: ${detail.backgroundColor};">(c/b)</span></p>

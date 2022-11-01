@@ -4,22 +4,22 @@ import { Page } from 'playwright'
 const popperjs2 = 'https://unpkg.com/@popperjs/core@2'
 const tippyjs6 = 'https://unpkg.com/tippy.js@6'
 
-export const injectTippy = async (page: Page) => {
-  const { data: pop } = await axios.get(popperjs2)
-  const { data: tip } = await axios.get(tippyjs6)
-
+const inject = async (page: Page, endpoint: string) => {
+  const { data } = await axios.get(endpoint)
   await page.$eval(
     'head',
-    (head, { p, t }) => {
-      const popper = document.createElement('script')
-      popper.innerText = p
-      const tippy = document.createElement('script')
-      tippy.innerText = t
-
-      head.prepend(popper, tippy)
+    (head, data) => {
+      const script = document.createElement('script')
+      script.innerText = data
+      head.prepend(script)
     },
-    { p: pop, t: tip }
+    data
   )
+}
+
+export const injectTippy = async (page: Page) => {
+  await inject(page, popperjs2)
+  await inject(page, tippyjs6)
 }
 
 //# sourceMappingURL=tippy-bundle.umd.min.js.map

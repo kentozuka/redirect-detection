@@ -2,6 +2,7 @@ import { ElementHandleForTag, PlayWrightContextOption } from '../types'
 import { endTimer, isValidUrl, startTimer, truncate } from '../lib/util'
 import { addTippy, extractData } from '../components/anchor-extraction'
 import { getPersistentContext } from '../lib/playwright'
+import { useEnvironmentVariable } from '../lib/dotenv'
 import { compareTwoStrings } from 'string-similarity'
 import getSeoData from '../components/seo-extraction'
 import { checkRedirects } from './link-tracker'
@@ -16,7 +17,6 @@ import {
   findAnchorByHref,
   findRouteAndDocs
 } from '../lib/prisma'
-import { useEnvironmentVariable } from '../lib/dotenv'
 
 const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,
@@ -62,9 +62,9 @@ export async function queryAnchors(
 
   try {
     await page.goto(target)
+    await injectTippy(page)
     const seo = await getSeoData(page)
     const { id: articleId } = await createArticle({ ...seo, url: target })
-    await injectTippy(page)
 
     await page.$$eval('a', (ancs) =>
       ancs.map((a) => (a.style.outline = '4px solid gray'))
@@ -85,7 +85,8 @@ export async function queryAnchors(
       await colorAnchorOutline(anchor, 'blue')
       const shouldScroll =
         useEnvironmentVariable('PLAYWRIGHT_SCROLL_INTO_VIEW') === 'true'
-      if (shouldScroll) await anchor.evaluate((el) => el.scrollIntoView())
+      if (shouldScroll)
+        await anchor.evaluate((el) => el.scrollIntoView({ block: 'center' }))
       // TODO: check if link exist in the db or update everything?
       const href = await anchor.evaluate((x) => x.href)
       const dbData = await findAnchorByHref(href)
