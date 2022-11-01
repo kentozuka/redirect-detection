@@ -18,6 +18,60 @@ export const createArticle = async (seo: Prisma.ArticleCreateInput) => {
   return done
 }
 
+export const createAnchorWithData = async (
+  articleId: number,
+  anchor: AnchorEssentials,
+  route: RouteEssentials,
+  docs: DocEssentials[]
+) => {
+  const existed = await prisma.anchor.findUnique({
+    where: {
+      href: anchor.href
+    },
+    include: {
+      route: true
+    }
+  })
+  if (existed) return existed
+
+  const paramed = docs.map((doc) => {
+    const url = new URL(doc.url)
+    const objs = [...url.searchParams.entries()].map((x) => ({
+      key: x[0],
+      value: x[1]
+    }))
+    return {
+      ...doc,
+      parameters: {
+        create: objs
+      }
+    }
+  })
+  const created = await prisma.anchor.create({
+    data: {
+      ...anchor,
+      article: {
+        connect: {
+          id: articleId
+        }
+      },
+      route: {
+        create: {
+          ...route,
+          docs: {
+            create: paramed
+          }
+        }
+      }
+    },
+    include: {
+      route: true
+    }
+  })
+
+  return created
+}
+
 export const findAnchorByHref = async (
   href: string
 ): Promise<Anchor | null> => {

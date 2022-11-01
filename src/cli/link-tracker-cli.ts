@@ -4,6 +4,9 @@ import { useEnvironmentVariable } from '../lib/dotenv'
 import { checkRedirects } from '../function/link-tracker'
 import { breakdownURL } from '../function/parameter'
 import { closePersistentContext } from '../lib/playwright'
+import { disconnectPrisma } from '../lib/prisma'
+
+process.on('exit', async () => disconnectPrisma())
 
 !(async () => {
   let loop = true

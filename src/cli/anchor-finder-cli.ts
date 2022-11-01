@@ -1,6 +1,9 @@
 import prompts from 'prompts'
 import { queryAnchors } from '../function/anchor-finder'
 import { closePersistentContext } from '../lib/playwright'
+import { disconnectPrisma } from '../lib/prisma'
+
+process.on('exit', async () => disconnectPrisma())
 
 !(async () => {
   let loop = true

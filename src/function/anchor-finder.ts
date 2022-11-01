@@ -9,11 +9,14 @@ import { injectTippy } from '../lib/tippy'
 import { breakdownURL } from './parameter'
 import {
   createAnchor,
+  createAnchorWithData,
   createArticle,
   createRouteWithDocs,
+  disconnectPrisma,
   findAnchorByHref,
   findRouteAndDocs
 } from '../lib/prisma'
+import { useEnvironmentVariable } from '../lib/dotenv'
 
 const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,
@@ -78,18 +81,21 @@ export async function queryAnchors(
         continue
       }
       cnt++
-      console.log(`${cnt.toLocaleString()}/${len.toLocaleString()}`)
 
       await colorAnchorOutline(anchor, 'blue')
-      await anchor.evaluate((el) => el.scrollIntoView())
+      const shouldScroll =
+        useEnvironmentVariable('PLAYWRIGHT_SCROLL_INTO_VIEW') === 'true'
+      if (shouldScroll) await anchor.evaluate((el) => el.scrollIntoView())
       // TODO: check if link exist in the db or update everything?
       const href = await anchor.evaluate((x) => x.href)
       const dbData = await findAnchorByHref(href)
+      console.log(`${cnt.toLocaleString()}/${len.toLocaleString()} | ${href}`)
 
       if (dbData === null) {
         const timer = startTimer()
         const detail = await extractData(anchor, origin)
-        const createdAnchor = await createAnchor(detail, articleId)
+
+        // const createdAnchor = await createAnchor(detail, articleId)
 
         console.time('Background Check')
         const redirectResponse = await checkRedirects(href)
@@ -98,18 +104,33 @@ export async function queryAnchors(
           continue
         }
         const { redirects, destination, start } = redirectResponse
-
-        const route = await createRouteWithDocs(
-          {
-            start: truncate(start),
-            documentNum: redirects.length || 1,
-            destination: truncate(destination),
-            similarity: +compareTwoStrings(start, destination).toFixed(2),
-            time: endTimer(timer)
-          },
-          redirects,
-          createdAnchor.id
+        // create anchor and route
+        const routeData = {
+          start: truncate(start),
+          documentNum: redirects.length || 1,
+          destination: truncate(destination),
+          similarity: +compareTwoStrings(start, destination).toFixed(2),
+          time: endTimer(timer)
+        }
+        const createdAnchor = await createAnchorWithData(
+          articleId,
+          detail,
+          routeData,
+          redirects
         )
+        const { route } = createdAnchor
+
+        // const route = await createRouteWithDocs(
+        //   {
+        //     start: truncate(start),
+        //     documentNum: redirects.length || 1,
+        //     destination: truncate(destination),
+        //     similarity: +compareTwoStrings(start, destination).toFixed(2),
+        //     time: endTimer(timer)
+        //   },
+        //   redirects,
+        //   createdAnchor.id
+        // )
 
         await addTippy(anchor, route, createdAnchor)
 
@@ -141,6 +162,7 @@ export async function queryAnchors(
     console.log(e)
     return null
   } finally {
+    await disconnectPrisma()
     // await page.close()
   }
 }
