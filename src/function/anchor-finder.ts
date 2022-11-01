@@ -3,15 +3,17 @@ import { endTimer, isValidUrl, startTimer, truncate } from '../lib/util'
 import { addTippy, extractData } from '../components/anchor-extraction'
 import { getPersistentContext } from '../lib/playwright'
 import { compareTwoStrings } from 'string-similarity'
+import getSeoData from '../components/seo-extraction'
+import { checkRedirects } from './link-tracker'
+import { injectTippy } from '../lib/tippy'
+import { breakdownURL } from './parameter'
 import {
   createAnchor,
+  createArticle,
   createRouteWithDocs,
   findAnchorByHref,
   findRouteAndDocs
 } from '../lib/prisma'
-import { checkRedirects } from './link-tracker'
-import { injectTippy } from '../lib/tippy'
-import { breakdownURL } from './parameter'
 
 const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,
@@ -49,7 +51,6 @@ export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
 ): Promise<null> {
-  const articleId = 2
   if (!isValidUrl(target)) return null
 
   const { host, pathname, origin } = new URL(target)
@@ -58,6 +59,8 @@ export async function queryAnchors(
 
   try {
     await page.goto(target)
+    const seo = await getSeoData(page)
+    const { id: articleId } = await createArticle({ ...seo, url: target })
     await injectTippy(page)
 
     await page.$$eval('a', (ancs) =>
@@ -66,14 +69,19 @@ export async function queryAnchors(
 
     const anchors = await page.$$('a')
 
+    let cnt = 0
+    const len = anchors.length
     for (const anchor of anchors) {
       const validated = await validateAnchor(anchor, { host, pathname })
       if (!validated) {
         await colorAnchorOutline(anchor, 'black')
         continue
       }
+      cnt++
+      console.log(`${cnt.toLocaleString()}/${len.toLocaleString()}`)
 
       await colorAnchorOutline(anchor, 'blue')
+      await anchor.evaluate((el) => el.scrollIntoView())
       // TODO: check if link exist in the db or update everything?
       const href = await anchor.evaluate((x) => x.href)
       const dbData = await findAnchorByHref(href)

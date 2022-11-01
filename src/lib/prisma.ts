@@ -1,10 +1,21 @@
-import { Anchor, PrismaClient } from '@prisma/client'
+import { Anchor, Prisma, PrismaClient } from '@prisma/client'
 import { AnchorEssentials, DocEssentials, RouteEssentials } from '../types'
 
 const prisma = new PrismaClient()
 
 export const disconnectPrisma = async () => {
   await prisma.$disconnect()
+}
+
+export const createArticle = async (seo: Prisma.ArticleCreateInput) => {
+  const exist = await prisma.article.findUnique({
+    where: {
+      url: seo.url
+    }
+  })
+  if (exist !== null) return exist
+  const done = await prisma.article.create({ data: seo })
+  return done
 }
 
 export const findAnchorByHref = async (
