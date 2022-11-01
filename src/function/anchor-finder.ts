@@ -49,7 +49,7 @@ export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
 ): Promise<null> {
-  const articleId = 0
+  const articleId = 2
   if (!isValidUrl(target)) return null
 
   const { host, pathname, origin } = new URL(target)
@@ -96,7 +96,7 @@ export async function queryAnchors(
             start: truncate(start),
             documentNum: redirects.length || 1,
             destination: truncate(destination),
-            similarity: compareTwoStrings(start, destination),
+            similarity: +compareTwoStrings(start, destination).toFixed(2),
             time: endTimer(timer)
           },
           redirects,
@@ -105,7 +105,7 @@ export async function queryAnchors(
 
         await addTippy(anchor, route, createdAnchor)
 
-        if (route.documentNum > 0) await colorAnchorOutline(anchor, 'yellow')
+        if (route.documentNum > 1) await colorAnchorOutline(anchor, 'yellow')
         else await colorAnchorOutline(anchor, 'green')
 
         // consoling
@@ -123,7 +123,7 @@ export async function queryAnchors(
         const route = await findRouteAndDocs(dbData.id)
         await addTippy(anchor, route, dbData)
 
-        if (route.documentNum > 0) await colorAnchorOutline(anchor, 'yellow')
+        if (route.documentNum > 1) await colorAnchorOutline(anchor, 'yellow')
         else await colorAnchorOutline(anchor, 'green')
       }
 
@@ -133,6 +133,13 @@ export async function queryAnchors(
     console.log(e)
     return null
   } finally {
-    await page.close()
+    // await page.close()
   }
 }
+
+/**
+ * TODO
+ *
+ * - create anchor with route with docs with parameters
+ * - prevent anchors being saved in the db without route etc
+ */

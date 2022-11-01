@@ -41,10 +41,10 @@ model Anchor {
   // style
   color String
   backgroundColor String
-  fontSize Int
+  fontSize Float
   fontWeight Int
   fontFamily String
-  lineHeight Int
+  lineHeight Float
   padding String
   margin String
   // calculated values
@@ -53,16 +53,16 @@ model Anchor {
   screenshot String? // screenshot takes time (1000ms~)
   // samePage Boolean  what was this for? hash link?
   hasAnimation Boolean
-  contrastScore Int
+  contrastScore Float
   // url
   host String
   pathname String
   sameOrigin Boolean
   // client bounding rect
-  x Int
-  y Int
-  width Int
-  height Int
+  x Float
+  y Float
+  width Float
+  height Float
   // relations
   route Route?
 }
@@ -74,7 +74,7 @@ model Route {
   start String
   documentNum Int
   destination String
-  similarity Int
+  similarity Float
   time Int
   docs Doc[]
 }
