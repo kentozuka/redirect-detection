@@ -120,29 +120,12 @@ export async function queryAnchors(
         )
         const { route } = createdAnchor
 
-        // const route = await createRouteWithDocs(
-        //   {
-        //     start: truncate(start),
-        //     documentNum: redirects.length || 1,
-        //     destination: truncate(destination),
-        //     similarity: +compareTwoStrings(start, destination).toFixed(2),
-        //     time: endTimer(timer)
-        //   },
-        //   redirects,
-        //   createdAnchor.id
-        // )
-
         await addTippy(anchor, route, createdAnchor)
 
         if (route.documentNum > 1) await colorAnchorOutline(anchor, 'yellow')
         else await colorAnchorOutline(anchor, 'green')
 
-        // consoling
-        const startUrl = breakdownURL(start)
-        const destiUrl = breakdownURL(destination)
-        console.log('start search params', startUrl.searchParams)
-        console.log('destination search params', destiUrl.searchParams)
-
+        console.log('\n')
         console.table(route)
         console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
         console.timeEnd('Background Check')
