@@ -29,12 +29,3 @@ export default async function (page: Page) {
     image: filterContent(metas, 'og:image')
   }
 }
-
-// {
-//   url String @unique
-//   title String?
-//   keywords String?
-//   description String?
-//   image String?
-//   anchors Anchor[]
-// }
