@@ -136,3 +136,10 @@ export async function queryAnchors(
     // await page.close()
   }
 }
+
+/**
+ * TODO
+ *
+ * - create anchor with route with docs with parameters
+ * - prevent anchors being saved in the db without route etc
+ */
