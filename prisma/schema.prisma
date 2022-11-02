@@ -26,6 +26,20 @@ model Anchor {
   article Article @relation(fields: [articleId], references: [id])
   // possible attributes
   href String @unique
+  // url
+  host String
+  pathname String
+  sameOrigin Boolean
+  // relations
+  route Route?
+  variants Variation[]
+}
+
+model Variation {
+  id Int @id @default(autoincrement())
+  anchorId Int
+  anchor Anchor @relation(fields: [anchorId], references: [id])
+  // styling
   outerHtml String
   relList Json?
   target String?
@@ -54,17 +68,11 @@ model Anchor {
   // samePage Boolean  what was this for? hash link?
   hasAnimation Boolean
   contrastScore Float
-  // url
-  host String
-  pathname String
-  sameOrigin Boolean
   // client bounding rect
   x Float
   y Float
   width Float
   height Float
-  // relations
-  route Route?
 }
 
 model Route {

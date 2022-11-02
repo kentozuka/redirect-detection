@@ -7,16 +7,16 @@ import { compareTwoStrings } from 'string-similarity'
 import getSeoData from '../components/seo-extraction'
 import { checkRedirects } from './link-tracker'
 import { injectTippy } from '../lib/tippy'
-import { breakdownURL } from './parameter'
+import { breakdownURL } from '../components/parameter'
 import {
-  createAnchor,
   createAnchorWithData,
   createArticle,
-  createRouteWithDocs,
   disconnectPrisma,
   findAnchorByHref,
   findRouteAndDocs
-} from '../lib/prisma'
+} from '../components/prisma'
+
+/* = = = = = = = = HELPER FUNC = = = = = = = = */
 
 const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,
@@ -50,6 +50,11 @@ const validateAnchor = async (
   return true
 }
 
+const getVariant = async () => {}
+
+const variantExist = async () => {}
+
+/* = = = = = = = = MAIN FUNC = = = = = = = = */
 export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
@@ -72,15 +77,15 @@ export async function queryAnchors(
 
     const anchors = await page.$$('a')
 
-    let cnt = 0
     const len = anchors.length
-    for (const anchor of anchors) {
+    for (const [ix, anchor] of Object.entries(anchors)) {
+      const count = `${ix.toLocaleString()}/${len.toLocaleString()}`
       const validated = await validateAnchor(anchor, { host, pathname })
       if (!validated) {
         await colorAnchorOutline(anchor, 'black')
+        console.log(`${count} | validation failed`)
         continue
       }
-      cnt++
 
       await colorAnchorOutline(anchor, 'blue')
       const shouldScroll =
@@ -90,7 +95,7 @@ export async function queryAnchors(
       // TODO: check if link exist in the db or update everything?
       const href = await anchor.evaluate((x) => x.href)
       const dbData = await findAnchorByHref(href)
-      console.log(`${cnt.toLocaleString()}/${len.toLocaleString()} | ${href}`)
+      console.log(`${count} | ${href}`)
 
       if (dbData === null) {
         const timer = startTimer()
@@ -113,6 +118,7 @@ export async function queryAnchors(
           similarity: +compareTwoStrings(start, destination).toFixed(2),
           time: endTimer(timer)
         }
+
         const createdAnchor = await createAnchorWithData(
           articleId,
           detail,
@@ -154,6 +160,8 @@ export async function queryAnchors(
 /**
  * TODO
  *
- * - create anchor with route with docs with parameters
- * - prevent anchors being saved in the db without route etc
+ * - add path prefix
+ * - move files into files
+ * - change anchor variant behaivior
+ * - create automatic scraping tool
  */

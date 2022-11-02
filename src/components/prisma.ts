@@ -1,5 +1,10 @@
 import { Anchor, Prisma, PrismaClient } from '@prisma/client'
-import { AnchorEssentials, DocEssentials, RouteEssentials } from '../types'
+import {
+  AnchorEssentials,
+  DocEssentials,
+  RouteEssentials,
+  VariationEssential
+} from '../types'
 
 const prisma = new PrismaClient()
 
@@ -21,6 +26,7 @@ export const createArticle = async (seo: Prisma.ArticleCreateInput) => {
 export const createAnchorWithData = async (
   articleId: number,
   anchor: AnchorEssentials,
+  initialVariant: VariationEssential,
   route: RouteEssentials,
   docs: DocEssentials[]
 ) => {
@@ -29,7 +35,8 @@ export const createAnchorWithData = async (
       href: anchor.href
     },
     include: {
-      route: true
+      route: true,
+      variants: true
     }
   })
   if (existed) return existed
@@ -62,6 +69,9 @@ export const createAnchorWithData = async (
             create: paramed
           }
         }
+      },
+      variants: {
+        create: initialVariant
       }
     },
     include: {
@@ -70,6 +80,24 @@ export const createAnchorWithData = async (
   })
 
   return created
+}
+
+export const addAnchorVariant = async (
+  anchorId: number,
+  variant: VariationEssential
+) => {
+  const done = await prisma.variation.create({
+    data: {
+      anchor: {
+        connect: {
+          id: anchorId
+        }
+      },
+      ...variant
+    }
+  })
+
+  return done
 }
 
 export const findAnchorByHref = async (
@@ -91,54 +119,37 @@ export const findRouteAndDocs = async (anchorId: number) => {
   return exist
 }
 
-export const createAnchor = async (
-  data: AnchorEssentials,
-  articleId: number
-) => {
-  const done = await prisma.anchor.create({
-    data: {
-      ...data,
-      article: {
-        connect: {
-          id: articleId
-        }
-      }
-    }
-  })
-  return done
-}
+// export const createRouteWithDocs = async (
+//   data: RouteEssentials,
+//   docs: DocEssentials[],
+//   anchorId: number
+// ) => {
+//   const paramed = docs.map((doc) => {
+//     const url = new URL(doc.url)
+//     const objs = [...url.searchParams.entries()].map((x) => ({
+//       key: x[0],
+//       value: x[1]
+//     }))
+//     return {
+//       ...doc,
+//       parameters: {
+//         create: objs
+//       }
+//     }
+//   })
 
-export const createRouteWithDocs = async (
-  data: RouteEssentials,
-  docs: DocEssentials[],
-  anchorId: number
-) => {
-  const paramed = docs.map((doc) => {
-    const url = new URL(doc.url)
-    const objs = [...url.searchParams.entries()].map((x) => ({
-      key: x[0],
-      value: x[1]
-    }))
-    return {
-      ...doc,
-      parameters: {
-        create: objs
-      }
-    }
-  })
-
-  const done = await prisma.route.create({
-    data: {
-      ...data,
-      anchor: {
-        connect: {
-          id: anchorId
-        }
-      },
-      docs: {
-        create: paramed
-      }
-    }
-  })
-  return done
-}
+//   const done = await prisma.route.create({
+//     data: {
+//       ...data,
+//       anchor: {
+//         connect: {
+//           id: anchorId
+//         }
+//       },
+//       docs: {
+//         create: paramed
+//       }
+//     }
+//   })
+//   return done
+// }

@@ -1,4 +1,4 @@
-import { PossibleTypes } from '../types/index'
+import { PossibleTypes } from '../../types/index'
 
 export const isThreeHundres = (n: number) => /30\d/.test(String(n))
 

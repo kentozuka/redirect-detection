@@ -1,8 +1,16 @@
 import { Prisma } from '@prisma/client'
 
-const anchorEssentials = Prisma.validator<Prisma.AnchorArgs>()({
+const anchorEssential = Prisma.validator<Prisma.AnchorArgs>()({
   select: {
     href: true,
+    host: true,
+    pathname: true,
+    sameOrigin: true
+  }
+})
+
+const variantionEssential = Prisma.validator<Prisma.VariationArgs>()({
+  select: {
     outerHtml: true,
     relList: true,
     target: true,
@@ -31,10 +39,6 @@ const anchorEssentials = Prisma.validator<Prisma.AnchorArgs>()({
     // samePage Boolean  what was this for? hash link?
     hasAnimation: true,
     contrastScore: true,
-    // url
-    host: true,
-    pathname: true,
-    sameOrigin: true,
     // client bounding rect
     x: true,
     y: true,
@@ -66,6 +70,9 @@ const routeEssentials = Prisma.validator<Prisma.RouteArgs>()({
   }
 })
 
-export type RouteEssentials = Prisma.RouteGetPayload<typeof routeEssentials>
-export type AnchorEssentials = Prisma.AnchorGetPayload<typeof anchorEssentials>
+export type AnchorEssentials = Prisma.AnchorGetPayload<typeof anchorEssential>
+export type VariationEssential = Prisma.VariationGetPayload<
+  typeof variantionEssential
+>
 export type DocEssentials = Prisma.DocGetPayload<typeof docEssentials>
+export type RouteEssentials = Prisma.RouteGetPayload<typeof routeEssentials>

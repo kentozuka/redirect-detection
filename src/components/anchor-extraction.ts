@@ -1,6 +1,6 @@
-import { Anchor, Route } from '@prisma/client'
+import { Anchor, Route, Variation } from '@prisma/client'
 
-import { ElementHandleForTag, AnchorEssentials } from '../types'
+import { ElementHandleForTag, VariationEssential } from '../types'
 import { contrast } from '../lib/util'
 
 const noAnimation = 'none 0s ease 0s 1 normal none running'
@@ -16,8 +16,9 @@ const calculateContrast = (color: string, backgroundColor: string) => {
 export const extractData = async (
   anchor: ElementHandleForTag<'a'>,
   targetOrigin: string
-): Promise<AnchorEssentials> => {
+): Promise<VariationEssential> => {
   const evaled = await anchor.evaluate((a) => {
+    a.style.outlineColor = 'transparent'
     const {
       color,
       backgroundColor,
@@ -31,7 +32,7 @@ export const extractData = async (
     } = getComputedStyle(a)
 
     return {
-      href: a.href,
+      // href: a.href,
       outerHtml: a.outerHTML.trim(),
       relList: Array.from(a.relList),
       target: a.target,
@@ -47,37 +48,37 @@ export const extractData = async (
         : '',
       color,
       backgroundColor,
-      fontSize: +fontSize.replace('px', ''),
-      fontWeight: +fontWeight,
+      fontSize: parseFloat(fontSize) || 0,
+      fontWeight: parseInt(fontWeight) || 0,
       fontFamily,
-      lineHeight: +lineHeight.replace('px', ''),
+      lineHeight: parseFloat(lineHeight) || 0,
       padding,
       margin,
       animation
-      // ...a.getBoundingClientRect() => spread syntax does not work on DOMRect
     }
   })
 
-  const rect = await anchor.boundingBox() // calculating twice for cleaner code
-  const { host, pathname, origin } = new URL(evaled.href)
+  const rect = await anchor.boundingBox() // calculating twice for the sake of cleaner code
+  // const { host, pathname, origin } = new URL(evaled.href)
 
   return {
     ...evaled,
     sponsored: evaled.relList.includes('sponsored'),
-    screenshot: '', //(await anchor.screenshot()).toString('base64'),
+    screenshot: (await anchor.screenshot()).toString('base64'),
     hasAnimation: evaled.animation !== noAnimation,
     contrastScore: calculateContrast(evaled.color, evaled.backgroundColor),
-    host,
-    pathname,
-    sameOrigin: origin === targetOrigin,
+    // host,
+    // pathname,
+    // sameOrigin: origin === targetOrigin,
     ...rect
   }
 }
 
 export const addTippy = async (
   anchor: ElementHandleForTag<'a'>,
+  anchorData: Anchor,
   route: Route,
-  detail: Anchor
+  detail: Variation
 ) => {
   await anchor.evaluate(
     (a, { route, detail }) => {
@@ -89,15 +90,17 @@ export const addTippy = async (
         route.similarity * 100
       ).toFixed(1)}% similar</p>
     <p>${detail.contrastScore} contrast score</p>
-    <p>same origin?: ${detail.sameOrigin}</p>
+    <p>same origin: ${anchorData.sameOrigin}</p>
     <p>${detail.color} / ${detail.backgroundColor} <span style="color: ${
         detail.color
       }; background-color: ${detail.backgroundColor};">(c/b)</span></p>
+    ${
+      detail.screenshot &&
+      `<img src="data:image/png;base64,${detail.screenshot}" />`
+    }
     `
       // @ts-ignore
-      tippy(a, {
-        content: el
-      })
+      tippy(a, { content: el })
     },
     { route, detail }
   )

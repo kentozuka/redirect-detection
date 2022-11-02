@@ -3,12 +3,12 @@ import urlRegex from 'url-regex'
 import { load } from 'cheerio'
 import axios from 'axios'
 
-import { LocalDoc, LocalRing, DocEssentials } from '../types'
+import { LocalDoc, LocalRing, DocEssentials } from '../../types'
 import {
   clientSideRedirect,
   isThreeHundres,
   serverSideRedirect
-} from './request-classifier'
+} from './classifier'
 
 export const extractDocFromResponse = async (
   res: Response
