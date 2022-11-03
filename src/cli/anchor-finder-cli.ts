@@ -1,7 +1,8 @@
 import prompts from 'prompts'
-import { queryAnchors } from '../function/anchor-finder'
-import { closePersistentContext } from '../lib/playwright'
-import { disconnectPrisma } from '../components/prisma'
+
+import { closePersistentContext } from '@lib/playwright'
+import { disconnectPrisma } from '@components/prisma'
+import { queryAnchors } from '@function/anchor-finder'
 
 process.on('exit', async () => disconnectPrisma())
 

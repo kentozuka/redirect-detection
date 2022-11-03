@@ -1,6 +1,6 @@
 import { BrowserContext, Page } from 'playwright'
 
-import { loadingAnimation } from '../lib/logger'
+import { loadingAnimation } from '@lib/logger'
 
 const ignores = [
   'stylesheet',

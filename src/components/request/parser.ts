@@ -3,7 +3,7 @@ import urlRegex from 'url-regex'
 import { load } from 'cheerio'
 import axios from 'axios'
 
-import { LocalDoc, LocalRing, DocEssentials } from '../../types'
+import { LocalDoc, LocalRing, DocEssentials } from '@c-types/index'
 import {
   clientSideRedirect,
   isThreeHundres,

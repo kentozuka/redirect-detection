@@ -17,6 +17,7 @@ model Article {
   keywords String?
   description String?
   image String?
+  screenshot String?
   anchors Anchor[]
 }
 

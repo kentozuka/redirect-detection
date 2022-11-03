@@ -4,7 +4,7 @@ import {
   DocEssentials,
   RouteEssentials,
   VariationEssential
-} from '../types'
+} from '@c-types/index'
 
 const prisma = new PrismaClient()
 

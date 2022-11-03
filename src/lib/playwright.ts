@@ -1,6 +1,6 @@
 import { BrowserContext, chromium } from 'playwright'
 
-import { PlayWrightContextOption } from '../types'
+import { PlayWrightContextOption } from '@c-types/index'
 import { useEnvironmentVariable } from './dotenv'
 
 let browser: BrowserContext = null

@@ -1,13 +1,13 @@
 import { ElementHandleForTag, PlayWrightContextOption } from '../types'
 import { endTimer, isValidUrl, startTimer, truncate } from '../lib/util'
-import { addTippy, extractData } from '../components/anchor-extraction'
+import { addTippy, extractData } from '../components/anchor/extraction'
 import { getPersistentContext } from '../lib/playwright'
 import { useEnvironmentVariable } from '../lib/dotenv'
 import { compareTwoStrings } from 'string-similarity'
 import getSeoData from '../components/seo-extraction'
 import { checkRedirects } from './link-tracker'
-import { injectTippy } from '../lib/tippy'
-import { breakdownURL } from '../components/parameter'
+import { injectTippy } from '../components/tippy'
+import { breakdownURL } from 'components'
 import {
   createAnchorWithData,
   createArticle,
@@ -68,17 +68,26 @@ export async function queryAnchors(
   try {
     await page.goto(target)
     await injectTippy(page)
+
+    // creating article
     const seo = await getSeoData(page)
-    const { id: articleId } = await createArticle({ ...seo, url: target })
+    const scs = await page.screenshot({ fullPage: true })
+    const bs64 = scs.toString('base64')
+    const { id: articleId } = await createArticle({
+      ...seo,
+      url: target,
+      screenshot: bs64
+    })
 
     await page.$$eval('a', (ancs) =>
       ancs.map((a) => (a.style.outline = '4px solid gray'))
     )
 
     const anchors = await page.$$('a')
-
     const len = anchors.length
+
     for (const [ix, anchor] of Object.entries(anchors)) {
+      // validation
       const count = `${ix.toLocaleString()}/${len.toLocaleString()}`
       const validated = await validateAnchor(anchor, { host, pathname })
       if (!validated) {

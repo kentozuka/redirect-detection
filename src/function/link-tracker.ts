@@ -1,19 +1,19 @@
 import { Response } from 'playwright'
 
-import { getBackgroundBrowserContext } from '../lib/playwright'
-import { PlayWrightContextOption, DocEssentials } from '../types'
-import { useEnvironmentVariable } from '../lib/dotenv'
-import { isValidUrl } from '../lib/util'
+import { PlayWrightContextOption, DocEssentials } from '@c-types/index'
+import { getBackgroundBrowserContext } from '@lib/playwright'
+import { useEnvironmentVariable } from '@lib/dotenv'
+import { isValidUrl } from '@lib/util'
 
 import {
   onlyAllowsFirstRequest,
   waitForNoMeta
-} from '../components/wait-function'
+} from '@components/wait-function'
 import {
   calculateChain,
   extractDocFromResponse,
   parseDocsToRings
-} from '../components/request-parser'
+} from '@components/request/parser'
 
 export async function checkRedirects(
   target: string,

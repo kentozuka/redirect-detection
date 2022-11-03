@@ -1,10 +1,10 @@
 import prompts from 'prompts'
-import { useEnvironmentVariable } from '../lib/dotenv'
 
-import { checkRedirects } from '../function/link-tracker'
-import { breakdownURL } from '../components/parameter'
-import { closePersistentContext } from '../lib/playwright'
-import { disconnectPrisma } from '../components/prisma'
+import { closePersistentContext } from '@lib/playwright'
+import { checkRedirects } from '@function/link-tracker'
+import { disconnectPrisma } from '@components/prisma'
+import { breakdownURL } from '@components/parameter'
+import { useEnvironmentVariable } from '@lib/dotenv'
 
 process.on('exit', async () => disconnectPrisma())
 

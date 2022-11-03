@@ -1,7 +1,7 @@
 import { Anchor, Route, Variation } from '@prisma/client'
 
-import { ElementHandleForTag, VariationEssential } from '../types'
-import { contrast } from '../lib/util'
+import { ElementHandleForTag, VariationEssential } from '@c-types/index'
+import { contrast } from '@lib/util'
 
 const noAnimation = 'none 0s ease 0s 1 normal none running'
 
@@ -14,8 +14,7 @@ const calculateContrast = (color: string, backgroundColor: string) => {
 }
 
 export const extractData = async (
-  anchor: ElementHandleForTag<'a'>,
-  targetOrigin: string
+  anchor: ElementHandleForTag<'a'>
 ): Promise<VariationEssential> => {
   const evaled = await anchor.evaluate((a) => {
     a.style.outlineColor = 'transparent'
@@ -72,36 +71,4 @@ export const extractData = async (
     // sameOrigin: origin === targetOrigin,
     ...rect
   }
-}
-
-export const addTippy = async (
-  anchor: ElementHandleForTag<'a'>,
-  anchorData: Anchor,
-  route: Route,
-  detail: Variation
-) => {
-  await anchor.evaluate(
-    (a, { route, detail }) => {
-      const el = document.createElement('div')
-      el.innerHTML = `
-    <p>${route.start}</p>
-    <p>${route.destination}</p>
-    <p>${route.time.toLocaleString()}ms | ${route.documentNum} redirects | ${(
-        route.similarity * 100
-      ).toFixed(1)}% similar</p>
-    <p>${detail.contrastScore} contrast score</p>
-    <p>same origin: ${anchorData.sameOrigin}</p>
-    <p>${detail.color} / ${detail.backgroundColor} <span style="color: ${
-        detail.color
-      }; background-color: ${detail.backgroundColor};">(c/b)</span></p>
-    ${
-      detail.screenshot &&
-      `<img src="data:image/png;base64,${detail.screenshot}" />`
-    }
-    `
-      // @ts-ignore
-      tippy(a, { content: el })
-    },
-    { route, detail }
-  )
 }
