@@ -23,20 +23,15 @@ export const createArticle = async (seo: Prisma.ArticleCreateInput) => {
   return done
 }
 
-export const createAnchorWithData = async (
+export const createAnchorWithRoute = async (
   articleId: number,
   anchor: AnchorEssentials,
-  initialVariant: VariationEssential,
   route: RouteEssentials,
   docs: DocEssentials[]
 ) => {
   const existed = await prisma.anchor.findUnique({
     where: {
       href: anchor.href
-    },
-    include: {
-      route: true,
-      variants: true
     }
   })
   if (existed) return existed
@@ -69,17 +64,27 @@ export const createAnchorWithData = async (
             create: paramed
           }
         }
-      },
-      variants: {
-        create: initialVariant
       }
-    },
-    include: {
-      route: true
     }
   })
 
   return created
+}
+
+export const getVariantMetaData = async (anchorId: number) => {
+  const data = await prisma.variation.findMany({
+    where: {
+      anchorId
+    },
+    select: {
+      width: true,
+      height: true,
+      x: true,
+      y: true
+    }
+  })
+
+  return data
 }
 
 export const addAnchorVariant = async (
@@ -103,7 +108,10 @@ export const addAnchorVariant = async (
 export const findAnchorByHref = async (
   href: string
 ): Promise<Anchor | null> => {
-  const exist = await prisma.anchor.findUnique({ where: { href } })
+  const exist = await prisma.anchor.findUnique({
+    where: { href },
+    include: { route: true }
+  })
   return exist
 }
 

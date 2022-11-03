@@ -1,60 +1,31 @@
-import { ElementHandleForTag, PlayWrightContextOption } from '../types'
-import { endTimer, isValidUrl, startTimer, truncate } from '../lib/util'
-import { addTippy, extractData } from '../components/anchor/extraction'
-import { getPersistentContext } from '../lib/playwright'
-import { useEnvironmentVariable } from '../lib/dotenv'
+import { ElementHandleForTag, PlayWrightContextOption } from '@c-types/index'
+import { endTimer, isValidUrl, startTimer, truncate } from '@lib/util'
+import { extractVariation } from '@components/anchor/extraction'
+import { getPersistentContext } from '@lib/playwright'
+import { useEnvironmentVariable } from '@lib/dotenv'
 import { compareTwoStrings } from 'string-similarity'
-import getSeoData from '../components/seo-extraction'
+import getSeoData from '@components/seo-extraction'
 import { checkRedirects } from './link-tracker'
-import { injectTippy } from '../components/tippy'
-import { breakdownURL } from 'components'
+import { injectTippy, addTippy } from '@components/tippy'
+
 import {
-  createAnchorWithData,
+  addAnchorVariant,
+  createAnchorWithRoute,
   createArticle,
   disconnectPrisma,
   findAnchorByHref,
-  findRouteAndDocs
-} from '../components/prisma'
+  findRouteAndDocs,
+  getVariantMetaData
+} from '@components/prisma'
+import { validateAnchor } from '@components/anchor/validate'
+import { colorAnchorOutline } from '@components/anchor/modify'
+import { isNewVariation } from '@components/variant/exist'
+import { sameOrigin } from '@components/url'
 
-/* = = = = = = = = HELPER FUNC = = = = = = = = */
+const timerName = 'Redirect Check'
+const shouldScroll =
+  useEnvironmentVariable('PLAYWRIGHT_SCROLL_INTO_VIEW') === 'true'
 
-const colorAnchorOutline = async (
-  anchor: ElementHandleForTag<'a'>,
-  color: string
-) => {
-  await anchor.evaluate((a, color) => (a.style.outlineColor = color), color)
-}
-
-const validateAnchor = async (
-  anchor: ElementHandleForTag<'a'>,
-  { host, pathname }: { host: string; pathname: string }
-): Promise<boolean> => {
-  // url validation
-  const href = await anchor.evaluate((a) => a.href) // returns full length href
-  if (!isValidUrl(href)) return false
-
-  // hash link validation
-  const { host: ancHost, pathname: ancPathname, hash } = new URL(href)
-  const samePage = host === ancHost && pathname === ancPathname
-  const isIdLink = samePage && hash
-  if (isIdLink) return false
-
-  // visible link validation
-  const rect = await anchor.boundingBox()
-  if (rect === null || (rect.width === 0 && rect.height === 0)) return false
-
-  const visible = await anchor.isVisible()
-  if (!visible) return false
-
-  // success
-  return true
-}
-
-const getVariant = async () => {}
-
-const variantExist = async () => {}
-
-/* = = = = = = = = MAIN FUNC = = = = = = = = */
 export async function queryAnchors(
   target: string,
   options?: PlayWrightContextOption
@@ -71,55 +42,48 @@ export async function queryAnchors(
 
     // creating article
     const seo = await getSeoData(page)
-    const scs = await page.screenshot({ fullPage: true })
-    const bs64 = scs.toString('base64')
-    const { id: articleId } = await createArticle({
-      ...seo,
-      url: target,
-      screenshot: bs64
-    })
+    const { id: articleId } = await createArticle({ ...seo, url: target })
 
+    const anchorElements = await page.$$('a')
+    const len = anchorElements.length
     await page.$$eval('a', (ancs) =>
       ancs.map((a) => (a.style.outline = '4px solid gray'))
     )
 
-    const anchors = await page.$$('a')
-    const len = anchors.length
-
-    for (const [ix, anchor] of Object.entries(anchors)) {
+    for (const [ix, anchorElement] of Object.entries(anchorElements)) {
       // validation
-      const count = `${ix.toLocaleString()}/${len.toLocaleString()}`
-      const validated = await validateAnchor(anchor, { host, pathname })
+      const count = `[${(ix + 1).toLocaleString()}/${len.toLocaleString()}]`
+      const validated = await validateAnchor(anchorElement, { host, pathname })
       if (!validated) {
-        await colorAnchorOutline(anchor, 'black')
+        await colorAnchorOutline(anchorElement, 'black')
         console.log(`${count} | validation failed`)
         continue
       }
 
-      await colorAnchorOutline(anchor, 'blue')
-      const shouldScroll =
-        useEnvironmentVariable('PLAYWRIGHT_SCROLL_INTO_VIEW') === 'true'
-      if (shouldScroll)
-        await anchor.evaluate((el) => el.scrollIntoView({ block: 'center' }))
-      // TODO: check if link exist in the db or update everything?
-      const href = await anchor.evaluate((x) => x.href)
-      const dbData = await findAnchorByHref(href)
-      console.log(`${count} | ${href}`)
+      await colorAnchorOutline(anchorElement, 'blue')
+      if (shouldScroll) {
+        await anchorElement.evaluate((el) =>
+          el.scrollIntoView({ block: 'center' })
+        )
+      }
 
-      if (dbData === null) {
+      const href = await anchorElement.evaluate((x) => x.href)
+      let anchor = await findAnchorByHref(href)
+      console.log(`${count} | ${anchor && anchor.id} ${href}`)
+
+      if (anchor === null) {
+        console.time(timerName)
         const timer = startTimer()
-        const detail = await extractData(anchor, origin)
-
-        // const createdAnchor = await createAnchor(detail, articleId)
-
-        console.time('Background Check')
         const redirectResponse = await checkRedirects(href)
+
         if (redirectResponse === null) {
-          await colorAnchorOutline(anchor, 'red')
+          await colorAnchorOutline(anchorElement, 'red')
+          console.log('[check failed]')
+          console.timeEnd(timerName)
           continue
         }
+
         const { redirects, destination, start } = redirectResponse
-        // create anchor and route
         const routeData = {
           start: truncate(start),
           documentNum: redirects.length || 1,
@@ -127,35 +91,32 @@ export async function queryAnchors(
           similarity: +compareTwoStrings(start, destination).toFixed(2),
           time: endTimer(timer)
         }
-
-        const createdAnchor = await createAnchorWithData(
+        const anchorData = {
+          href,
+          host,
+          pathname,
+          sameOrigin: sameOrigin(start, destination)
+        }
+        anchor = await createAnchorWithRoute(
           articleId,
-          detail,
+          anchorData,
           routeData,
           redirects
         )
-        const { route } = createdAnchor
-
-        await addTippy(anchor, route, createdAnchor)
-
-        if (route.documentNum > 1) await colorAnchorOutline(anchor, 'yellow')
-        else await colorAnchorOutline(anchor, 'green')
-
-        console.log('\n')
-        console.table(route)
-        console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
-        console.timeEnd('Background Check')
-        console.log('\n')
-      } else {
-        // write tippy
-        const route = await findRouteAndDocs(dbData.id)
-        await addTippy(anchor, route, dbData)
-
-        if (route.documentNum > 1) await colorAnchorOutline(anchor, 'yellow')
-        else await colorAnchorOutline(anchor, 'green')
+        if (redirects.length)
+          console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
+        console.timeEnd(timerName)
       }
 
-      // TODO: remove logging and add to db
+      const variant = await extractVariation(anchorElement)
+      if (isNewVariation(anchor.id, variant)) {
+        await addAnchorVariant(anchor.id, variant)
+      }
+
+      const route = await findRouteAndDocs(anchor.id)
+      const markerCol = route.documentNum > 1 ? 'yellow' : 'green'
+      await colorAnchorOutline(anchorElement, markerCol)
+      await addTippy(anchorElement, anchor, route, variant)
     }
   } catch (e) {
     console.log(e)
@@ -166,11 +127,5 @@ export async function queryAnchors(
   }
 }
 
-/**
- * TODO
- *
- * - add path prefix
- * - move files into files
- * - change anchor variant behaivior
- * - create automatic scraping tool
- */
+// failed attempts?
+// timeout => will do again

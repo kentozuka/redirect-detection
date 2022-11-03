@@ -13,7 +13,7 @@ const calculateContrast = (color: string, backgroundColor: string) => {
   return +float.toFixed(2)
 }
 
-export const extractData = async (
+export const extractVariation = async (
   anchor: ElementHandleForTag<'a'>
 ): Promise<VariationEssential> => {
   const evaled = await anchor.evaluate((a) => {

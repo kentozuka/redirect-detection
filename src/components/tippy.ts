@@ -1,7 +1,7 @@
 import { Page } from 'playwright'
 
-import { Anchor, Route, Variation } from '@prisma/client'
-import { ElementHandleForTag } from '@c-types/index'
+import { Anchor, Route } from '@prisma/client'
+import { ElementHandleForTag, VariationEssential } from '@c-types/index'
 
 const popperjs2 = 'https://unpkg.com/@popperjs/core@2'
 const tippyjs6 = 'https://unpkg.com/tippy.js@6'
@@ -15,10 +15,10 @@ export const addTippy = async (
   anchor: ElementHandleForTag<'a'>,
   anchorData: Anchor,
   route: Route,
-  detail: Variation
+  detail: VariationEssential
 ) => {
   await anchor.evaluate(
-    (a, { route, detail }) => {
+    (a, { route, detail, anchorData }) => {
       const el = document.createElement('div')
       el.innerHTML = `
     <p>${route.start}</p>
@@ -39,6 +39,6 @@ export const addTippy = async (
       // @ts-ignore
       tippy(a, { content: el })
     },
-    { route, detail }
+    { route, detail, anchorData }
   )
 }
