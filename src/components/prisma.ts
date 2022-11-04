@@ -71,22 +71,6 @@ export const createAnchorWithRoute = async (
   return created
 }
 
-export const getVariantMetaData = async (anchorId: number) => {
-  const data = await prisma.variation.findMany({
-    where: {
-      anchorId
-    },
-    select: {
-      width: true,
-      height: true,
-      x: true,
-      y: true
-    }
-  })
-
-  return data
-}
-
 export const addAnchorVariant = async (
   anchorId: number,
   variant: VariationEssential
@@ -113,6 +97,22 @@ export const findAnchorByHref = async (
     include: { route: true }
   })
   return exist
+}
+
+export const getVariantMetaData = async (anchorId: number) => {
+  const data = await prisma.variation.findMany({
+    where: {
+      anchorId
+    },
+    select: {
+      width: true,
+      height: true,
+      x: true,
+      y: true
+    }
+  })
+
+  return data
 }
 
 export const findRouteAndDocs = async (anchorId: number) => {

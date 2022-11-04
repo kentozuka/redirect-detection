@@ -10,6 +10,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Query {
+  id Int @id @default(autoincrement())
+  
+}
+
+model Attempt {
+  id Int @id @default(autoincrement())
+  function String
+  startAt DateTime
+  endAt DateTime
+  failed Boolean @default(false)
+}
+
 model Article {
   id Int @id @default(autoincrement())
   url String @unique
@@ -30,6 +43,7 @@ model Anchor {
   host String
   pathname String
   sameOrigin Boolean
+  failed Boolean @default(false)
   // relations
   route Route?
   variants Variation[]

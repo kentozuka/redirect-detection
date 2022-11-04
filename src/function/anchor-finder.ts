@@ -1,26 +1,27 @@
-import { ElementHandleForTag, PlayWrightContextOption } from '@c-types/index'
+import { compareTwoStrings } from 'string-similarity'
+
+import { PlayWrightContextOption } from '@c-types/index'
+import { checkRedirects } from './link-tracker'
+
 import { endTimer, isValidUrl, startTimer, truncate } from '@lib/util'
-import { extractVariation } from '@components/anchor/extraction'
 import { getPersistentContext } from '@lib/playwright'
 import { useEnvironmentVariable } from '@lib/dotenv'
-import { compareTwoStrings } from 'string-similarity'
-import getSeoData from '@components/seo-extraction'
-import { checkRedirects } from './link-tracker'
-import { injectTippy, addTippy } from '@components/tippy'
 
+import { extractVariation } from '@components/anchor/extraction'
+import { colorAnchorOutline } from '@components/anchor/modify'
+import { validateAnchor } from '@components/anchor/validate'
+import { isNewVariation } from '@components/variant/exist'
+import { injectTippy, addTippy } from '@components/tippy'
+import getSeoData from '@components/seo-extraction'
+import { sameOrigin } from '@components/url'
 import {
   addAnchorVariant,
   createAnchorWithRoute,
   createArticle,
   disconnectPrisma,
   findAnchorByHref,
-  findRouteAndDocs,
-  getVariantMetaData
+  findRouteAndDocs
 } from '@components/prisma'
-import { validateAnchor } from '@components/anchor/validate'
-import { colorAnchorOutline } from '@components/anchor/modify'
-import { isNewVariation } from '@components/variant/exist'
-import { sameOrigin } from '@components/url'
 
 const timerName = 'Redirect Check'
 const shouldScroll =
@@ -32,7 +33,7 @@ export async function queryAnchors(
 ): Promise<null> {
   if (!isValidUrl(target)) return null
 
-  const { host, pathname, origin } = new URL(target)
+  const { host, pathname } = new URL(target)
   const browser = await getPersistentContext(options)
   const page = await browser.newPage()
 
@@ -78,24 +79,23 @@ export async function queryAnchors(
 
         if (redirectResponse === null) {
           await colorAnchorOutline(anchorElement, 'red')
-          console.log('[check failed]')
           console.timeEnd(timerName)
           continue
         }
 
         const { redirects, destination, start } = redirectResponse
+        const anchorData = {
+          href,
+          host,
+          pathname,
+          sameOrigin: sameOrigin(start, destination)
+        }
         const routeData = {
           start: truncate(start),
           documentNum: redirects.length || 1,
           destination: truncate(destination),
           similarity: +compareTwoStrings(start, destination).toFixed(2),
           time: endTimer(timer)
-        }
-        const anchorData = {
-          href,
-          host,
-          pathname,
-          sameOrigin: sameOrigin(start, destination)
         }
         anchor = await createAnchorWithRoute(
           articleId,
