@@ -23,6 +23,13 @@ model Attempt {
   failed Boolean @default(false)
 }
 
+model Failure {
+  id Int @id @default(autoincrement())
+  href String
+  time Int
+  reason String
+}
+
 model Article {
   id Int @id @default(autoincrement())
   url String @unique

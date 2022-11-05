@@ -70,7 +70,7 @@ export async function queryAnchors(
 
       const href = await anchorElement.evaluate((x) => x.href)
       let anchor = await findAnchorByHref(href)
-      console.log(`${count} | ${anchor && anchor.id} ${href}`)
+      console.log(`${count} | {${anchor && anchor.id}} ${href}`)
 
       if (anchor === null) {
         console.time(timerName)
