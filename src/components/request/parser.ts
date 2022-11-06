@@ -45,9 +45,7 @@ export const extractDocFromResponse = async (
     doc.body = head
     doc.redirectType = 'client'
   } catch {
-    // console.log(`[Parsing body failed] ${url}`)
     const res = await axios.get(url)
-    // console.log(`Faillback request status: ${res.status}`)
     if (res.status === 200) doc.body = res.data
   } // sometimes body() fails
   return doc

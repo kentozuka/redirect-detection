@@ -53,6 +53,7 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
     clearInterval(interval)
     clearInterval(animInt)
     clearTimeout(timeout)
+    console.log()
     resolve()
   }
 

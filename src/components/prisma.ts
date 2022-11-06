@@ -1,4 +1,4 @@
-import { Anchor, Prisma, PrismaClient } from '@prisma/client'
+import { Anchor, Prisma, PrismaClient, Variation } from '@prisma/client'
 import {
   AnchorEssentials,
   DocEssentials,
@@ -69,6 +69,45 @@ export const createAnchorWithRoute = async (
   })
 
   return created
+}
+
+const knownDimension = async (
+  anchorId: number,
+  four: {
+    x: number
+    y: number
+    width: number
+    height: number
+  }
+) => {
+  const meta = [four.width, four.height, four.x, four.y]
+  const variations = await getVariantMetaData(anchorId)
+  const exist = variations.some((a) =>
+    Object.values(a).map((el, ix) => el === meta[ix])
+  )
+  return exist
+}
+
+export const getVariant = async (
+  anchorId: number,
+  dimension: {
+    x: number
+    y: number
+    width: number
+    height: number
+  }
+): Promise<Variation | null> => {
+  const isKnownDimension = knownDimension(anchorId, dimension)
+  if (!isKnownDimension) return null
+
+  const exist = await prisma.variation.findFirst({
+    where: {
+      anchorId,
+      ...dimension
+    }
+  })
+
+  return exist
 }
 
 export const addAnchorVariant = async (

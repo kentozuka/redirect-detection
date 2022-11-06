@@ -12,31 +12,26 @@ datasource db {
 
 model Query {
   id Int @id @default(autoincrement())
-  
-}
-
-model Attempt {
-  id Int @id @default(autoincrement())
-  function String
-  startAt DateTime
-  endAt DateTime
-  failed Boolean @default(false)
-}
-
-model Failure {
-  id Int @id @default(autoincrement())
-  href String
-  time Int
-  reason String
+  text String
+  array String[]
+  resultNum Int
+  searchEngine String
+  articles Article[]
 }
 
 model Article {
   id Int @id @default(autoincrement())
+  queryId Int
+  query Query @relation(fields: [queryId], references: [id])
   url String @unique
   title String?
   keywords String?
   description String?
   image String?
+  scheduledAt DateTime?
+  startAt DateTime?
+  endAt DateTime?
+  failed Boolean @default(false)
   anchors Anchor[]
 }
 
@@ -62,12 +57,12 @@ model Variation {
   anchor Anchor @relation(fields: [anchorId], references: [id])
   // styling
   outerHtml String
-  relList Json?
+  relList String[]
   target String?
   htmlId String?
-  dataset Json?
+  dataset String[]
   onClick String?
-  classList Json?
+  classList String[]
   textContent String?
   referrerPolicy String?
   // first child

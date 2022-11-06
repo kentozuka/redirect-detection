@@ -12,7 +12,7 @@ const mes = (timeoutSec: string, isBackground: boolean) =>
   }browser context with ${+timeoutSec * 1000}ms timeout\n= = =\n`
 const headless = useEnvironmentVariable('PLAYWRIGHT_HEADLESS') === 'true'
 
-const defaultUserDataDir = `/tmp/playwright-users/${
+const persistentContextUser = `/tmp/playwright-users/${
   useEnvironmentVariable('PLAYWRIGHT_CONTEXT_USERNAME') ||
   'playwright-default-user'
 }`
@@ -22,7 +22,7 @@ export const getPersistentContext = async (
 ) => {
   if (browser !== null) return browser
   const browserContext = await chromium.launchPersistentContext(
-    defaultUserDataDir,
+    persistentContextUser,
     { ...options, headless }
   )
   const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')

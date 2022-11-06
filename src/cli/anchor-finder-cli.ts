@@ -2,7 +2,7 @@ import prompts from 'prompts'
 
 import { closePersistentContext } from '@lib/playwright'
 import { disconnectPrisma } from '@components/prisma'
-import { queryAnchors } from '@function/anchor-finder'
+import { scrapeAnchors } from '@function/anchor-finder'
 
 process.on('exit', async () => disconnectPrisma())
 
@@ -23,7 +23,7 @@ process.on('exit', async () => disconnectPrisma())
     console.time('Anchor Finder')
 
     const target = res.target as string
-    await queryAnchors(target, { headless: false })
+    // await scrapeAnchors(target, { headless: false })
     console.timeEnd('Anchor Finder')
     console.log('\n\n')
   }
