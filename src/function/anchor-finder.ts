@@ -12,7 +12,7 @@ import { extractVariation } from '@components/anchor/extraction'
 import { colorAnchorOutline } from '@components/anchor/modify'
 import { validateAnchor } from '@components/anchor/validate'
 import { injectTippy, addTippy } from '@components/tippy'
-import { sameOrigin } from '@components/url'
+import { sameOrigin } from '@lib/util'
 import {
   addAnchorVariant,
   createAnchorWithRoute,

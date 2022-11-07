@@ -166,37 +166,39 @@ export const findRouteAndDocs = async (anchorId: number) => {
   return exist
 }
 
-// export const createRouteWithDocs = async (
-//   data: RouteEssentials,
-//   docs: DocEssentials[],
-//   anchorId: number
-// ) => {
-//   const paramed = docs.map((doc) => {
-//     const url = new URL(doc.url)
-//     const objs = [...url.searchParams.entries()].map((x) => ({
-//       key: x[0],
-//       value: x[1]
-//     }))
-//     return {
-//       ...doc,
-//       parameters: {
-//         create: objs
-//       }
-//     }
-//   })
+export const findSearchResult = async (where: {
+  cx: string
+  q: string
+  auth: string
+}) => {
+  const exist = await prisma.search.findFirst({
+    where
+  })
 
-//   const done = await prisma.route.create({
-//     data: {
-//       ...data,
-//       anchor: {
-//         connect: {
-//           id: anchorId
-//         }
-//       },
-//       docs: {
-//         create: paramed
-//       }
-//     }
-//   })
-//   return done
-// }
+  return exist
+}
+
+export const saveSearchResult = async (data: Prisma.SearchCreateInput) => {
+  const done = await prisma.search.create({
+    data
+  })
+  return done
+}
+
+export const createResult = async (data: Prisma.ResultCreateInput) => {
+  const exist = await prisma.result.findFirst({
+    where: {
+      text: data.text,
+      totalResults: data.totalResults,
+      searchTime: data.searchTime
+    }
+  })
+
+  if (exist) return false
+
+  const done = await prisma.result.create({
+    data
+  })
+
+  return done
+}

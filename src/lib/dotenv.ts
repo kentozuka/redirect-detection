@@ -7,6 +7,8 @@ type PlaywrightConfigDotenv =
   | 'PLAYWRIGHT_TIMEOUT_SEC'
   | 'PLAYWRIGHT_LINK_TRACK_TIMEOUT_SEC'
   | 'PLAYWRIGHT_SCROLL_INTO_VIEW'
+  | 'SEARCH_ENGINE_ID'
+  | 'SEARCH_ENGINE_AUTH'
 
 export const useEnvironmentVariable = (name: PlaywrightConfigDotenv) => {
   const cand = process.env[name]

@@ -10,19 +10,28 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Query {
+model Search {
+  id Int @id @default(autoincrement())
+  cx String
+  q String
+  auth String
+  res String
+  createdAt DateTime @default(now())
+}
+
+model Result {
   id Int @id @default(autoincrement())
   text String
   array String[]
-  resultNum Int
-  searchEngine String
+  totalResults String
+  searchTime Float
   articles Article[]
 }
 
 model Article {
   id Int @id @default(autoincrement())
   queryId Int
-  query Query @relation(fields: [queryId], references: [id])
+  query Result @relation(fields: [queryId], references: [id])
   url String @unique
   title String?
   keywords String?

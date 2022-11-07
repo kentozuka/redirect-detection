@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Search" ALTER COLUMN "res" SET DATA TYPE TEXT;
