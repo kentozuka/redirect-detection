@@ -1,4 +1,4 @@
-import { createResult } from '@components/prisma'
+import { createResultIfNotExist } from '@components/prisma'
 import { search } from '@lib/customSearch'
 
 const query = '脱毛　おすすめ'
@@ -14,13 +14,13 @@ const query = '脱毛　おすすめ'
     searchInformation: { searchTime, totalResults }
   } = res
 
-  const created = await createResult({
+  const { result, exist } = await createResultIfNotExist({
     text: query,
     array: query.split(/\s/),
     totalResults,
     searchTime
   })
-  // if (!created) return console.log('already inside of the db')
+  if (exist) return console.log('already inside of the db')
 
   const articles = items.map((item) => {
     const image = item.pagemap.cse_image ? item.pagemap.cse_image[0].src : ''

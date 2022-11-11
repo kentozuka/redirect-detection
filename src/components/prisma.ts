@@ -185,7 +185,9 @@ export const saveSearchResult = async (data: Prisma.SearchCreateInput) => {
   return done
 }
 
-export const createResult = async (data: Prisma.ResultCreateInput) => {
+export const createResultIfNotExist = async (
+  data: Prisma.ResultCreateInput
+) => {
   const exist = await prisma.result.findFirst({
     where: {
       text: data.text,
@@ -194,11 +196,19 @@ export const createResult = async (data: Prisma.ResultCreateInput) => {
     }
   })
 
-  if (exist) return false
+  if (exist) {
+    return {
+      result: exist,
+      exist: true
+    }
+  }
 
   const done = await prisma.result.create({
     data
   })
 
-  return done
+  return {
+    result: done,
+    exist: true
+  }
 }
