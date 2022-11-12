@@ -2,6 +2,7 @@ import { BrowserContext, chromium } from 'playwright'
 
 import { PlayWrightContextOption } from '@c-types/index'
 import { useEnvironmentVariable } from './dotenv'
+import { headless, persistentContextTimeoutMS } from '@components/config'
 
 let browser: BrowserContext = null
 let backgroundBrowser: BrowserContext = null
@@ -10,7 +11,6 @@ const mes = (timeoutSec: string, isBackground: boolean) =>
   `= = =\nLaunched a new ${
     isBackground ? 'background ' : ''
   }browser context with ${+timeoutSec * 1000}ms timeout\n= = =\n`
-const headless = useEnvironmentVariable('PLAYWRIGHT_HEADLESS') === 'true'
 
 const persistentContextUser = `/tmp/playwright-users/${
   useEnvironmentVariable('PLAYWRIGHT_CONTEXT_USERNAME') ||
@@ -25,12 +25,8 @@ export const getPersistentContext = async (
     persistentContextUser,
     { ...options, headless }
   )
-  const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
-  if (sec) {
-    browserContext.setDefaultTimeout(+sec * 1000)
-  }
+  browserContext.setDefaultTimeout(persistentContextTimeoutMS)
   browser = browserContext
-  console.log(mes(sec, false))
   return browser
 }
 
@@ -46,12 +42,7 @@ export const getBackgroundBrowserContext = async (
   if (backgroundBrowser !== null) return backgroundBrowser
   const br = await chromium.launch({ ...options, headless: true })
   const conx = await br.newContext()
-  const sec = useEnvironmentVariable('PLAYWRIGHT_TIMEOUT_SEC')
-  if (sec) {
-    conx.setDefaultTimeout(+sec * 1000)
-  }
   backgroundBrowser = conx
-  console.log(mes(sec, true))
   return backgroundBrowser
 }
 

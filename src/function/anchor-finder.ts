@@ -1,17 +1,16 @@
 import { compareTwoStrings } from 'string-similarity'
 import { Article } from '@prisma/client'
 
-import { PlayWrightContextOption } from '@c-types/index'
 import { checkRedirects } from './link-tracker'
 
 import { endTimer, isValidUrl, startTimer, truncate } from '@lib/util'
-import { getPersistentContext } from '@lib/playwright'
-import { useEnvironmentVariable } from '@lib/dotenv'
-
 import { extractVariation } from '@components/anchor/extraction'
 import { colorAnchorOutline } from '@components/anchor/modify'
 import { validateAnchor } from '@components/anchor/validate'
 import { injectTippy, addTippy } from '@components/tippy'
+import { PlayWrightContextOption } from '@c-types/index'
+import { getPersistentContext } from '@lib/playwright'
+import { scroll } from '@components/config'
 import { sameOrigin } from '@lib/util'
 import {
   addAnchorVariant,
@@ -28,8 +27,6 @@ const cls = {
   multiple: 'yellow',
   single: 'green'
 }
-const shouldScroll =
-  useEnvironmentVariable('PLAYWRIGHT_SCROLL_INTO_VIEW') === 'true'
 
 export async function scrapeAnchors(
   article: Article,
@@ -63,7 +60,7 @@ export async function scrapeAnchors(
       }
 
       await colorAnchorOutline(anchorElement, cls.current)
-      if (shouldScroll) {
+      if (scroll) {
         await anchorElement.evaluate((el) =>
           el.scrollIntoView({ block: 'center' })
         )
@@ -125,6 +122,6 @@ export async function scrapeAnchors(
     console.log(e)
     return null
   } finally {
-    // await page.close()
+    await page.close()
   }
 }

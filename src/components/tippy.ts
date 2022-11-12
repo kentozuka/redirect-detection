@@ -2,6 +2,7 @@ import { Page } from 'playwright'
 
 import { Anchor, Route } from '@prisma/client'
 import { ElementHandleForTag, VariationEssential } from '@c-types/index'
+import { mark } from './config'
 
 const popperjs2 = 'https://unpkg.com/@popperjs/core@2'
 const tippyjs6 = 'https://unpkg.com/tippy.js@6'
@@ -17,6 +18,8 @@ export const addTippy = async (
   route: Route,
   detail: VariationEssential
 ) => {
+  if (!mark) return
+
   await anchor.evaluate(
     (a, { route, detail, anchorData }) => {
       const el = document.createElement('div')

@@ -2,7 +2,7 @@ import { Response } from 'playwright'
 
 import { PlayWrightContextOption, DocEssentials } from '@c-types/index'
 import { getBackgroundBrowserContext } from '@lib/playwright'
-import { useEnvironmentVariable } from '@lib/dotenv'
+import { linkTrackTimeoutMS } from '@components/config'
 import { isValidUrl } from '@lib/util'
 
 import {
@@ -31,8 +31,7 @@ export async function checkRedirects(
   try {
     const responseHolder: Response[] = []
 
-    const timeout = useEnvironmentVariable('PLAYWRIGHT_LINK_TRACK_TIMEOUT_SEC')
-    if (timeout) page.setDefaultTimeout(+timeout * 1000 || 15 * 1000)
+    page.setDefaultTimeout(linkTrackTimeoutMS)
     page.on('response', (res) => responseHolder.push(res))
     page.on('dialog', (dialog) => dialog.dismiss())
     await onlyAllowsFirstRequest(page)

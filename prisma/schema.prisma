@@ -15,8 +15,8 @@ model Search {
   cx String
   q String
   auth String
-  res String
-  createdAt DateTime @default(now())
+  res String?
+  createdAt DateTime? @default(now())
 }
 
 model Result {
@@ -30,8 +30,7 @@ model Result {
 
 model Article {
   id Int @id @default(autoincrement())
-  queryId Int
-  query Result @relation(fields: [queryId], references: [id])
+  results Result[]
   url String @unique
   title String?
   keywords String?

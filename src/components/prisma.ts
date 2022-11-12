@@ -166,11 +166,7 @@ export const findRouteAndDocs = async (anchorId: number) => {
   return exist
 }
 
-export const findSearchResult = async (where: {
-  cx: string
-  q: string
-  auth: string
-}) => {
+export const findSearchResult = async (where: { cx: string; q: string }) => {
   const exist = await prisma.search.findFirst({
     where
   })
@@ -185,9 +181,7 @@ export const saveSearchResult = async (data: Prisma.SearchCreateInput) => {
   return done
 }
 
-export const createResultIfNotExist = async (
-  data: Prisma.ResultCreateInput
-) => {
+export const findResult = async (data: Prisma.ResultCreateInput) => {
   const exist = await prisma.result.findFirst({
     where: {
       text: data.text,
@@ -195,20 +189,32 @@ export const createResultIfNotExist = async (
       searchTime: data.searchTime
     }
   })
+  return exist
+}
 
-  if (exist) {
-    return {
-      result: exist,
-      exist: true
-    }
-  }
-
+export const createResultWithArticles = async (
+  resultData: Prisma.ResultCreateInput,
+  articles: Prisma.Enumerable<Prisma.ArticleCreateOrConnectWithoutResultsInput>
+) => {
   const done = await prisma.result.create({
-    data
+    data: {
+      ...resultData,
+      articles: {
+        connectOrCreate: articles
+      }
+    }
   })
 
-  return {
-    result: done,
-    exist: true
-  }
+  return done
+}
+
+export const get100search = async () => {
+  const hundreds = await prisma.search.findMany({
+    where: {
+      res: null
+    },
+    take: 100
+  })
+
+  return hundreds
 }

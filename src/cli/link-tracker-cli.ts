@@ -4,7 +4,6 @@ import { closePersistentContext } from '@lib/playwright'
 import { checkRedirects } from '@function/link-tracker'
 import { disconnectPrisma } from '@components/prisma'
 import { breakdownURL } from '@lib/util'
-import { useEnvironmentVariable } from '@lib/dotenv'
 
 process.on('exit', async () => disconnectPrisma())
 
@@ -25,9 +24,7 @@ process.on('exit', async () => disconnectPrisma())
     console.time('Background Check')
 
     const target = res.target as string
-    const redirectResponse = await checkRedirects(target, {
-      headless: useEnvironmentVariable('PLAYWRIGHT_HEADLESS') === 'true'
-    })
+    const redirectResponse = await checkRedirects(target)
 
     if (redirectResponse === null) {
       console.log('Failed to evaluate the link')
