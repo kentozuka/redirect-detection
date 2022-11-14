@@ -1,10 +1,11 @@
 import { createResultWithArticles, findResult } from '@components/prisma'
 import { search } from '@lib/customSearch'
+import { logger } from '@lib/log'
 
 export async function createQuery(query: string) {
   const res = await search(query)
   if (!(res.items && res.searchInformation)) {
-    console.log(`${query} is lacking required parameters`)
+    logger.warn(`lacking parameters | ${query}`)
     return null
   }
 
@@ -21,8 +22,8 @@ export async function createQuery(query: string) {
   }
   const exist = await findResult(createResultInput)
   if (exist) {
-    console.log(`${query} is already inside of the db`)
-    return null
+    logger.warn(`DB already has entry | ${query}`)
+    return exist
   }
 
   const articles = items.map((item) => {

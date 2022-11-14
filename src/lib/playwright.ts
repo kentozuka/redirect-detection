@@ -1,21 +1,24 @@
-import { BrowserContext, chromium } from 'playwright'
+import { Browser, BrowserContext, chromium } from 'playwright'
 
 import { PlayWrightContextOption } from '@c-types/index'
 import { useEnvironmentVariable } from './dotenv'
 import { headless, persistentContextTimeoutMS } from '@components/config'
+import { logger } from './log'
 
 let browser: BrowserContext = null
-let backgroundBrowser: BrowserContext = null
+let backgroundBrowser: Browser = null
 
-const mes = (timeoutSec: string, isBackground: boolean) =>
-  `= = =\nLaunched a new ${
+const mes = (isBackground: boolean) =>
+  `= = = Launched a new ${
     isBackground ? 'background ' : ''
-  }browser context with ${+timeoutSec * 1000}ms timeout\n= = =\n`
+  }browser context = = =\n`
 
-const persistentContextUser = `/tmp/playwright-users/${
+const getUserDir = (user: string) => `/tmp/playwright-users/${user}`
+
+const persistentContextUser = getUserDir(
   useEnvironmentVariable('PLAYWRIGHT_CONTEXT_USERNAME') ||
-  'playwright-default-user'
-}`
+    'playwright-default-user'
+)
 
 export const getPersistentContext = async (
   options?: PlayWrightContextOption
@@ -27,27 +30,45 @@ export const getPersistentContext = async (
   )
   browserContext.setDefaultTimeout(persistentContextTimeoutMS)
   browser = browserContext
+  logger.info(mes(false))
   return browser
 }
 
 export const closePersistentContext = async () => {
   if (browser) return await browser.close()
 
-  console.log('Persistent context not found')
+  logger.warn('Persistent context not found')
 }
 
 export const getBackgroundBrowserContext = async (
   options?: PlayWrightContextOption
 ) => {
-  if (backgroundBrowser !== null) return backgroundBrowser
-  const br = await chromium.launch({ ...options, headless: true })
-  const conx = await br.newContext()
-  backgroundBrowser = conx
-  return backgroundBrowser
+  if (backgroundBrowser === null) {
+    logger.info(mes(true))
+    backgroundBrowser = await chromium.launch({ ...options, headless: true })
+  }
+  const conx = await backgroundBrowser.newContext()
+  return conx
 }
+
+// export const getBackgroundBrowserContext = async (
+//   options?: PlayWrightContextOption
+// ) => {
+//   if (backgroundBrowser !== null) return backgroundBrowser
+//   const conx = await chromium.launchPersistentContext(
+//     getUserDir('background'),
+//     {
+//       ...options,
+//       headless: false
+//     }
+//   )
+//   backgroundBrowser = conx
+//   logger.info(mes(true))
+//   return backgroundBrowser
+// }
 
 export const closeBackgroundBrowserContext = async () => {
   if (backgroundBrowser) return await backgroundBrowser.close()
 
-  console.log('Persistent context not found')
+  logger.warn('Background context not found')
 }

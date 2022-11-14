@@ -1,5 +1,3 @@
-import { Anchor, Route, Variation } from '@prisma/client'
-
 import { ElementHandleForTag, VariationEssential } from '@c-types/index'
 import { contrast } from '@lib/util'
 
@@ -36,7 +34,7 @@ export const extractVariation = async (
       relList: Array.from(a.relList),
       target: a.target,
       htmlId: a.id,
-      dataset: Object.entries(a.dataset),
+      dataset: JSON.stringify(a.dataset || {}),
       onClick: a.onclick ? a.onclick.toString().trim() : '',
       classList: Array.from(a.classList),
       textContent: a.textContent.trim(),
@@ -58,7 +56,6 @@ export const extractVariation = async (
   })
 
   const rect = await anchor.boundingBox() // calculating twice for the sake of cleaner code
-  // const { host, pathname, origin } = new URL(evaled.href)
 
   return {
     ...evaled,
@@ -66,9 +63,6 @@ export const extractVariation = async (
     screenshot: (await anchor.screenshot()).toString('base64'),
     hasAnimation: evaled.animation !== noAnimation,
     contrastScore: calculateContrast(evaled.color, evaled.backgroundColor),
-    // host,
-    // pathname,
-    // sameOrigin: origin === targetOrigin,
     ...rect
   }
 }

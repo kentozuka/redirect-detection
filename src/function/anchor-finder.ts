@@ -1,8 +1,6 @@
 import { compareTwoStrings } from 'string-similarity'
 import { Article } from '@prisma/client'
 
-import { checkRedirects } from './link-tracker'
-
 import { endTimer, isValidUrl, startTimer, truncate } from '@lib/util'
 import { extractVariation } from '@components/anchor/extraction'
 import { colorAnchorOutline } from '@components/anchor/modify'
@@ -14,11 +12,18 @@ import { scroll } from '@components/config'
 import { sameOrigin } from '@lib/util'
 import {
   addAnchorVariant,
+  addError,
   createAnchorWithRoute,
+  endArticle,
   findAnchorByHref,
   findRouteAndDocs,
-  getVariant
+  getVariant,
+  startArticle,
+  updateArticleTime
 } from '@components/prisma'
+
+import { checkRedirects } from './link-tracker'
+import { logger } from '@lib/log'
 
 const cls = {
   current: 'blue',
@@ -31,9 +36,16 @@ const cls = {
 export async function scrapeAnchors(
   article: Article,
   options?: PlayWrightContextOption
-): Promise<null> {
+) {
+  const timer = startTimer()
+  await startArticle(article)
+
   const { url, id: articleId } = article
-  if (!isValidUrl(url)) return null
+  if (!isValidUrl(url)) {
+    await endArticle(article)
+    await updateArticleTime(article, endTimer(timer))
+    return
+  }
 
   const { host, pathname } = new URL(url)
   const browser = await getPersistentContext(options)
@@ -50,12 +62,12 @@ export async function scrapeAnchors(
     )
 
     for (const [ix, anchorElement] of Object.entries(anchorElements)) {
-      // validation
       const count = `[${(+ix + 1).toLocaleString()}/${len.toLocaleString()}]`
+
+      // validation
       const validated = await validateAnchor(anchorElement, { host, pathname })
       if (!validated) {
         await colorAnchorOutline(anchorElement, cls.unsed)
-        console.log(`${count} | {validation failed}`)
         continue
       }
 
@@ -68,7 +80,7 @@ export async function scrapeAnchors(
 
       const href = await anchorElement.evaluate((x) => x.href)
       let anchor = await findAnchorByHref(href)
-      console.log(`${count} | {${anchor && anchor.id}} ${href}`)
+      logger.info(`${count} | {${anchor && anchor.id}} ${truncate(href)}`)
 
       if (anchor === null) {
         const timer = startTimer()
@@ -101,7 +113,9 @@ export async function scrapeAnchors(
         )
 
         if (redirects.length) {
-          console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
+          console.table(
+            '\r' + redirects.map((x) => ({ ...x, url: truncate(x.url) }))
+          )
         }
       }
 
@@ -119,9 +133,12 @@ export async function scrapeAnchors(
       await addTippy(anchorElement, anchor, route, variant)
     }
   } catch (e) {
-    console.log(e)
-    return null
+    logger.error('anchor-error', e)
+    await addError('anchor-finder', e.message, e.stack)
+    return // never ends
   } finally {
     await page.close()
+    await endArticle(article)
+    await updateArticleTime(article, endTimer(timer))
   }
 }

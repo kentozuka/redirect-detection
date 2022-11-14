@@ -15,7 +15,8 @@ model Search {
   cx String
   q String
   auth String
-  res String?
+  res String
+  done Boolean @default(false)
   createdAt DateTime? @default(now())
 }
 
@@ -36,18 +37,16 @@ model Article {
   keywords String?
   description String?
   image String?
-  scheduledAt DateTime?
-  startAt DateTime?
-  endAt DateTime?
+  time Int?
+  startedAt DateTime?
+  endedAt DateTime?
   failed Boolean @default(false)
   anchors Anchor[]
 }
 
 model Anchor {
   id Int @id @default(autoincrement())
-  articleId Int
-  article Article @relation(fields: [articleId], references: [id])
-  // possible attributes
+  articles Article[]
   href String @unique
   // url
   host String
@@ -68,7 +67,7 @@ model Variation {
   relList String[]
   target String?
   htmlId String?
-  dataset String[]
+  dataset String
   onClick String?
   classList String[]
   textContent String?
@@ -132,4 +131,12 @@ model Parameter {
   doc Doc @relation(fields: [docId], references: [id])
   key String
   value String
+}
+
+model Error {
+  id Int @id @default(autoincrement())
+  occured DateTime @default(now())
+  code String
+  message String
+  trace String
 }

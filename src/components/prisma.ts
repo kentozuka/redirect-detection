@@ -1,4 +1,10 @@
-import { Anchor, Prisma, PrismaClient, Variation } from '@prisma/client'
+import {
+  Anchor,
+  Article,
+  Prisma,
+  PrismaClient,
+  Variation
+} from '@prisma/client'
 import {
   AnchorEssentials,
   DocEssentials,
@@ -10,17 +16,6 @@ const prisma = new PrismaClient()
 
 export const disconnectPrisma = async () => {
   await prisma.$disconnect()
-}
-
-export const createArticle = async (seo: Prisma.ArticleCreateInput) => {
-  const exist = await prisma.article.findUnique({
-    where: {
-      url: seo.url
-    }
-  })
-  if (exist !== null) return exist
-  const done = await prisma.article.create({ data: seo })
-  return done
 }
 
 export const createAnchorWithRoute = async (
@@ -52,7 +47,7 @@ export const createAnchorWithRoute = async (
   const created = await prisma.anchor.create({
     data: {
       ...anchor,
-      article: {
+      articles: {
         connect: {
           id: articleId
         }
@@ -208,13 +203,107 @@ export const createResultWithArticles = async (
   return done
 }
 
+export const findArticleFromResultId = async (id: number) => {
+  const exist = await prisma.result.findUnique({
+    where: { id },
+    select: {
+      articles: {
+        where: {
+          endedAt: null
+        }
+      }
+    }
+  })
+
+  return exist.articles
+}
+
+export const startArticle = async (aritcle: Article) => {
+  const done = await prisma.article.update({
+    where: {
+      id: aritcle.id
+    },
+    data: {
+      startedAt: new Date()
+    }
+  })
+
+  return done
+}
+
+export const endArticle = async (aritcle: Article) => {
+  const done = await prisma.article.update({
+    where: {
+      id: aritcle.id
+    },
+    data: {
+      endedAt: new Date()
+    }
+  })
+
+  return done
+}
+
+export const updateArticleTime = async (article: Article, time: number) => {
+  const done = await prisma.article.update({
+    where: {
+      id: article.id
+    },
+    data: {
+      time
+    }
+  })
+
+  return done
+}
+
 export const get100search = async () => {
   const hundreds = await prisma.search.findMany({
     where: {
-      res: null
+      done: false
     },
     take: 100
   })
 
   return hundreds
+}
+
+export const getUnfinishedJobs = async () => {
+  const exist = await prisma.article.findMany({
+    where: {
+      endedAt: null,
+      NOT: [{ startedAt: null }]
+    }
+  })
+
+  return exist
+}
+
+export const markSearchAsDone = async (id: number) => {
+  const done = await prisma.search.update({
+    where: {
+      id
+    },
+    data: {
+      done: true
+    }
+  })
+
+  return done
+}
+
+export const addError = async (
+  code: string,
+  message: string,
+  trace: string
+) => {
+  const done = await prisma.error.create({
+    data: {
+      code,
+      message,
+      trace
+    }
+  })
+
+  return done
 }

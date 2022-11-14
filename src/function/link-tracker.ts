@@ -14,6 +14,8 @@ import {
   extractDocFromResponse,
   parseDocsToRings
 } from '@components/request/parser'
+import { addError } from '@components/prisma'
+import { logger } from '@lib/log'
 
 export async function checkRedirects(
   target: string,
@@ -25,8 +27,8 @@ export async function checkRedirects(
 } | null> {
   if (!isValidUrl(target)) return null
 
-  const browser = await getBackgroundBrowserContext(options)
-  const page = await browser.newPage()
+  const context = await getBackgroundBrowserContext(options)
+  const page = await context.newPage()
 
   try {
     const responseHolder: Response[] = []
@@ -53,9 +55,10 @@ export async function checkRedirects(
       redirects
     }
   } catch (e) {
-    console.log(e)
+    logger.error('redirect-check', e)
+    await addError('link-tracker', e.message, e.stack)
     return null
   } finally {
-    await page.close()
+    await context.close()
   }
 }

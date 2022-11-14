@@ -1,6 +1,6 @@
 import { BrowserContext, Page } from 'playwright'
 
-import { loadingAnimation } from '@lib/logger'
+import { logger, loadingAnimation } from '@lib/log'
 
 const ignores = [
   'stylesheet',
@@ -53,13 +53,13 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
     clearInterval(interval)
     clearInterval(animInt)
     clearTimeout(timeout)
-    console.log()
+    console.log('\r') // clearing console
     resolve()
   }
 
   return new Promise((resolve) => {
     const timeout = setTimeout(() => {
-      console.log('Escaped due to timeout')
+      logger.warn('\rEscaped due to timeout')
       getOut(timeout, interval, resolve)
     }, 10 * 1000)
 
@@ -68,16 +68,21 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
         const metas = await page.$$eval('meta', (metas) =>
           metas.map((x) => x.getAttribute('http-equiv'))
         )
-        const hasMeta = metas.includes('Refresh') || metas.includes('refresh') // TODO: create regex
-        if (!hasMeta) {
+        const arrived =
+          metas === undefined ||
+          !metas.includes('Refresh') ||
+          !metas.includes('refresh')
+
+        if (arrived) {
           const htmlString = await page.content() // in case playwright cant parse html (eg. meta in the <noscript> tag)
           const htmlHasMeta = htmlString.indexOf('http-equiv="refresh"') !== -1
           if (htmlHasMeta) return
 
           getOut(timeout, interval, resolve)
         }
-      } catch {
+      } catch (e) {
         // page navigation destroys the page
+        logger.error('wait-error', e)
       }
     }, 200)
   })

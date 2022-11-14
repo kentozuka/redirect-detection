@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Variation" ALTER COLUMN "dataset" SET NOT NULL,
+ALTER COLUMN "dataset" SET DATA TYPE TEXT;

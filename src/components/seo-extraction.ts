@@ -1,3 +1,4 @@
+import { logger } from '@lib/log'
 import { Page } from 'playwright'
 
 interface Meta {
@@ -9,7 +10,7 @@ const filterContent = (metas: Meta[], target: string): string => {
 
   const len = filtered.length
   if (len === 0) return ''
-  if (len > 1) console.log(`There's more than one ${target} meta. (${len})`)
+  if (len > 1) logger.warn(`There's more than one ${target} meta. (${len})`)
 
   return filtered[0].content
 }
