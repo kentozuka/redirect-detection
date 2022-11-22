@@ -45,27 +45,11 @@ export const getBackgroundBrowserContext = async (
 ) => {
   if (backgroundBrowser === null) {
     logger.info(mes(true))
-    backgroundBrowser = await chromium.launch({ ...options, headless: true })
+    backgroundBrowser = await chromium.launch({ ...options, headless: false })
   }
   const conx = await backgroundBrowser.newContext()
   return conx
 }
-
-// export const getBackgroundBrowserContext = async (
-//   options?: PlayWrightContextOption
-// ) => {
-//   if (backgroundBrowser !== null) return backgroundBrowser
-//   const conx = await chromium.launchPersistentContext(
-//     getUserDir('background'),
-//     {
-//       ...options,
-//       headless: false
-//     }
-//   )
-//   backgroundBrowser = conx
-//   logger.info(mes(true))
-//   return backgroundBrowser
-// }
 
 export const closeBackgroundBrowserContext = async () => {
   if (backgroundBrowser) return await backgroundBrowser.close()

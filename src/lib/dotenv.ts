@@ -10,6 +10,7 @@ type PlaywrightConfigDotenv =
   | 'PLAYWRIGHT_MARK_ANCHOR_ELEMENT'
   | 'SEARCH_ENGINE_ID'
   | 'SEARCH_ENGINE_AUTH'
+  | 'SERP_PRIVATE_KEY'
 
 export const useEnvironmentVariable = (name: PlaywrightConfigDotenv) => {
   const cand = process.env[name]

@@ -1,6 +1,9 @@
 import { BrowserContext, Page } from 'playwright'
 
-import { logger, loadingAnimation } from '@lib/log'
+import { logger } from '@lib/log'
+
+const pageNavigationErrorMessage =
+  'page.$$eval: Execution context was destroyed, most likely because of a navigation'
 
 const ignores = [
   'stylesheet',
@@ -44,16 +47,13 @@ export const onlyAllowsFirstRequest = async (entity: Page | BrowserContext) => {
 }
 
 export const waitForNoMeta = async (page: Page): Promise<void> => {
-  const animInt = loadingAnimation('Waiting for page navigation to resolve...')
   const getOut = (
     timeout: NodeJS.Timeout,
     interval: NodeJS.Timer,
     resolve: (value: void | PromiseLike<void>) => void
   ) => {
     clearInterval(interval)
-    clearInterval(animInt)
     clearTimeout(timeout)
-    console.log('\r') // clearing console
     resolve()
   }
 
@@ -82,6 +82,7 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
         }
       } catch (e) {
         // page navigation destroys the page
+        if (e.message === pageNavigationErrorMessage) return
         logger.error('wait-error', e)
       }
     }, 200)

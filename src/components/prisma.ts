@@ -170,9 +170,36 @@ export const findSearchResult = async (where: { cx: string; q: string }) => {
 }
 
 export const saveSearchResult = async (data: Prisma.SearchCreateInput) => {
+  const exist = await findSearchResult({ cx: data.cx, q: data.cx })
+  if (exist) {
+    const done = await prisma.search.update({
+      data,
+      where: {
+        id: exist.id
+      }
+    })
+
+    return done
+  }
+
   const done = await prisma.search.create({
     data
   })
+  return done
+}
+
+export const createManySearchResult = async (queries: string[]) => {
+  const entries = queries.map((q) => ({
+    cx: '',
+    q,
+    auth: '',
+    res: '',
+    done: false
+  }))
+  const done = await prisma.search.createMany({
+    data: entries
+  })
+
   return done
 }
 
@@ -302,6 +329,25 @@ export const addError = async (
       code,
       message,
       trace
+    }
+  })
+
+  return done
+}
+
+// for cli
+
+export const createOrReadArticleForCli = async (url: string) => {
+  const exist = await prisma.article.findFirst({
+    where: {
+      url
+    }
+  })
+  if (exist) return exist
+
+  const done = await prisma.article.create({
+    data: {
+      url
     }
   })
 

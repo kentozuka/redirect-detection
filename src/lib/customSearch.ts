@@ -8,7 +8,7 @@ const auth = useEnvironmentVariable('SEARCH_ENGINE_AUTH')
 
 export const search = async (q: string) => {
   const exist = await findSearchResult({ cx, q })
-  if (exist !== null) {
+  if (exist !== null && exist.res) {
     const parsed = JSON.parse(exist.res) as customsearch_v1.Schema$Search
     return parsed
   }
@@ -21,7 +21,8 @@ export const search = async (q: string) => {
   const res = await customsearch.cse.list(opt)
   await saveSearchResult({
     ...opt,
-    res: JSON.stringify(res.data)
+    res: JSON.stringify(res.data),
+    done: true
   })
 
   return res.data

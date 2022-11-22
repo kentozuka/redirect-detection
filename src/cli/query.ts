@@ -31,11 +31,35 @@ const ask = async () => {
 
     con = res.value
   }
+})
+
+import { getRelatedTopicsOnGoogle } from '@components/google'
+import { createManySearchResult } from '@components/prisma'
+import { logger } from '@lib/log'
+
+const registerFromJson = (async () => {
+  const keywords = ['']
+  for (const keyword of keywords) {
+    const relateds = await getRelatedTopicsOnGoogle(keyword)
+    if (!relateds) {
+      logger.warn(`no related words ${keyword}`)
+      continue
+    }
+
+    await createManySearchResult(relateds)
+  }
 })()
 
-/**
- * TODO
- * figure out whats causing the memoru leak
- * - endedat null retry
- *
- */
+// TODO
+
+// turn json into txt
+// read line by line
+// remove when done
+
+// search createmany avoid duplicate
+
+// implement getting result from related search
+// but do the thing above first and while at it create saerch thing
+
+// add memory uses manager
+// process.memory().heap / 1024 / 1024

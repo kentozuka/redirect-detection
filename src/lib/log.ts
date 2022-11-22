@@ -9,11 +9,9 @@ export const logger = winston.createLogger({
   level: 'info',
   format: format.combine(
     format.timestamp(),
-    format.cli(),
-    format.colorize(),
     format.printf(
       (info) =>
-        `[${info.timestamp}] ${info.level.toUpperCase()} ${info.message}`
+        `${info.timestamp} [${info.level.toUpperCase()}] ${info.message}`
     )
   ),
   transports: [
@@ -27,17 +25,3 @@ export const logger = winston.createLogger({
     })
   ]
 })
-
-export const loadingAnimation = (
-  text = '',
-  chars = ['⠙', '⠘', '⠰', '⠴', '⠤', '⠦', '⠆', '⠃', '⠋', '⠉'],
-  delay = 100
-) => {
-  let x = 0
-
-  return setInterval(() => {
-    const opt = `\r${chars[x++]} ${text}`
-    process.stdout.write(opt)
-    x = x % chars.length
-  }, delay)
-}

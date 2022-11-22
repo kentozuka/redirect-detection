@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext" /*Specify ECMAScript target version*/,
-    "rootDir": "src" /*ts source direcotry*/,
+    "rootDir": "." /*ts source direcotry*/,
     "outDir": "dist" /*where to compile javascript files*/,
     "lib": ["DOM"],
     "esModuleInterop": true,
@@ -13,7 +13,8 @@
       "@function/*": ["function/*"],
       "@lib/*": ["lib/*"],
       "@c-types/*": ["types/*"] /* custom types */
-    }
+    },
+    "resolveJsonModule": true
   },
   "ts-node": {
     "require": ["tsconfig-paths/register"]

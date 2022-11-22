@@ -113,9 +113,7 @@ export async function scrapeAnchors(
         )
 
         if (redirects.length) {
-          console.table(
-            '\r' + redirects.map((x) => ({ ...x, url: truncate(x.url) }))
-          )
+          console.table(redirects.map((x) => ({ ...x, url: truncate(x.url) })))
         }
       }
 
