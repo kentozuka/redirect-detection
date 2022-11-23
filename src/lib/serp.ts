@@ -21,8 +21,6 @@ export const searchGoogle = async (q: string) => {
     search.json(params, (data: SerpResponse) => resolve(data))
   })
 
-  console.log(data)
-
   const results = data.organic_results
   const related = data.related_searches
 

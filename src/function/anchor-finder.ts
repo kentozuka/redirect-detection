@@ -19,11 +19,13 @@ import {
   findRouteAndDocs,
   getVariant,
   startArticle,
-  updateArticleTime
+  updateArticleTime,
+  updateSEO
 } from '@components/prisma'
 
 import { checkRedirects } from './link-tracker'
 import { logger } from '@lib/log'
+import { extractSEO } from '@components/seo-extraction'
 
 const cls = {
   current: 'blue',
@@ -54,6 +56,9 @@ export async function scrapeAnchors(
   try {
     await page.goto(url)
     await injectTippy(page)
+
+    const seo = await extractSEO(page)
+    await updateSEO(article.id, seo)
 
     const anchorElements = await page.$$('a')
     const len = anchorElements.length

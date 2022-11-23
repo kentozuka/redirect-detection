@@ -34,20 +34,14 @@ const ask = async () => {
 })
 
 import { getRelatedTopicsOnGoogle } from '@components/google'
-import { createManySearchResult } from '@components/prisma'
+import { createManySearchResult, createManyWord } from '@components/prisma'
 import { logger } from '@lib/log'
+import { readTextFile } from '@lib/file'
 
-const registerFromJson = (async () => {
-  const keywords = ['']
-  for (const keyword of keywords) {
-    const relateds = await getRelatedTopicsOnGoogle(keyword)
-    if (!relateds) {
-      logger.warn(`no related words ${keyword}`)
-      continue
-    }
-
-    await createManySearchResult(relateds)
-  }
+const registerFromTxt = (async () => {
+  const raw = await readTextFile('keywords.txt')
+  const data = raw.split('\n')
+  await createManyWord(data)
 })()
 
 // TODO

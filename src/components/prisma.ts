@@ -258,6 +258,20 @@ export const startArticle = async (aritcle: Article) => {
   return done
 }
 
+export const updateSEO = async (
+  id: number,
+  seo: { title: string; keywords: string; description: string; image: string }
+) => {
+  const done = await prisma.article.update({
+    where: {
+      id
+    },
+    data: seo
+  })
+
+  return done
+}
+
 export const endArticle = async (aritcle: Article) => {
   const done = await prisma.article.update({
     where: {
@@ -352,4 +366,47 @@ export const createOrReadArticleForCli = async (url: string) => {
   })
 
   return done
+}
+
+export const createManyWord = async (words: string[]) => {
+  const done = await prisma.word.createMany({
+    data: words.map((word) => ({ word })),
+    skipDuplicates: true
+  })
+
+  return done
+}
+
+export const markWordAsDone = async (id: number) => {
+  const done = await prisma.word.update({
+    where: {
+      id
+    },
+    data: {
+      done: true
+    }
+  })
+
+  return done
+}
+
+export const getFirstUndoneKeyword = async () => {
+  const exist = await prisma.word.findFirst({
+    where: {
+      done: false
+    }
+  })
+
+  return exist
+}
+
+export const getUndoneKeywords = async (take = 5) => {
+  const exist = await prisma.word.findMany({
+    where: {
+      done: false
+    },
+    take
+  })
+
+  return exist
 }

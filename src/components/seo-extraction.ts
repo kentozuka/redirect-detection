@@ -15,7 +15,7 @@ const filterContent = (metas: Meta[], target: string): string => {
   return filtered[0].content
 }
 
-export default async function (page: Page) {
+export async function extractSEO(page: Page) {
   const metas = await page.$$eval('meta', (metas) =>
     metas.map((meta) => ({
       name: meta.name || meta.getAttribute('property') || '',
