@@ -10,6 +10,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Avoid {
+  id Int @id @default(autoincrement())
+  hostname String
+  createdAt DateTime? @default(now())
+}
+
 model Word {
   id Int @id @default(autoincrement())
   word String @unique

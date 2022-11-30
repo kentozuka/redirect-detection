@@ -59,7 +59,7 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
 
   return new Promise((resolve) => {
     const timeout = setTimeout(() => {
-      logger.warn('\rEscaped due to timeout')
+      logger.warn('Escaped due to timeout')
       getOut(timeout, interval, resolve)
     }, 10 * 1000)
 
@@ -76,7 +76,25 @@ export const waitForNoMeta = async (page: Page): Promise<void> => {
         if (arrived) {
           const htmlString = await page.content() // in case playwright cant parse html (eg. meta in the <noscript> tag)
           const htmlHasMeta = htmlString.indexOf('http-equiv="refresh"') !== -1
-          if (htmlHasMeta) return
+          if (htmlHasMeta) {
+            return
+          }
+
+          const head = await page.$eval('head', (head) => head.innerHTML)
+          const htmlHasLocationHref = head.indexOf('location.href') !== -1
+          if (htmlHasLocationHref) {
+            return
+          }
+
+          const htmlHasLocationReplace = head.indexOf('location.replace') !== -1
+          if (htmlHasLocationReplace) {
+            return
+          }
+
+          const htmlHasLocationAssign = head.indexOf('location.assign') !== -1
+          if (htmlHasLocationAssign) {
+            return
+          }
 
           getOut(timeout, interval, resolve)
         }

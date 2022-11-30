@@ -410,3 +410,8 @@ export const getUndoneKeywords = async (take = 5) => {
 
   return exist
 }
+
+export const getAvoidHostnames = async () => {
+  const exist = await prisma.avoid.findMany({ select: { hostname: true } })
+  return exist.map((x) => x.hostname)
+}

@@ -1,19 +1,21 @@
 import { scrapeAnchors } from '@function/anchor-finder'
-import { createQuery } from '@function/query-creator'
+import { truncate } from '@lib/util'
+import { logger } from '@lib/log'
+
 import {
   createResultWithArticles,
   findArticleFromResultId,
-  get100search,
+  getAvoidHostnames,
   getFirstUndoneKeyword,
-  getUndoneKeywords,
-  getUnfinishedJobs,
-  markSearchAsDone
+  markSearchAsDone,
+  markWordAsDone
 } from '@components/prisma'
+
 import {
   closeBackgroundBrowserContext,
   closePersistentContext
 } from '@lib/playwright'
-import { logger } from '@lib/log'
+
 import {
   getArticlesFromTopic,
   getRelatedTopicsOnGoogle
@@ -33,7 +35,13 @@ const handleTopic = async (topic: string) => {
 
   const articles = await findArticleFromResultId(result.id)
 
+  const avoids = await getAvoidHostnames()
   for (const article of articles) {
+    const hostname = new URL(article.url).hostname
+    if (avoids.includes(hostname)) {
+      logger.warn(`[AVOID] | {${article.id}} ${truncate(hostname)}`)
+      continue
+    }
     await scrapeAnchors(article)
   }
 }
@@ -48,7 +56,7 @@ const handleTopic = async (topic: string) => {
   for (const topic of realteds) {
     await handleTopic(topic)
   }
-  await markSearchAsDone(word.id)
+  await markWordAsDone(word.id)
 
   await closePersistentContext()
   await closeBackgroundBrowserContext()
