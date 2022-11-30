@@ -75,6 +75,8 @@ const knownDimension = async (
     height: number
   }
 ) => {
+  if (four === null) return false
+
   const meta = [four.width, four.height, four.x, four.y]
   const variations = await getVariantMetaData(anchorId)
   const exist = variations.some((a) =>
