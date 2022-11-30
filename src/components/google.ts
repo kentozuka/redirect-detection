@@ -42,6 +42,13 @@ export const getArticlesFromTopic = async (
     'div[data-sokoban-container] a[data-ved][ping]',
     (anchs) => anchs.map((anc: HTMLAnchorElement) => anc.href)
   )
+  const statsEl = await page.$('#result-stats')
+  if (!statsEl)
+    return {
+      links,
+      totalResults: 'failed',
+      searchTime: 0
+    }
   const stats = await page.$eval('#result-stats', (stats) => stats.textContent)
   const nobr = await page.$eval(
     '#result-stats nobr',
