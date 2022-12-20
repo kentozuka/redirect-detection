@@ -9,7 +9,7 @@
     "baseUrl": "src",
     "paths": {
       "@cli/*": ["cli/*"],
-      "@components/*": ["components/*"],
+      "@helper/*": ["helper/*"],
       "@function/*": ["function/*"],
       "@lib/*": ["lib/*"],
       "@c-types/*": ["types/*"] /* custom types */

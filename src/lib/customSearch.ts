@@ -1,4 +1,4 @@
-import { findSearchResult, saveSearchResult } from '@components/prisma'
+import { findSearchResult, saveSearchResult } from 'helper/prisma'
 import { customsearch_v1, google } from 'googleapis'
 import { useEnvironmentVariable } from './dotenv'
 const customsearch = google.customsearch('v1')

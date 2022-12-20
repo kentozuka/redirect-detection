@@ -1,5 +1,5 @@
 import { ElementHandleForTag } from '@c-types/index'
-import { mark } from '@components/config'
+import { mark } from 'helper/config'
 
 export const colorAnchorOutline = async (
   anchor: ElementHandleForTag<'a'>,

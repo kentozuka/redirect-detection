@@ -2,7 +2,7 @@ import { Browser, BrowserContext, chromium } from 'playwright'
 
 import { PlayWrightContextOption } from '@c-types/index'
 import { useEnvironmentVariable } from './dotenv'
-import { headless, persistentContextTimeoutMS } from '@components/config'
+import { headless, persistentContextTimeoutMS } from 'helper/config'
 import { logger } from './log'
 
 let browser: BrowserContext = null

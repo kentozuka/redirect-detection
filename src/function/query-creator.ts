@@ -1,4 +1,4 @@
-import { createResultWithArticles, findResult } from '@components/prisma'
+import { createResultWithArticles, findResult } from 'helper/prisma'
 import { search } from '@lib/customSearch'
 import { logger } from '@lib/log'
 

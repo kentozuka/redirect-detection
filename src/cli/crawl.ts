@@ -9,17 +9,14 @@ import {
   getFirstUndoneKeyword,
   markSearchAsDone,
   markWordAsDone
-} from '@components/prisma'
+} from 'helper/prisma'
 
 import {
   closeBackgroundBrowserContext,
   closePersistentContext
 } from '@lib/playwright'
 
-import {
-  getArticlesFromTopic,
-  getRelatedTopicsOnGoogle
-} from '@components/google'
+import { getArticlesFromTopic, getRelatedTopicsOnGoogle } from 'helper/google'
 
 const handleTopic = async (topic: string) => {
   const { searchTime, totalResults, links } = await getArticlesFromTopic(topic)
@@ -46,7 +43,7 @@ const handleTopic = async (topic: string) => {
   }
 }
 
-!(async () => {
+const crawl = async () => {
   const word = await getFirstUndoneKeyword()
   if (word === null) {
     logger.error('No more word to crawl')
@@ -60,6 +57,12 @@ const handleTopic = async (topic: string) => {
 
   await closePersistentContext()
   await closeBackgroundBrowserContext()
+
+  await crawl()
+}
+
+!(async () => {
+  await crawl()
 })()
 
 // using Google's Official API which has the daily limit of 100

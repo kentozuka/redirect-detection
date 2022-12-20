@@ -2,7 +2,7 @@ import prompts from 'prompts'
 
 import { closePersistentContext } from '@lib/playwright'
 import { checkRedirects } from '@function/link-tracker'
-import { disconnectPrisma } from '@components/prisma'
+import { disconnectPrisma } from 'helper/prisma'
 import { breakdownURL } from '@lib/util'
 
 process.on('exit', async () => disconnectPrisma())

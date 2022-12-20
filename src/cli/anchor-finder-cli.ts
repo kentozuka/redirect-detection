@@ -1,7 +1,7 @@
 import prompts from 'prompts'
 
 import { closePersistentContext } from '@lib/playwright'
-import { createOrReadArticleForCli, disconnectPrisma } from '@components/prisma'
+import { createOrReadArticleForCli, disconnectPrisma } from 'helper/prisma'
 import { scrapeAnchors } from '@function/anchor-finder'
 
 process.on('exit', async () => disconnectPrisma())

@@ -2,13 +2,13 @@ import { compareTwoStrings } from 'string-similarity'
 import { Article } from '@prisma/client'
 
 import { endTimer, isValidUrl, startTimer, truncate } from '@lib/util'
-import { extractVariation } from '@components/anchor/extraction'
-import { colorAnchorOutline } from '@components/anchor/modify'
-import { validateAnchor } from '@components/anchor/validate'
-import { injectTippy, addTippy } from '@components/tippy'
+import { extractVariation } from 'helper/anchor/extraction'
+import { colorAnchorOutline } from 'helper/anchor/modify'
+import { validateAnchor } from 'helper/anchor/validate'
+import { injectTippy, addTippy } from 'helper/tippy'
 import { PlayWrightContextOption } from '@c-types/index'
 import { getPersistentContext } from '@lib/playwright'
-import { scroll } from '@components/config'
+import { scroll } from 'helper/config'
 import { sameOrigin } from '@lib/util'
 import {
   addAnchorVariant,
@@ -21,11 +21,11 @@ import {
   startArticle,
   updateArticleTime,
   updateSEO
-} from '@components/prisma'
+} from 'helper/prisma'
 
 import { checkRedirects } from './link-tracker'
 import { logger } from '@lib/log'
-import { extractSEO } from '@components/seo-extraction'
+import { extractSEO } from 'helper/seo-extraction'
 
 const cls = {
   current: 'blue',

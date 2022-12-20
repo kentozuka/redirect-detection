@@ -33,8 +33,8 @@ const ask = async () => {
   }
 })
 
-import { getRelatedTopicsOnGoogle } from '@components/google'
-import { createManySearchResult, createManyWord } from '@components/prisma'
+import { getRelatedTopicsOnGoogle } from 'helper/google'
+import { createManySearchResult, createManyWord } from 'helper/prisma'
 import { logger } from '@lib/log'
 import { readTextFile } from '@lib/file'
 

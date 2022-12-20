@@ -2,19 +2,16 @@ import { Response } from 'playwright'
 
 import { PlayWrightContextOption, DocEssentials } from '@c-types/index'
 import { getBackgroundBrowserContext } from '@lib/playwright'
-import { linkTrackTimeoutMS } from '@components/config'
+import { linkTrackTimeoutMS } from 'helper/config'
 import { isValidUrl } from '@lib/util'
 
-import {
-  onlyAllowsFirstRequest,
-  waitForNoMeta
-} from '@components/wait-function'
+import { onlyAllowsFirstRequest, waitForNoMeta } from 'helper/wait-function'
 import {
   calculateChain,
   extractDocFromResponse,
   parseDocsToRings
-} from '@components/request/parser'
-import { addError } from '@components/prisma'
+} from 'helper/request/parser'
+import { addError } from 'helper/prisma'
 import { logger } from '@lib/log'
 
 export async function checkRedirects(
